@@ -1,1 +1,1721 @@
-[]
+[
+  {
+    "id": "dotonbori",
+    "name": "Dotonbori",
+    "city": "Osaka",
+    "category": "Barrio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Canal, luces y restaurantes en el corazón del Osaka nocturno.",
+    "whyVisit": "El primer paseo gastronómico del viaje.",
+    "tips": [
+      "Recorred el canal a pie y reservad margen para cenar."
+    ],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
+    "mapsQuery": "Dotonbori",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "glico",
+      "ebisu",
+      "hozenji",
+      "namba"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Dotonbori",
+    "durationMinutes": 60
+  },
+  {
+    "id": "glico",
+    "name": "Cartel de Glico",
+    "city": "Osaka",
+    "category": "Icono",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "El corredor luminoso es una de las imágenes más reconocibles de Dotonbori.",
+    "whyVisit": "Una foto juntos para inaugurar el viaje.",
+    "tips": [
+      "Buscad un hueco sin bloquear el paso del puente."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Glico Dotonbori",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "dotonbori",
+      "ebisu",
+      "hozenji",
+      "namba"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Glico Dotonbori",
+    "durationMinutes": 15
+  },
+  {
+    "id": "ebisu",
+    "name": "Puente Ebisu",
+    "city": "Osaka",
+    "category": "Paseo",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Puente peatonal sobre el canal de Dotonbori.",
+    "whyVisit": "Une las vistas del canal con el ambiente comercial.",
+    "tips": [
+      "Integradlo en el paseo por Dotonbori, sin otro desplazamiento."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Ebisubashi Osaka",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "dotonbori",
+      "glico",
+      "hozenji",
+      "namba"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Ebisubashi Osaka",
+    "durationMinutes": 15
+  },
+  {
+    "id": "hozenji",
+    "name": "Hozenji Yokocho",
+    "city": "Osaka",
+    "category": "Calle tradicional",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Callejón empedrado de Namba con restaurantes y ambiente tradicional.",
+    "whyVisit": "Un cambio de ritmo después de los neones.",
+    "tips": [
+      "Pasead en silencio y respetad los espacios de culto cercanos."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Hozenji Yokocho",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "dotonbori",
+      "glico",
+      "ebisu",
+      "namba"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.osaka-info.jp/en/spot/hozenji-yokocho/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Hozenji Yokocho",
+    "durationMinutes": 30
+  },
+  {
+    "id": "osaka-castle",
+    "name": "Castillo de Osaka",
+    "city": "Osaka",
+    "category": "Patrimonio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Castillo emblemático rodeado por un amplio parque.",
+    "whyVisit": "Combinar historia y un paseo al aire libre.",
+    "tips": [
+      "Decidid si entrar al museo o limitaros al parque; accesos por confirmar."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Osaka Castle",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Osaka Castle",
+    "durationMinutes": 120
+  },
+  {
+    "id": "kuromon",
+    "name": "Mercado Kuromon Ichiba",
+    "city": "Osaka",
+    "category": "Mercado",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Mercado de Namba con puestos de productos frescos y comida.",
+    "whyVisit": "Probar pequeñas porciones durante el paseo.",
+    "tips": [
+      "Consultad precios y comed en los espacios de cada puesto."
+    ],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
+    "mapsQuery": "Kuromon Ichiba",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Kuromon Ichiba",
+    "durationMinutes": 60
+  },
+  {
+    "id": "shinsekai",
+    "name": "Shinsekai",
+    "city": "Osaka",
+    "category": "Barrio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Barrio de estética retro, rótulos llamativos y restaurantes.",
+    "whyVisit": "Descubrir otra cara del Osaka urbano.",
+    "tips": [
+      "Combina bien con Tsutenkaku; ajustad el recorrido al cansancio."
+    ],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
+    "mapsQuery": "Shinsekai Osaka",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "tsutenkaku"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Shinsekai Osaka",
+    "durationMinutes": 60
+  },
+  {
+    "id": "tsutenkaku",
+    "name": "Tsutenkaku y alrededores",
+    "city": "Osaka",
+    "category": "Mirador",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "La torre de Tsutenkaku destaca sobre las calles de Shinsekai.",
+    "whyVisit": "Reconocer el símbolo del barrio desde sus calles.",
+    "tips": [
+      "La subida es opcional; entrada y disponibilidad pendientes de confirmar."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Tsutenkaku",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "shinsekai"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Tsutenkaku",
+    "durationMinutes": 45
+  },
+  {
+    "id": "denden",
+    "name": "Den Den Town",
+    "city": "Osaka",
+    "category": "Anime y videojuegos",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Zona de Nipponbashi asociada a electrónica, anime y videojuegos.",
+    "whyVisit": "Una primera tarde de tiendas de vuestra afición.",
+    "tips": [
+      "Llevad una lista de compras y comparad antes de decidir."
+    ],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
+    "mapsQuery": "Den Den Town",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Den Den Town",
+    "durationMinutes": 90
+  },
+  {
+    "id": "namba",
+    "name": "Namba",
+    "city": "Osaka",
+    "category": "Barrio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Distrito comercial y de restauración del sur del centro de Osaka.",
+    "whyVisit": "Una base cómoda para las cenas de estos días.",
+    "tips": [
+      "Guardad la ubicación del hotel antes de salir."
+    ],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
+    "mapsQuery": "Namba Osaka",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "dotonbori",
+      "glico",
+      "ebisu",
+      "hozenji"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Namba Osaka",
+    "durationMinutes": 60
+  },
+  {
+    "id": "nara-park",
+    "name": "Parque de Nara",
+    "city": "Nara",
+    "category": "Parque",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Amplio entorno verde conocido por sus ciervos y templos cercanos.",
+    "whyVisit": "Un paseo diferente entre Osaka y Kioto.",
+    "tips": [
+      "Respetad la fauna y mantened las pertenencias fuera de su alcance."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Nara Park",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "todaiji"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.visitnara.jp/lists-and-stories/list/first-time-in-nara-the-essential-dont-miss-list/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Nara Park",
+    "durationMinutes": 90
+  },
+  {
+    "id": "todaiji",
+    "name": "Tōdai-ji",
+    "city": "Nara",
+    "category": "Templo",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Gran templo de Nara conocido por su estatua de Buda.",
+    "whyVisit": "Una de las visitas culturales centrales de la parada.",
+    "tips": [
+      "Calculad margen para entrar y para regresar a recoger el equipaje."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Todai-ji",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "nara-park"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.visitnara.jp/lists-and-stories/list/first-time-in-nara-the-essential-dont-miss-list/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Todai-ji",
+    "durationMinutes": 75
+  },
+  {
+    "id": "fushimi",
+    "name": "Fushimi Inari",
+    "city": "Kioto",
+    "category": "Santuario",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Santuario famoso por los senderos de puertas torii rojas.",
+    "whyVisit": "Caminar juntos por un paisaje muy singular.",
+    "tips": [
+      "La subida completa es opcional; comenzad temprano como prevé vuestro plan."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Fushimi Inari Taisha",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.kyoto.travel/en/see-and-do/area_fushimi.html"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Fushimi Inari Taisha",
+    "durationMinutes": 120
+  },
+  {
+    "id": "kiyomizu",
+    "name": "Kiyomizu-dera",
+    "city": "Kioto",
+    "category": "Templo",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Templo histórico de Higashiyama con una gran terraza de madera.",
+    "whyVisit": "Una de las vistas más características de Kioto.",
+    "tips": [
+      "Llevad calzado cómodo para las pendientes del barrio."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Kiyomizu-dera",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "sannenzaka",
+      "ninenzaka",
+      "yasaka",
+      "gion"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Kiyomizu-dera",
+    "durationMinutes": 90
+  },
+  {
+    "id": "sannenzaka",
+    "name": "Sannenzaka",
+    "city": "Kioto",
+    "category": "Calle tradicional",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Calle en pendiente entre comercios y edificios tradicionales de Higashiyama.",
+    "whyVisit": "Disfrutar el recorrido a pie entre las visitas.",
+    "tips": [
+      "Id sin prisas y dejad libre el paso junto a las tiendas."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Sannenzaka",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "kiyomizu",
+      "ninenzaka",
+      "yasaka",
+      "gion"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Sannenzaka",
+    "durationMinutes": 30
+  },
+  {
+    "id": "ninenzaka",
+    "name": "Ninenzaka",
+    "city": "Kioto",
+    "category": "Calle tradicional",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Calle tradicional del entorno de Kiyomizu.",
+    "whyVisit": "Continuar el paseo por Higashiyama.",
+    "tips": [
+      "Agrupadla con Sannenzaka para evitar repetir el trayecto."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Ninenzaka",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "kiyomizu",
+      "sannenzaka",
+      "yasaka",
+      "gion"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Ninenzaka",
+    "durationMinutes": 30
+  },
+  {
+    "id": "yasaka",
+    "name": "Santuario Yasaka",
+    "city": "Kioto",
+    "category": "Santuario",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Santuario vinculado al entorno histórico de Gion.",
+    "whyVisit": "Una pausa entre el paseo por Higashiyama y la noche.",
+    "tips": [
+      "Respetad las zonas de oración y las indicaciones locales."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Yasaka Shrine Kyoto",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "kiyomizu",
+      "sannenzaka",
+      "ninenzaka",
+      "gion"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Yasaka Shrine Kyoto",
+    "durationMinutes": 45
+  },
+  {
+    "id": "gion",
+    "name": "Gion",
+    "city": "Kioto",
+    "category": "Barrio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Barrio tradicional asociado a la cultura de geiko y maiko.",
+    "whyVisit": "Pasear por el Kioto de las pequeñas calles.",
+    "tips": [
+      "No entréis en calles privadas ni fotografiéis personas sin permiso."
+    ],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji",
+      "Cocina tradicional de Kioto"
+    ],
+    "mapsQuery": "Gion Kyoto",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "kiyomizu",
+      "sannenzaka",
+      "ninenzaka",
+      "yasaka",
+      "pontocho"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Gion Kyoto",
+    "durationMinutes": 60
+  },
+  {
+    "id": "pontocho",
+    "name": "Pontocho",
+    "city": "Kioto",
+    "category": "Gastronomía",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Estrecho entorno de restaurantes junto al río Kamo.",
+    "whyVisit": "Un paseo para terminar el día.",
+    "tips": [
+      "Consultad carta y disponibilidad; no hay restaurante reservado."
+    ],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji",
+      "Cocina tradicional de Kioto"
+    ],
+    "mapsQuery": "Pontocho",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "gion"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Pontocho",
+    "durationMinutes": 60
+  },
+  {
+    "id": "bamboo",
+    "name": "Bosque de bambú de Arashiyama",
+    "city": "Kioto",
+    "category": "Naturaleza",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Sendero entre altos bambúes en el área de Arashiyama.",
+    "whyVisit": "Una mañana entre verdes y luz filtrada.",
+    "tips": [
+      "Empezad temprano y evitad deteneros en el centro del camino."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Arashiyama bamboo forest",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "tenryuji",
+      "arashiyama"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000344/344664/bessi.pdf",
+      "https://kyoto.travel/en/areas/kinugasa-kitano/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Arashiyama bamboo forest",
+    "durationMinutes": 45
+  },
+  {
+    "id": "tenryuji",
+    "name": "Tenryū-ji",
+    "city": "Kioto",
+    "category": "Templo y jardín",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Templo zen de Arashiyama conocido por su jardín.",
+    "whyVisit": "Un contrapunto tranquilo al bosque de bambú.",
+    "tips": [
+      "Consultad qué áreas incluye la entrada antes de comprarla."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Tenryu-ji",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "bamboo",
+      "arashiyama"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000344/344664/bessi.pdf",
+      "https://kyoto.travel/en/areas/kinugasa-kitano/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Tenryu-ji",
+    "durationMinutes": 60
+  },
+  {
+    "id": "arashiyama",
+    "name": "Arashiyama",
+    "city": "Kioto",
+    "category": "Barrio y naturaleza",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Área de Kioto junto al río y las montañas del oeste.",
+    "whyVisit": "Dejar espacio para pasear después de los templos.",
+    "tips": [
+      "Controlad el margen para el traslado posterior a Kinkaku-ji."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Arashiyama",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "bamboo",
+      "tenryuji"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000344/344664/bessi.pdf",
+      "https://kyoto.travel/en/areas/kinugasa-kitano/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Arashiyama",
+    "durationMinutes": 60
+  },
+  {
+    "id": "kinkakuji",
+    "name": "Kinkaku-ji",
+    "city": "Kioto",
+    "category": "Templo",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "El Pabellón Dorado y su jardín son una imagen emblemática de Kioto.",
+    "whyVisit": "Cerrar el día con un paisaje muy distinto.",
+    "tips": [
+      "Comprobad la hora de acceso antes de cruzar la ciudad."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Kinkaku-ji",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000344/344664/bessi.pdf",
+      "https://kyoto.travel/en/areas/kinugasa-kitano/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Kinkaku-ji",
+    "durationMinutes": 60
+  },
+  {
+    "id": "sanmachi",
+    "name": "Sanmachi Suji",
+    "city": "Takayama",
+    "category": "Casco histórico",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Calles de casas tradicionales y antiguos comercios de Takayama.",
+    "whyVisit": "Descubrir la escala pequeña de la ciudad.",
+    "tips": [
+      "Recorredlas a pie y elegid una parada de sake si apetece."
+    ],
+    "typicalFood": [
+      "Hida Beef",
+      "Hoba miso",
+      "Ramen de Takayama"
+    ],
+    "mapsQuery": "Sanmachi Takayama",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "nakabashi"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.hida.jp/english/touristattractions/takayamacity/historyandculture/4000153.html"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Sanmachi Takayama",
+    "durationMinutes": 90
+  },
+  {
+    "id": "nakabashi",
+    "name": "Puente Nakabashi",
+    "city": "Takayama",
+    "category": "Paseo",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Puente rojo sobre el río Miyagawa, junto al casco tradicional.",
+    "whyVisit": "Una parada fotográfica durante el paseo.",
+    "tips": [
+      "Agrupadlo con Sanmachi para no añadir un traslado."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Nakabashi Takayama",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "sanmachi"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.hida.jp/english/touristattractions/takayamacity/historyandculture/4000153.html"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Nakabashi Takayama",
+    "durationMinutes": 20
+  },
+  {
+    "id": "nohi",
+    "name": "Centro de autobuses Nohi de Takayama",
+    "city": "Takayama",
+    "category": "Transporte",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Punto de salida de los autobuses hacia Shirakawa-go.",
+    "whyVisit": "Tener clara la logística antes de la excursión.",
+    "tips": [
+      "Andén y hora exacta pendientes de confirmar con la reserva."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Takayama Nohi Bus Center",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.nouhibus.co.jp/highwaybus/takaoka_en/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Takayama Nohi Bus Center",
+    "durationMinutes": 20
+  },
+  {
+    "id": "shirakawa",
+    "name": "Shirakawa-go",
+    "city": "Shirakawa-go",
+    "category": "Pueblo tradicional",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Pueblo conocido por sus casas tradicionales de tejado gasshō-zukuri.",
+    "whyVisit": "Una excursión entre arquitectura rural y montañas.",
+    "tips": [
+      "Es un pueblo habitado: respetad accesos privados y la hora del bus de vuelta."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Shirakawa-go Ogimachi",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "shiroyama"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.vill.shirakawa.lg.jp/secure/3277/Shirakawa-go_Tourist_Guidebook.pdf"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Shirakawa-go Ogimachi",
+    "durationMinutes": 180
+  },
+  {
+    "id": "shiroyama",
+    "name": "Mirador Shiroyama de Shirakawa-go",
+    "city": "Shirakawa-go",
+    "category": "Mirador",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Zona panorámica desde la que contemplar las casas de Ogimachi.",
+    "whyVisit": "Ver el conjunto del pueblo desde arriba.",
+    "tips": [
+      "Acceso y punto exacto del mirador pendientes de confirmar según condiciones."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Shiroyama viewpoint Shirakawa-go",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "shirakawa"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.vill.shirakawa.lg.jp/secure/3277/Shirakawa-go_Tourist_Guidebook.pdf"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Shiroyama viewpoint Shirakawa-go",
+    "durationMinutes": 45
+  },
+  {
+    "id": "owakudani",
+    "name": "Ōwakudani",
+    "city": "Hakone",
+    "category": "Paisaje volcánico",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Zona volcánica de Hakone, asociada a fumarolas y huevos negros.",
+    "whyVisit": "Ver un paisaje distinto al de las ciudades.",
+    "tips": [
+      "Comprobad las condiciones de acceso y las indicaciones del día."
+    ],
+    "typicalFood": [
+      "Kuro-tamago"
+    ],
+    "mapsQuery": "Owakudani",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "ropeway"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.hakonenavi.jp/international/en/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Owakudani",
+    "durationMinutes": 60
+  },
+  {
+    "id": "ropeway",
+    "name": "Teleférico de Hakone",
+    "city": "Hakone",
+    "category": "Transporte panorámico",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Teleférico con vistas del paisaje volcánico y montañoso de Hakone.",
+    "whyVisit": "Que el desplazamiento forme parte de la visita.",
+    "tips": [
+      "El servicio depende de las condiciones; no hay una salida reservada."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Hakone Ropeway",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "owakudani"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.hakonenavi.jp/international/en/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Hakone Ropeway",
+    "durationMinutes": 60
+  },
+  {
+    "id": "ashi",
+    "name": "Lago Ashi",
+    "city": "Hakone",
+    "category": "Naturaleza",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Lago del área de Hakone rodeado por montañas.",
+    "whyVisit": "Buscar vistas si el cielo acompaña.",
+    "tips": [
+      "El paseo o barco se decidirá según horario y condiciones."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Lake Ashi",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "hakone-shrine"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.hakonenavi.jp/international/en/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Lake Ashi",
+    "durationMinutes": 60
+  },
+  {
+    "id": "hakone-shrine",
+    "name": "Santuario de Hakone",
+    "city": "Hakone",
+    "category": "Santuario",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Santuario entre el bosque y el entorno del lago Ashi.",
+    "whyVisit": "Una visita opcional junto al lago.",
+    "tips": [
+      "Solo si encaja antes del traslado a Tokio; no forzar el recorrido."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Hakone Shrine",
+    "priority": "Si hay tiempo",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "ashi"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.hakonenavi.jp/international/en/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Hakone Shrine",
+    "durationMinutes": 45
+  },
+  {
+    "id": "fuji-view",
+    "name": "Vistas del monte Fuji desde Hakone",
+    "city": "Hakone",
+    "category": "Panorámica",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Objetivo paisajístico de vuestro recorrido por Hakone, sujeto a visibilidad.",
+    "whyVisit": "Aprovechar una ventana de cielo despejado.",
+    "tips": [
+      "No implica visitar el monte: el punto de observación se decidirá sobre la marcha."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Mount Fuji",
+    "priority": "Si hay tiempo",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.hakonenavi.jp/international/en/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Mount Fuji",
+    "durationMinutes": 20
+  },
+  {
+    "id": "meiji",
+    "name": "Meiji Jingu",
+    "city": "Tokio",
+    "category": "Santuario",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Santuario situado en un entorno boscoso junto a Harajuku.",
+    "whyVisit": "Empezar el día con una pausa verde.",
+    "tips": [
+      "Guardad una parte de la mañana para caminar por sus accesos."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Meiji Shrine",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "harajuku"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/see-and-do/attractions/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Meiji Shrine",
+    "durationMinutes": 75
+  },
+  {
+    "id": "harajuku",
+    "name": "Harajuku",
+    "city": "Tokio",
+    "category": "Barrio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Zona de moda, tiendas y cultura juvenil.",
+    "whyVisit": "Contrastar con la calma de Meiji Jingu.",
+    "tips": [
+      "No hace falta fijar todas las tiendas de antemano."
+    ],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
+    "mapsQuery": "Harajuku",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "meiji"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Harajuku",
+    "durationMinutes": 75
+  },
+  {
+    "id": "shibuya",
+    "name": "Shibuya",
+    "city": "Tokio",
+    "category": "Barrio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Distrito de comercio, ocio y grandes cruces peatonales.",
+    "whyVisit": "Vivir la energía de Tokio de día y de noche.",
+    "tips": [
+      "Agrupad las paradas de Hachiko, el cruce y el mirador."
+    ],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
+    "mapsQuery": "Shibuya Tokyo",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "hachiko",
+      "crossing",
+      "sky"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Shibuya Tokyo",
+    "durationMinutes": 90
+  },
+  {
+    "id": "hachiko",
+    "name": "Estatua de Hachiko",
+    "city": "Tokio",
+    "category": "Monumento",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Estatua del perro Hachiko junto al entorno de la estación de Shibuya.",
+    "whyVisit": "Un punto simbólico del paseo.",
+    "tips": [
+      "Acordad otro punto de encuentro si hay mucha gente."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Hachiko statue",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "shibuya",
+      "crossing",
+      "sky"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Hachiko statue",
+    "durationMinutes": 15
+  },
+  {
+    "id": "crossing",
+    "name": "Cruce de Shibuya",
+    "city": "Tokio",
+    "category": "Icono urbano",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Cruce peatonal de varias direcciones en Shibuya.",
+    "whyVisit": "Contemplar el movimiento de la ciudad.",
+    "tips": [
+      "Cruzad con normalidad sin bloquear el paso para hacer fotos."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Shibuya Crossing",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "shibuya",
+      "hachiko",
+      "sky"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Shibuya Crossing",
+    "durationMinutes": 20
+  },
+  {
+    "id": "sky",
+    "name": "Shibuya Sky",
+    "city": "Tokio",
+    "category": "Mirador",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Mirador de Shibuya Scramble Square con panorámicas de Tokio.",
+    "whyVisit": "Una visita especial si conseguís entrada.",
+    "tips": [
+      "Reserva pendiente; consultad venta oficial y condiciones de la terraza."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Shibuya Sky",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "shibuya",
+      "hachiko",
+      "crossing"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/spot/1749/index.html"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Shibuya Sky",
+    "durationMinutes": 90
+  },
+  {
+    "id": "sensoji",
+    "name": "Sensō-ji",
+    "city": "Tokio",
+    "category": "Templo",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Templo de referencia del barrio de Asakusa.",
+    "whyVisit": "Conocer una de las caras tradicionales de Tokio.",
+    "tips": [
+      "Separad el tiempo de visita del tiempo de compras de Nakamise."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Senso-ji",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "nakamise",
+      "asakusa"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/see-and-do/attractions/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Senso-ji",
+    "durationMinutes": 75
+  },
+  {
+    "id": "nakamise",
+    "name": "Nakamise",
+    "city": "Tokio",
+    "category": "Calle comercial",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Calle de comercios situada en el acceso a Sensō-ji.",
+    "whyVisit": "Mirar recuerdos y dulces durante el paseo.",
+    "tips": [
+      "Comed donde lo indique cada tienda y mantened libre el paso."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Nakamise Asakusa",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "sensoji",
+      "asakusa"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/see-and-do/attractions/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Nakamise Asakusa",
+    "durationMinutes": 45
+  },
+  {
+    "id": "asakusa",
+    "name": "Asakusa",
+    "city": "Tokio",
+    "category": "Barrio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Barrio de Tokio ligado al templo Sensō-ji y sus calles comerciales.",
+    "whyVisit": "Pasear más allá del acceso principal del templo.",
+    "tips": [
+      "Dejad margen para cambiar de zona hacia Akihabara."
+    ],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
+    "mapsQuery": "Asakusa",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "sensoji",
+      "nakamise"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/see-and-do/attractions/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Asakusa",
+    "durationMinutes": 60
+  },
+  {
+    "id": "akihabara",
+    "name": "Akihabara",
+    "city": "Tokio",
+    "category": "Anime y videojuegos",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Distrito asociado a electrónica, anime, manga y videojuegos.",
+    "whyVisit": "Dedicar una tarde a vuestras aficiones.",
+    "tips": [
+      "Comparad precios y revisad idioma y compatibilidad de los productos."
+    ],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
+    "mapsQuery": "Akihabara",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/see-and-do/attractions/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Akihabara",
+    "durationMinutes": 180
+  },
+  {
+    "id": "shinjuku",
+    "name": "Shinjuku",
+    "city": "Tokio",
+    "category": "Barrio",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Gran distrito comercial y de ocio que será vuestra base en Tokio.",
+    "whyVisit": "Conocer la zona a la que volveréis cada noche.",
+    "tips": [
+      "Guardad el hotel en el mapa para orientaros al regreso."
+    ],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
+    "mapsQuery": "Shinjuku",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "kabukicho"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Shinjuku",
+    "durationMinutes": 120
+  },
+  {
+    "id": "kabukicho",
+    "name": "Kabukicho",
+    "city": "Tokio",
+    "category": "Ocio nocturno",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Zona de ocio nocturno de Shinjuku, con grandes rótulos luminosos.",
+    "whyVisit": "Un paseo nocturno sin necesidad de un local concreto.",
+    "tips": [
+      "Elegid establecimientos por vuestra cuenta y revisad precios antes de entrar."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Kabukicho",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [
+      "shinjuku"
+    ],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Kabukicho",
+    "durationMinutes": 60
+  },
+  {
+    "id": "madrid-airport",
+    "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+    "city": "Madrid",
+    "category": "Aeropuerto",
+    "note": "Duración y prioridad orientativas; no son reservas ni horarios confirmados.",
+    "favorite": false,
+    "description": "Aeropuerto de Madrid para el vuelo internacional y la conexión de regreso.",
+    "whyVisit": "Tener el punto de tránsito localizado.",
+    "tips": [
+      "Terminal, tiempos de conexión y facturación pendientes de confirmar."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Adolfo Suarez Madrid Barajas Airport",
+    "priority": "Nos gustaría",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Adolfo Suarez Madrid Barajas Airport"
+  },
+  {
+    "id": "hotel-iam",
+    "name": "IAM Hotel Osaka",
+    "city": "Osaka",
+    "category": "Hotel",
+    "note": "Recepción y entrega de equipaje pendientes de confirmar. Preparar la salida hacia Nara.",
+    "favorite": false,
+    "description": "Hotel entre Namba y Nipponbashi, práctico para los paseos por Dotonbori.",
+    "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
+    "tips": [
+      "Recepción y entrega de equipaje pendientes de confirmar. Preparar la salida hacia Nara."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "IAM Hotel Osaka, Osaka, Japan",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.iamhotel.jp/en/location/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "IAM Hotel Osaka"
+  },
+  {
+    "id": "hotel-yasen",
+    "name": "Yasen Kyoto",
+    "city": "Kioto",
+    "category": "Hotel",
+    "note": "Dirección exacta, acceso y condiciones de llegada pendientes de confirmar con la reserva.",
+    "favorite": false,
+    "description": "Alojamiento confirmado por vosotros para las tres noches en Kioto.",
+    "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
+    "tips": [
+      "Dirección exacta, acceso y condiciones de llegada pendientes de confirmar con la reserva."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Yasen Kyoto, Kioto, Japan",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Yasen Kyoto"
+  },
+  {
+    "id": "hotel-mercure",
+    "name": "Mercure Hida Takayama",
+    "city": "Takayama",
+    "category": "Hotel",
+    "note": "Preguntar por el envío del equipaje a Tokio y confirmar plazos antes del 26 de noviembre.",
+    "favorite": false,
+    "description": "Hotel próximo a la estación de Takayama.",
+    "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
+    "tips": [
+      "Preguntar por el envío del equipaje a Tokio y confirmar plazos antes del 26 de noviembre."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "Mercure Hida Takayama, Takayama, Japan",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://mercure-hida-takayama.com/en/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Mercure Hida Takayama"
+  },
+  {
+    "id": "hotel-matsuzakaya",
+    "name": "Matsuzakaya Honten",
+    "city": "Hakone",
+    "category": "Hotel",
+    "note": "Llegar con mochila. Hora de llegada, cena kaiseki y condiciones del onsen pendientes de confirmar con el alojamiento.",
+    "favorite": false,
+    "description": "Ryokan histórico en el área de Ashinoyu, Hakone.",
+    "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
+    "tips": [
+      "Llegar con mochila. Hora de llegada, cena kaiseki y condiciones del onsen pendientes de confirmar con el alojamiento."
+    ],
+    "typicalFood": [
+      "Kaiseki (plan de cena pendiente de confirmar)"
+    ],
+    "mapsQuery": "Matsuzakaya Honten, Hakone, Japan",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://www.hakone.or.jp/4370"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "Matsuzakaya Honten"
+  },
+  {
+    "id": "hotel-knot",
+    "name": "The Knot Tokyo Shinjuku",
+    "city": "Tokio",
+    "category": "Hotel",
+    "note": "Confirmar recepción del equipaje enviado desde Takayama y conservar el nombre del destinatario en el servicio de envío, fuera de esta aplicación.",
+    "favorite": false,
+    "description": "Hotel de Nishi-Shinjuku, próximo al parque central y a Tochomae.",
+    "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
+    "tips": [
+      "Confirmar recepción del equipaje enviado desde Takayama y conservar el nombre del destinatario en el servicio de envío, fuera de esta aplicación."
+    ],
+    "typicalFood": [],
+    "mapsQuery": "The Knot Tokyo Shinjuku, Tokio, Japan",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "status": "pendiente",
+    "collection": "itinerary",
+    "latitude": null,
+    "longitude": null,
+    "sources": [
+      "https://hotel-the-knot.jp/tokyoshinjuku/en/access/"
+    ],
+    "imageStatus": "Pendiente de confirmar",
+    "imageSearch": "The Knot Tokyo Shinjuku"
+  }
+]

@@ -1,1 +1,1478 @@
-[]
+[
+  {
+    "id": "2026-11-17",
+    "date": "2026-11-17",
+    "city": "A Coruña → Madrid",
+    "cities": [
+      "Madrid"
+    ],
+    "title": "A Coruña → Madrid",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Europe/Madrid",
+    "activities": [
+      {
+        "id": "2026-11-17-1",
+        "title": "Vuelo A Coruña → Madrid",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-17-2",
+        "title": "Noche en Madrid antes del vuelo internacional",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Alojamiento pendiente de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      }
+    ],
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-18",
+    "date": "2026-11-18",
+    "city": "Madrid → Japón",
+    "cities": [
+      "Madrid"
+    ],
+    "title": "Madrid → Japón",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Europe/Madrid",
+    "activities": [
+      {
+        "id": "2026-11-18-1",
+        "title": "Aeropuerto de Madrid",
+        "start": null,
+        "end": null,
+        "location": "Adolfo Suarez Madrid Barajas Airport",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "madrid-airport"
+      },
+      {
+        "id": "2026-11-18-2",
+        "title": "Vuelo internacional hacia Japón",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Aeropuerto de llegada, compañía y horarios pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      }
+    ],
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-19",
+    "date": "2026-11-19",
+    "city": "Osaka",
+    "cities": [
+      "Osaka"
+    ],
+    "title": "Osaka",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-19-1",
+        "title": "Llegada y traslado a Osaka",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-19-2",
+        "title": "Entrada al hotel / dejar equipaje",
+        "start": null,
+        "end": null,
+        "location": "IAM Hotel Osaka, Osaka, Japan",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-iam"
+      },
+      {
+        "id": "2026-11-19-3",
+        "title": "Dotonbori",
+        "start": null,
+        "end": null,
+        "location": "Dotonbori",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "dotonbori"
+      },
+      {
+        "id": "2026-11-19-4",
+        "title": "Cartel de Glico",
+        "start": null,
+        "end": null,
+        "location": "Glico Dotonbori",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "glico"
+      },
+      {
+        "id": "2026-11-19-5",
+        "title": "Puente Ebisu",
+        "start": null,
+        "end": null,
+        "location": "Ebisubashi Osaka",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "ebisu"
+      },
+      {
+        "id": "2026-11-19-6",
+        "title": "Cena por Namba / Dotonbori",
+        "start": null,
+        "end": null,
+        "location": "Namba Osaka",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "namba"
+      },
+      {
+        "id": "2026-11-19-7",
+        "title": "Hozenji Yokocho",
+        "start": null,
+        "end": null,
+        "location": "Hozenji Yokocho",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hozenji"
+      }
+    ],
+    "hotelId": "iam",
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-20",
+    "date": "2026-11-20",
+    "city": "Osaka",
+    "cities": [
+      "Osaka"
+    ],
+    "title": "Osaka",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-20-1",
+        "title": "Castillo de Osaka",
+        "start": null,
+        "end": null,
+        "location": "Osaka Castle",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "osaka-castle"
+      },
+      {
+        "id": "2026-11-20-2",
+        "title": "Mercado Kuromon Ichiba",
+        "start": null,
+        "end": null,
+        "location": "Kuromon Ichiba",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "kuromon"
+      },
+      {
+        "id": "2026-11-20-3",
+        "title": "Shinsekai",
+        "start": null,
+        "end": null,
+        "location": "Shinsekai Osaka",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "shinsekai"
+      },
+      {
+        "id": "2026-11-20-4",
+        "title": "Tsutenkaku y alrededores",
+        "start": null,
+        "end": null,
+        "location": "Tsutenkaku",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "tsutenkaku"
+      },
+      {
+        "id": "2026-11-20-5",
+        "title": "Den Den Town",
+        "start": null,
+        "end": null,
+        "location": "Den Den Town",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "denden"
+      },
+      {
+        "id": "2026-11-20-6",
+        "title": "Namba / Dotonbori de noche",
+        "start": null,
+        "end": null,
+        "location": "Dotonbori",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "Noche",
+        "completed": false,
+        "placeId": "dotonbori"
+      }
+    ],
+    "hotelId": "iam",
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-21",
+    "date": "2026-11-21",
+    "city": "Osaka → Nara → Kioto",
+    "cities": [
+      "Osaka",
+      "Nara",
+      "Kioto"
+    ],
+    "title": "Osaka → Nara → Kioto",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-21-1",
+        "title": "Salida de Osaka",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-21-2",
+        "title": "Parque de Nara",
+        "start": null,
+        "end": null,
+        "location": "Nara Park",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "nara-park"
+      },
+      {
+        "id": "2026-11-21-3",
+        "title": "Tōdai-ji",
+        "start": null,
+        "end": null,
+        "location": "Todai-ji",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "todaiji"
+      },
+      {
+        "id": "2026-11-21-4",
+        "title": "Paseo por Nara",
+        "start": null,
+        "end": null,
+        "location": "Nara Park",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "nara-park"
+      },
+      {
+        "id": "2026-11-21-5",
+        "title": "Tren Nara → Kioto",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-21-6",
+        "title": "Entrada al hotel en Kioto",
+        "start": null,
+        "end": null,
+        "location": "Yasen Kyoto, Kioto, Japan",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-yasen"
+      },
+      {
+        "id": "2026-11-21-7",
+        "title": "Gion por la noche",
+        "start": null,
+        "end": null,
+        "location": "Gion Kyoto",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "Noche",
+        "completed": false,
+        "placeId": "gion"
+      }
+    ],
+    "hotelId": "yasen",
+    "luggage": "Decidir dónde dejar el equipaje durante la parada en Nara. Servicio pendiente de confirmar."
+  },
+  {
+    "id": "2026-11-22",
+    "date": "2026-11-22",
+    "city": "Kioto",
+    "cities": [
+      "Kioto"
+    ],
+    "title": "Kioto",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-22-1",
+        "title": "Fushimi Inari temprano",
+        "start": null,
+        "end": null,
+        "location": "Fushimi Inari Taisha",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "Temprano",
+        "completed": false,
+        "placeId": "fushimi"
+      },
+      {
+        "id": "2026-11-22-2",
+        "title": "Kiyomizu-dera",
+        "start": null,
+        "end": null,
+        "location": "Kiyomizu-dera",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "kiyomizu"
+      },
+      {
+        "id": "2026-11-22-3",
+        "title": "Sannenzaka",
+        "start": null,
+        "end": null,
+        "location": "Sannenzaka",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "sannenzaka"
+      },
+      {
+        "id": "2026-11-22-4",
+        "title": "Ninenzaka",
+        "start": null,
+        "end": null,
+        "location": "Ninenzaka",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "ninenzaka"
+      },
+      {
+        "id": "2026-11-22-5",
+        "title": "Santuario Yasaka",
+        "start": null,
+        "end": null,
+        "location": "Yasaka Shrine Kyoto",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "yasaka"
+      },
+      {
+        "id": "2026-11-22-6",
+        "title": "Gion",
+        "start": null,
+        "end": null,
+        "location": "Gion Kyoto",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "gion"
+      },
+      {
+        "id": "2026-11-22-7",
+        "title": "Pontocho",
+        "start": null,
+        "end": null,
+        "location": "Pontocho",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "pontocho"
+      }
+    ],
+    "hotelId": "yasen",
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-23",
+    "date": "2026-11-23",
+    "city": "Kioto",
+    "cities": [
+      "Kioto"
+    ],
+    "title": "Kioto",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-23-1",
+        "title": "Bosque de bambú temprano",
+        "start": null,
+        "end": null,
+        "location": "Arashiyama bamboo forest",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "Temprano",
+        "completed": false,
+        "placeId": "bamboo"
+      },
+      {
+        "id": "2026-11-23-2",
+        "title": "Tenryū-ji",
+        "start": null,
+        "end": null,
+        "location": "Tenryu-ji",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "tenryuji"
+      },
+      {
+        "id": "2026-11-23-3",
+        "title": "Arashiyama",
+        "start": null,
+        "end": null,
+        "location": "Arashiyama",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "arashiyama"
+      },
+      {
+        "id": "2026-11-23-4",
+        "title": "Kinkaku-ji",
+        "start": null,
+        "end": null,
+        "location": "Kinkaku-ji",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "kinkakuji"
+      },
+      {
+        "id": "2026-11-23-5",
+        "title": "Tiempo libre / compras / Gion según tiempo",
+        "start": null,
+        "end": null,
+        "location": "Gion Kyoto",
+        "category": "Visita",
+        "note": "Plan flexible.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "gion"
+      }
+    ],
+    "hotelId": "yasen",
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-24",
+    "date": "2026-11-24",
+    "city": "Kioto → Takayama",
+    "cities": [
+      "Kioto",
+      "Takayama"
+    ],
+    "title": "Kioto → Takayama",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-24-1",
+        "title": "Kioto → Nagoya → Takayama",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Horario de tren pendiente de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-24-2",
+        "title": "Llegada y entrada al hotel",
+        "start": null,
+        "end": null,
+        "location": "Mercure Hida Takayama, Takayama, Japan",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-mercure"
+      },
+      {
+        "id": "2026-11-24-3",
+        "title": "Comer Hida Beef",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Restaurante pendiente de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-24-4",
+        "title": "Sanmachi Suji",
+        "start": null,
+        "end": null,
+        "location": "Sanmachi Takayama",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "sanmachi"
+      },
+      {
+        "id": "2026-11-24-5",
+        "title": "Puente Nakabashi",
+        "start": null,
+        "end": null,
+        "location": "Nakabashi Takayama",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "nakabashi"
+      },
+      {
+        "id": "2026-11-24-6",
+        "title": "Zona tradicional / sake",
+        "start": null,
+        "end": null,
+        "location": "Sanmachi Takayama",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "sanmachi"
+      }
+    ],
+    "hotelId": "mercure",
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-25",
+    "date": "2026-11-25",
+    "city": "Shirakawa-go",
+    "cities": [
+      "Takayama"
+    ],
+    "title": "Shirakawa-go",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-25-1",
+        "title": "Centro de autobuses Nohi",
+        "start": null,
+        "end": null,
+        "location": "Takayama Nohi Bus Center",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "nohi"
+      },
+      {
+        "id": "2026-11-25-2",
+        "title": "Autobús Takayama → Shirakawa-go",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Horario exacto pendiente de reserva.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-25-3",
+        "title": "Shirakawa-go",
+        "start": null,
+        "end": null,
+        "location": "Shirakawa-go Ogimachi",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "shirakawa"
+      },
+      {
+        "id": "2026-11-25-4",
+        "title": "Mirador Shiroyama",
+        "start": null,
+        "end": null,
+        "location": "Shiroyama viewpoint Shirakawa-go",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "shiroyama"
+      },
+      {
+        "id": "2026-11-25-5",
+        "title": "Paseo por el pueblo",
+        "start": null,
+        "end": null,
+        "location": "Shirakawa-go Ogimachi",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "shirakawa"
+      },
+      {
+        "id": "2026-11-25-6",
+        "title": "Autobús Shirakawa-go → Takayama",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Horario exacto pendiente de reserva.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-25-7",
+        "title": "Cena en Takayama",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Restaurante pendiente de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      }
+    ],
+    "hotelId": "mercure",
+    "luggage": "Excursión con regreso al mismo hotel de Takayama."
+  },
+  {
+    "id": "2026-11-26",
+    "date": "2026-11-26",
+    "city": "Takayama → Hakone",
+    "cities": [
+      "Takayama",
+      "Hakone"
+    ],
+    "title": "Takayama → Hakone",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-26-1",
+        "title": "Enviar equipaje grande a Tokio",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Confirmar servicio, plazos y recepción en el hotel de Tokio.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-26-2",
+        "title": "Viajar solo con mochila",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-26-3",
+        "title": "Takayama → Odawara / Hakone",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Horario exacto pendiente de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-26-4",
+        "title": "Llegada al ryokan",
+        "start": null,
+        "end": null,
+        "location": "Matsuzakaya Honten, Hakone, Japan",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-matsuzakaya"
+      },
+      {
+        "id": "2026-11-26-5",
+        "title": "Onsen",
+        "start": null,
+        "end": null,
+        "location": "Matsuzakaya Honten, Hakone, Japan",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-matsuzakaya"
+      },
+      {
+        "id": "2026-11-26-6",
+        "title": "Disfrutar del ryokan",
+        "start": null,
+        "end": null,
+        "location": "Matsuzakaya Honten, Hakone, Japan",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-matsuzakaya"
+      },
+      {
+        "id": "2026-11-26-7",
+        "title": "Cena kaiseki",
+        "start": null,
+        "end": null,
+        "location": "Matsuzakaya Honten, Hakone, Japan",
+        "category": "Visita",
+        "note": "Horario y condiciones pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-matsuzakaya"
+      }
+    ],
+    "hotelId": "matsuzakaya",
+    "luggage": "Enviar equipaje grande de Takayama a Tokio y llevar solo mochila a Hakone. Servicio y fecha de entrega pendientes de confirmar."
+  },
+  {
+    "id": "2026-11-27",
+    "date": "2026-11-27",
+    "city": "Hakone → Tokio",
+    "cities": [
+      "Hakone",
+      "Tokio"
+    ],
+    "title": "Hakone → Tokio",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-27-1",
+        "title": "Ōwakudani",
+        "start": null,
+        "end": null,
+        "location": "Owakudani",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "owakudani"
+      },
+      {
+        "id": "2026-11-27-2",
+        "title": "Teleférico de Hakone",
+        "start": null,
+        "end": null,
+        "location": "Hakone Ropeway",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "ropeway"
+      },
+      {
+        "id": "2026-11-27-3",
+        "title": "Lago Ashi",
+        "start": null,
+        "end": null,
+        "location": "Lake Ashi",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "ashi"
+      },
+      {
+        "id": "2026-11-27-4",
+        "title": "Santuario de Hakone si encaja",
+        "start": null,
+        "end": null,
+        "location": "Hakone Shrine",
+        "category": "Visita",
+        "note": "Opcional según el margen para el traslado.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hakone-shrine"
+      },
+      {
+        "id": "2026-11-27-5",
+        "title": "Priorizar vistas del monte Fuji",
+        "start": null,
+        "end": null,
+        "location": "Mount Fuji",
+        "category": "Visita",
+        "note": "Solo si el tiempo acompaña; punto de observación pendiente de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "fuji-view"
+      },
+      {
+        "id": "2026-11-27-6",
+        "title": "Traslado Hakone → Tokio",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-27-7",
+        "title": "Entrada al hotel en Shinjuku",
+        "start": null,
+        "end": null,
+        "location": "The Knot Tokyo Shinjuku, Tokio, Japan",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-knot"
+      }
+    ],
+    "hotelId": "knot",
+    "luggage": "Viajar con mochila; confirmar con el hotel de Tokio la recepción del equipaje."
+  },
+  {
+    "id": "2026-11-28",
+    "date": "2026-11-28",
+    "city": "Tokio",
+    "cities": [
+      "Tokio"
+    ],
+    "title": "Tokio",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-28-1",
+        "title": "Meiji Jingu",
+        "start": null,
+        "end": null,
+        "location": "Meiji Shrine",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "meiji"
+      },
+      {
+        "id": "2026-11-28-2",
+        "title": "Harajuku",
+        "start": null,
+        "end": null,
+        "location": "Harajuku",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "harajuku"
+      },
+      {
+        "id": "2026-11-28-3",
+        "title": "Shibuya",
+        "start": null,
+        "end": null,
+        "location": "Shibuya Tokyo",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "shibuya"
+      },
+      {
+        "id": "2026-11-28-4",
+        "title": "Hachiko",
+        "start": null,
+        "end": null,
+        "location": "Hachiko statue",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hachiko"
+      },
+      {
+        "id": "2026-11-28-5",
+        "title": "Cruce de Shibuya",
+        "start": null,
+        "end": null,
+        "location": "Shibuya Crossing",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "crossing"
+      },
+      {
+        "id": "2026-11-28-6",
+        "title": "Shibuya Sky si conseguimos reserva",
+        "start": null,
+        "end": null,
+        "location": "Shibuya Sky",
+        "category": "Visita",
+        "note": "Pendiente de reservar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "sky"
+      },
+      {
+        "id": "2026-11-28-7",
+        "title": "Shibuya de noche",
+        "start": null,
+        "end": null,
+        "location": "Shibuya Tokyo",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "Noche",
+        "completed": false,
+        "placeId": "shibuya"
+      }
+    ],
+    "hotelId": "knot",
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-29",
+    "date": "2026-11-29",
+    "city": "Tokio",
+    "cities": [
+      "Tokio"
+    ],
+    "title": "Tokio",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-29-1",
+        "title": "Sensō-ji",
+        "start": null,
+        "end": null,
+        "location": "Senso-ji",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "sensoji"
+      },
+      {
+        "id": "2026-11-29-2",
+        "title": "Nakamise",
+        "start": null,
+        "end": null,
+        "location": "Nakamise Asakusa",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "nakamise"
+      },
+      {
+        "id": "2026-11-29-3",
+        "title": "Asakusa",
+        "start": null,
+        "end": null,
+        "location": "Asakusa",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "asakusa"
+      },
+      {
+        "id": "2026-11-29-4",
+        "title": "Akihabara",
+        "start": null,
+        "end": null,
+        "location": "Akihabara",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "akihabara"
+      },
+      {
+        "id": "2026-11-29-5",
+        "title": "Anime, videojuegos, salones recreativos y tiendas",
+        "start": null,
+        "end": null,
+        "location": "Akihabara",
+        "category": "Visita",
+        "note": "Tiendas concretas pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "akihabara"
+      }
+    ],
+    "hotelId": "knot",
+    "luggage": ""
+  },
+  {
+    "id": "2026-11-30",
+    "date": "2026-11-30",
+    "city": "Tokio",
+    "cities": [
+      "Tokio"
+    ],
+    "title": "Tokio",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-11-30-1",
+        "title": "Shinjuku",
+        "start": null,
+        "end": null,
+        "location": "Shinjuku",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "shinjuku"
+      },
+      {
+        "id": "2026-11-30-2",
+        "title": "Kabukicho",
+        "start": null,
+        "end": null,
+        "location": "Kabukicho",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "kabukicho"
+      },
+      {
+        "id": "2026-11-30-3",
+        "title": "Videojuegos y cultura japonesa",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Lugares concretos pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-11-30-4",
+        "title": "Tokio nocturno",
+        "start": null,
+        "end": null,
+        "location": "Shinjuku",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "Noche",
+        "completed": false,
+        "placeId": "shinjuku"
+      }
+    ],
+    "hotelId": "knot",
+    "luggage": ""
+  },
+  {
+    "id": "2026-12-01",
+    "date": "2026-12-01",
+    "city": "Tokio",
+    "cities": [
+      "Tokio"
+    ],
+    "title": "Tokio",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-12-01-1",
+        "title": "Compras",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Plan flexible.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-01-2",
+        "title": "Nintendo y Pokémon",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Tiendas concretas pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-01-3",
+        "title": "Anime y videojuegos",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-01-4",
+        "title": "Relojes",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Tiendas concretas pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-01-5",
+        "title": "Lugares de la lista de deseos",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-01-6",
+        "title": "Sitios que hayan quedado pendientes",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      }
+    ],
+    "hotelId": "knot",
+    "luggage": ""
+  },
+  {
+    "id": "2026-12-02",
+    "date": "2026-12-02",
+    "city": "Tokio",
+    "cities": [
+      "Tokio"
+    ],
+    "title": "Tokio",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-12-02-1",
+        "title": "Últimos lugares pendientes",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-02-2",
+        "title": "Compras finales",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-02-3",
+        "title": "Repetir alguna zona favorita",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-02-4",
+        "title": "Cena especial de despedida",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Restaurante y reserva pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      }
+    ],
+    "hotelId": "knot",
+    "luggage": ""
+  },
+  {
+    "id": "2026-12-03",
+    "date": "2026-12-03",
+    "city": "Tokio → Madrid",
+    "cities": [
+      "Tokio"
+    ],
+    "title": "Tokio → Madrid",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Asia/Tokyo",
+    "activities": [
+      {
+        "id": "2026-12-03-1",
+        "title": "Salida del hotel",
+        "start": null,
+        "end": null,
+        "location": "The Knot Tokyo Shinjuku, Tokio, Japan",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "hotel-knot"
+      },
+      {
+        "id": "2026-12-03-2",
+        "title": "Traslado al aeropuerto",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Aeropuerto y horario pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-03-3",
+        "title": "Vuelo de regreso",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Horarios pendientes de completar con la reserva real.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      }
+    ],
+    "luggage": "Recoger todo el equipaje y revisar las condiciones del vuelo antes de ir al aeropuerto."
+  },
+  {
+    "id": "2026-12-04",
+    "date": "2026-12-04",
+    "city": "Madrid → A Coruña",
+    "cities": [
+      "Madrid"
+    ],
+    "title": "Madrid → A Coruña",
+    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "timeZone": "Europe/Madrid",
+    "activities": [
+      {
+        "id": "2026-12-04-1",
+        "title": "Llegada a Madrid",
+        "start": null,
+        "end": null,
+        "location": "Adolfo Suarez Madrid Barajas Airport",
+        "category": "Visita",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "placeId": "madrid-airport"
+      },
+      {
+        "id": "2026-12-04-2",
+        "title": "Conexión Madrid → A Coruña",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Horarios y terminal pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      },
+      {
+        "id": "2026-12-04-3",
+        "title": "Fin del viaje",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false
+      }
+    ],
+    "luggage": ""
+  }
+]

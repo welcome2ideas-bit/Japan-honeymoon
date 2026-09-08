@@ -1,9 +1,11 @@
 {
-  "name": "Japan Honeymoon",
-  "startDate": "",
-  "endDate": "",
+  "name": "Japan Honeymoon 2026",
+  "travelers": "Julio ❤️ Victoria",
+  "startDate": "2026-11-17",
+  "endDate": "2026-12-04",
   "timezone": "Asia/Tokyo",
-  "travelers": "Nuestra luna de miel",
-  "description": "Un viaje para recordar. Y mil momentos por descubrir.",
+  "homeTimezone": "Europe/Madrid",
+  "description": "Julio y Victoria. Dieciocho días para descubrir Japón juntos.",
+  "datasetId": "japan-real-2026-v1",
   "exampleData": false
 }

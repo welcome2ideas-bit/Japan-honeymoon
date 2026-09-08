@@ -1,0 +1,59 @@
+[
+  {
+    "city": "Osaka",
+    "dishes": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
+    "source": "Selección proporcionada por Julio y Victoria"
+  },
+  {
+    "city": "Nara",
+    "dishes": [
+      "Kakinoha-zushi",
+      "Mochi"
+    ],
+    "source": "Selección proporcionada por Julio y Victoria"
+  },
+  {
+    "city": "Kioto",
+    "dishes": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji",
+      "Cocina tradicional de Kioto"
+    ],
+    "source": "Selección proporcionada por Julio y Victoria"
+  },
+  {
+    "city": "Takayama",
+    "dishes": [
+      "Hida Beef",
+      "Hoba miso",
+      "Ramen de Takayama"
+    ],
+    "source": "Selección proporcionada por Julio y Victoria"
+  },
+  {
+    "city": "Hakone",
+    "dishes": [
+      "Kaiseki",
+      "Especialidades del ryokan",
+      "Kuro-tamago en Ōwakudani"
+    ],
+    "source": "Selección proporcionada por Julio y Victoria"
+  },
+  {
+    "city": "Tokio",
+    "dishes": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
+    "source": "Selección proporcionada por Julio y Victoria"
+  }
+]

@@ -1,1 +1,123 @@
-[]
+[
+  {
+    "id": "real-task-1",
+    "title": "Reservar Takayama ⇄ Shirakawa-go",
+    "category": "Transportes",
+    "priority": "Alta",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Reservar ida y vuelta para el 25 de noviembre. Apertura de venta pendiente de confirmar.",
+    "officialUrl": "https://www.nouhibus.co.jp/highwaybus/takaoka_en/"
+  },
+  {
+    "id": "real-task-2",
+    "title": "Concretar / reservar Kioto → Takayama",
+    "category": "Transportes",
+    "priority": "Alta",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Trayecto del 24 de noviembre vía Nagoya. Servicio y horarios pendientes de confirmar.",
+    "officialUrl": ""
+  },
+  {
+    "id": "real-task-3",
+    "title": "Concretar / reservar Takayama → Hakone",
+    "category": "Transportes",
+    "priority": "Alta",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Trayecto del 26 de noviembre. Confirmar enlaces hacia Odawara / Hakone.",
+    "officialUrl": ""
+  },
+  {
+    "id": "real-task-4",
+    "title": "Revisar Hakone Freepass y decidir si compensa",
+    "category": "Transportes",
+    "priority": "Media",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Comparar cobertura con el recorrido del 26 y 27 de noviembre. No se ha comprado el pase.",
+    "officialUrl": "https://odakyu-global.com/passes/hakone-freepass/"
+  },
+  {
+    "id": "real-task-5",
+    "title": "Reservar Shibuya Sky cuando corresponda",
+    "category": "Entradas",
+    "priority": "Alta",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Visita prevista el 28 de noviembre, condicionada a conseguir reserva. Fecha de venta pendiente de confirmar.",
+    "officialUrl": "https://www.shibuya-scramble-square.com/sky/ticket/"
+  },
+  {
+    "id": "real-task-6",
+    "title": "Confirmar envío de equipaje Takayama → Tokio",
+    "category": "Equipaje",
+    "priority": "Alta",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Solicitar información al Mercure y confirmar recepción con The Knot. Salida con mochila hacia Hakone el 26 de noviembre.",
+    "officialUrl": ""
+  },
+  {
+    "id": "real-task-7",
+    "title": "Preparar eSIM",
+    "category": "Conectividad",
+    "priority": "Media",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Proveedor y activación pendientes de confirmar.",
+    "officialUrl": ""
+  },
+  {
+    "id": "real-task-8",
+    "title": "Contratar / revisar seguro de viaje",
+    "category": "Documentación",
+    "priority": "Alta",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Cobertura y contratación pendientes de confirmar. No guardar documentos personales aquí.",
+    "officialUrl": ""
+  },
+  {
+    "id": "real-task-9",
+    "title": "Descargar mapas sin conexión",
+    "category": "Conectividad",
+    "priority": "Media",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Guardar las zonas del recorrido antes de salir.",
+    "officialUrl": ""
+  },
+  {
+    "id": "real-task-10",
+    "title": "Realizar la facturación en línea de los vuelos",
+    "category": "Vuelos",
+    "priority": "Alta",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Compañías y apertura de facturación pendientes de confirmar con las reservas reales.",
+    "officialUrl": ""
+  },
+  {
+    "id": "real-task-11",
+    "title": "Revisar las últimas reservas antes de salir",
+    "category": "Reservas",
+    "priority": "Alta",
+    "priorityBasis": "Sugerencia de preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Comprobar fechas, condiciones y traslados sin copiar localizadores a la aplicación.",
+    "officialUrl": ""
+  }
+]
