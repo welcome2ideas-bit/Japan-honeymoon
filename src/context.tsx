@@ -6,16 +6,18 @@ import trip from '../data/trip.json';
 import itinerary from '../data/itinerary.json';
 import hotels from '../data/hotels.json';
 import transport from '../data/transport.json';
+import { connectItinerary, mergeConfirmedTravel } from './lib/confirmed-travel';
 import { useStoredState } from './lib/storage';
 import { isTrip, parseTrip, remoteUrl } from './lib/import';
 import type { TripData, Place, Task, TripSettings } from './types';
 export type Theme='system'|'light'|'dark';
 const isTheme=(v:unknown):v is Theme=>v==='system'||v==='light'||v==='dark';
-const initial=parseTrip({version:2,settings:{name:trip.name,startDate:trip.startDate,endDate:trip.endDate},places:catalog,itinerary,hotels,transport,tasks:checklist});
+// Validate inside React initialization, never while importing the module.
+function initial(){return parseTrip({version:2,settings:{name:trip.name,startDate:trip.startDate,endDate:trip.endDate},places:catalog,itinerary,hotels,transport,tasks:checklist});}
 
 // Keep old keys intact so the original browser data can always be recovered.
 function legacy():TripData {
- const result=structuredClone(initial);
+ const result=initial();
  try {
   const oldTasks:unknown=JSON.parse(localStorage.getItem('jh-tasks-v1')||'null');
   const samples:Record<string,string>={flights:'Reservar los vuelos',hotels:'Elegir nuestro hotel en Tokio',esim:'Preparar la eSIM',passport:'Revisar la documentación'};
@@ -25,15 +27,17 @@ function legacy():TripData {
   const oldSettings=JSON.parse(localStorage.getItem('jh-settings-v1')||'null');
   if(oldSettings&&typeof oldSettings.name==='string')result.settings={...oldSettings,...(oldSettings.startDate==='2026-11-09'&&oldSettings.endDate==='2026-11-23'?{startDate:'',endDate:''}:{})};
   return parseTrip(result);
- }catch{return initial;}
+ }catch{return initial();}
 }
 type State=TripData&{tasks:Task[];setTasks:(v:Task[])=>void;places:Place[];setPlaces:(v:Place[])=>void;setSettings:(v:TripSettings)=>void;theme:Theme;setTheme:(v:Theme)=>void;importTrip:(v:unknown)=>void;exportTrip:()=>TripData};
-const Context=createContext<State|null>(null);
+// Keep provider and consumers on the same context during data hot updates.
+const Context:ReturnType<typeof createContext<State|null>>=import.meta.hot?.data.tripContext??createContext<State|null>(null);
+if(import.meta.hot)import.meta.hot.data.tripContext=Context;
 export function TripProvider({children}:{children:ReactNode}) {
- const [data,setData,error]=useStoredState<TripData>('jh-trip-v2',legacy(),isTrip);
+ const [data,setData,error]=useStoredState<TripData>('jh-trip-v2',legacy,isTrip,saved=>mergeConfirmedTravel(saved,initial()));
  const [theme,setTheme,themeError]=useStoredState<Theme>('jh-theme-v1','system',isTheme);
  useEffect(()=>{const media=window.matchMedia('(prefers-color-scheme: dark)');const apply=()=>{const dark=theme==='dark'||theme==='system'&&media.matches;document.documentElement.dataset.theme=dark?'dark':'light';document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#111413':'#f6f5f1');};apply();media.addEventListener('change',apply);return()=>media.removeEventListener('change',apply);},[theme]);
- const value:State={...data,setTasks:tasks=>setData({...data,tasks}),setPlaces:places=>setData({...data,places}),setSettings:settings=>setData({...data,settings}),theme,setTheme,importTrip:input=>setData(parseTrip(input)),exportTrip:()=>data};
+ const value:State={...data,itinerary:connectItinerary(data),setTasks:tasks=>setData({...data,tasks}),setPlaces:places=>setData({...data,places}),setSettings:settings=>setData({...data,settings}),theme,setTheme,importTrip:input=>setData(parseTrip(input)),exportTrip:()=>data};
  return <Context.Provider value={value}>{(error||themeError)&&<div className="storage-warning" role="alert">{error||themeError}</div>}{children}</Context.Provider>;
 }
 export function useTrip(){const value=useContext(Context);if(!value)throw new Error('TripProvider missing');return value;}

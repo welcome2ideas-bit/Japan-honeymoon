@@ -7,7 +7,7 @@
       "Madrid"
     ],
     "title": "A Coruña → Madrid",
-    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "subtitle": "Horarios confirmados en los vuelos; resto de horarios: Pendiente de confirmar.",
     "timeZone": "Europe/Madrid",
     "activities": [
       {
@@ -16,36 +16,39 @@
         "start": null,
         "end": null,
         "location": "",
-        "category": "Plan",
+        "category": "Vuelo",
         "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "transportId": "transport-1"
       },
       {
         "id": "2026-11-17-2",
-        "title": "Noche en Madrid antes del vuelo internacional",
+        "title": "Noche en Ibis Styles Madrid Airport Valdebebas",
         "start": null,
         "end": null,
-        "location": "",
+        "location": "Ibis Styles Madrid Airport Valdebebas, Madrid",
         "category": "Plan",
-        "note": "Alojamiento pendiente de confirmar.",
+        "note": "Alojamiento confirmado. Hora de entrada: Pendiente de confirmar.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "hotelId": "ibis-madrid"
       }
     ],
-    "luggage": ""
+    "luggage": "",
+    "hotelId": "ibis-madrid"
   },
   {
     "id": "2026-11-18",
     "date": "2026-11-18",
-    "city": "Madrid → Japón",
+    "city": "Madrid → Hong Kong",
     "cities": [
       "Madrid"
     ],
-    "title": "Madrid → Japón",
-    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "title": "Madrid → Hong Kong",
+    "subtitle": "Horarios confirmados en los vuelos; resto de horarios: Pendiente de confirmar.",
     "timeZone": "Europe/Madrid",
     "activities": [
       {
@@ -67,11 +70,12 @@
         "start": null,
         "end": null,
         "location": "",
-        "category": "Plan",
-        "note": "Aeropuerto de llegada, compañía y horarios pendientes de confirmar.",
+        "category": "Vuelo",
+        "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "transportId": "transport-2"
       }
     ],
     "luggage": ""
@@ -84,9 +88,19 @@
       "Osaka"
     ],
     "title": "Osaka",
-    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "subtitle": "Horarios confirmados en los vuelos; resto de horarios: Pendiente de confirmar.",
     "timeZone": "Asia/Tokyo",
     "activities": [
+      {
+        "id": "activity-flight-hkg-osaka",
+        "title": "Hong Kong → Osaka",
+        "category": "Vuelo",
+        "transportId": "flight-hkg-osaka",
+        "start": null,
+        "end": null,
+        "note": "",
+        "location": ""
+      },
       {
         "id": "2026-11-19-1",
         "title": "Llegada y traslado a Osaka",
@@ -110,7 +124,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-iam"
+        "placeId": "hotel-iam",
+        "hotelId": "iam"
       },
       {
         "id": "2026-11-19-3",
@@ -361,7 +376,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-yasen"
+        "placeId": "hotel-yasen",
+        "hotelId": "yasen"
       },
       {
         "id": "2026-11-21-7",
@@ -601,7 +617,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-mercure"
+        "placeId": "hotel-mercure",
+        "hotelId": "mercure"
       },
       {
         "id": "2026-11-24-3",
@@ -820,7 +837,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-matsuzakaya"
+        "placeId": "hotel-matsuzakaya",
+        "hotelId": "matsuzakaya"
       },
       {
         "id": "2026-11-26-5",
@@ -833,7 +851,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-matsuzakaya"
+        "placeId": "hotel-matsuzakaya",
+        "hotelId": "matsuzakaya"
       },
       {
         "id": "2026-11-26-6",
@@ -846,7 +865,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-matsuzakaya"
+        "placeId": "hotel-matsuzakaya",
+        "hotelId": "matsuzakaya"
       },
       {
         "id": "2026-11-26-7",
@@ -859,7 +879,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-matsuzakaya"
+        "placeId": "hotel-matsuzakaya",
+        "hotelId": "matsuzakaya"
       }
     ],
     "hotelId": "matsuzakaya",
@@ -965,7 +986,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-knot"
+        "placeId": "hotel-knot",
+        "hotelId": "knot"
       }
     ],
     "hotelId": "knot",
@@ -1376,12 +1398,12 @@
   {
     "id": "2026-12-03",
     "date": "2026-12-03",
-    "city": "Tokio → Madrid",
+    "city": "Tokio Narita → Hong Kong",
     "cities": [
       "Tokio"
     ],
-    "title": "Tokio → Madrid",
-    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "title": "Tokio Narita → Hong Kong",
+    "subtitle": "Horarios confirmados en los vuelos; resto de horarios: Pendiente de confirmar.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1395,16 +1417,17 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hotel-knot"
+        "placeId": "hotel-knot",
+        "hotelId": "knot"
       },
       {
         "id": "2026-12-03-2",
         "title": "Traslado al aeropuerto",
         "start": null,
         "end": null,
-        "location": "",
+        "location": "Aeropuerto de Narita, Japón",
         "category": "Plan",
-        "note": "Aeropuerto y horario pendientes de confirmar.",
+        "note": "Traslado a Tokio Narita. Hora del traslado: Pendiente de confirmar.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false
@@ -1415,11 +1438,12 @@
         "start": null,
         "end": null,
         "location": "",
-        "category": "Plan",
-        "note": "Horarios pendientes de completar con la reserva real.",
+        "category": "Vuelo",
+        "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "transportId": "transport-10"
       }
     ],
     "luggage": "Recoger todo el equipaje y revisar las condiciones del vuelo antes de ir al aeropuerto."
@@ -1427,14 +1451,24 @@
   {
     "id": "2026-12-04",
     "date": "2026-12-04",
-    "city": "Madrid → A Coruña",
+    "city": "Hong Kong → Madrid → A Coruña",
     "cities": [
       "Madrid"
     ],
-    "title": "Madrid → A Coruña",
-    "subtitle": "Plan proporcionado por Julio y Victoria · horarios pendientes de confirmar",
+    "title": "Hong Kong → Madrid → A Coruña",
+    "subtitle": "Horarios confirmados en los vuelos; resto de horarios: Pendiente de confirmar.",
     "timeZone": "Europe/Madrid",
     "activities": [
+      {
+        "id": "activity-flight-hkg-madrid",
+        "title": "Hong Kong → Madrid",
+        "category": "Vuelo",
+        "transportId": "flight-hkg-madrid",
+        "start": null,
+        "end": null,
+        "note": "",
+        "location": ""
+      },
       {
         "id": "2026-12-04-1",
         "title": "Llegada a Madrid",
@@ -1454,11 +1488,12 @@
         "start": null,
         "end": null,
         "location": "",
-        "category": "Plan",
-        "note": "Horarios y terminal pendientes de confirmar.",
+        "category": "Vuelo",
+        "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "transportId": "transport-11"
       },
       {
         "id": "2026-12-04-3",

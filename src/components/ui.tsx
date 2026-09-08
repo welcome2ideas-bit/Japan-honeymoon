@@ -2,7 +2,7 @@ import { ArrowUpRight, MapPin, Images, ChevronLeft, ChevronRight, Clock, Flag, L
 import { useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
 import type { Place, PlaceImage } from '../types';
-import { mapUrl } from '../lib/time';
+import { mapUrl, durationLabel } from '../lib/time';
 export function PageHeading({eyebrow,title,description,action}:{eyebrow:string;title:string;description:string;action?:ReactNode}){return <div className="page-heading"><div><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p className="muted">{description}</p></div>{action}</div>;}
 export function MapsLink({location}:{location:string}){return <a className="map-link" href={mapUrl(location)} target="_blank" rel="noreferrer"><MapPin size={16}/> Abrir en Google Maps <ArrowUpRight size={15}/></a>;}
 export function Empty({children}:{children:ReactNode}){return <div className="empty"><MapPin size={28}/><p>{children}</p></div>;}
@@ -24,5 +24,5 @@ export function PlaceGallery({images=[]}:{images?:PlaceImage[]}) {
 export function PlaceDetails({place,expanded=false}:{place:Place;expanded?:boolean}) {
  const tips=Array.isArray(place.tips)?place.tips.filter(t=>typeof t==='string'):[];
  const food=Array.isArray(place.typicalFood)?place.typicalFood.filter(t=>typeof t==='string'):[];
- return <details className="place-details" open={expanded||undefined}><summary>La experiencia <span>Ver detalles</span></summary><div className="detail-content"><div className="detail-meta"><span><Clock size={16}/>{typeof place.durationMinutes==='number'&&place.durationMinutes>0?`${place.durationMinutes} min`:'Duración por definir'}</span><span><Flag size={16}/>{place.priority||'Prioridad por definir'}</span></div><h3>Sobre este lugar</h3><p className="muted">{place.description||'La descripción llegará cuando preparemos este lugar.'}</p><h3><Lightbulb size={16}/> Consejos</h3>{tips.length?<ul>{tips.map((tip,i)=><li key={i}>{tip}</li>)}</ul>:<p className="muted">Todavía no hay consejos guardados.</p>}<h3><Utensils size={16}/> Comida típica</h3>{food.length?<ul>{food.map((item,i)=><li key={i}>{item}</li>)}</ul>:<p className="muted">Pendiente de descubrir.</p>}</div></details>;
+ return <details className="place-details" open={expanded||undefined}><summary>La experiencia <span>Ver detalles</span></summary><div className="detail-content"><div className="detail-meta"><span><Clock size={16}/>{durationLabel(place.durationMinutes)}</span><span><Flag size={16}/>{place.priority||'Prioridad por definir'}</span></div><h3>Sobre este lugar</h3><p className="muted">{place.description||'La descripción llegará cuando preparemos este lugar.'}</p><h3><Lightbulb size={16}/> Consejos</h3>{tips.length?<ul>{tips.map((tip,i)=><li key={i}>{tip}</li>)}</ul>:<p className="muted">Todavía no hay consejos guardados.</p>}<h3><Utensils size={16}/> Comida típica</h3>{food.length?<ul>{food.map((item,i)=><li key={i}>{item}</li>)}</ul>:<p className="muted">Pendiente de descubrir.</p>}</div></details>;
 }

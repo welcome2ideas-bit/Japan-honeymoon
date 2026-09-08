@@ -1,5 +1,12 @@
 export type Status = 'Pendiente' | 'Reservado' | 'Completado';
 export interface Task { id: string; title: string; category: string; status: Status }
+export interface PartialTravelDetails {
+  trainNumber?: string | null;
+  platform?: string | null;
+  seat?: string | null;
+  durationMinutes?: number | '' | null;
+  reservation?: string | null;
+}
 export interface PlaceImage { src: string; alt: string; credit?: string; source?: string }
 export type Priority = 'Imprescindible' | 'Nos gustaría' | 'Si hay tiempo';
 export interface Place {
@@ -8,7 +15,7 @@ export interface Place {
   tips?: string[];
   typicalFood?: string[];
   mapsQuery?: string;
-  durationMinutes?: number;
+  durationMinutes?: number | '' | null;
   priority?: Priority;
   imageUrl: string;
   gallery: PlaceImage[];
@@ -16,9 +23,9 @@ export interface Place {
   nearbyPlaceIds: string[];
   status: 'pendiente' | 'visitado';
 }
-export interface Activity { id: string; title: string; start: string; end: string; location: string; category: string; note: string; placeId?: string }
-export interface Day { id: string; date: string; city: string; title: string; subtitle: string; activities: Activity[] }
+export interface Activity extends PartialTravelDetails { transportId?:string; hotelId?:string; departureTimeZone?:string; arrivalTimeZone?:string;  id: string; title: string; start?: string | null; end?: string | null; location: string; category: string; note: string; placeId?: string }
+export interface Day { hotelId?:string;  id: string; date: string; city: string; title: string; subtitle: string; activities: Activity[]; timeZone?: string }
 export interface TripSettings {name:string;startDate:string;endDate:string}
-export interface Hotel {id:string;city:string;name:string;area:string;checkIn:string;checkOut:string;status:Status;location:string;note:string}
-export interface Transport {id:string;type:string;title:string;from:string;to:string;date:string;time:string;status:Status;location:string;note:string}
-export interface TripData {version:2;settings:TripSettings;places:Place[];itinerary:Day[];hotels:Hotel[];transport:Transport[];tasks:Task[]}
+export interface Hotel extends PartialTravelDetails { description?:string; imageUrl?:string; source?:string; id:string;city:string;name:string;area:string;checkIn?:string|null;checkOut?:string|null;status?:Status|'Confirmado'|''|null;location:string;note:string}
+export interface Transport extends PartialTravelDetails { departureAt?:string|null; arrivalAt?:string|null; arrivalDate?:string|null; arrivalTime?:string|null; departureTimeZone?:string; arrivalTimeZone?:string; flightNumber?:string|null; terminal?:string|null; gate?:string|null; id:string;type:string;title:string;from:string;to:string;date?:string|null;time?:string|null;status?:Status|'Confirmado'|'confirmado'|'pendiente de reservar'|'no requiere reserva'|''|null;location:string;note:string}
+export interface TripData { confirmedTravelRevision?:number; version:2;settings:TripSettings;places:Place[];itinerary:Day[];hotels:Hotel[];transport:Transport[];tasks:Task[]}
