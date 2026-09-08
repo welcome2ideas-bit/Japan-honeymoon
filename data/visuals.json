@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "src": "https://images.unsplash.com/photo-1606918801925-e2c914c4b503?auto=format&fit=crop&w=1600&q=80",
+    "alt": "El monte Fuji nevado sobre el lago, Japón",
+    "label": "Monte Fuji · Japón",
+    "source": "https://unsplash.com/photos/white-and-black-mountain-near-body-of-water-during-daytime-ej8pKvHDg_c",
+    "credit": "Luke Stackpoole / Unsplash"
+  },
+  "kyoto": {
+    "src": "https://images.unsplash.com/photo-1594795716460-c816b5193a34?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Calle tradicional de Kioto con la pagoda de Hōkan-ji",
+    "label": "Kioto · Japón",
+    "source": "https://unsplash.com/photos/brown-wooden-house-under-white-sky-during-daytime--gOvsQfHA88",
+    "credit": "Unsplash"
+  },
+  "tokyo": {
+    "src": "https://images.unsplash.com/photo-1742492541313-21372ed13e06?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Panorámica nocturna de Tokio con Tokyo Tower iluminada",
+    "label": "Tokio · Japón",
+    "source": "https://unsplash.com/photos/tokyos-night-skyline-featuring-the-iconic-tower-c9kP0jr-4hc",
+    "credit": "Steven Lynn / Unsplash"
+  },
+  "bamboo": {
+    "src": "https://images.unsplash.com/photo-1744448082573-5e72e9fd5ad7?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Bosque de bambú en Utsunomiya, Japón",
+    "label": "Utsunomiya · Japón",
+    "source": "https://unsplash.com/photos/a-dense-forest-of-tall-green-trees-cdt_pAG0sSI",
+    "credit": "Marek Piwnicki / Unsplash"
+  }
+}
