@@ -6,7 +6,21 @@
       "Okonomiyaki",
       "Kushikatsu"
     ],
-    "source": "Selección proporcionada por Julio y Victoria"
+    "source": "Selección facilitada para el viaje",
+    "highlight": "Takoyaki",
+    "description": "Bocados de masa con pulpo, cocinados en una plancha de cavidades. Déjalos enfriar un poco antes del primer bocado.",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%A8%E3%83%9D%E3%83%B3%E9%85%A2%E3%81%AE%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D.jpg/960px-%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%A8%E3%83%9D%E3%83%B3%E9%85%A2%E3%81%AE%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Takoyaki",
+        "credit": "加茂川の民",
+        "source": "https://commons.wikimedia.org/wiki/File:%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%A8%E3%83%9D%E3%83%B3%E9%85%A2%E3%81%AE%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "imageCaption": "Takoyaki",
+    "note": "Ideas gastronómicas del viaje. Restaurante, disponibilidad y precio pendientes de elegir; la fotografía no corresponde a una reserva."
   },
   {
     "city": "Nara",
@@ -14,17 +28,44 @@
       "Kakinoha-zushi",
       "Mochi"
     ],
-    "source": "Selección proporcionada por Julio y Victoria"
+    "source": "Selección facilitada para el viaje",
+    "highlight": "Kakinoha-zushi y mochi",
+    "description": "Una parada para probar las dos especialidades que habéis elegido para Nara, sin restaurante asignado.",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Kakinoha_%28persimmon_leaf%29_sushi_in_Nara.jpg/960px-Kakinoha_%28persimmon_leaf%29_sushi_in_Nara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Kakinoha-zushi de Nara",
+        "credit": "ZhengZhou",
+        "source": "https://commons.wikimedia.org/wiki/File:Kakinoha_(persimmon_leaf)_sushi_in_Nara.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "imageCaption": "Kakinoha-zushi de Nara",
+    "note": "Ideas gastronómicas del viaje. Restaurante, disponibilidad y precio pendientes de elegir; la fotografía no corresponde a una reserva."
   },
   {
     "city": "Kioto",
     "dishes": [
       "Yudofu",
       "Obanzai",
-      "Matcha y dulces de Uji",
-      "Cocina tradicional de Kioto"
+      "Matcha y dulces de Uji"
     ],
-    "source": "Selección proporcionada por Julio y Victoria"
+    "source": "Selección facilitada para el viaje",
+    "highlight": "Yudofu, obanzai y matcha",
+    "description": "Reserva un hueco para los sabores de Kioto entre los paseos por templos y barrios. Los dulces de Uji están en vuestra selección; no se ha añadido una excursión a Uji.",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Yudofu_meal_set_in_Kyoto.jpg/960px-Yudofu_meal_set_in_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Yudofu en Kioto",
+        "credit": "ZhengZhou",
+        "source": "https://commons.wikimedia.org/wiki/File:Yudofu_meal_set_in_Kyoto.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "imageCaption": "Yudofu en Kioto",
+    "note": "Ideas gastronómicas del viaje. Restaurante, disponibilidad y precio pendientes de elegir; la fotografía no corresponde a una reserva."
   },
   {
     "city": "Takayama",
@@ -33,16 +74,43 @@
       "Hoba miso",
       "Ramen de Takayama"
     ],
-    "source": "Selección proporcionada por Julio y Victoria"
+    "source": "Selección facilitada para el viaje",
+    "highlight": "Hida Beef, hoba miso y ramen",
+    "description": "Tres especialidades de vuestra selección para repartir entre las comidas de la estancia y el regreso de Shirakawa-go.",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Hida_beef_with_Hoba-miso.jpg/960px-Hida_beef_with_Hoba-miso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Hida Beef con hoba miso",
+        "credit": "Gofukuji",
+        "source": "https://commons.wikimedia.org/wiki/File:Hida_beef_with_Hoba-miso.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "imageCaption": "Hida Beef con hoba miso",
+    "note": "Ideas gastronómicas del viaje. Restaurante, disponibilidad y precio pendientes de elegir; la fotografía no corresponde a una reserva."
   },
   {
     "city": "Hakone",
     "dishes": [
       "Kaiseki",
-      "Especialidades del ryokan",
       "Kuro-tamago en Ōwakudani"
     ],
-    "source": "Selección proporcionada por Julio y Victoria"
+    "source": "Selección facilitada para el viaje",
+    "highlight": "Kaiseki y kuro-tamago",
+    "description": "La cena kaiseki forma parte del plan del ryokan; condiciones del servicio pendientes. Los kuro-tamago se probarán si es posible visitar Ōwakudani.",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kuro-Tamago.JPG/960px-Kuro-Tamago.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Kuro-tamago de Ōwakudani",
+        "credit": "AmwayIsACult",
+        "source": "https://commons.wikimedia.org/wiki/File:Kuro-Tamago.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    ],
+    "imageCaption": "Kuro-tamago de Ōwakudani",
+    "note": "Ideas gastronómicas del viaje. Restaurante, disponibilidad y precio pendientes de elegir; la fotografía no corresponde a una reserva."
   },
   {
     "city": "Tokio",
@@ -54,6 +122,20 @@
       "Monjayaki",
       "Curry japonés"
     ],
-    "source": "Selección proporcionada por Julio y Victoria"
+    "source": "Selección facilitada para el viaje",
+    "highlight": "Monjayaki",
+    "description": "Una preparación a la plancha de masa más líquida que la del okonomiyaki. Es una de las especialidades elegidas para alternar con sushi, ramen y otras comidas.",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Monjayaki_Before.JPG/960px-Monjayaki_Before.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Monjayaki",
+        "credit": "Jpatokal",
+        "source": "https://commons.wikimedia.org/wiki/File:Monjayaki_Before.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    ],
+    "imageCaption": "Monjayaki",
+    "note": "Ideas gastronómicas del viaje. Restaurante, disponibilidad y precio pendientes de elegir; la fotografía no corresponde a una reserva."
   }
 ]

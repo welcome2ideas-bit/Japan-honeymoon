@@ -18,9 +18,21 @@
     ],
     "mapsQuery": "Dotonbori",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg/960px-Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg/960px-Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Osaka_Dotonbori_Ebisu_Bridge.jpg",
+        "credit": "Type specimen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Dotonbori"
+      }
+    ],
+    "curiosities": [
+      "Antes de convertirse en un paisaje de neones y restaurantes, Dotonbori fue un distrito de teatros."
+    ],
     "nearbyPlaceIds": [
       "glico",
       "ebisu",
@@ -29,14 +41,19 @@
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.668708,
+    "longitude": 135.501308,
     "sources": [
-      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/",
+      "https://en.wikipedia.org/wiki/D%C5%8Dtonbori"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Dotonbori",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/D%C5%8Dtonbori",
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "glico",
@@ -50,12 +67,28 @@
     "tips": [
       "Buscad un hueco sin bloquear el paso del puente."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
     "mapsQuery": "Glico Dotonbori",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg/960px-Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg/960px-Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Osaka_Dotonbori_Ebisu_Bridge.jpg",
+        "credit": "Type specimen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Cartel de Glico y puente Ebisu en Dotonbori"
+      }
+    ],
+    "curiosities": [
+      "El corredor de Glico representa la llegada a una meta; es uno de los símbolos visuales de Osaka."
+    ],
     "nearbyPlaceIds": [
       "dotonbori",
       "ebisu",
@@ -71,7 +104,10 @@
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Glico Dotonbori",
-    "durationMinutes": 15
+    "durationMinutes": 15,
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "ebisu",
@@ -85,12 +121,28 @@
     "tips": [
       "Integradlo en el paseo por Dotonbori, sin otro desplazamiento."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
     "mapsQuery": "Ebisubashi Osaka",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg/960px-Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg/960px-Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Osaka_Dotonbori_Ebisu_Bridge.jpg",
+        "credit": "Type specimen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Cartel de Glico y puente Ebisu en Dotonbori"
+      }
+    ],
+    "curiosities": [
+      "Desde este puente se ve el conjunto de grandes rótulos que identifica al canal de Dotonbori."
+    ],
     "nearbyPlaceIds": [
       "dotonbori",
       "glico",
@@ -106,7 +158,10 @@
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Ebisubashi Osaka",
-    "durationMinutes": 15
+    "durationMinutes": 15,
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "hozenji",
@@ -120,12 +175,37 @@
     "tips": [
       "Pasead en silencio y respetad los espacios de culto cercanos."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
     "mapsQuery": "Hozenji Yokocho",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hozenji_Yokocho_2023-11.jpg/960px-Hozenji_Yokocho_2023-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hozenji_Yokocho_2023-11.jpg/960px-Hozenji_Yokocho_2023-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Hozenji_Yokocho_2023-11.jpg",
+        "credit": "Mr.ちゅらさん",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hozenji_Yokocho_2023-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Hozenji Yokocho"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hozenji_Yokocho_at_night.jpg/960px-Hozenji_Yokocho_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Hozenji_Yokocho_at_night.jpg",
+        "credit": "Choi2451",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hozenji_Yokocho_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Hozenji Yokocho"
+      }
+    ],
+    "curiosities": [
+      "El callejón ha servido de escenario a novelas, películas y canciones de Osaka."
+    ],
     "nearbyPlaceIds": [
       "dotonbori",
       "glico",
@@ -137,11 +217,15 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://www.osaka-info.jp/en/spot/hozenji-yokocho/"
+      "https://www.osaka-info.jp/en/spot/hozenji-yokocho/",
+      "https://osaka-info.jp/en/spot/gastronomy-hozenjiyokocho/"
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Hozenji Yokocho",
-    "durationMinutes": 30
+    "durationMinutes": 30,
+    "bestTime": "Sugerencia: de día, integrado en el paseo por el barrio y según la apertura del recinto.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "osaka-castle",
@@ -155,23 +239,44 @@
     "tips": [
       "Decidid si entrar al museo o limitaros al parque; accesos por confirmar."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
     "mapsQuery": "Osaka Castle",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Osaka_Castle_03bs3200.jpg/960px-Osaka_Castle_03bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Osaka_Castle_03bs3200.jpg/960px-Osaka_Castle_03bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Osaka_Castle_03bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_03bs3200.jpg",
+        "credit": "663highland",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "alt": "Castillo de Osaka"
+      }
+    ],
+    "curiosities": [
+      "El castillo desempeñó un papel importante en la unificación de Japón durante el siglo XVI."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.68722222,
+    "longitude": 135.52583333,
     "sources": [
-      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/",
+      "https://en.wikipedia.org/wiki/Osaka_Castle"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Osaka Castle",
-    "durationMinutes": 120
+    "durationMinutes": 120,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Osaka_Castle",
+    "bestTime": "Sugerencia: de día, integrado en el paseo por el barrio y según la apertura del recinto.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "kuromon",
@@ -192,20 +297,35 @@
     ],
     "mapsQuery": "Kuromon Ichiba",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Kuromon-ichiba_in_201408.JPG/960px-Kuromon-ichiba_in_201408.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Kuromon-ichiba_in_201408.JPG/960px-Kuromon-ichiba_in_201408.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mercado Kuromon Ichiba de Osaka",
+        "credit": "Mc681",
+        "source": "https://commons.wikimedia.org/wiki/File:Kuromon-ichiba_in_201408.JPG",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "curiosities": [
+      "El mercado se encuentra en Nipponbashi, dentro del área de Minami de Osaka."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/",
+      "https://metronine.osaka/en/spot-details/?spot_id=15623449283189"
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Kuromon Ichiba",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "bestTime": "Sugerencia: durante el horario comercial de los establecimientos que queráis visitar; aperturas concretas pendientes de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "shinsekai",
@@ -226,22 +346,39 @@
     ],
     "mapsQuery": "Shinsekai Osaka",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Shinsekai_and_Tsutenkaku_at_night_2019-04-12.jpg/960px-Shinsekai_and_Tsutenkaku_at_night_2019-04-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Shinsekai_and_Tsutenkaku_at_night_2019-04-12.jpg/960px-Shinsekai_and_Tsutenkaku_at_night_2019-04-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/Shinsekai_and_Tsutenkaku_at_night_2019-04-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Shinsekai_and_Tsutenkaku_at_night_2019-04-12.jpg",
+        "credit": "Dick Thomas Johnson from Tokyo, Japan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Shinsekai"
+      }
+    ],
+    "curiosities": [
+      "Su nombre significa «nuevo mundo». El barrio nació en 1912 con referencias a París y Nueva York."
+    ],
     "nearbyPlaceIds": [
       "tsutenkaku"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.65222222,
+    "longitude": 135.50611111,
     "sources": [
-      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/",
+      "https://en.wikipedia.org/wiki/Shinsekai"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Shinsekai Osaka",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Shinsekai",
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "tsutenkaku",
@@ -255,25 +392,46 @@
     "tips": [
       "La subida es opcional; entrada y disponibilidad pendientes de confirmar."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
     "mapsQuery": "Tsutenkaku",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/New_Tsutenkaku%2C_Osaka.jpg/960px-New_Tsutenkaku%2C_Osaka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/New_Tsutenkaku%2C_Osaka.jpg/960px-New_Tsutenkaku%2C_Osaka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/New_Tsutenkaku%2C_Osaka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:New_Tsutenkaku,_Osaka.jpg",
+        "credit": "Sakai Yayoi",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Tsutenkaku y alrededores"
+      }
+    ],
+    "curiosities": [
+      "El nombre de la torre se traduce como «torre que alcanza el cielo». Es el símbolo de Shinsekai."
+    ],
     "nearbyPlaceIds": [
       "shinsekai"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.65222222,
+    "longitude": 135.50611111,
     "sources": [
-      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/",
+      "https://en.wikipedia.org/wiki/Ts%C5%ABtenkaku"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Tsutenkaku",
-    "durationMinutes": 45
+    "durationMinutes": 45,
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ts%C5%ABtenkaku"
   },
   {
     "id": "denden",
@@ -294,20 +452,37 @@
     ],
     "mapsQuery": "Den Den Town",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Nipponbashi_Osaka_Japan01-r.jpg/960px-Nipponbashi_Osaka_Japan01-r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Nipponbashi_Osaka_Japan01-r.jpg/960px-Nipponbashi_Osaka_Japan01-r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/69/Nipponbashi_Osaka_Japan01-r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Nipponbashi_Osaka_Japan01-r.jpg",
+        "credit": "Oilstreet",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "alt": "Den Den Town"
+      }
+    ],
+    "curiosities": [
+      "Aunque comparten los mismos caracteres japoneses, Nipponbashi en Osaka y Nihonbashi en Tokio son lugares distintos."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.65972222,
+    "longitude": 135.50583333,
     "sources": [
-      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/",
+      "https://en.wikipedia.org/wiki/Nipponbashi"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Den Den Town",
-    "durationMinutes": 90
+    "durationMinutes": 90,
+    "bestTime": "Sugerencia: durante el horario comercial de los establecimientos que queráis visitar; aperturas concretas pendientes de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Nipponbashi"
   },
   {
     "id": "namba",
@@ -328,9 +503,21 @@
     ],
     "mapsQuery": "Namba Osaka",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Namba_Station.JPG/960px-Namba_Station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Namba_Station.JPG/960px-Namba_Station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Namba_Station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Namba_Station.JPG",
+        "credit": "Own work",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Estación de Namba, punto de referencia del barrio"
+      }
+    ],
+    "curiosities": [
+      "Namba forma parte de Minami, el «sur» del centro de Osaka, y reúne estaciones de varias compañías ferroviarias."
+    ],
     "nearbyPlaceIds": [
       "dotonbori",
       "glico",
@@ -339,14 +526,19 @@
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.66583333,
+    "longitude": 135.65111111,
     "sources": [
-      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/"
+      "https://www.japan.travel/en/au/guide/ultimate-must-see-guide-to-osaka/",
+      "https://en.wikipedia.org/wiki/Namba"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Namba Osaka",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Namba",
+    "bestTime": "Sugerencia: durante el horario comercial de los establecimientos que queráis visitar; aperturas concretas pendientes de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "nara-park",
@@ -360,25 +552,45 @@
     "tips": [
       "Respetad la fauna y mantened las pertenencias fuera de su alcance."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Kakinoha-zushi",
+      "Mochi"
+    ],
     "mapsQuery": "Nara Park",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Nara_Park_-_panoramio_%282%29.jpg/960px-Nara_Park_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Nara_Park_-_panoramio_%282%29.jpg/960px-Nara_Park_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nara_Park_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Nara_Park_-_panoramio_(2).jpg",
+        "credit": "Feri88",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "alt": "Parque de Nara"
+      }
+    ],
+    "curiosities": [
+      "El parque se estableció en 1880. Los ciervos que viven en él son animales silvestres, no mascotas."
+    ],
     "nearbyPlaceIds": [
       "todaiji"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.685,
+    "longitude": 135.85,
     "sources": [
-      "https://www.visitnara.jp/lists-and-stories/list/first-time-in-nara-the-essential-dont-miss-list/"
+      "https://www.visitnara.jp/lists-and-stories/list/first-time-in-nara-the-essential-dont-miss-list/",
+      "https://en.wikipedia.org/wiki/Nara_Park"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Nara Park",
-    "durationMinutes": 90
+    "durationMinutes": 90,
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Nara_Park"
   },
   {
     "id": "todaiji",
@@ -392,25 +604,45 @@
     "tips": [
       "Calculad margen para entrar y para regresar a recoger el equipaje."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Kakinoha-zushi",
+      "Mochi"
+    ],
     "mapsQuery": "Todai-ji",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/960px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/960px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
+        "credit": "Wiiii",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Tōdai-ji"
+      }
+    ],
+    "curiosities": [
+      "El Gran Salón del Buda ha sido reconstruido varias veces a lo largo de la historia del templo."
+    ],
     "nearbyPlaceIds": [
       "nara-park"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.68916667,
+    "longitude": 135.83972222,
     "sources": [
-      "https://www.visitnara.jp/lists-and-stories/list/first-time-in-nara-the-essential-dont-miss-list/"
+      "https://www.visitnara.jp/lists-and-stories/list/first-time-in-nara-the-essential-dont-miss-list/",
+      "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Todai-ji",
-    "durationMinutes": 75
+    "durationMinutes": 75,
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji"
   },
   {
     "id": "fushimi",
@@ -424,23 +656,44 @@
     "tips": [
       "La subida completa es opcional; comenzad temprano como prevé vuestro plan."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Fushimi Inari Taisha",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/960px-Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/960px-Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg",
+        "credit": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Fushimi Inari"
+      }
+    ],
+    "curiosities": [
+      "Muchos de sus torii son donaciones vinculadas a Inari, una deidad relacionada con el arroz y la prosperidad."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.96722222,
+    "longitude": 135.77277778,
     "sources": [
-      "https://www.kyoto.travel/en/see-and-do/area_fushimi.html"
+      "https://www.kyoto.travel/en/see-and-do/area_fushimi.html",
+      "https://en.wikipedia.org/wiki/Fushimi_Inari-taisha"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Fushimi Inari Taisha",
-    "durationMinutes": 120
+    "durationMinutes": 120,
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Fushimi_Inari-taisha"
   },
   {
     "id": "kiyomizu",
@@ -454,12 +707,28 @@
     "tips": [
       "Llevad calzado cómodo para las pendientes del barrio."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Kiyomizu-dera",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Kiyomizu.jpg/960px-Kiyomizu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Kiyomizu.jpg/960px-Kiyomizu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Kiyomizu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Kiyomizu.jpg",
+        "credit": "Jordy Meow",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Kiyomizu-dera"
+      }
+    ],
+    "curiosities": [
+      "El templo forma parte del conjunto de Monumentos históricos de la antigua Kioto inscrito por la UNESCO."
+    ],
     "nearbyPlaceIds": [
       "sannenzaka",
       "ninenzaka",
@@ -468,14 +737,19 @@
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 34.995,
+    "longitude": 135.785,
     "sources": [
-      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+      "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "https://en.wikipedia.org/wiki/Kiyomizu-dera"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Kiyomizu-dera",
-    "durationMinutes": 90
+    "durationMinutes": 90,
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kiyomizu-dera"
   },
   {
     "id": "sannenzaka",
@@ -489,12 +763,28 @@
     "tips": [
       "Id sin prisas y dejad libre el paso junto a las tiendas."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Sannenzaka",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Sannenzaka_street%2C_Kyoto_%283811257874%29.jpg/960px-Sannenzaka_street%2C_Kyoto_%283811257874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Sannenzaka_street%2C_Kyoto_%283811257874%29.jpg/960px-Sannenzaka_street%2C_Kyoto_%283811257874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Sannenzaka_street%2C_Kyoto_%283811257874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Sannenzaka_street,_Kyoto_(3811257874).jpg",
+        "credit": "Andrea Schaffer from Sydney, Australia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Sannenzaka"
+      }
+    ],
+    "curiosities": [
+      "Esta calle empedrada conecta el paisaje comercial tradicional con el entorno de los templos de Higashiyama."
+    ],
     "nearbyPlaceIds": [
       "kiyomizu",
       "ninenzaka",
@@ -506,11 +796,15 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+      "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "https://en.wikipedia.org/wiki/Sannenzaka"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Sannenzaka",
-    "durationMinutes": 30
+    "durationMinutes": 30,
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "ninenzaka",
@@ -524,12 +818,28 @@
     "tips": [
       "Agrupadla con Sannenzaka para evitar repetir el trayecto."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Ninenzaka",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Pedestrian_road_with_pavements_and_paper_umbrellas%2C_Higashiyama-ku%2C_Kyoto%2C_Japan%2C_early_morning.jpg/960px-Pedestrian_road_with_pavements_and_paper_umbrellas%2C_Higashiyama-ku%2C_Kyoto%2C_Japan%2C_early_morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Pedestrian_road_with_pavements_and_paper_umbrellas%2C_Higashiyama-ku%2C_Kyoto%2C_Japan%2C_early_morning.jpg/960px-Pedestrian_road_with_pavements_and_paper_umbrellas%2C_Higashiyama-ku%2C_Kyoto%2C_Japan%2C_early_morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Pedestrian_road_with_pavements_and_paper_umbrellas%2C_Higashiyama-ku%2C_Kyoto%2C_Japan%2C_early_morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Pedestrian_road_with_pavements_and_paper_umbrellas,_Higashiyama-ku,_Kyoto,_Japan,_early_morning.jpg",
+        "credit": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Ninenzaka"
+      }
+    ],
+    "curiosities": [
+      "Ninenzaka y Sannenzaka son dos calles distintas, habitualmente recorridas juntas por sus pendientes y edificios tradicionales."
+    ],
     "nearbyPlaceIds": [
       "kiyomizu",
       "sannenzaka",
@@ -541,11 +851,15 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+      "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "https://en.wikipedia.org/wiki/Ninenzaka"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Ninenzaka",
-    "durationMinutes": 30
+    "durationMinutes": 30,
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "yasaka",
@@ -559,12 +873,28 @@
     "tips": [
       "Respetad las zonas de oración y las indicaciones locales."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Yasaka Shrine Kyoto",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Yasaka_jinja.jpg/960px-Yasaka_jinja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Yasaka_jinja.jpg/960px-Yasaka_jinja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/96/Yasaka_jinja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Yasaka_jinja.jpg",
+        "credit": "Publicada por Moja~commonswiki · Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Santuario Yasaka"
+      }
+    ],
+    "curiosities": [
+      "El santuario fue conocido anteriormente como santuario de Gion, el barrio que lo rodea."
+    ],
     "nearbyPlaceIds": [
       "kiyomizu",
       "sannenzaka",
@@ -573,14 +903,19 @@
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.00361111,
+    "longitude": 135.77861111,
     "sources": [
-      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+      "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "https://en.wikipedia.org/wiki/Yasaka_Shrine"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Yasaka Shrine Kyoto",
-    "durationMinutes": 45
+    "durationMinutes": 45,
+    "bestTime": "Sugerencia: de día, integrado en el paseo por el barrio y según la apertura del recinto.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Yasaka_Shrine"
   },
   {
     "id": "gion",
@@ -602,9 +937,21 @@
     ],
     "mapsQuery": "Gion Kyoto",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/150124_Gion_Kyoto_Japan01s3.jpg/960px-150124_Gion_Kyoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/150124_Gion_Kyoto_Japan01s3.jpg/960px-150124_Gion_Kyoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/150124_Gion_Kyoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:150124_Gion_Kyoto_Japan01s3.jpg",
+        "credit": "663highland",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "alt": "Gion"
+      }
+    ],
+    "curiosities": [
+      "En Kioto se utiliza el término «geiko» para las artistas profesionales y «maiko» para las aprendices."
+    ],
     "nearbyPlaceIds": [
       "kiyomizu",
       "sannenzaka",
@@ -614,14 +961,19 @@
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.003496,
+    "longitude": 135.775051,
     "sources": [
-      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+      "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "https://en.wikipedia.org/wiki/Gion"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Gion Kyoto",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Gion",
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "pontocho",
@@ -643,22 +995,39 @@
     ],
     "mapsQuery": "Pontocho",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Pontocho_by_Wolfiewolf_in_Nabeyacho%2C_Kyoto.jpg/960px-Pontocho_by_Wolfiewolf_in_Nabeyacho%2C_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Pontocho_by_Wolfiewolf_in_Nabeyacho%2C_Kyoto.jpg/960px-Pontocho_by_Wolfiewolf_in_Nabeyacho%2C_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pontocho_by_Wolfiewolf_in_Nabeyacho%2C_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Pontocho_by_Wolfiewolf_in_Nabeyacho,_Kyoto.jpg",
+        "credit": "Wolfiewolf from Pontocho street in Nakagyo, Kyoto",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Pontocho"
+      }
+    ],
+    "curiosities": [
+      "Pontocho es uno de los distritos tradicionales de geiko y maiko de Kioto."
+    ],
     "nearbyPlaceIds": [
       "gion"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.007969,
+    "longitude": 135.771111,
     "sources": [
-      "https://kyoto.travel/en/areas/gion-kiyomizu/"
+      "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "https://en.wikipedia.org/wiki/Ponto-ch%C5%8D"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Pontocho",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ponto-ch%C5%8D",
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "bamboo",
@@ -672,27 +1041,48 @@
     "tips": [
       "Empezad temprano y evitad deteneros en el centro del camino."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Arashiyama bamboo forest",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg/960px-Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg/960px-Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Bamboo_Grove,_Arashiyama,_Kyoto,_Japan.jpg",
+        "credit": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Bosque de bambú de Arashiyama"
+      }
+    ],
+    "curiosities": [
+      "Además de su imagen, el sonido del bambú es una de las características reconocidas de este paisaje."
+    ],
     "nearbyPlaceIds": [
       "tenryuji",
       "arashiyama"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.0168,
+    "longitude": 135.6716,
     "sources": [
       "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000344/344664/bessi.pdf",
-      "https://kyoto.travel/en/areas/kinugasa-kitano/"
+      "https://kyoto.travel/en/areas/kinugasa-kitano/",
+      "https://en.wikipedia.org/wiki/Bamboo_Forest_(Kyoto)"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Arashiyama bamboo forest",
-    "durationMinutes": 45
+    "durationMinutes": 45,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Bamboo_Forest_(Kyoto)",
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "tenryuji",
@@ -706,27 +1096,48 @@
     "tips": [
       "Consultad qué áreas incluye la entrada antes de comprarla."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Tenryu-ji",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/960px-Tenryuji_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/960px-Tenryuji_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Tenryuji_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Tenryuji_Kyoto.jpg",
+        "credit": "osakaosaka",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Tenryū-ji"
+      }
+    ],
+    "curiosities": [
+      "Tenryū-ji fue fundado en el siglo XIV y pertenece a la tradición zen Rinzai."
+    ],
     "nearbyPlaceIds": [
       "bamboo",
       "arashiyama"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.01596389,
+    "longitude": 135.67377222,
     "sources": [
       "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000344/344664/bessi.pdf",
-      "https://kyoto.travel/en/areas/kinugasa-kitano/"
+      "https://kyoto.travel/en/areas/kinugasa-kitano/",
+      "https://en.wikipedia.org/wiki/Tenry%C5%AB-ji"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Tenryu-ji",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tenry%C5%AB-ji",
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "arashiyama",
@@ -740,27 +1151,48 @@
     "tips": [
       "Controlad el margen para el traslado posterior a Kinkaku-ji."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Arashiyama",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/960px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/960px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Arashiyama,_Part_II_-_Arashiyama7534.jpg",
+        "credit": "lumoplank",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Arashiyama"
+      }
+    ],
+    "curiosities": [
+      "El nombre designa tanto el distrito al oeste de Kioto como la montaña que forma parte de su paisaje."
+    ],
     "nearbyPlaceIds": [
       "bamboo",
       "tenryuji"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.015096,
+    "longitude": 135.670667,
     "sources": [
       "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000344/344664/bessi.pdf",
-      "https://kyoto.travel/en/areas/kinugasa-kitano/"
+      "https://kyoto.travel/en/areas/kinugasa-kitano/",
+      "https://en.wikipedia.org/wiki/Arashiyama"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Arashiyama",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Arashiyama",
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "kinkakuji",
@@ -774,24 +1206,45 @@
     "tips": [
       "Comprobad la hora de acceso antes de cruzar la ciudad."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Kinkaku-ji",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg/960px-Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg/960px-Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg",
+        "credit": "Nacaru",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Kinkaku-ji"
+      }
+    ],
+    "curiosities": [
+      "Su nombre oficial es Rokuon-ji. Los dos pisos superiores del pabellón están recubiertos de pan de oro."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.0395,
+    "longitude": 135.7285,
     "sources": [
       "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000344/344664/bessi.pdf",
-      "https://kyoto.travel/en/areas/kinugasa-kitano/"
+      "https://kyoto.travel/en/areas/kinugasa-kitano/",
+      "https://en.wikipedia.org/wiki/Kinkaku-ji"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Kinkaku-ji",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kinkaku-ji",
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "sanmachi",
@@ -812,9 +1265,30 @@
     ],
     "mapsQuery": "Sanmachi Takayama",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sanmachi_Takayama02ds3872.jpg/960px-Sanmachi_Takayama02ds3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sanmachi_Takayama02ds3872.jpg/960px-Sanmachi_Takayama02ds3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Sanmachi_Takayama02ds3872.jpg",
+        "credit": "663highland",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sanmachi_Takayama02ds3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Sanmachi Suji"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Sanmachi_Takayama03ds3200.jpg/960px-Sanmachi_Takayama03ds3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Sanmachi_Takayama03ds3200.jpg",
+        "credit": "663highland",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Sanmachi_Takayama03ds3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Sanmachi Suji"
+      }
+    ],
+    "curiosities": [
+      "Estas calles conservan casas de comerciantes de un antiguo centro comercial de Hida Takayama."
+    ],
     "nearbyPlaceIds": [
       "nakabashi"
     ],
@@ -827,7 +1301,10 @@
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Sanmachi Takayama",
-    "durationMinutes": 90
+    "durationMinutes": 90,
+    "bestTime": "Sugerencia: durante el horario comercial de los establecimientos que queráis visitar; aperturas concretas pendientes de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "nakabashi",
@@ -841,12 +1318,37 @@
     "tips": [
       "Agrupadlo con Sanmachi para no añadir un traslado."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Hida Beef",
+      "Hoba miso",
+      "Ramen de Takayama"
+    ],
     "mapsQuery": "Nakabashi Takayama",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Nakabashi_at_hida_takayama.jpg/960px-Nakabashi_at_hida_takayama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Nakabashi_at_hida_takayama.jpg/960px-Nakabashi_at_hida_takayama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Nakabashi_at_hida_takayama.jpg",
+        "credit": "K.F.",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Nakabashi_at_hida_takayama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Puente Nakabashi"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/View_of_Nakabashi_Bridge_from_Takayama_Jinya_House.JPG/960px-View_of_Nakabashi_Bridge_from_Takayama_Jinya_House.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:View_of_Nakabashi_Bridge_from_Takayama_Jinya_House.JPG",
+        "credit": "そらみみ",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/View_of_Nakabashi_Bridge_from_Takayama_Jinya_House.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Puente Nakabashi"
+      }
+    ],
+    "curiosities": [
+      "El puente rojo es uno de los elementos más reconocibles del casco tradicional de Takayama."
+    ],
     "nearbyPlaceIds": [
       "sanmachi"
     ],
@@ -855,11 +1357,15 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://www.hida.jp/english/touristattractions/takayamacity/historyandculture/4000153.html"
+      "https://www.hida.jp/english/touristattractions/takayamacity/historyandculture/4000153.html",
+      "https://www.hida.jp/_res/projects/hida_jp/_page_/004/000/097/2024travel_brochure.pdf"
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Nakabashi Takayama",
-    "durationMinutes": 20
+    "durationMinutes": 20,
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "nohi",
@@ -873,12 +1379,28 @@
     "tips": [
       "Andén y hora exacta pendientes de confirmar con la reserva."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Hida Beef",
+      "Hoba miso",
+      "Ramen de Takayama"
+    ],
     "mapsQuery": "Takayama Nohi Bus Center",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Takayama_Nohi_Bus_Center_-_Feb_18%2C_2025.jpg/960px-Takayama_Nohi_Bus_Center_-_Feb_18%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Takayama_Nohi_Bus_Center_-_Feb_18%2C_2025.jpg/960px-Takayama_Nohi_Bus_Center_-_Feb_18%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Takayama_Nohi_Bus_Center_-_Feb_18,_2025.jpg",
+        "credit": "迷惘的人生",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/97/Takayama_Nohi_Bus_Center_-_Feb_18%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Centro de autobuses Nohi de Takayama"
+      }
+    ],
+    "curiosities": [
+      "Es el punto logístico del itinerario para tomar el autobús de la excursión a Shirakawa-go."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
@@ -889,7 +1411,10 @@
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Takayama Nohi Bus Center",
-    "durationMinutes": 20
+    "durationMinutes": 20,
+    "bestTime": "Según la salida confirmada del transporte. Margen de llegada y condiciones de embarque: Pendiente de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "shirakawa",
@@ -906,9 +1431,21 @@
     "typicalFood": [],
     "mapsQuery": "Shirakawa-go Ogimachi",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Ogi_Shirakawa-g%C5%8D%2C_Gifu%2C_Japan.jpg/960px-Ogi_Shirakawa-g%C5%8D%2C_Gifu%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Ogi_Shirakawa-g%C5%8D%2C_Gifu%2C_Japan.jpg/960px-Ogi_Shirakawa-g%C5%8D%2C_Gifu%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Ogi_Shirakawa-g%C5%8D%2C_Gifu%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Ogi_Shirakawa-g%C5%8D,_Gifu,_Japan.jpg",
+        "credit": "663highland",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "alt": "Shirakawa-go"
+      }
+    ],
+    "curiosities": [
+      "Los tejados gasshō-zukuri tienen una pendiente pronunciada, adaptada a las grandes nevadas de la región."
+    ],
     "nearbyPlaceIds": [
       "shiroyama"
     ],
@@ -917,11 +1454,15 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://www.vill.shirakawa.lg.jp/secure/3277/Shirakawa-go_Tourist_Guidebook.pdf"
+      "https://www.vill.shirakawa.lg.jp/secure/3277/Shirakawa-go_Tourist_Guidebook.pdf",
+      "https://en.wikipedia.org/wiki/Historic_Villages_of_Shirakawa-g%C5%8D_and_Gokayama"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Shirakawa-go Ogimachi",
-    "durationMinutes": 180
+    "durationMinutes": 180,
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "shiroyama",
@@ -938,9 +1479,30 @@
     "typicalFood": [],
     "mapsQuery": "Shiroyama viewpoint Shirakawa-go",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Ogimachi_Village-01.jpg/960px-Ogimachi_Village-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Ogimachi_Village-01.jpg/960px-Ogimachi_Village-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Ogimachi_Village-01.jpg",
+        "credit": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ogimachi_Village-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Mirador Shiroyama de Shirakawa-go"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Shirakawago_village_%2812723707294%29.jpg/960px-Shirakawago_village_%2812723707294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Shirakawago_village_(12723707294).jpg",
+        "credit": "Takashi Hososhima from Tokyo, Japan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Shirakawago_village_%2812723707294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Mirador Shiroyama de Shirakawa-go"
+      }
+    ],
+    "curiosities": [
+      "La panorámica del mirador permite ver la disposición de las casas de Ogimachi desde una colina."
+    ],
     "nearbyPlaceIds": [
       "shirakawa"
     ],
@@ -949,11 +1511,15 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://www.vill.shirakawa.lg.jp/secure/3277/Shirakawa-go_Tourist_Guidebook.pdf"
+      "https://www.vill.shirakawa.lg.jp/secure/3277/Shirakawa-go_Tourist_Guidebook.pdf",
+      "https://partners-pamph.jnto.go.jp/simg/pamph/510.pdf"
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Shiroyama viewpoint Shirakawa-go",
-    "durationMinutes": 45
+    "durationMinutes": 45,
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "owakudani",
@@ -972,22 +1538,39 @@
     ],
     "mapsQuery": "Owakudani",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Owakudani_-_Hakone_%2827369344357%29.jpg/960px-Owakudani_-_Hakone_%2827369344357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Owakudani_-_Hakone_%2827369344357%29.jpg/960px-Owakudani_-_Hakone_%2827369344357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/65/Owakudani_-_Hakone_%2827369344357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Owakudani_-_Hakone_(27369344357).jpg",
+        "credit": "Ajay Suresh from New York, NY, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Ōwakudani"
+      }
+    ],
+    "curiosities": [
+      "Los minerales del agua termal oscurecen la cáscara de los famosos kuro-tamago."
+    ],
     "nearbyPlaceIds": [
       "ropeway"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.241916,
+    "longitude": 139.020667,
     "sources": [
-      "https://www.hakonenavi.jp/international/en/"
+      "https://www.hakonenavi.jp/international/en/",
+      "https://en.wikipedia.org/wiki/%C5%8Cwakudani"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Owakudani",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%8Cwakudani"
   },
   {
     "id": "ropeway",
@@ -1001,25 +1584,45 @@
     "tips": [
       "El servicio depende de las condiciones; no hay una salida reservada."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Kaiseki",
+      "Kuro-tamago en Ōwakudani"
+    ],
     "mapsQuery": "Hakone Ropeway",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hakone_ropeway_%28cropped%29.jpg/960px-Hakone_ropeway_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hakone_ropeway_%28cropped%29.jpg/960px-Hakone_ropeway_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/65/Hakone_ropeway_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Hakone_ropeway_(cropped).jpg",
+        "credit": "Ikusuki",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Teleférico de Hakone"
+      }
+    ],
+    "curiosities": [
+      "El recorrido enlaza Sōunzan y Tōgendai pasando por Ōwakudani."
+    ],
     "nearbyPlaceIds": [
       "owakudani"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.24436111,
+    "longitude": 139.01911111,
     "sources": [
-      "https://www.hakonenavi.jp/international/en/"
+      "https://www.hakonenavi.jp/international/en/",
+      "https://en.wikipedia.org/wiki/Hakone_Ropeway"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Hakone Ropeway",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Hakone_Ropeway"
   },
   {
     "id": "ashi",
@@ -1033,25 +1636,45 @@
     "tips": [
       "El paseo o barco se decidirá según horario y condiciones."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Kaiseki",
+      "Kuro-tamago en Ōwakudani"
+    ],
     "mapsQuery": "Lake Ashi",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/260505_Moto-Hakone_Hakone_Japan01s3.jpg/960px-260505_Moto-Hakone_Hakone_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/260505_Moto-Hakone_Hakone_Japan01s3.jpg/960px-260505_Moto-Hakone_Hakone_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/260505_Moto-Hakone_Hakone_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:260505_Moto-Hakone_Hakone_Japan01s3.jpg",
+        "credit": "663highland",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Lago Ashi"
+      }
+    ],
+    "curiosities": [
+      "El lago forma parte del paisaje volcánico de Hakone y del entorno de la histórica ruta Tōkaidō."
+    ],
     "nearbyPlaceIds": [
       "hakone-shrine"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.20972222,
+    "longitude": 139.00444444,
     "sources": [
-      "https://www.hakonenavi.jp/international/en/"
+      "https://www.hakonenavi.jp/international/en/",
+      "https://en.wikipedia.org/wiki/Lake_Ashi"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Lake Ashi",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Lake_Ashi"
   },
   {
     "id": "hakone-shrine",
@@ -1065,25 +1688,45 @@
     "tips": [
       "Solo si encaja antes del traslado a Tokio; no forzar el recorrido."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Kaiseki",
+      "Kuro-tamago en Ōwakudani"
+    ],
     "mapsQuery": "Hakone Shrine",
     "priority": "Si hay tiempo",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Hakonejinja_-01.jpg/960px-Hakonejinja_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Hakonejinja_-01.jpg/960px-Hakonejinja_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Hakonejinja_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Hakonejinja_-01.jpg",
+        "credit": "Aimaimyi",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Santuario de Hakone"
+      }
+    ],
+    "curiosities": [
+      "El santuario se sitúa en la orilla del lago Ashi y también se conoce como Hakone Gongen."
+    ],
     "nearbyPlaceIds": [
       "ashi"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.20388889,
+    "longitude": 139.02555556,
     "sources": [
-      "https://www.hakonenavi.jp/international/en/"
+      "https://www.hakonenavi.jp/international/en/",
+      "https://en.wikipedia.org/wiki/Hakone_Shrine"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Hakone Shrine",
-    "durationMinutes": 45
+    "durationMinutes": 45,
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Hakone_Shrine"
   },
   {
     "id": "fuji-view",
@@ -1097,12 +1740,27 @@
     "tips": [
       "No implica visitar el monte: el punto de observación se decidirá sobre la marcha."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Kaiseki",
+      "Kuro-tamago en Ōwakudani"
+    ],
     "mapsQuery": "Mount Fuji",
     "priority": "Si hay tiempo",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg/960px-Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg/960px-Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg",
+        "credit": "Charlie fong",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Vistas del monte Fuji desde Hakone"
+      }
+    ],
+    "curiosities": [
+      "El monte Fuji puede verse desde el entorno del lago Ashi cuando la visibilidad lo permite; no está garantizado."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
@@ -1113,7 +1771,10 @@
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Mount Fuji",
-    "durationMinutes": 20
+    "durationMinutes": 20,
+    "bestTime": "Sugerencia: con luz de día y buena visibilidad. Comprobar el tiempo y el estado de los accesos.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "meiji",
@@ -1127,25 +1788,49 @@
     "tips": [
       "Guardad una parte de la mañana para caminar por sus accesos."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
     "mapsQuery": "Meiji Shrine",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Meiji_Jingu_2023-3.jpg/960px-Meiji_Jingu_2023-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Meiji_Jingu_2023-3.jpg/960px-Meiji_Jingu_2023-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Meiji_Jingu_2023-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_2023-3.jpg",
+        "credit": "Akonnchiroll",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Meiji Jingu"
+      }
+    ],
+    "curiosities": [
+      "El santuario está dedicado al emperador Meiji y a la emperatriz Shōken; no alberga la tumba del emperador."
+    ],
     "nearbyPlaceIds": [
       "harajuku"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.67611111,
+    "longitude": 139.69916667,
     "sources": [
-      "https://www.gotokyo.org/en/see-and-do/attractions/"
+      "https://www.gotokyo.org/en/see-and-do/attractions/",
+      "https://en.wikipedia.org/wiki/Meiji_Shrine"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Meiji Shrine",
-    "durationMinutes": 75
+    "durationMinutes": 75,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "harajuku",
@@ -1169,23 +1854,40 @@
     ],
     "mapsQuery": "Harajuku",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/JRE-Harajuku-Station-07.jpg/960px-JRE-Harajuku-Station-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/JRE-Harajuku-Station-07.jpg/960px-JRE-Harajuku-Station-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/JRE-Harajuku-Station-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:JRE-Harajuku-Station-07.jpg",
+        "credit": "Rs1421",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Estación de Harajuku, punto de acceso al barrio"
+      }
+    ],
+    "curiosities": [
+      "Harajuku es el nombre habitual del área que se extiende desde la estación hacia Omotesando y sus calles laterales."
+    ],
     "nearbyPlaceIds": [
       "meiji"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.6685,
+    "longitude": 139.7054,
     "sources": [
       "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
-      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf",
+      "https://en.wikipedia.org/wiki/Harajuku"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Harajuku",
-    "durationMinutes": 75
+    "durationMinutes": 75,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Harajuku",
+    "bestTime": "Sugerencia: durante el horario comercial de los establecimientos que queráis visitar; aperturas concretas pendientes de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "shibuya",
@@ -1209,9 +1911,21 @@
     ],
     "mapsQuery": "Shibuya Tokyo",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Shibuya_skyline_from_Tokyu_Plaza_in_Omotesando%2C_Harajuku%2C_Tokyo%2C_2024_May.jpg/960px-Shibuya_skyline_from_Tokyu_Plaza_in_Omotesando%2C_Harajuku%2C_Tokyo%2C_2024_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Shibuya_skyline_from_Tokyu_Plaza_in_Omotesando%2C_Harajuku%2C_Tokyo%2C_2024_May.jpg/960px-Shibuya_skyline_from_Tokyu_Plaza_in_Omotesando%2C_Harajuku%2C_Tokyo%2C_2024_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Shibuya_skyline_from_Tokyu_Plaza_in_Omotesando%2C_Harajuku%2C_Tokyo%2C_2024_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Shibuya_skyline_from_Tokyu_Plaza_in_Omotesando,_Harajuku,_Tokyo,_2024_May.jpg",
+        "credit": "Ximonic (Simo Räsänen)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Shibuya"
+      }
+    ],
+    "curiosities": [
+      "Shibuya es tanto un gran distrito administrativo de Tokio como el nombre del entorno comercial de su estación."
+    ],
     "nearbyPlaceIds": [
       "hachiko",
       "crossing",
@@ -1219,15 +1933,20 @@
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.65944444,
+    "longitude": 139.70055556,
     "sources": [
       "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
-      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf",
+      "https://en.wikipedia.org/wiki/Shibuya"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Shibuya Tokyo",
-    "durationMinutes": 90
+    "durationMinutes": 90,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Shibuya",
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "hachiko",
@@ -1241,12 +1960,31 @@
     "tips": [
       "Acordad otro punto de encuentro si hay mucha gente."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
     "mapsQuery": "Hachiko statue",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/960px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/960px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Hachiko_statue_at_Shibuya,_Tokyo,_Japan.jpg",
+        "credit": "Joli Rumi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Estatua de Hachiko"
+      }
+    ],
+    "curiosities": [
+      "La estatua recuerda al perro que siguió esperando en Shibuya después de la muerte de su dueño."
+    ],
     "nearbyPlaceIds": [
       "shibuya",
       "crossing",
@@ -1254,15 +1992,21 @@
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.65905556,
+    "longitude": 139.70058333,
     "sources": [
       "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
-      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf",
+      "https://en.wikipedia.org/wiki/Statue_of_Hachik%C5%8D",
+      "https://www.gotokyo.org/en/spot/86/"
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Hachiko statue",
-    "durationMinutes": 15
+    "durationMinutes": 15,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Statue_of_Hachik%C5%8D",
+    "bestTime": "Sugerencia: de día, integrado en el paseo por el barrio y según la apertura del recinto.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "crossing",
@@ -1276,12 +2020,31 @@
     "tips": [
       "Cruzad con normalidad sin bloquear el paso para hacer fotos."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
     "mapsQuery": "Shibuya Crossing",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Shibuya_Crossing%2C_Aerial.jpg/960px-Shibuya_Crossing%2C_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Shibuya_Crossing%2C_Aerial.jpg/960px-Shibuya_Crossing%2C_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/88/Shibuya_Crossing%2C_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing,_Aerial.jpg",
+        "credit": "David Kernan",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "alt": "Cruce de Shibuya"
+      }
+    ],
+    "curiosities": [
+      "En este cruce los peatones pueden atravesar varias direcciones durante la misma fase del semáforo."
+    ],
     "nearbyPlaceIds": [
       "shibuya",
       "hachiko",
@@ -1289,15 +2052,20 @@
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.6595,
+    "longitude": 139.70056,
     "sources": [
       "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
-      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf",
+      "https://en.wikipedia.org/wiki/Shibuya_Crossing"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Shibuya Crossing",
-    "durationMinutes": 20
+    "durationMinutes": 20,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "sky",
@@ -1311,12 +2079,31 @@
     "tips": [
       "Reserva pendiente; consultad venta oficial y condiciones de la terraza."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
     "mapsQuery": "Shibuya Sky",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg/960px-SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg/960px-SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg",
+        "credit": "Sakura Torch",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Edificio Shibuya Scramble Square, sede del mirador Shibuya Sky"
+      }
+    ],
+    "curiosities": [
+      "El mirador se encuentra en Shibuya Scramble Square, conectado con la estación de Shibuya."
+    ],
     "nearbyPlaceIds": [
       "shibuya",
       "hachiko",
@@ -1327,11 +2114,15 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://www.gotokyo.org/en/spot/1749/index.html"
+      "https://www.gotokyo.org/en/spot/1749/index.html",
+      "https://en.wikipedia.org/wiki/Shibuya_Scramble_Square"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Shibuya Sky",
-    "durationMinutes": 90
+    "durationMinutes": 90,
+    "bestTime": "La hora dependerá de la entrada que consigáis. El atardecer es una preferencia posible, no un horario confirmado.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "sensoji",
@@ -1345,26 +2136,50 @@
     "tips": [
       "Separad el tiempo de visita del tiempo de compras de Nakamise."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
     "mapsQuery": "Senso-ji",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Sensoji_2023.jpg/960px-Sensoji_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Sensoji_2023.jpg/960px-Sensoji_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sensoji_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Sensoji_2023.jpg",
+        "credit": "Akonnchiroll",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Sensō-ji"
+      }
+    ],
+    "curiosities": [
+      "Sensō-ji es el templo de origen más antiguo de Tokio y está dedicado a Kannon."
+    ],
     "nearbyPlaceIds": [
       "nakamise",
       "asakusa"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.71472222,
+    "longitude": 139.79675,
     "sources": [
-      "https://www.gotokyo.org/en/see-and-do/attractions/"
+      "https://www.gotokyo.org/en/see-and-do/attractions/",
+      "https://en.wikipedia.org/wiki/Sens%C5%8D-ji"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Senso-ji",
-    "durationMinutes": 75
+    "durationMinutes": 75,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+    "bestTime": "Sugerencia: primera parte del día, con margen para recorrerlo sin prisa. Revisar la apertura oficial antes de ir.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "nakamise",
@@ -1378,12 +2193,40 @@
     "tips": [
       "Comed donde lo indique cada tienda y mantened libre el paso."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
     "mapsQuery": "Nakamise Asakusa",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Nakamise-dori_Street.jpg/960px-Nakamise-dori_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Nakamise-dori_Street.jpg/960px-Nakamise-dori_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Nakamise-dori_Street.jpg",
+        "credit": "Alexeyevitch",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Nakamise-dori_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Nakamise"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Nakamise_Street_heading_for_Sensoji_Temple.jpg/960px-Nakamise_Street_heading_for_Sensoji_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Nakamise_Street_heading_for_Sensoji_Temple.jpg",
+        "credit": "そらみみ",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Nakamise_Street_heading_for_Sensoji_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Nakamise"
+      }
+    ],
+    "curiosities": [
+      "La calle une las puertas Kaminarimon y Hōzōmon en el acceso a Sensō-ji."
+    ],
     "nearbyPlaceIds": [
       "sensoji",
       "asakusa"
@@ -1393,11 +2236,15 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://www.gotokyo.org/en/see-and-do/attractions/"
+      "https://www.gotokyo.org/en/see-and-do/attractions/",
+      "https://www.gotokyo.org/en/spot/73/index.html"
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Nakamise Asakusa",
-    "durationMinutes": 45
+    "durationMinutes": 45,
+    "bestTime": "Sugerencia: durante el horario comercial de los establecimientos que queráis visitar; aperturas concretas pendientes de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "asakusa",
@@ -1421,23 +2268,40 @@
     ],
     "mapsQuery": "Asakusa",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Day2-2_%2840909714314%29.jpg/960px-Day2-2_%2840909714314%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Day2-2_%2840909714314%29.jpg/960px-Day2-2_%2840909714314%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/Day2-2_%2840909714314%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Day2-2_(40909714314).jpg",
+        "credit": "Ajay Suresh from New York, NY, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Asakusa"
+      }
+    ],
+    "curiosities": [
+      "El barrio se organiza en torno a Sensō-ji, pero también reúne otros templos y tradiciones festivas."
+    ],
     "nearbyPlaceIds": [
       "sensoji",
       "nakamise"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.71444444,
+    "longitude": 139.79666667,
     "sources": [
-      "https://www.gotokyo.org/en/see-and-do/attractions/"
+      "https://www.gotokyo.org/en/see-and-do/attractions/",
+      "https://en.wikipedia.org/wiki/Asakusa"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Asakusa",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Asakusa",
+    "bestTime": "Sugerencia: de día, integrado en el paseo por el barrio y según la apertura del recinto.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "akihabara",
@@ -1461,20 +2325,37 @@
     ],
     "mapsQuery": "Akihabara",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png/960px-Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png/960px-Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Sotokanda,_Akihabara_Electric_Town_at_night_20231114.png",
+        "credit": "Phineyes",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Akihabara"
+      }
+    ],
+    "curiosities": [
+      "Su apodo de «ciudad eléctrica» se consolidó después de la Segunda Guerra Mundial, antes de su fama como centro de cultura otaku."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.69833333,
+    "longitude": 139.77305556,
     "sources": [
-      "https://www.gotokyo.org/en/see-and-do/attractions/"
+      "https://www.gotokyo.org/en/see-and-do/attractions/",
+      "https://en.wikipedia.org/wiki/Akihabara"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Akihabara",
-    "durationMinutes": 180
+    "durationMinutes": 180,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Akihabara",
+    "bestTime": "Sugerencia: durante el horario comercial de los establecimientos que queráis visitar; aperturas concretas pendientes de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "shinjuku",
@@ -1498,23 +2379,40 @@
     ],
     "mapsQuery": "Shinjuku",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/960px-Skyscrapers_of_Shinjuku_2009_January.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/960px-Skyscrapers_of_Shinjuku_2009_January.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Skyscrapers_of_Shinjuku_2009_January.jpg",
+        "credit": "Morio",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Shinjuku"
+      }
+    ],
+    "curiosities": [
+      "El distrito acoge el Gobierno Metropolitano de Tokio y una de las grandes estaciones de la ciudad."
+    ],
     "nearbyPlaceIds": [
       "kabukicho"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.70138889,
+    "longitude": 139.70972222,
     "sources": [
       "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
-      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf",
+      "https://en.wikipedia.org/wiki/Shinjuku"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Shinjuku",
-    "durationMinutes": 120
+    "durationMinutes": 120,
+    "coordinateSource": "https://en.wikipedia.org/wiki/Shinjuku",
+    "bestTime": "Sugerencia: durante el horario comercial de los establecimientos que queráis visitar; aperturas concretas pendientes de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "kabukicho",
@@ -1528,26 +2426,50 @@
     "tips": [
       "Elegid establecimientos por vuestra cuenta y revisad precios antes de entrar."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
     "mapsQuery": "Kabukicho",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Kabukicho_red_gate_and_colorful_neon_street_signs_at_night%2C_Shinjuku%2C_Tokyo%2C_Japan.jpg/960px-Kabukicho_red_gate_and_colorful_neon_street_signs_at_night%2C_Shinjuku%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Kabukicho_red_gate_and_colorful_neon_street_signs_at_night%2C_Shinjuku%2C_Tokyo%2C_Japan.jpg/960px-Kabukicho_red_gate_and_colorful_neon_street_signs_at_night%2C_Shinjuku%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Kabukicho_red_gate_and_colorful_neon_street_signs_at_night%2C_Shinjuku%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Kabukicho_red_gate_and_colorful_neon_street_signs_at_night,_Shinjuku,_Tokyo,_Japan.jpg",
+        "credit": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Kabukicho"
+      }
+    ],
+    "curiosities": [
+      "El nombre procede de un proyecto de teatro kabuki que nunca llegó a construirse."
+    ],
     "nearbyPlaceIds": [
       "shinjuku"
     ],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.695,
+    "longitude": 139.705,
     "sources": [
       "https://www.gotokyo.org/en/destinations/western-tokyo/index.html",
-      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf"
+      "https://www.gotokyo.org/book1/wp-content/uploads/2024/12/2412_discover-tokyo_EN_low.pdf",
+      "https://en.wikipedia.org/wiki/Kabukich%C5%8D"
     ],
-    "imageStatus": "Pendiente de confirmar",
+    "imageStatus": "Verificada en Wikimedia Commons",
     "imageSearch": "Kabukicho",
-    "durationMinutes": 60
+    "durationMinutes": 60,
+    "bestTime": "Sugerencia: al caer la tarde, para combinar el paseo con las luces y la cena. No implica una reserva.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kabukich%C5%8D"
   },
   {
     "id": "madrid-airport",
@@ -1564,23 +2486,40 @@
     "typicalFood": [],
     "mapsQuery": "Adolfo Suarez Madrid Barajas Airport",
     "priority": "Nos gustaría",
-    "imageUrl": "",
-    "gallery": [],
-    "curiosities": [],
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Exterior_-_Aeropuerto_de_Madrid-Barajas_T4_-_Madrid_01.jpg/960px-Exterior_-_Aeropuerto_de_Madrid-Barajas_T4_-_Madrid_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Exterior_-_Aeropuerto_de_Madrid-Barajas_T4_-_Madrid_01.jpg/960px-Exterior_-_Aeropuerto_de_Madrid-Barajas_T4_-_Madrid_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Exterior_-_Aeropuerto_de_Madrid-Barajas_T4_-_Madrid_01.jpg",
+        "credit": "Javier Perez Montes",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Exterior_-_Aeropuerto_de_Madrid-Barajas_T4_-_Madrid_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Aeropuerto Adolfo Suárez Madrid-Barajas · exterior de referencia; terminal del vuelo pendiente"
+      }
+    ],
+    "curiosities": [
+      "El aeropuerto abrió en 1931. Sus distintas terminales hacen especialmente importante comprobar el edificio de salida."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 40.47222222,
+    "longitude": -3.56083333,
     "sources": [
-      "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html"
+      "https://www.aena.es/es/adolfo-suarez-madrid-barajas.html",
+      "https://en.wikipedia.org/wiki/Madrid%E2%80%93Barajas_Airport"
     ],
     "imageStatus": "Pendiente de confirmar",
-    "imageSearch": "Adolfo Suarez Madrid Barajas Airport"
+    "imageSearch": "Adolfo Suarez Madrid Barajas Airport",
+    "bestTime": "Según la salida confirmada del transporte. Margen de llegada y condiciones de embarque: Pendiente de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Madrid%E2%80%93Barajas_Airport"
   },
   {
     "id": "hotel-iam",
-    "name": "IAM Hotel Osaka",
+    "name": "IAM HOTEL",
     "city": "Osaka",
     "category": "Hotel",
     "note": "Recepción y entrega de equipaje pendientes de confirmar. Preparar la salida hacia Nara.",
@@ -1590,11 +2529,17 @@
     "tips": [
       "Recepción y entrega de equipaje pendientes de confirmar. Preparar la salida hacia Nara."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Takoyaki",
+      "Okonomiyaki",
+      "Kushikatsu"
+    ],
     "mapsQuery": "IAM Hotel Osaka, Osaka, Japan",
     "imageUrl": "",
     "gallery": [],
-    "curiosities": [],
+    "curiosities": [
+      "Es el alojamiento confirmado para 2 noches de esta etapa del viaje."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
@@ -1604,7 +2549,10 @@
       "https://www.iamhotel.jp/en/location/"
     ],
     "imageStatus": "Pendiente de confirmar",
-    "imageSearch": "IAM Hotel Osaka"
+    "imageSearch": "IAM Hotel Osaka",
+    "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "hotel-yasen",
@@ -1618,11 +2566,17 @@
     "tips": [
       "Dirección exacta, acceso y condiciones de llegada pendientes de confirmar con la reserva."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Yudofu",
+      "Obanzai",
+      "Matcha y dulces de Uji"
+    ],
     "mapsQuery": "Yasen Kyoto, Kioto, Japan",
     "imageUrl": "",
     "gallery": [],
-    "curiosities": [],
+    "curiosities": [
+      "Es el alojamiento confirmado para 3 noches de esta etapa del viaje."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
@@ -1630,7 +2584,10 @@
     "longitude": null,
     "sources": [],
     "imageStatus": "Pendiente de confirmar",
-    "imageSearch": "Yasen Kyoto"
+    "imageSearch": "Yasen Kyoto",
+    "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "hotel-mercure",
@@ -1644,11 +2601,17 @@
     "tips": [
       "Preguntar por el envío del equipaje a Tokio y confirmar plazos antes del 26 de noviembre."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Hida Beef",
+      "Hoba miso",
+      "Ramen de Takayama"
+    ],
     "mapsQuery": "Mercure Hida Takayama, Takayama, Japan",
     "imageUrl": "",
     "gallery": [],
-    "curiosities": [],
+    "curiosities": [
+      "Es el alojamiento confirmado para 2 noches de esta etapa del viaje."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
@@ -1658,7 +2621,10 @@
       "https://mercure-hida-takayama.com/en/"
     ],
     "imageStatus": "Pendiente de confirmar",
-    "imageSearch": "Mercure Hida Takayama"
+    "imageSearch": "Mercure Hida Takayama",
+    "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "hotel-matsuzakaya",
@@ -1678,7 +2644,9 @@
     "mapsQuery": "Matsuzakaya Honten, Hakone, Japan",
     "imageUrl": "",
     "gallery": [],
-    "curiosities": [],
+    "curiosities": [
+      "Es el alojamiento confirmado para 1 noche de esta etapa del viaje."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
@@ -1688,11 +2656,14 @@
       "https://www.hakone.or.jp/4370"
     ],
     "imageStatus": "Pendiente de confirmar",
-    "imageSearch": "Matsuzakaya Honten"
+    "imageSearch": "Matsuzakaya Honten",
+    "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   },
   {
     "id": "hotel-knot",
-    "name": "The Knot Tokyo Shinjuku",
+    "name": "THE KNOT TOKYO Shinjuku",
     "city": "Tokio",
     "category": "Hotel",
     "note": "Confirmar recepción del equipaje enviado desde Takayama y conservar el nombre del destinatario en el servicio de envío, fuera de esta aplicación.",
@@ -1702,11 +2673,20 @@
     "tips": [
       "Confirmar recepción del equipaje enviado desde Takayama y conservar el nombre del destinatario en el servicio de envío, fuera de esta aplicación."
     ],
-    "typicalFood": [],
+    "typicalFood": [
+      "Sushi",
+      "Ramen",
+      "Tonkatsu",
+      "Yakitori",
+      "Monjayaki",
+      "Curry japonés"
+    ],
     "mapsQuery": "The Knot Tokyo Shinjuku, Tokio, Japan",
     "imageUrl": "",
     "gallery": [],
-    "curiosities": [],
+    "curiosities": [
+      "Es el alojamiento confirmado para 6 noches de esta etapa del viaje."
+    ],
     "nearbyPlaceIds": [],
     "status": "pendiente",
     "collection": "itinerary",
@@ -1716,6 +2696,9 @@
       "https://hotel-the-knot.jp/tokyoshinjuku/en/access/"
     ],
     "imageStatus": "Pendiente de confirmar",
-    "imageSearch": "The Knot Tokyo Shinjuku"
+    "imageSearch": "The Knot Tokyo Shinjuku",
+    "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
+    "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
+    "timingBasis": "Recomendación orientativa, no horario confirmado"
   }
 ]

@@ -1,30 +1,42 @@
 {
   "hero": {
-    "src": "https://images.unsplash.com/photo-1606918801925-e2c914c4b503?auto=format&fit=crop&w=1600&q=80",
-    "alt": "El monte Fuji nevado sobre el lago, Japón",
-    "label": "Monte Fuji · Japón",
-    "source": "https://unsplash.com/photos/white-and-black-mountain-near-body-of-water-during-daytime-ej8pKvHDg_c",
-    "credit": "Luke Stackpoole / Unsplash"
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg/960px-Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg",
+    "credit": "Charlie fong",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "alt": "Vistas del monte Fuji desde Hakone",
+    "label": "Vistas del monte Fuji desde Hakone · Hakone"
   },
   "kyoto": {
-    "src": "https://images.unsplash.com/photo-1594795716460-c816b5193a34?auto=format&fit=crop&w=1000&q=80",
-    "alt": "Calle tradicional de Kioto con la pagoda de Hōkan-ji",
-    "label": "Kioto · Japón",
-    "source": "https://unsplash.com/photos/brown-wooden-house-under-white-sky-during-daytime--gOvsQfHA88",
-    "credit": "Unsplash"
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/150124_Gion_Kyoto_Japan01s3.jpg/960px-150124_Gion_Kyoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/150124_Gion_Kyoto_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:150124_Gion_Kyoto_Japan01s3.jpg",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "alt": "Gion",
+    "label": "Gion · Kioto"
   },
   "tokyo": {
-    "src": "https://images.unsplash.com/photo-1742492541313-21372ed13e06?auto=format&fit=crop&w=1000&q=80",
-    "alt": "Panorámica nocturna de Tokio con Tokyo Tower iluminada",
-    "label": "Tokio · Japón",
-    "source": "https://unsplash.com/photos/tokyos-night-skyline-featuring-the-iconic-tower-c9kP0jr-4hc",
-    "credit": "Steven Lynn / Unsplash"
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Shibuya_Crossing%2C_Aerial.jpg/960px-Shibuya_Crossing%2C_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/88/Shibuya_Crossing%2C_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing,_Aerial.jpg",
+    "credit": "David Kernan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "alt": "Cruce de Shibuya",
+    "label": "Cruce de Shibuya · Tokio"
   },
   "bamboo": {
-    "src": "https://images.unsplash.com/photo-1744448082573-5e72e9fd5ad7?auto=format&fit=crop&w=1000&q=80",
-    "alt": "Bosque de bambú en Utsunomiya, Japón",
-    "label": "Utsunomiya · Japón",
-    "source": "https://unsplash.com/photos/a-dense-forest-of-tall-green-trees-cdt_pAG0sSI",
-    "credit": "Marek Piwnicki / Unsplash"
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg/960px-Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "https://commons.wikimedia.org/wiki/File:Bamboo_Grove,_Arashiyama,_Kyoto,_Japan.jpg",
+    "credit": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "Bosque de bambú de Arashiyama",
+    "label": "Bosque de bambú de Arashiyama · Kioto"
   }
 }

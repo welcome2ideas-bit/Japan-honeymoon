@@ -1,3 +1,4 @@
+import { Nearby } from '../components/Nearby';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Heart, Plus, Check, ArrowLeft } from 'lucide-react';
@@ -5,14 +6,14 @@ import { useTrip } from '../context';
 import { PageHeading, Empty, PlaceGallery, MapsLink, PlaceDetails } from '../components/ui';
 import type { Place } from '../types';
 const normalize=(text:string)=>text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es').trim();
-export function placeImages(p:Place){return [...(p.imageUrl?[{src:p.imageUrl,alt:p.name}]:[]),...p.gallery.filter(image=>image.src!==p.imageUrl)];}
+export function placeImages(p:Place){return [...(p.imageUrl?[p.gallery.find(image=>image.src===p.imageUrl)??{src:p.imageUrl,alt:p.name}]:[]),...p.gallery.filter(image=>image.src!==p.imageUrl)];}
 export default function Places({wishlist=false}:{wishlist?:boolean}) {
  const {places,setPlaces}=useTrip();const [search,setSearch]=useState('');const [city,setCity]=useState('');const [onlyFavorites,setOnlyFavorites]=useState(wishlist);const [adding,setAdding]=useState(false);
  const cities=[...new Set(places.map(p=>p.city))].sort((a,b)=>a.localeCompare(b,'es'));
  const filtered=places.filter(p=>(!city||p.city===city)&&(!onlyFavorites||p.favorite)&&normalize(`${p.name} ${p.city} ${p.description||''} ${p.category}`).includes(normalize(search)));
  const update=(p:Place)=>setPlaces(places.map(item=>item.id===p.id?p:item));
  return <><PageHeading eyebrow={wishlist?'NUESTRA WISHLIST':'EXPLORAR POR CIUDAD'} title={wishlist?'Nos vemos aquí.':'Todos los lugares de nuestro viaje.'} description="Un lugar, una ficha. Toda la información que necesitamos, siempre a mano." action={<button className="button primary" onClick={()=>setAdding(!adding)}><Plus size={18}/>{adding?'Cerrar':'Añadir lugar'}</button>}/>
- {adding&&<form className="panel place-form" onSubmit={e=>{e.preventDefault();const form=new FormData(e.currentTarget);const name=String(form.get('name')).trim(),city=String(form.get('city')).trim();if(!name||!city)return;setPlaces([...places,{id:crypto.randomUUID(),name,city,category:'',note:'',favorite:wishlist,status:'pendiente',imageUrl:'',gallery:[],curiosities:[],nearbyPlaceIds:[]}]);setAdding(false);setSearch('');setCity('');setOnlyFavorites(wishlist);}}><h2>Añadir un lugar real</h2><div className="two-columns"><label>Nombre del lugar<input autoFocus name="name" required maxLength={150}/></label><label>Ciudad<input name="city" required maxLength={100}/></label></div><button className="button primary" type="submit">Guardar lugar</button></form>}
+ <Nearby/>{adding&&<form className="panel place-form" onSubmit={e=>{e.preventDefault();const form=new FormData(e.currentTarget);const name=String(form.get('name')).trim(),city=String(form.get('city')).trim();if(!name||!city)return;setPlaces([...places,{id:crypto.randomUUID(),name,city,category:'',note:'',favorite:wishlist,status:'pendiente',imageUrl:'',gallery:[],curiosities:[],nearbyPlaceIds:[]}]);setAdding(false);setSearch('');setCity('');setOnlyFavorites(wishlist);}}><h2>Añadir un lugar real</h2><div className="two-columns"><label>Nombre del lugar<input autoFocus name="name" required maxLength={150}/></label><label>Ciudad<input name="city" required maxLength={100}/></label></div><button className="button primary" type="submit">Guardar lugar</button></form>}
  <div className="wishlist-toolbar"><label className="search-label">Buscar lugares<input type="search" placeholder="Nombre, ciudad o descripción" value={search} onChange={e=>setSearch(e.target.value)}/></label><label className="city-filter">Ciudad<select aria-label="Filtrar por ciudad" value={city} onChange={e=>setCity(e.target.value)}><option value="">Todas las ciudades</option>{cities.map(c=><option key={c}>{c}</option>)}</select></label><button className={`button ${onlyFavorites?'selected':''}`} aria-pressed={onlyFavorites} onClick={()=>setOnlyFavorites(!onlyFavorites)}><Heart size={17}/>Solo favoritos</button></div>
  <p className="muted small" role="status">{filtered.length} {filtered.length===1?'lugar':'lugares'}</p>
  {!filtered.length&&<Empty>{places.length?'No hay lugares con estos filtros.':'Todavía no hay lugares. Añade uno o importa vuestro itinerario desde Ajustes.'}</Empty>}

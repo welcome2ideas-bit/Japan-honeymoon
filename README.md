@@ -23,13 +23,15 @@ npm run preview
 
 ## Datos y uso
 
-El contenido real vive en `data/`, separado de las pantallas. Los catálogos iniciales están vacíos y las fechas pendientes de confirmar. Consulta [el contrato de datos](data/README.md) y [la estructura vacía de importación](data/import-template.json).
+El contenido real vive en `data/`, separado de las pantallas: 18 días de viaje, 51 lugares, seis hoteles y seis vuelos confirmados, más los trayectos terrestres pendientes de reserva. Consulta [el contrato de datos](data/README.md) y [la estructura vacía de importación](data/import-template.json).
 
 - **Lugares**: catálogo por ciudad con búsqueda, favoritos, fichas completas y estado pendiente/visitado.
 - **Itinerario**: actividades con `placeId` que abren la misma ficha de Lugares.
-- **Wishlist**: vista de favoritos del catálogo, sin duplicar información.
+- **Wishlist**: lista independiente, pendiente de importar desde CSV, GeoJSON o JSON. Vista previa, favoritos, notas y filtros, sin modificar el itinerario.
 - **Ajustes**: importación validada con vista previa, exportación completa, nombre, fechas y apariencia.
 - **Inicio, Ahora, Transportes, Hoteles y Pendientes**: usan el mismo estado del viaje.
+
+Durante el viaje, una entrada inicial abre Ahora, con progreso manual, siguiente plan, horarios confirmados, equipaje, alojamiento y gastronomía. Se puede volver a Inicio desde la barra inferior. La ubicación se solicita únicamente al usar «Buscar cerca de mí» y se procesa en el dispositivo. En un iPhone necesita HTTPS; una IP local con HTTP no permite geolocalización.
 
 Cada lugar admite `imageUrl`, `gallery`, descripción, curiosidades, comida típica, consejos, duración, prioridad, Google Maps y referencias a lugares cercanos. Todo lo desconocido queda vacío. Las fotografías son remotas (HTTPS), incluidas las editoriales de Inicio; no se incluyen archivos de fotografía en la aplicación. Se necesita conexión y un proveedor que permita cargar las imágenes. Si fallan, la ficha mantiene su contenido y muestra una alternativa visual.
 

@@ -13,7 +13,13 @@
     "source": "https://all.accor.com/hotel/C0U5/index.es.shtml",
     "status": "Confirmado",
     "confirmation": "Confirmado",
-    "imageStatus": "Confirmado"
+    "imageStatus": "Confirmado",
+    "howToArrive": "Confirma el traslado entre el aeropuerto y el hotel antes de salir. Terminal, servicio y horario concretos: Pendiente de confirmar.",
+    "tips": [
+      "La noche aquí precede al vuelo internacional de las 11:20.",
+      "Consulta con el hotel el acceso y la salida antes de fijar el traslado."
+    ],
+    "imageCredit": "Fotografía del sitio oficial del alojamiento"
   },
   {
     "id": "iam",
@@ -31,7 +37,13 @@
     "gallery": [],
     "imageStatus": "Confirmado",
     "source": "https://www.iamhotel.jp/en/location/",
-    "placeId": "hotel-iam"
+    "placeId": "hotel-iam",
+    "howToArrive": "El hotel publica acceso desde Namba Walk por la salida B26. Para equipaje, consulta las salidas con ascensor B5 o B10 y sigue la ruta del hotel.",
+    "tips": [
+      "Guarda el mapa de acceso antes de llegar a Osaka.",
+      "La hora de entrada y la posibilidad de dejar las maletas deben confirmarse con el alojamiento."
+    ],
+    "imageCredit": "Fotografía del sitio oficial del alojamiento"
   },
   {
     "id": "yasen",
@@ -41,7 +53,7 @@
     "checkOut": "2026-11-24",
     "status": "Confirmado",
     "confirmation": "Confirmado",
-    "area": "Pendiente de confirmar",
+    "area": "Gion · dirección y acceso exactos pendientes de confirmar",
     "description": "Alojamiento confirmado por vosotros para las tres noches en Kioto.",
     "note": "Horas de entrada y salida: Pendiente de confirmar.",
     "location": "Yasen Kyoto, Kioto, Japan",
@@ -49,7 +61,13 @@
     "gallery": [],
     "imageStatus": "Pendiente de confirmar",
     "source": "",
-    "placeId": "hotel-yasen"
+    "placeId": "hotel-yasen",
+    "howToArrive": "Pendiente de confirmar. Conserva el nombre Yasen Kyoto para contrastar la dirección con la documentación del alojamiento.",
+    "tips": [
+      "Confirma dirección y acceso antes del traslado desde Nara.",
+      "No se ha asignado estación ni tiempo de paseo sin verificar el acceso exacto."
+    ],
+    "imageCredit": ""
   },
   {
     "id": "mercure",
@@ -59,7 +77,7 @@
     "checkOut": "2026-11-26",
     "status": "Confirmado",
     "confirmation": "Confirmado",
-    "area": "Estación de Takayama",
+    "area": "Entorno de la estación de Takayama",
     "description": "Hotel próximo a la estación de Takayama.",
     "note": "Horas de entrada y salida: Pendiente de confirmar.",
     "location": "Mercure Hida Takayama, Takayama, Japan",
@@ -67,7 +85,13 @@
     "gallery": [],
     "imageStatus": "Confirmado",
     "source": "https://mercure-hida-takayama.com/en/",
-    "placeId": "hotel-mercure"
+    "placeId": "hotel-mercure",
+    "howToArrive": "El hotel se encuentra junto al entorno de la estación de Takayama. Consulta la ruta publicada por el hotel al llegar; el tren desde Kioto sigue pendiente.",
+    "tips": [
+      "Es la base para la excursión de ida y vuelta a Shirakawa-go.",
+      "Consulta si pueden gestionar el envío de equipaje a Tokio y confirma plazo, precio y recepción con los hoteles."
+    ],
+    "imageCredit": "Fotografía del sitio oficial del alojamiento"
   },
   {
     "id": "matsuzakaya",
@@ -77,7 +101,7 @@
     "checkOut": "2026-11-27",
     "status": "Confirmado",
     "confirmation": "Confirmado",
-    "area": "Ashinoyu / parada Higashi Ashinoyu",
+    "area": "Ashinoyu, Hakone",
     "description": "Ryokan histórico en el área de Ashinoyu, Hakone.",
     "note": "Horas de entrada y salida: Pendiente de confirmar.",
     "location": "Matsuzakaya Honten, Hakone, Japan",
@@ -85,7 +109,13 @@
     "gallery": [],
     "imageStatus": "Confirmado",
     "source": "https://kinnotake-resorts.com/matsuzakayahonten/en/access",
-    "placeId": "hotel-matsuzakaya"
+    "placeId": "hotel-matsuzakaya",
+    "howToArrive": "El acceso oficial indica autobús desde Hakone-Yumoto hacia Hakonemachi-kō / Motohakone-kō, parada Higashi-Ashinoyu. Comprueba el servicio del día; horario pendiente.",
+    "tips": [
+      "Coordina la llegada con el hotel antes de cerrar los trenes.",
+      "Confirma las condiciones del onsen, la cena y el equipaje directamente con el alojamiento."
+    ],
+    "imageCredit": "Fotografía del sitio oficial del alojamiento"
   },
   {
     "id": "knot",
@@ -95,7 +125,7 @@
     "checkOut": "2026-12-03",
     "status": "Confirmado",
     "confirmation": "Confirmado",
-    "area": "Nishi-Shinjuku / estación Tochomae",
+    "area": "Nishi-Shinjuku · entorno del parque central",
     "description": "Hotel de Nishi-Shinjuku, próximo al parque central y a Tochomae.",
     "note": "Horas de entrada y salida: Pendiente de confirmar.",
     "location": "The Knot Tokyo Shinjuku, Tokio, Japan",
@@ -103,6 +133,12 @@
     "gallery": [],
     "imageStatus": "Confirmado",
     "source": "https://hotel-the-knot.jp/tokyoshinjuku/en/access/",
-    "placeId": "hotel-knot"
+    "placeId": "hotel-knot",
+    "howToArrive": "El acceso oficial indica la estación Tochōmae, salida A5, o la estación de Shinjuku por el lado oeste. Consulta la ruta peatonal del hotel.",
+    "tips": [
+      "Comprueba con el hotel la recepción de las maletas enviadas desde Takayama.",
+      "El día 3 hay vuelo desde Narita a las 18:30. Elige el traslado cuando se conozcan los detalles reales."
+    ],
+    "imageCredit": "Fotografía del sitio oficial del alojamiento"
   }
 ]
