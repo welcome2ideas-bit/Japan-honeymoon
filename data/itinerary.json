@@ -34,13 +34,18 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "hotelId": "ibis-madrid"
+        "hotelId": "ibis-madrid",
+        "planningNote": "Noche, después de llegar a Madrid. Entrada del hotel: Pendiente de confirmar."
       }
     ],
     "luggage": "",
     "hotelId": "ibis-madrid",
     "summary": "Salimos de A Coruña hacia Madrid a las 17:45. Noche en el Ibis Styles Madrid Airport Valdebebas antes del vuelo internacional.",
-    "featuredPlaceId": "madrid-airport"
+    "featuredPlaceId": "madrid-airport",
+    "tips": [
+      "Confirma el traslado entre el aeropuerto y el hotel de Madrid.",
+      "La hora de llegada a Madrid no está confirmada; no se asigna una actividad con hora después del vuelo."
+    ]
   },
   {
     "id": "2026-11-18",
@@ -64,7 +69,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "madrid-airport"
+        "placeId": "madrid-airport",
+        "planningNote": "Mañana, antes del vuelo de salida; antelación según las instrucciones de la aerolínea."
       },
       {
         "id": "2026-11-18-2",
@@ -82,7 +88,11 @@
     ],
     "luggage": "",
     "summary": "Vuelo de Madrid a Hong Kong a las 11:20. La llegada es a las 06:50 del día siguiente, hora de Hong Kong.",
-    "featuredPlaceId": "madrid-airport"
+    "featuredPlaceId": "madrid-airport",
+    "tips": [
+      "La llegada a Hong Kong es al día siguiente y se muestra en su hora local.",
+      "Terminal, puerta y condiciones del equipaje: Pendiente de confirmar."
+    ]
   },
   {
     "id": "2026-11-19",
@@ -115,7 +125,8 @@
         "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "planningNote": "Tarde, después del aterrizaje confirmado. Duración del traslado: Pendiente de confirmar."
       },
       {
         "id": "2026-11-19-2",
@@ -129,7 +140,8 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-iam",
-        "hotelId": "iam"
+        "hotelId": "iam",
+        "planningNote": "Después del traslado a Osaka y antes del paseo nocturno. Hora de entrada: Pendiente de confirmar."
       },
       {
         "id": "2026-11-19-3",
@@ -142,7 +154,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "dotonbori"
+        "placeId": "dotonbori",
+        "suggestedBlock": "Noche",
+        "flexible": true
       },
       {
         "id": "2026-11-19-4",
@@ -155,7 +169,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "glico"
+        "placeId": "glico",
+        "suggestedBlock": "Noche",
+        "flexible": true
       },
       {
         "id": "2026-11-19-5",
@@ -168,7 +184,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "ebisu"
+        "placeId": "ebisu",
+        "suggestedBlock": "Noche",
+        "flexible": true
       },
       {
         "id": "2026-11-19-6",
@@ -181,7 +199,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "namba"
+        "placeId": "namba",
+        "suggestedBlock": "Noche",
+        "flexible": true
       },
       {
         "id": "2026-11-19-7",
@@ -194,13 +214,21 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hozenji"
+        "placeId": "hozenji",
+        "suggestedBlock": "Noche",
+        "flexible": true,
+        "optional": true
       }
     ],
     "hotelId": "iam",
     "luggage": "",
     "summary": "Conexión hacia Osaka a las 10:45 y llegada a las 15:10. Tras dejar el equipaje en IAM HOTEL, el plan recorre Dotonbori y Namba según el tiempo y el cansancio.",
-    "featuredPlaceId": "dotonbori"
+    "featuredPlaceId": "dotonbori",
+    "tips": [
+      "Los paseos nocturnos son opcionales tras aterrizar a las 15:10; ajustadlos al traslado y al cansancio.",
+      "Confirmad la entrada y el depósito de equipaje en IAM HOTEL.",
+      "Glico, el puente y Dotonbori forman un mismo paseo. Hozenji es opcional; priorizad descansar tras el vuelo."
+    ]
   },
   {
     "id": "2026-11-20",
@@ -224,7 +252,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "osaka-castle"
+        "placeId": "osaka-castle",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-20-2",
@@ -237,7 +267,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "kuromon"
+        "placeId": "kuromon",
+        "suggestedBlock": "Mediodía",
+        "flexible": true
       },
       {
         "id": "2026-11-20-3",
@@ -250,7 +282,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "shinsekai"
+        "placeId": "shinsekai",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-20-4",
@@ -263,7 +297,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "tsutenkaku"
+        "placeId": "tsutenkaku",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-20-5",
@@ -276,7 +312,10 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "denden"
+        "placeId": "denden",
+        "suggestedBlock": "Tarde",
+        "flexible": true,
+        "optional": true
       },
       {
         "id": "2026-11-20-6",
@@ -289,13 +328,19 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "Noche",
         "completed": false,
-        "placeId": "dotonbori"
+        "placeId": "dotonbori",
+        "suggestedBlock": "Noche",
+        "flexible": true
       }
     ],
     "hotelId": "iam",
     "luggage": "",
     "summary": "Castillo de Osaka, mercado Kuromon y los barrios de Shinsekai, Den Den Town y Namba. Regresamos a IAM HOTEL.",
-    "featuredPlaceId": "osaka-castle"
+    "featuredPlaceId": "osaka-castle",
+    "tips": [
+      "Los bloques de visitas son orientativos; comprobad las aperturas antes de empezar.",
+      "Conservad las visitas del mismo barrio juntas y dejad margen para comer."
+    ]
   },
   {
     "id": "2026-11-21",
@@ -321,7 +366,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "transportId": "transport-3"
+        "transportId": "transport-3",
+        "planningNote": "Antes de visitar Nara. Salida del tren: Pendiente de confirmar."
       },
       {
         "id": "2026-11-21-2",
@@ -334,7 +380,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "nara-park"
+        "placeId": "nara-park",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-21-3",
@@ -347,7 +395,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "todaiji"
+        "placeId": "todaiji",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-21-4",
@@ -360,7 +410,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "nara-park"
+        "placeId": "nara-park",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-21-5",
@@ -373,7 +425,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "transportId": "transport-4"
+        "transportId": "transport-4",
+        "planningNote": "Después del paseo por Nara. Salida del tren: Pendiente de confirmar."
       },
       {
         "id": "2026-11-21-6",
@@ -387,7 +440,8 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-yasen",
-        "hotelId": "yasen"
+        "hotelId": "yasen",
+        "planningNote": "Después de llegar a Kioto y antes del paseo opcional. Hora de entrada: Pendiente de confirmar."
       },
       {
         "id": "2026-11-21-7",
@@ -400,13 +454,20 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "Noche",
         "completed": false,
-        "placeId": "gion"
+        "placeId": "gion",
+        "suggestedBlock": "Noche",
+        "flexible": true,
+        "optional": true
       }
     ],
     "hotelId": "yasen",
     "luggage": "Decidir dónde dejar el equipaje durante la parada en Nara. Servicio pendiente de confirmar.",
     "summary": "Dejamos Osaka y visitamos Nara antes de continuar a Kioto. Parque de Nara, Tōdai-ji y primera noche en Yasen Kyoto; trenes y consigna pendientes.",
-    "featuredPlaceId": "nara-park"
+    "featuredPlaceId": "nara-park",
+    "tips": [
+      "Confirmad dónde dejar las maletas durante la visita a Nara.",
+      "Los bloques de Nara dependen del tren desde Osaka; ambos trenes siguen sin horario confirmado."
+    ]
   },
   {
     "id": "2026-11-22",
@@ -430,7 +491,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "Temprano",
         "completed": false,
-        "placeId": "fushimi"
+        "placeId": "fushimi",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-22-2",
@@ -443,7 +506,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "kiyomizu"
+        "placeId": "kiyomizu",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-22-3",
@@ -456,7 +521,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "sannenzaka"
+        "placeId": "sannenzaka",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-22-4",
@@ -469,7 +536,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "ninenzaka"
+        "placeId": "ninenzaka",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-22-5",
@@ -482,7 +551,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "yasaka"
+        "placeId": "yasaka",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-22-6",
@@ -495,7 +566,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "gion"
+        "placeId": "gion",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-22-7",
@@ -508,13 +581,19 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "pontocho"
+        "placeId": "pontocho",
+        "suggestedBlock": "Noche",
+        "flexible": true
       }
     ],
     "hotelId": "yasen",
     "luggage": "",
     "summary": "Fushimi Inari y el este de Kioto: Kiyomizu-dera, las calles históricas de Higashiyama, Yasaka, Gion y Pontocho. Ajustaremos el ritmo sobre la marcha.",
-    "featuredPlaceId": "fushimi"
+    "featuredPlaceId": "fushimi",
+    "tips": [
+      "Fushimi Inari se propone por la mañana; el paseo de Higashiyama queda para la tarde.",
+      "Comprobad los horarios de los recintos antes de cerrar el orden de visitas."
+    ]
   },
   {
     "id": "2026-11-23",
@@ -538,7 +617,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "Temprano",
         "completed": false,
-        "placeId": "bamboo"
+        "placeId": "bamboo",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-23-2",
@@ -551,7 +632,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "tenryuji"
+        "placeId": "tenryuji",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-23-3",
@@ -564,7 +647,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "arashiyama"
+        "placeId": "arashiyama",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-23-4",
@@ -577,7 +662,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "kinkakuji"
+        "placeId": "kinkakuji",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-23-5",
@@ -590,13 +677,20 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "gion"
+        "placeId": "gion",
+        "suggestedBlock": "Tarde",
+        "flexible": true,
+        "optional": true
       }
     ],
     "hotelId": "yasen",
     "luggage": "",
     "summary": "Arashiyama, su bosque de bambú y Tenryū-ji; después Kinkaku-ji. Última noche en Kioto antes del traslado a los Alpes japoneses.",
-    "featuredPlaceId": "bamboo"
+    "featuredPlaceId": "bamboo",
+    "tips": [
+      "El bloque de Arashiyama está separado del de Kinkaku-ji: contad con el desplazamiento.",
+      "No hay transportes ni entradas reservadas por asignar un bloque orientativo."
+    ]
   },
   {
     "id": "2026-11-24",
@@ -621,7 +715,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "transportId": "transport-5"
+        "transportId": "transport-5",
+        "planningNote": "Antes del paseo por Takayama. Horarios de los trenes: Pendiente de confirmar."
       },
       {
         "id": "2026-11-24-2",
@@ -635,7 +730,8 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-mercure",
-        "hotelId": "mercure"
+        "hotelId": "mercure",
+        "planningNote": "Al llegar a Takayama. Hora de entrada o depósito de equipaje: Pendiente de confirmar."
       },
       {
         "id": "2026-11-24-3",
@@ -647,7 +743,8 @@
         "note": "Restaurante pendiente de confirmar.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Tarde"
       },
       {
         "id": "2026-11-24-4",
@@ -660,7 +757,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "sanmachi"
+        "placeId": "sanmachi",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-24-5",
@@ -673,7 +772,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "nakabashi"
+        "placeId": "nakabashi",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-24-6",
@@ -686,13 +787,20 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "sanmachi"
+        "placeId": "sanmachi",
+        "suggestedBlock": "Tarde",
+        "flexible": true,
+        "optional": true
       }
     ],
     "hotelId": "mercure",
     "luggage": "",
     "summary": "Traslado de Kioto a Takayama vía Nagoya, pendiente de reservar. Dejamos el equipaje en Mercure Hida Takayama y exploramos Sanmachi y Nakabashi.",
-    "featuredPlaceId": "sanmachi"
+    "featuredPlaceId": "sanmachi",
+    "tips": [
+      "La tarde en Takayama depende de la llegada del tren desde Kioto.",
+      "Confirmad con el hotel el equipaje antes de empezar el paseo."
+    ]
   },
   {
     "id": "2026-11-25",
@@ -716,7 +824,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "nohi"
+        "placeId": "nohi",
+        "locked": true,
+        "planningNote": "Antes del autobús a Shirakawa-go. Antelación y servicio: Pendiente de confirmar."
       },
       {
         "id": "2026-11-25-2",
@@ -729,7 +839,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "transportId": "transport-6"
+        "transportId": "transport-6",
+        "planningNote": "Ida antes del paseo por el pueblo. Salida del autobús: Pendiente de confirmar."
       },
       {
         "id": "2026-11-25-3",
@@ -742,7 +853,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "shirakawa"
+        "placeId": "shirakawa",
+        "suggestedBlock": "Mediodía",
+        "flexible": true
       },
       {
         "id": "2026-11-25-4",
@@ -755,7 +868,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "shiroyama"
+        "placeId": "shiroyama",
+        "suggestedBlock": "Mediodía",
+        "flexible": true
       },
       {
         "id": "2026-11-25-5",
@@ -768,7 +883,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "shirakawa"
+        "placeId": "shirakawa",
+        "suggestedBlock": "Mediodía",
+        "flexible": true
       },
       {
         "id": "2026-11-25-6",
@@ -781,7 +898,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "transportId": "transport-7"
+        "transportId": "transport-7",
+        "planningNote": "Regreso después de la visita y antes de cenar en Takayama. Salida: Pendiente de confirmar."
       },
       {
         "id": "2026-11-25-7",
@@ -793,13 +911,18 @@
         "note": "Restaurante pendiente de confirmar.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Noche"
       }
     ],
     "hotelId": "mercure",
     "luggage": "Excursión con regreso al mismo hotel de Takayama.",
     "summary": "Excursión de ida y vuelta a Shirakawa-go desde Takayama. El autobús está pendiente de reserva; el paseo incluye el pueblo y el mirador si las condiciones lo permiten.",
-    "featuredPlaceId": "shiroyama"
+    "featuredPlaceId": "shiroyama",
+    "tips": [
+      "Reservad ida y vuelta y comprobad el último servicio antes de pasear por el pueblo.",
+      "El bloque de visitas se ajustará al autobús confirmado y al tiempo del día."
+    ]
   },
   {
     "id": "2026-11-26",
@@ -823,7 +946,8 @@
         "note": "Confirmar servicio, plazos y recepción en el hotel de Tokio.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "planningNote": "Antes de salir de Takayama. Servicio y hora de recogida: Pendiente de confirmar."
       },
       {
         "id": "2026-11-26-2",
@@ -835,7 +959,8 @@
         "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "planningNote": "Preparar la mochila antes del traslado; es un recordatorio, no una visita adicional."
       },
       {
         "id": "2026-11-26-3",
@@ -848,7 +973,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "transportId": "transport-8"
+        "transportId": "transport-8",
+        "planningNote": "Después de preparar el equipaje y antes del ryokan. Salida y llegada: Pendiente de confirmar."
       },
       {
         "id": "2026-11-26-4",
@@ -862,7 +988,8 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-matsuzakaya",
-        "hotelId": "matsuzakaya"
+        "hotelId": "matsuzakaya",
+        "planningNote": "Al llegar a Hakone. Hora de entrada: Pendiente de confirmar."
       },
       {
         "id": "2026-11-26-5",
@@ -876,7 +1003,8 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-matsuzakaya",
-        "hotelId": "matsuzakaya"
+        "hotelId": "matsuzakaya",
+        "planningNote": "Tras instalaros y según las condiciones del ryokan. Disponibilidad: Pendiente de confirmar."
       },
       {
         "id": "2026-11-26-6",
@@ -890,7 +1018,8 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-matsuzakaya",
-        "hotelId": "matsuzakaya"
+        "hotelId": "matsuzakaya",
+        "planningNote": "Tiempo de descanso entre la llegada y la cena; sin otra visita asignada."
       },
       {
         "id": "2026-11-26-7",
@@ -904,13 +1033,18 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-matsuzakaya",
-        "hotelId": "matsuzakaya"
+        "hotelId": "matsuzakaya",
+        "planningNote": "Noche, según el turno del alojamiento. Hora de la cena: Pendiente de confirmar."
       }
     ],
     "hotelId": "matsuzakaya",
     "luggage": "Enviar equipaje grande de Takayama a Tokio y llevar solo mochila a Hakone. Servicio y fecha de entrega pendientes de confirmar.",
     "summary": "Envío de equipaje grande hacia Tokio y traslado a Hakone con mochila. Servicio de envío y trenes pendientes; estancia en Matsuzakaya Honten con el plan de disfrutar del ryokan.",
-    "featuredPlaceId": "nakabashi"
+    "featuredPlaceId": "nakabashi",
+    "tips": [
+      "Confirmad el plazo del envío de equipaje y la aceptación en el hotel de Tokio.",
+      "Llevad en la mochila lo necesario para Hakone; coordinad llegada y cena con el ryokan."
+    ]
   },
   {
     "id": "2026-11-27",
@@ -935,7 +1069,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "owakudani"
+        "placeId": "owakudani",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-27-2",
@@ -948,7 +1084,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "ropeway"
+        "placeId": "ropeway",
+        "locked": true,
+        "planningNote": "Dentro de la ruta por Hakone, según meteorología y operación. Horarios: Pendiente de confirmar."
       },
       {
         "id": "2026-11-27-3",
@@ -961,7 +1099,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "ashi"
+        "placeId": "ashi",
+        "suggestedBlock": "Mediodía",
+        "flexible": true
       },
       {
         "id": "2026-11-27-4",
@@ -974,7 +1114,10 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hakone-shrine"
+        "placeId": "hakone-shrine",
+        "suggestedBlock": "Mediodía",
+        "flexible": true,
+        "optional": true
       },
       {
         "id": "2026-11-27-5",
@@ -987,7 +1130,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "fuji-view"
+        "placeId": "fuji-view",
+        "suggestedBlock": "Mediodía",
+        "flexible": true
       },
       {
         "id": "2026-11-27-6",
@@ -1000,7 +1145,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "transportId": "transport-9"
+        "transportId": "transport-9",
+        "planningNote": "Después de la ruta por Hakone. Hora del traslado: Pendiente de confirmar."
       },
       {
         "id": "2026-11-27-7",
@@ -1014,13 +1160,19 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-knot",
-        "hotelId": "knot"
+        "hotelId": "knot",
+        "planningNote": "Tras llegar a Tokio. Hora de entrada: Pendiente de confirmar."
       }
     ],
     "hotelId": "knot",
     "luggage": "Viajar con mochila; confirmar con el hotel de Tokio la recepción del equipaje.",
     "summary": "Ruta por Hakone según la meteorología y el funcionamiento del transporte: Ōwakudani, teleférico, lago Ashi y santuario. Continuamos a Tokio y THE KNOT TOKYO Shinjuku.",
-    "featuredPlaceId": "ashi"
+    "featuredPlaceId": "ashi",
+    "tips": [
+      "Priorizad las vistas del Fuji si las condiciones lo permiten.",
+      "Comprobad el funcionamiento del teleférico y el tiempo disponible antes del traslado a Tokio.",
+      "El santuario es opcional y las vistas del Fuji son un objetivo del recorrido, no una parada extra obligatoria. No se añaden lugares de Wishlist a este día de traslado."
+    ]
   },
   {
     "id": "2026-11-28",
@@ -1044,7 +1196,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "meiji"
+        "placeId": "meiji",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-28-2",
@@ -1057,7 +1211,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "harajuku"
+        "placeId": "harajuku",
+        "suggestedBlock": "Mediodía",
+        "flexible": true
       },
       {
         "id": "2026-11-28-3",
@@ -1070,7 +1226,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "shibuya"
+        "placeId": "shibuya",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-28-4",
@@ -1083,7 +1241,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "hachiko"
+        "placeId": "hachiko",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-28-5",
@@ -1096,7 +1256,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "crossing"
+        "placeId": "crossing",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-28-6",
@@ -1109,7 +1271,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "sky"
+        "placeId": "sky",
+        "locked": true,
+        "planningNote": "Tarde o noche, únicamente si se consigue reserva. Hora de entrada: Pendiente de confirmar."
       },
       {
         "id": "2026-11-28-7",
@@ -1122,13 +1286,20 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "Noche",
         "completed": false,
-        "placeId": "shibuya"
+        "placeId": "shibuya",
+        "suggestedBlock": "Noche",
+        "flexible": true,
+        "optional": true
       }
     ],
     "hotelId": "knot",
     "luggage": "",
     "summary": "Meiji, Harajuku y Shibuya, con Hachikō y el cruce. Shibuya Sky queda condicionado a conseguir reserva y a las condiciones de apertura.",
-    "featuredPlaceId": "crossing"
+    "featuredPlaceId": "crossing",
+    "tips": [
+      "Shibuya Sky conserva su posición y permanece pendiente de reserva y hora.",
+      "Los paseos por Shibuya son flexibles; no se asigna una hora de entrada al mirador."
+    ]
   },
   {
     "id": "2026-11-29",
@@ -1152,7 +1323,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "sensoji"
+        "placeId": "sensoji",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-29-2",
@@ -1165,7 +1338,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "nakamise"
+        "placeId": "nakamise",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-29-3",
@@ -1178,7 +1353,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "asakusa"
+        "placeId": "asakusa",
+        "suggestedBlock": "Mañana",
+        "flexible": true
       },
       {
         "id": "2026-11-29-4",
@@ -1191,7 +1368,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "akihabara"
+        "placeId": "akihabara",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       },
       {
         "id": "2026-11-29-5",
@@ -1204,13 +1383,19 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "akihabara"
+        "placeId": "akihabara",
+        "suggestedBlock": "Tarde",
+        "flexible": true
       }
     ],
     "hotelId": "knot",
     "luggage": "",
     "summary": "Sensō-ji, Nakamise y Asakusa antes de explorar Akihabara y su cultura de anime y videojuegos.",
-    "featuredPlaceId": "sensoji"
+    "featuredPlaceId": "sensoji",
+    "tips": [
+      "Recorred primero el entorno de Sensō-ji y Nakamise; Akihabara se propone por la tarde.",
+      "Las tiendas y locales concretos se decidirán con vuestra lista real."
+    ]
   },
   {
     "id": "2026-11-30",
@@ -1234,7 +1419,27 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "shinjuku"
+        "placeId": "shinjuku",
+        "suggestedBlock": "Tarde",
+        "flexible": true
+      },
+      {
+        "id": "2026-11-30-3",
+        "title": "Videojuegos y cultura japonesa",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Lugares concretos pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "suggestedBlock": "Tarde",
+        "wishlistSlot": {
+          "minutes": 120,
+          "maxStops": 1,
+          "anchorPlaceId": "shinjuku"
+        }
       },
       {
         "id": "2026-11-30-2",
@@ -1247,19 +1452,9 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "kabukicho"
-      },
-      {
-        "id": "2026-11-30-3",
-        "title": "Videojuegos y cultura japonesa",
-        "start": null,
-        "end": null,
-        "location": "",
-        "category": "Plan",
-        "note": "Lugares concretos pendientes de confirmar.",
-        "timingStatus": "Pendiente de confirmar",
-        "period": "",
-        "completed": false
+        "placeId": "kabukicho",
+        "suggestedBlock": "Noche",
+        "flexible": true
       },
       {
         "id": "2026-11-30-4",
@@ -1272,13 +1467,21 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "Noche",
         "completed": false,
-        "placeId": "shinjuku"
+        "placeId": "shinjuku",
+        "suggestedBlock": "Noche",
+        "flexible": true,
+        "optional": true
       }
     ],
     "hotelId": "knot",
     "luggage": "",
     "summary": "Día dedicado a Shinjuku, Kabukicho y cultura urbana. Regresamos a THE KNOT TOKYO Shinjuku.",
-    "featuredPlaceId": "shinjuku"
+    "featuredPlaceId": "shinjuku",
+    "tips": [
+      "Dejad margen para compras y descansos; las paradas concretas no se han inventado.",
+      "El bloque nocturno sigue siendo opcional y sin reservas asignadas.",
+      "La cultura y las compras se sitúan antes del paseo nocturno. Como máximo un lugar de Wishlist cercano a Shinjuku dentro de ese bloque."
+    ]
   },
   {
     "id": "2026-12-01",
@@ -1292,6 +1495,23 @@
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
+        "id": "2026-12-01-5",
+        "title": "Lugares de la lista de deseos",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "suggestedBlock": "Mañana",
+        "wishlistSlot": {
+          "minutes": 120,
+          "maxStops": 1
+        }
+      },
+      {
         "id": "2026-12-01-1",
         "title": "Compras",
         "start": null,
@@ -1301,7 +1521,9 @@
         "note": "Plan flexible.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Mañana",
+        "optional": true
       },
       {
         "id": "2026-12-01-2",
@@ -1313,43 +1535,9 @@
         "note": "Tiendas concretas pendientes de confirmar.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
-      },
-      {
-        "id": "2026-12-01-3",
-        "title": "Anime y videojuegos",
-        "start": null,
-        "end": null,
-        "location": "",
-        "category": "Plan",
-        "note": "",
-        "timingStatus": "Pendiente de confirmar",
-        "period": "",
-        "completed": false
-      },
-      {
-        "id": "2026-12-01-4",
-        "title": "Relojes",
-        "start": null,
-        "end": null,
-        "location": "",
-        "category": "Plan",
-        "note": "Tiendas concretas pendientes de confirmar.",
-        "timingStatus": "Pendiente de confirmar",
-        "period": "",
-        "completed": false
-      },
-      {
-        "id": "2026-12-01-5",
-        "title": "Lugares de la lista de deseos",
-        "start": null,
-        "end": null,
-        "location": "",
-        "category": "Plan",
-        "note": "",
-        "timingStatus": "Pendiente de confirmar",
-        "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Mañana",
+        "optional": true
       },
       {
         "id": "2026-12-01-6",
@@ -1361,13 +1549,51 @@
         "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Tarde",
+        "wishlistSlot": {
+          "minutes": 120,
+          "maxStops": 1
+        }
+      },
+      {
+        "id": "2026-12-01-3",
+        "title": "Anime y videojuegos",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "suggestedBlock": "Tarde",
+        "optional": true
+      },
+      {
+        "id": "2026-12-01-4",
+        "title": "Relojes",
+        "start": null,
+        "end": null,
+        "location": "",
+        "category": "Plan",
+        "note": "Tiendas concretas pendientes de confirmar.",
+        "timingStatus": "Pendiente de confirmar",
+        "period": "",
+        "completed": false,
+        "suggestedBlock": "Tarde",
+        "optional": true
       }
     ],
     "hotelId": "knot",
     "luggage": "",
     "summary": "Día flexible de compras y cultura pop. Las tiendas y paradas concretas se decidirán con vuestra lista real de Google Maps, todavía pendiente de importar.",
-    "featuredPlaceId": "shinjuku"
+    "featuredPlaceId": "shinjuku",
+    "tips": [
+      "Día flexible para la lista compartida y compras ya previstas.",
+      "No se han elegido sucursales ni tiendas nuevas.",
+      "Las compras, Nintendo/Pokémon, anime y relojes son alternativas dentro del tiempo libre, no seis visitas obligatorias. Máximo dos lugares nuevos de Wishlist, con margen para comer y descansar."
+    ]
   },
   {
     "id": "2026-12-02",
@@ -1390,7 +1616,12 @@
         "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Mañana",
+        "wishlistSlot": {
+          "minutes": 120,
+          "maxStops": 1
+        }
       },
       {
         "id": "2026-12-02-2",
@@ -1402,7 +1633,9 @@
         "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Tarde",
+        "optional": true
       },
       {
         "id": "2026-12-02-3",
@@ -1414,7 +1647,9 @@
         "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Tarde",
+        "optional": true
       },
       {
         "id": "2026-12-02-4",
@@ -1426,13 +1661,19 @@
         "note": "Restaurante y reserva pendientes de confirmar.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "suggestedBlock": "Noche"
       }
     ],
     "hotelId": "knot",
     "luggage": "",
     "summary": "Último día completo en Tokio para visitas pendientes, compras y repetir vuestra zona favorita. Restaurante de despedida pendiente de elegir.",
-    "featuredPlaceId": "shinjuku"
+    "featuredPlaceId": "shinjuku",
+    "tips": [
+      "Comprobad el equipaje y el traslado a Narita del día siguiente.",
+      "Restaurante de despedida: Pendiente de confirmar.",
+      "Solo una incorporación de Wishlist por la mañana. Conservad el resto del día para compras opcionales, equipaje y despedida."
+    ]
   },
   {
     "id": "2026-12-03",
@@ -1457,7 +1698,8 @@
         "period": "",
         "completed": false,
         "placeId": "hotel-knot",
-        "hotelId": "knot"
+        "hotelId": "knot",
+        "planningNote": "Antes del traslado a Narita. Hora de salida del alojamiento: Pendiente de confirmar."
       },
       {
         "id": "2026-12-03-2",
@@ -1469,7 +1711,8 @@
         "note": "Traslado a Tokio Narita. Hora del traslado: Pendiente de confirmar.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "planningNote": "Antes del vuelo, con la antelación indicada por la aerolínea. Salida y duración del traslado: Pendiente de confirmar."
       },
       {
         "id": "2026-12-03-3",
@@ -1487,7 +1730,11 @@
     ],
     "luggage": "Recoger todo el equipaje y revisar las condiciones del vuelo antes de ir al aeropuerto.",
     "summary": "Salida del hotel y traslado al aeropuerto de Narita. Vuelo a Hong Kong a las 18:30, llegada a las 22:55; traslado al aeropuerto pendiente de concretar.",
-    "featuredPlaceId": "shinjuku"
+    "featuredPlaceId": "shinjuku",
+    "tips": [
+      "El vuelo sale de Narita a las 18:30; concretad el traslado y la antelación con las indicaciones de la aerolínea.",
+      "La conexión en Hong Kong sale después de medianoche, ya el 4 de diciembre."
+    ]
   },
   {
     "id": "2026-12-04",
@@ -1521,7 +1768,8 @@
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "placeId": "madrid-airport"
+        "placeId": "madrid-airport",
+        "planningNote": "Tras el vuelo desde Hong Kong y antes de la conexión a A Coruña; consultar los horarios confirmados del resumen."
       },
       {
         "id": "2026-12-04-2",
@@ -1546,11 +1794,16 @@
         "note": "",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
-        "completed": false
+        "completed": false,
+        "planningNote": "Después de llegar a A Coruña. Hora final de llegada: Pendiente de confirmar."
       }
     ],
     "luggage": "",
     "summary": "Vuelo de Hong Kong a Madrid a las 00:45, llegada a las 08:35. Conexión a A Coruña a las 11:40; hora de llegada final pendiente de confirmar.",
-    "featuredPlaceId": "madrid-airport"
+    "featuredPlaceId": "madrid-airport",
+    "tips": [
+      "Las horas de Hong Kong y Madrid son locales, no intercambiables.",
+      "La hora de llegada a A Coruña y las condiciones de conexión siguen pendientes de confirmar."
+    ]
   }
 ]

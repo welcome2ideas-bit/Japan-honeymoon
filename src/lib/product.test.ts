@@ -18,6 +18,11 @@ import transport from '../../data/transport.json';
 import tasks from '../../data/checklist.json';
 const data=()=>parseTrip(structuredClone({version:2,settings,places,itinerary,hotels,transport,tasks}));
 afterEach(()=>{vi.useRealTimers();vi.unstubAllGlobals();});
+it.each([['2026-11-16T12:00:00+01:00','1 día para el viaje'],['2026-12-05T12:00:00+01:00','Viaje completado.']])('renders Now outside the travel dates: %s',(date,expected)=>{
+ vi.useFakeTimers();vi.setSystemTime(new Date(date));
+ const html=renderToString(createElement(TripProvider,{children:createElement(MemoryRouter,{children:createElement(Now)})}));
+ expect(html).toContain(expected);expect(html).not.toContain('EN ESTE MOMENTO');
+});
 it('imports quoted Google Maps CSV and preserves an empty city',()=>{
  const list=parseWishlistFile('Title,Note,URL\r\n"Sensō-ji","Una nota, con coma",https://www.google.com/maps/search/?api=1&query=Sensoji',true);
  expect(list[0].name).toBe('Sensō-ji');expect(list[0].note).toBe('Una nota, con coma');expect(list[0].city).toBe('');expect(list[0].latitude).toBeUndefined();

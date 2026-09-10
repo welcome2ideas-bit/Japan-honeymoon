@@ -1,5 +1,7 @@
 # Datos reales del viaje
 
+Guía de continuidad y nuevas funciones: [PROJECT_GUIDE.md](../PROJECT_GUIDE.md).
+
 El catálogo contiene el recorrido real del 17 de noviembre al 4 de diciembre de 2026: 18 días, 51 lugares, seis alojamientos y seis vuelos confirmados. Los siete trayectos terrestres conservan sus horarios y reservas pendientes. No contiene datos personales ni credenciales de reserva.
 
 `places.json` contiene las fichas del itinerario. `itinerary.json` enlaza actividades mediante `placeId`, `transportId` y `hotelId`; cada día tiene `summary`, `featuredPlaceId`, ciudades y equipaje. `food.json` contiene las especialidades elegidas por destino. Las fotografías remotas incluyen fuente, autor y licencia cuando proceden de Wikimedia. Los hoteles conservan las fotografías de sus sitios oficiales donde estaban verificadas. La ausencia o el fallo de una imagen muestra un placeholder.

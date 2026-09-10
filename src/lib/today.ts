@@ -5,7 +5,7 @@ export function todayPlan(days:Day[],places:Place[],now:Date){
  const {current,next}=getActivities(days,now);
  const day=(current?days.find(d=>d.activities.some(a=>a.id===current.id)):undefined)??days.find(d=>d.date===localDay(now,d.timeZone));
  const completed=day?.activities.filter(a=>a.completed||places.some(p=>p.id===a.placeId&&p.status==='visitado')).length??0;
- const featured=places.find(p=>p.id===current?.placeId)??places.find(p=>day?.activities.some(a=>a.placeId===p.id)&&p.status!=='visitado')??places.find(p=>day?.activities.some(a=>a.placeId===p.id));
+ const featured=places.find(p=>p.id===current?.placeId)??places.find(p=>day?.activities.some(a=>a.placeId===p.id)&&p.status!=='visitado')??places.find(p=>day?.activities.some(a=>a.placeId===p.id))??places.find(p=>p.id===day?.featuredPlaceId);
  const nextPlanned=day?.activities.find(a=>a.id!==current?.id&&!a.completed&&!places.some(p=>p.id===a.placeId&&p.status==='visitado')&&(!a.end||Date.parse(a.end)>+now));
  return {current,next,day,completed,featured,nextPlanned};
 }

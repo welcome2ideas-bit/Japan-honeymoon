@@ -1,5 +1,7 @@
 # Japan Honeymoon
 
+Antes de continuar el desarrollo, leer [PROJECT_GUIDE.md](PROJECT_GUIDE.md): datos, reglas, planificación, importación y comprobaciones.
+
 Nuestra aplicación para organizar la luna de miel en Japón (noviembre de 2026). React, TypeScript, Vite, Tailwind CSS y React Router. Diseño responsive con barra inferior, áreas seguras de iPhone y animaciones que respetan la preferencia de movimiento reducido.
 
 ## Ejecutar

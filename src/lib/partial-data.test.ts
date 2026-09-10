@@ -21,7 +21,7 @@ describe('Partial real trip data',()=>{
   const input=real();const activity={...input.itinerary[0].activities[0],start:'2026-11-17T09:00:00+01:00',end:null};
   const data=parseTrip({...input,itinerary:[{...input.itinerary[0],activities:[activity]}]});
   expect(getActivities(data.itinerary,new Date('2026-11-17T08:30:00Z')).current).toBeUndefined();
-  expect(activityRange(activity,'Europe/Madrid')).toBe('09:00 – Pendiente de confirmar');
+  expect(activityRange(data.itinerary[0].activities[0],'Europe/Madrid')).toBe('09:00 – Pendiente de confirmar');
  });
  it('ignores unscheduled activities and avoids epoch or invalid date displays',()=>{
   const data=parseTrip(real());expect(getActivities(data.itinerary,new Date('2026-11-19T10:00:00+09:00'))).toEqual({current:undefined,next:undefined});

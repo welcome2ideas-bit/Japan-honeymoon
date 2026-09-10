@@ -2527,7 +2527,9 @@
     "description": "Hotel entre Namba y Nipponbashi, práctico para los paseos por Dotonbori.",
     "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
     "tips": [
-      "Recepción y entrega de equipaje pendientes de confirmar. Preparar la salida hacia Nara."
+      "Guarda el mapa de acceso antes de llegar a Osaka.",
+      "La hora de entrada y la posibilidad de dejar las maletas deben confirmarse con el alojamiento.",
+      "El hotel publica acceso desde Namba Walk por la salida B26. Para equipaje, consulta las salidas con ascensor B5 o B10 y sigue la ruta del hotel."
     ],
     "typicalFood": [
       "Takoyaki",
@@ -2552,7 +2554,10 @@
     "imageSearch": "IAM Hotel Osaka",
     "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
     "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
-    "timingBasis": "Recomendación orientativa, no horario confirmado"
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "priority": "Imprescindible",
+    "durationMinutes": null,
+    "imageNote": "No se ha encontrado una fotografía reutilizable verificable del alojamiento en Wikimedia Commons. Se conserva el placeholder."
   },
   {
     "id": "hotel-yasen",
@@ -2564,14 +2569,16 @@
     "description": "Alojamiento confirmado por vosotros para las tres noches en Kioto.",
     "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
     "tips": [
-      "Dirección exacta, acceso y condiciones de llegada pendientes de confirmar con la reserva."
+      "Confirma las instrucciones de acceso y la posibilidad de dejar el equipaje antes de llegar desde Nara.",
+      "La estación es una referencia geográfica publicada, no un transporte reservado.",
+      "La ficha pública de Yasen Kyoto sitúa el alojamiento en Benzaitencho 23, cerca de Gion-Shijō. Utiliza esa estación como referencia y contrasta la entrada exacta con las instrucciones del alojamiento. Traslado desde Nara y hora de llegada: Pendiente de confirmar."
     ],
     "typicalFood": [
       "Yudofu",
       "Obanzai",
       "Matcha y dulces de Uji"
     ],
-    "mapsQuery": "Yasen Kyoto, Kioto, Japan",
+    "mapsQuery": "Yasen Kyoto, Benzaitencho 23, Kyoto, Japan",
     "imageUrl": "",
     "gallery": [],
     "curiosities": [
@@ -2582,12 +2589,17 @@
     "collection": "itinerary",
     "latitude": null,
     "longitude": null,
-    "sources": [],
+    "sources": [
+      "https://www.booking.com/hotel/jp/yasen-kyoto.hr.html"
+    ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Yasen Kyoto",
     "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
     "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
-    "timingBasis": "Recomendación orientativa, no horario confirmado"
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "priority": "Imprescindible",
+    "durationMinutes": null,
+    "imageNote": "No se ha encontrado una fotografía reutilizable verificable del alojamiento en Wikimedia Commons. Se conserva el placeholder."
   },
   {
     "id": "hotel-mercure",
@@ -2599,7 +2611,9 @@
     "description": "Hotel próximo a la estación de Takayama.",
     "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
     "tips": [
-      "Preguntar por el envío del equipaje a Tokio y confirmar plazos antes del 26 de noviembre."
+      "Es la base para la excursión de ida y vuelta a Shirakawa-go.",
+      "Consulta si pueden gestionar el envío de equipaje a Tokio y confirma plazo, precio y recepción con los hoteles.",
+      "El hotel se encuentra junto al entorno de la estación de Takayama. Consulta la ruta publicada por el hotel al llegar; el tren desde Kioto sigue pendiente."
     ],
     "typicalFood": [
       "Hida Beef",
@@ -2624,7 +2638,10 @@
     "imageSearch": "Mercure Hida Takayama",
     "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
     "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
-    "timingBasis": "Recomendación orientativa, no horario confirmado"
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "priority": "Imprescindible",
+    "durationMinutes": null,
+    "imageNote": "No se ha encontrado una fotografía reutilizable verificable del alojamiento en Wikimedia Commons. Se conserva el placeholder."
   },
   {
     "id": "hotel-matsuzakaya",
@@ -2636,7 +2653,9 @@
     "description": "Ryokan histórico en el área de Ashinoyu, Hakone.",
     "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
     "tips": [
-      "Llegar con mochila. Hora de llegada, cena kaiseki y condiciones del onsen pendientes de confirmar con el alojamiento."
+      "Coordina la llegada con el hotel antes de cerrar los trenes.",
+      "Confirma las condiciones del onsen, la cena y el equipaje directamente con el alojamiento.",
+      "El acceso oficial indica autobús desde Hakone-Yumoto hacia Hakonemachi-kō / Motohakone-kō, parada Higashi-Ashinoyu. Comprueba el servicio del día; horario pendiente."
     ],
     "typicalFood": [
       "Kaiseki (plan de cena pendiente de confirmar)"
@@ -2653,13 +2672,17 @@
     "latitude": null,
     "longitude": null,
     "sources": [
-      "https://www.hakone.or.jp/4370"
+      "https://www.hakone.or.jp/4370",
+      "https://kinnotake-resorts.com/matsuzakayahonten/en/access"
     ],
     "imageStatus": "Pendiente de confirmar",
     "imageSearch": "Matsuzakaya Honten",
     "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
     "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
-    "timingBasis": "Recomendación orientativa, no horario confirmado"
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "priority": "Imprescindible",
+    "durationMinutes": null,
+    "imageNote": "No se ha encontrado una fotografía reutilizable verificable del alojamiento en Wikimedia Commons. Se conserva el placeholder."
   },
   {
     "id": "hotel-knot",
@@ -2671,7 +2694,9 @@
     "description": "Hotel de Nishi-Shinjuku, próximo al parque central y a Tochomae.",
     "whyVisit": "Vuestro alojamiento confirmado para esta etapa.",
     "tips": [
-      "Confirmar recepción del equipaje enviado desde Takayama y conservar el nombre del destinatario en el servicio de envío, fuera de esta aplicación."
+      "Comprueba con el hotel la recepción de las maletas enviadas desde Takayama.",
+      "El día 3 hay vuelo desde Narita a las 18:30. Elige el traslado cuando se conozcan los detalles reales.",
+      "El acceso oficial indica la estación Tochōmae, salida A5, o la estación de Shinjuku por el lado oeste. Consulta la ruta peatonal del hotel."
     ],
     "typicalFood": [
       "Sushi",
@@ -2699,6 +2724,9 @@
     "imageSearch": "The Knot Tokyo Shinjuku",
     "bestTime": "Hora de entrada y salida del alojamiento: Pendiente de confirmar.",
     "contentStatus": "Información práctica preparada; horarios y condiciones variables se comprueban en la fuente antes de la visita.",
-    "timingBasis": "Recomendación orientativa, no horario confirmado"
+    "timingBasis": "Recomendación orientativa, no horario confirmado",
+    "priority": "Imprescindible",
+    "durationMinutes": null,
+    "imageNote": "No se ha encontrado una fotografía reutilizable verificable del alojamiento en Wikimedia Commons. Se conserva el placeholder."
   }
 ]

@@ -53,19 +53,19 @@
     "checkOut": "2026-11-24",
     "status": "Confirmado",
     "confirmation": "Confirmado",
-    "area": "Gion · dirección y acceso exactos pendientes de confirmar",
+    "area": "Gion · estación Gion-Shijō",
     "description": "Alojamiento confirmado por vosotros para las tres noches en Kioto.",
     "note": "Horas de entrada y salida: Pendiente de confirmar.",
-    "location": "Yasen Kyoto, Kioto, Japan",
+    "location": "Yasen Kyoto, Benzaitencho 23, Kyoto, Japan",
     "imageUrl": "",
     "gallery": [],
     "imageStatus": "Pendiente de confirmar",
-    "source": "",
+    "source": "https://www.booking.com/hotel/jp/yasen-kyoto.hr.html",
     "placeId": "hotel-yasen",
-    "howToArrive": "Pendiente de confirmar. Conserva el nombre Yasen Kyoto para contrastar la dirección con la documentación del alojamiento.",
+    "howToArrive": "La ficha pública de Yasen Kyoto sitúa el alojamiento en Benzaitencho 23, cerca de Gion-Shijō. Utiliza esa estación como referencia y contrasta la entrada exacta con las instrucciones del alojamiento. Traslado desde Nara y hora de llegada: Pendiente de confirmar.",
     "tips": [
-      "Confirma dirección y acceso antes del traslado desde Nara.",
-      "No se ha asignado estación ni tiempo de paseo sin verificar el acceso exacto."
+      "Confirma las instrucciones de acceso y la posibilidad de dejar el equipaje antes de llegar desde Nara.",
+      "La estación es una referencia geográfica publicada, no un transporte reservado."
     ],
     "imageCredit": ""
   },
