@@ -3,7 +3,7 @@ import type { TripData } from '../types';
 export function connectItinerary(data:TripData) {
  return data.itinerary.map(day=>({...day,activities:day.activities.map(activity=>{
   const flight=data.transport.find(t=>t.id===activity.transportId);
-  return flight?{...activity,title:flight.type==='Vuelo'?`Vuelo ${flight.title}`:flight.title,start:flight.departureAt??activity.start,end:flight.arrivalAt??activity.end,departureTimeZone:flight.departureTimeZone,arrivalTimeZone:flight.arrivalTimeZone,note:flight.note,location:flight.location,durationMinutes:flight.durationMinutes}:activity;
+  return flight?{...activity,movement:flight.type==='Vuelo'?activity.movement:{mode:flight.type,from:flight.from,to:flight.to,via:flight.via,estimatedDuration:flight.estimatedDuration,bookingPending:flight.status?.toLowerCase().includes('pendiente')||undefined},title:flight.type==='Vuelo'?`Vuelo ${flight.title}`:flight.title,start:flight.departureAt??activity.start,end:flight.arrivalAt??activity.end,departureTimeZone:flight.departureTimeZone,arrivalTimeZone:flight.arrivalTimeZone,note:flight.note,location:flight.location,durationMinutes:flight.durationMinutes}:activity;
  })}));
 }
 

@@ -31,7 +31,7 @@
     "confirmation": "Confirmado",
     "area": "Namba / Nipponbashi",
     "description": "Hotel entre Namba y Nipponbashi, práctico para los paseos por Dotonbori.",
-    "note": "Horas de entrada y salida: Pendiente de confirmar.",
+    "note": "Check-in objetivo 19 NOV 18:00; check-out orientativo 21 NOV 07:30. Maleta grande y mochila. Horas no confirmadas por el alojamiento.",
     "location": "IAM Hotel Osaka, Osaka, Japan",
     "imageUrl": "https://www.iamhotel.jp/upload/package_about_b/twL_package_about_20E06_vihycstcmr.jpg",
     "gallery": [],
@@ -55,7 +55,7 @@
     "confirmation": "Confirmado",
     "area": "Gion · estación Gion-Shijō",
     "description": "Alojamiento confirmado por vosotros para las tres noches en Kioto.",
-    "note": "Horas de entrada y salida: Pendiente de confirmar.",
+    "note": "Check-in orientativo 21 NOV 16:00. Maleta grande y mochila; traslado a Takayama recomendado con ambas, organización pendiente. Horas no confirmadas por el alojamiento.",
     "location": "Yasen Kyoto, Benzaitencho 23, Kyoto, Japan",
     "imageUrl": "",
     "gallery": [],
@@ -79,7 +79,7 @@
     "confirmation": "Confirmado",
     "area": "Entorno de la estación de Takayama",
     "description": "Hotel próximo a la estación de Takayama.",
-    "note": "Horas de entrada y salida: Pendiente de confirmar.",
+    "note": "Check-in orientativo 24 NOV 17:00; onsen previsto 25 NOV 17:00. Confirmar envío de maleta a THE KNOT TOKYO vía Yamato / recepción; no reservado. Horas no confirmadas por el alojamiento.",
     "location": "Mercure Hida Takayama, Takayama, Japan",
     "imageUrl": "https://mercure-hida-takayama.com/assets/images/project/6/021933ec923311bfd76e25264078af67.jpg",
     "gallery": [],
@@ -103,14 +103,14 @@
     "confirmation": "Confirmado",
     "area": "Ashinoyu, Hakone",
     "description": "Ryokan histórico en el área de Ashinoyu, Hakone.",
-    "note": "Horas de entrada y salida: Pendiente de confirmar.",
+    "note": "Llegada objetivo 26 NOV 15:30–16:30; check-out orientativo 27 NOV 11:00. Viajar con mochila de una noche si el envío a Tokio queda confirmado. Onsen y cena kaiseki previstos, horarios pendientes. Horas no confirmadas por el alojamiento.",
     "location": "Matsuzakaya Honten, Hakone, Japan",
     "imageUrl": "https://kinnotake-resorts.com/matsuzakayahonten/images/access/access_top_head.jpg",
     "gallery": [],
     "imageStatus": "Confirmado",
     "source": "https://kinnotake-resorts.com/matsuzakayahonten/en/access",
     "placeId": "hotel-matsuzakaya",
-    "howToArrive": "El acceso oficial indica autobús desde Hakone-Yumoto hacia Hakonemachi-kō / Motohakone-kō, parada Higashi-Ashinoyu. Comprueba el servicio del día; horario pendiente.",
+    "howToArrive": "Takayama → Nagoya → Odawara (5 h 15 min–5 h 45 min estimados) → Ashinoyu / Matsuzakaya Honten en autobús (45–60 min estimados). Total puerta a puerta 6–7 horas. Servicios pendientes de comprar / confirmar.",
     "tips": [
       "Coordina la llegada con el hotel antes de cerrar los trenes.",
       "Confirma las condiciones del onsen, la cena y el equipaje directamente con el alojamiento."
@@ -127,7 +127,7 @@
     "confirmation": "Confirmado",
     "area": "Nishi-Shinjuku · entorno del parque central",
     "description": "Hotel de Nishi-Shinjuku, próximo al parque central y a Tochomae.",
-    "note": "Horas de entrada y salida: Pendiente de confirmar.",
+    "note": "Check-in orientativo 27 NOV 16:00–18:00. Confirmar recepción de la maleta enviada desde Takayama; llegada del equipaje no garantizada. Horas no confirmadas por el alojamiento.",
     "location": "The Knot Tokyo Shinjuku, Tokio, Japan",
     "imageUrl": "https://hotel-the-knot.jp/tokyoshinjuku/wp-content/themes/wp-theme-hoteltheknot/assets/images/img_visual-shinjuku.jpg",
     "gallery": [],
@@ -136,8 +136,8 @@
     "placeId": "hotel-knot",
     "howToArrive": "El acceso oficial indica la estación Tochōmae, salida A5, o la estación de Shinjuku por el lado oeste. Consulta la ruta peatonal del hotel.",
     "tips": [
-      "Comprueba con el hotel la recepción de las maletas enviadas desde Takayama.",
-      "El día 3 hay vuelo desde Narita a las 18:30. Elige el traslado cuando se conozcan los detalles reales."
+      "Confirmar recepción del envío desde Takayama.",
+      "3 DIC: Narita Express objetivo 13:30, duración estimada 1 h 20 min; pendiente de comprar. Vuelo real 18:30."
     ],
     "imageCredit": "Fotografía del sitio oficial del alojamiento"
   }

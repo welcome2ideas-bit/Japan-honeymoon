@@ -51,3 +51,8 @@ it('labels suggestions separately and protects all real flight and ground endpoi
  expect(activityRange(visit('test'))).toBe('Horario orientativo · Mañana');
  const migrated=updateCatalog({...trip,catalogRevision:3},real());expect(migrated.catalogRevision).toBe(4);expect(migrated.transport).toEqual(trip.transport);
 });
+it('allows full progress while a hidden transition remains unchecked',()=>{
+ const day=real().itinerary.find(d=>d.date==='2026-11-20')!;
+ day.activities=day.activities.map(a=>({...a,completed:!a.title.startsWith('Salida del castillo')}));
+ const result=dayProgress(day,[]);expect(result.status).toBe('Completado');expect(result.completed).toBe(result.total);
+});

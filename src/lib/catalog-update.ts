@@ -1,9 +1,22 @@
 import type { TripData } from '../types';
+
+// JSON owns travel content; storage only restores personal progress and Wishlist.
 export function updateCatalog(saved:TripData,fresh:TripData):TripData {
- if(saved.catalogRevision===4||saved.settings.startDate!==fresh.settings.startDate||saved.settings.endDate!==fresh.settings.endDate)return saved;
- return {...saved,catalogRevision:4,places:saved.places.map(p=>{
-  const updated=fresh.places.find(f=>f.id===p.id);return updated?{...updated,favorite:p.favorite,status:p.status,note:p.note}:p;
- }),hotels:saved.hotels.map(h=>{const f=fresh.hotels.find(x=>x.id===h.id);return f?{...h,source:f.source??h.source,location:f.location,description:f.description,area:f.area,howToArrive:f.howToArrive,tips:f.tips,imageCredit:f.imageCredit}:h;}),itinerary:saved.itinerary.map(d=>{
- const f=fresh.itinerary.find(x=>x.id===d.id);return f?{...d,tips:f.tips,subtitle:f.subtitle,summary:f.summary,featuredPlaceId:f.featuredPlaceId,cities:f.cities,luggage:f.luggage,activities:d.activities.map(a=>{const updated=f.activities.find(x=>x.id===a.id);return updated?{...a,transportId:updated.transportId??a.transportId,suggestedBlock:a.suggestedBlock??updated.suggestedBlock,flexible:a.flexible??updated.flexible,locked:a.locked??updated.locked}:a;})}:d;
- }),tasks:saved.tasks.map(t=>({...fresh.tasks.find(f=>f.id===t.id),...t}))};
+ const result:TripData={...fresh,catalogRevision:4,
+  deletedTaskIds:saved.deletedTaskIds??[],officialTaskIds:fresh.tasks.map(t=>t.id),
+  wishlist:saved.wishlist??fresh.wishlist,
+  places:fresh.places.map(place=>{
+   const previous=saved.places.find(p=>p.id===place.id);
+   return previous?{...place,favorite:previous.favorite,status:previous.status,note:previous.note}:place;
+  }),
+  tasks:[...fresh.tasks.filter(t=>!saved.deletedTaskIds?.includes(t.id)).map(task=>{
+   const previous=saved.tasks.find(t=>t.id===task.id);
+   return previous?{...task,status:previous.status}:task;
+  }),...saved.tasks.filter(t=>!fresh.tasks.some(f=>f.id===t.id)&&!saved.officialTaskIds?.includes(t.id)&&!saved.deletedTaskIds?.includes(t.id))],
+  itinerary:fresh.itinerary.map(day=>({...day,activities:day.activities.map(activity=>{
+   const previous=saved.itinerary.find(d=>d.id===day.id)?.activities.find(a=>a.id===activity.id);
+   return previous?{...activity,completed:previous.completed}:activity;
+  })}))
+ };
+ return JSON.stringify(result)===JSON.stringify(saved)?saved:result;
 }

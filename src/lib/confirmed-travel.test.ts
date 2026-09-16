@@ -17,8 +17,8 @@ it('connects six confirmed flights and six stays without fabricated endpoints',(
  expect(flights.filter(f=>!f.arrivalAt).map(f=>f.id)).toEqual(['transport-1','transport-11']);
  expect(connectItinerary(data).flatMap(d=>d.activities).filter(a=>flights.some(f=>f.id===a.transportId))).toHaveLength(6);
  const ground=connectItinerary(data).flatMap(d=>d.activities).filter(a=>a.transportId&&!flights.some(f=>f.id===a.transportId));
- expect(ground).toHaveLength(7);expect(ground.every(a=>!a.start&&!a.end&&!a.title.startsWith('Vuelo'))).toBe(true);
- expect(new Set(ground.map(a=>a.transportId)).size).toBe(7);
+ expect(ground).toHaveLength(12);expect(ground.every(a=>!a.start&&!a.end&&!a.title.startsWith('Vuelo'))).toBe(true);
+ expect(new Set(ground.map(a=>a.transportId)).size).toBe(12);
  expect(data.hotels.map(h=>[h.checkIn,h.checkOut])).toEqual([['2026-11-17','2026-11-18'],['2026-11-19','2026-11-21'],['2026-11-21','2026-11-24'],['2026-11-24','2026-11-26'],['2026-11-26','2026-11-27'],['2026-11-27','2026-12-03']]);
 });
 

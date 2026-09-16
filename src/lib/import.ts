@@ -10,7 +10,22 @@ const missing=(v:unknown)=>v===undefined||v===null||(text(v)&&v.trim()==='');
 function zone(v:unknown){if(missing(v))return;try{if(!text(v))throw new Error();new Intl.DateTimeFormat('es-ES',{timeZone:v});}catch{fail('Zona horaria inválida.');}}
 function optionalTimestamp(v:unknown){return missing(v)||(text(v)&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})$/.test(v)&&Number.isFinite(Date.parse(v)));}
 function optionalDate(v:unknown){return missing(v)||date(v);}
+function estimatedDuration(value:unknown){
+ if(value===undefined)return;
+ if(!row(value)||typeof value.minMinutes!=='number'||!Number.isFinite(value.minMinutes)||value.minMinutes<=0||typeof value.maxMinutes!=='number'||!Number.isFinite(value.maxMinutes)||value.maxMinutes<value.minMinutes)fail('Duración aproximada inválida.');
+}
+function movement(value:unknown,depth=0){
+ if(value===undefined)return;
+ if(!row(value)||depth>1)fail('Desplazamiento inválido.');
+ for(const key of ['mode','from','to','condition'])if(value[key]!==undefined&&!text(value[key]))fail('Detalle de desplazamiento inválido.');
+ for(const key of ['recommended','optional','bookingPending'])if(value[key]!==undefined&&typeof value[key]!=='boolean')fail('Estado de desplazamiento inválido.');
+ if(value.via!==undefined&&!texts(value.via))fail('Escalas inválidas.');
+ estimatedDuration(value.estimatedDuration);
+ if(value.alternatives!==undefined){if(!Array.isArray(value.alternatives))fail('Alternativas inválidas.');for(const option of value.alternatives)movement(option,depth+1);}
+}
 function details(item:Row,label:string){
+ estimatedDuration(item.estimatedDuration);movement(item.movement);
+ if(item.via!==undefined&&!texts(item.via))fail("Escalas inválidas.");
  for(const key of ['trainNumber','platform','seat','reservation','time','flightNumber','terminal','gate','arrivalTime'])if(!missing(item[key])&&!text(item[key]))fail(`${label}: ${key} debe ser texto o quedar vacío.`);
  if(!missing(item.durationMinutes)&&(typeof item.durationMinutes!=='number'||!Number.isFinite(item.durationMinutes)||item.durationMinutes<=0))fail(`${label}: duración debe ser positiva o quedar vacía.`);
 }
@@ -20,6 +35,7 @@ function list(value:unknown,name:string):Row[]{if(!Array.isArray(value)||!value.
 function fields(item:Row,names:string[],label:string){for(const name of names)if(!text(item[name]))fail(`${label}: ${name} debe ser texto.`);}
 export function parseTrip(input:unknown):TripData {
  if(!row(input)||input.version!==2)fail('El archivo debe tener version: 2.');
+ for(const key of ['deletedTaskIds','officialTaskIds'])if(input[key]!==undefined&&!texts(input[key]))fail('Metadatos de tareas inválidos.');
  const s=input.settings;if(!row(s)||!text(s.name)||!s.name.trim()||!text(s.startDate)||!text(s.endDate)||!((s.startDate===''&&s.endDate==='')||(date(s.startDate)&&date(s.endDate)&&s.endDate>=s.startDate)))fail('Revisa el nombre y las fechas del viaje (ambas vacías o fechas válidas en orden).');
  if(input.wishlist!==undefined)validateWishlist(input.wishlist);
  const places=list(input.places,'places');const ids=new Set(places.map(p=>p.id));

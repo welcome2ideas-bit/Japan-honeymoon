@@ -1,123 +1,162 @@
 [
   {
-    "id": "real-task-1",
-    "title": "Reservar Takayama ⇄ Shirakawa-go",
-    "category": "Transportes",
-    "priority": "Alta",
-    "priorityBasis": "Sugerencia de preparación",
+    "id": "v24-task-1",
+    "title": "KIX → Namba",
+    "category": "Preparación",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Reservar ida y vuelta para el 25 de noviembre. Apertura de venta pendiente de confirmar.",
-    "officialUrl": "https://www.nouhibus.co.jp/highwaybus/takaoka_en/"
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
   },
   {
-    "id": "real-task-2",
-    "title": "Concretar / reservar Kioto → Takayama",
-    "category": "Transportes",
-    "priority": "Alta",
-    "priorityBasis": "Sugerencia de preparación",
-    "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "Trayecto del 24 de noviembre vía Nagoya. Servicio y horarios pendientes de confirmar.",
-    "officialUrl": ""
-  },
-  {
-    "id": "real-task-3",
-    "title": "Concretar / reservar Takayama → Hakone",
-    "category": "Transportes",
-    "priority": "Alta",
-    "priorityBasis": "Sugerencia de preparación",
-    "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "Trayecto del 26 de noviembre. Confirmar enlaces hacia Odawara / Hakone.",
-    "officialUrl": ""
-  },
-  {
-    "id": "real-task-4",
-    "title": "Revisar Hakone Freepass y decidir si compensa",
-    "category": "Transportes",
-    "priority": "Media",
-    "priorityBasis": "Sugerencia de preparación",
-    "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "Comparar cobertura con el recorrido del 26 y 27 de noviembre. No se ha comprado el pase.",
-    "officialUrl": "https://odakyu-global.com/passes/hakone-freepass/"
-  },
-  {
-    "id": "real-task-5",
-    "title": "Reservar Shibuya Sky cuando corresponda",
-    "category": "Entradas",
-    "priority": "Alta",
-    "priorityBasis": "Sugerencia de preparación",
-    "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "Visita prevista el 28 de noviembre, condicionada a conseguir reserva. Fecha de venta pendiente de confirmar.",
-    "officialUrl": "https://www.shibuya-scramble-square.com/sky/ticket/"
-  },
-  {
-    "id": "real-task-6",
-    "title": "Confirmar envío de equipaje Takayama → Tokio",
+    "id": "v24-task-2",
+    "title": "Gestión de maletas Osaka → Kioto",
     "category": "Equipaje",
-    "priority": "Alta",
-    "priorityBasis": "Sugerencia de preparación",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Solicitar información al Mercure y confirmar recepción con The Knot. Salida con mochila hacia Hakone el 26 de noviembre.",
-    "officialUrl": ""
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
   },
   {
-    "id": "real-task-7",
-    "title": "Preparar eSIM",
-    "category": "Conectividad",
-    "priority": "Media",
-    "priorityBasis": "Sugerencia de preparación",
+    "id": "v24-task-3",
+    "title": "Kioto → Takayama",
+    "category": "Preparación",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Proveedor y activación pendientes de confirmar.",
-    "officialUrl": ""
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
   },
   {
-    "id": "real-task-8",
-    "title": "Contratar / revisar seguro de viaje",
-    "category": "Documentación",
-    "priority": "Alta",
-    "priorityBasis": "Sugerencia de preparación",
+    "id": "v24-task-4",
+    "title": "Gestión de maletas Kioto → Takayama",
+    "category": "Equipaje",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Cobertura y contratación pendientes de confirmar. No guardar documentos personales aquí.",
-    "officialUrl": ""
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
   },
   {
-    "id": "real-task-9",
-    "title": "Descargar mapas sin conexión",
-    "category": "Conectividad",
-    "priority": "Media",
-    "priorityBasis": "Sugerencia de preparación",
+    "id": "v24-task-5",
+    "title": "Bus Shirakawa-go (08:50 / 15:15)",
+    "category": "Preparación",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Guardar las zonas del recorrido antes de salir.",
-    "officialUrl": ""
+    "note": "Objetivos del 25 NOV: ida 08:50–09:35 y vuelta 15:15–16:15. Reservar cuando Nohi Bus abra ventas."
   },
   {
-    "id": "real-task-10",
-    "title": "Realizar la facturación en línea de los vuelos",
-    "category": "Vuelos",
-    "priority": "Alta",
-    "priorityBasis": "Sugerencia de preparación",
+    "id": "v24-task-6",
+    "title": "Takayama → Odawara",
+    "category": "Preparación",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Compañías y apertura de facturación pendientes de confirmar con las reservas reales.",
-    "officialUrl": ""
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
   },
   {
-    "id": "real-task-11",
-    "title": "Revisar las últimas reservas antes de salir",
-    "category": "Reservas",
-    "priority": "Alta",
-    "priorityBasis": "Sugerencia de preparación",
+    "id": "v24-task-7",
+    "title": "Odawara → Ashinoyu",
+    "category": "Preparación",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Comprobar fechas, condiciones y traslados sin copiar localizadores a la aplicación.",
-    "officialUrl": ""
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-8",
+    "title": "Envío de maletas Takayama → Tokio",
+    "category": "Equipaje",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "Plan recomendado vía Yamato / recepción del Mercure. Confirmar servicio y plazo con ambos hoteles; Hakone solo con mochila para una noche."
+  },
+  {
+    "id": "v24-task-9",
+    "title": "Confirmar recepción en THE KNOT",
+    "category": "Equipaje",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-10",
+    "title": "Hakone → Tokio",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-11",
+    "title": "Tokio ↔ Nikkō",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-12",
+    "title": "Narita Express",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-13",
+    "title": "Decidir Shibuya Sky",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-14",
+    "title": "Revisar meteorología Hakone",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-15",
+    "title": "Revisar meteorología Nikkō",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-16",
+    "title": "eSIM",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-17",
+    "title": "Seguro",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-18",
+    "title": "Mapas offline",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-19",
+    "title": "Revolut / efectivo",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "v24-task-20",
+    "title": "Copias de documentación",
+    "category": "Preparación",
+    "status": "Pendiente",
+    "recommendedDate": null,
+    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
   }
 ]

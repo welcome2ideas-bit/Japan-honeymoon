@@ -50,3 +50,53 @@ input,textarea,select{width:100%;background:var(--raised);border:1px solid var(-
 .food-today{margin:24px 0}.food-today ul{padding-left:20px;line-height:2}.food-today h3{margin-top:15px}
 
 .nearby{margin:24px 0}.nearby-results{display:grid;gap:16px;margin:20px 0}.nearby-results article{padding:16px;border:1px solid var(--line);border-radius:16px}.nearby-results .text-link{margin-left:16px}.wish-card>.photo{height:230px;width:100%;object-fit:cover}details.panel{margin:24px 0}.nearby button:disabled{opacity:.6}
+/* Daily itinerary: readable time rail, including on small screens. */
+.daily-itinerary .timeline-item{grid-template-columns:110px minmax(0,1fr);gap:22px}
+.daily-itinerary .timeline-time{padding-top:22px;display:flex;flex-direction:column;gap:8px;overflow-wrap:anywhere}
+.daily-itinerary .timeline-time strong{font-size:28px;line-height:1.15;font-variant-numeric:tabular-nums;letter-spacing:-1px}
+.daily-itinerary .timeline-time span,.daily-itinerary .timeline-time small{font-size:11px;line-height:1.5;letter-spacing:0}
+.daily-itinerary .timeline-time small{color:var(--muted)}
+.daily-itinerary .panel{min-width:0;border-left:2px solid var(--line)}
+.daily-itinerary h3{margin:12px 0;font-size:22px;line-height:1.3}
+.daily-itinerary .optional-activity .panel{border-style:dashed;background:var(--soft)}
+.daily-itinerary .transfer-activity .panel{border-left-color:var(--bamboo)}
+.daily-itinerary .activity-detail{line-height:1.7;color:var(--muted);font-size:14px}
+.daily-itinerary .itinerary-photo{margin-top:16px}
+.day-luggage{border-left:4px solid var(--bamboo);line-height:1.8}
+.daily-itinerary .optional-badge,.daily-itinerary .pending-badge{margin-bottom:8px}
+@media(max-width:640px){
+ .daily-itinerary .timeline-item{grid-template-columns:76px minmax(0,1fr);gap:10px;padding-left:0;border:0}
+ .daily-itinerary .timeline-time strong{font-size:23px}
+ .daily-itinerary .timeline-time{padding-top:16px}
+ .daily-itinerary .panel{padding:16px 12px;border-radius:16px}
+ .daily-itinerary .panel:before{display:none}
+ .daily-itinerary h3{font-size:18px;overflow-wrap:anywhere}
+ .daily-itinerary .button{max-width:100%;white-space:normal;font-size:12px}
+ .daily-itinerary .gallery-placeholder{height:140px}
+}
+.daily-itinerary .timeline-time strong span{display:block;font:inherit;white-space:nowrap}
+.daily-itinerary .timeline-time strong span+span{font-size:17px;margin-top:6px}
+.daily-itinerary .inline-luggage{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}
+.daily-itinerary .activity-photo{margin:16px 0;color:var(--muted);font-size:12px}
+.daily-itinerary .activity-photo summary{cursor:pointer;padding:10px 0}
+/* Movement entries retain their chronological position, with a lighter connector. */
+.daily-itinerary .movement-connector{position:relative;min-width:0;padding:24px 16px 24px 22px;border-left:2px solid var(--line);margin:0 0 0 8px}
+.daily-itinerary .movement-connector:before,.daily-itinerary .movement-connector:after{content:'↓';position:absolute;left:-8px;color:var(--bamboo);font-size:19px;line-height:20px;background:var(--bg)}
+.daily-itinerary .movement-connector:before{top:0}
+.daily-itinerary .movement-connector:after{bottom:0}
+.daily-itinerary .movement-connector h3{font-size:17px;margin:6px 0}
+.daily-itinerary .movement-connector p{margin:5px 0;font-size:13px;line-height:1.55}
+.daily-itinerary .movement-connector .eyebrow{font-size:9px}
+.daily-itinerary .movement-connector .button{font-size:11px;padding:8px 10px;min-height:44px;background:transparent;box-shadow:none}
+.daily-itinerary .movement-alternative{border-top:1px dashed var(--line);margin-top:9px;padding-top:7px}
+.daily-itinerary .transfer-activity{margin-top:-6px;margin-bottom:14px}
+@media(max-width:640px){
+ .daily-itinerary .movement-connector{padding:22px 0 22px 14px;margin-left:3px}
+ .daily-itinerary .movement-connector h3{font-size:16px}
+ .daily-itinerary .movement-connector .badge{white-space:normal;line-height:1.5}
+}
+.daily-itinerary .urban-transfer{margin-top:-10px;margin-bottom:12px}
+.daily-itinerary .urban-connector{padding-top:20px;padding-bottom:20px}
+.daily-itinerary .urban-connector small,.daily-itinerary .urban-connector summary{font-size:11px;color:var(--muted);line-height:1.5}
+.daily-itinerary .urban-connector details{margin-top:6px}
+.daily-itinerary .urban-connector a{text-decoration:underline}

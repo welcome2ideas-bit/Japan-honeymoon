@@ -1,0 +1,112 @@
+[
+  {
+    "from": "osaka-castle",
+    "to": "kuromon",
+    "mode": "Metro + paseo",
+    "note": "Caminar a Tanimachi 4-chome; línea Tanimachi hasta Tanimachi 9-chome y línea Sennichimae hasta Nippombashi. Accesos, esperas y duración total pendientes de confirmar.",
+    "sources": [
+      "https://osaka-info.jp/experience/en/osaka/spot/200",
+      "https://subway.osakametro.co.jp/img/osakametro_rosenzu_20240323.pdf",
+      "https://www.japan.travel/en/spot/1103/"
+    ]
+  },
+  {
+    "from": "kuromon",
+    "to": "shinsekai",
+    "mode": "A pie",
+    "note": "Recorrido por Nipponbashi / Den Den Town. Duración según el punto de salida y las paradas.",
+    "sources": [
+      "https://osaka-info.jp/en/special/universal/course03/"
+    ]
+  },
+  {
+    "from": "dotonbori",
+    "to": "amerikamura",
+    "mode": "A pie",
+    "sources": [
+      "https://dotonbori.or.jp/pdf/map_osakaminami_f.pdf"
+    ]
+  },
+  {
+    "from": "kiyomizu",
+    "to": "ninenzaka",
+    "mode": "A pie",
+    "estimatedDuration": {
+      "minMinutes": 5,
+      "maxMinutes": 10
+    },
+    "note": "Margen orientativo desde el acceso del templo, sin visitas ni paradas; la guía suma 2 + 3 min por Sannenzaka.",
+    "sources": [
+      "https://meetkyoto.jp/ja/wp-content/themes/mice_ja/pdf/guidebook-E13.pdf"
+    ]
+  },
+  {
+    "from": "ninenzaka",
+    "to": "sannenzaka",
+    "mode": "A pie",
+    "estimatedDuration": {
+      "minMinutes": 3,
+      "maxMinutes": 5
+    },
+    "note": "Margen orientativo entre las calles, sin paradas.",
+    "sources": [
+      "https://meetkyoto.jp/ja/wp-content/themes/mice_ja/pdf/guidebook-E13.pdf"
+    ]
+  },
+  {
+    "from": "meiji",
+    "to": "harajuku",
+    "mode": "A pie",
+    "note": "Salida hacia Harajuku. La duración depende del punto de partida dentro del recinto y del destino en el barrio.",
+    "sources": [
+      "https://www.gotokyo.org/en/spot/76/index.html"
+    ]
+  },
+  {
+    "from": "harajuku",
+    "to": "omotesando",
+    "mode": "A pie",
+    "note": "Continuación por la zona de Harajuku hacia la avenida Omotesando; sin fijar un extremo concreto.",
+    "sources": [
+      "https://partners-pamph.jnto.go.jp/simg/pamph/618.pdf"
+    ]
+  },
+  {
+    "from": "fushimi",
+    "to": "kiyomizu",
+    "mode": "Tren + paseo",
+    "note": "Keihan desde Fushimi-Inari hasta Kiyomizu-gojo; continuar a pie al templo. La guía del operador indica 25 min desde Kiyomizu-gojo; duración total pendiente, sin incluir la salida desde el interior de Fushimi Inari.",
+    "sources": [
+      "https://www.keihan.co.jp/travel/en/pdf/useful-files/Osaka-Kyoto-Shiga-Travel-Map.pdf"
+    ]
+  },
+  {
+    "from": "omotesando",
+    "to": "shibuya",
+    "mode": "Metro + paseo",
+    "note": "Línea Ginza desde Omote-sando hasta Shibuya; completar los accesos a pie según dónde terminéis las compras. Duración total pendiente.",
+    "sources": [
+      "https://www.tokyometro.jp/en/route_station/index.html",
+      "https://www.tokyometro.jp/lang_en/station/omote-sando/index.html"
+    ]
+  },
+  {
+    "from": "ginza",
+    "to": "shinjuku",
+    "mode": "Metro + paseo",
+    "note": "Línea Marunouchi entre Ginza y Shinjuku. El operador indica 16 min en metro; añadir accesos y espera. Duración puerta a puerta pendiente.",
+    "sources": [
+      "https://www.tokyometro.jp/lang_en/info/files/20260414_en.pdf"
+    ]
+  },
+  {
+    "from": "bamboo",
+    "to": "tenryuji",
+    "mode": "A pie",
+    "note": "Acceso por la puerta norte desde el bosque. Duración según el punto de salida del paseo y la entrada elegida.",
+    "sources": [
+      "https://www.tenryuji.com/en/visit/",
+      "https://wheelietravel.com/en/guides/japan/kyoto/attractions/arashiyama-bamboo-grove-accessibility"
+    ]
+  }
+]

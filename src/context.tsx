@@ -1,4 +1,4 @@
-import { integrateWishlist, reviewItinerary } from './lib/wishlist-planning';
+import { integrateWishlist } from './lib/wishlist-planning';
 import { mergeWishlist } from './lib/wishlist';
 import { updateCatalog } from './lib/catalog-update';
 import { createContext, useContext, useEffect } from 'react';
@@ -10,7 +10,7 @@ import trip from '../data/trip.json';
 import itinerary from '../data/itinerary.json';
 import hotels from '../data/hotels.json';
 import transport from '../data/transport.json';
-import { connectItinerary, mergeConfirmedTravel } from './lib/confirmed-travel';
+import { connectItinerary } from './lib/confirmed-travel';
 import { useStoredState } from './lib/storage';
 import { isTrip, parseTrip, remoteUrl } from './lib/import';
 import type { TripData, Place, Task, TripSettings, WishlistEntry, Day } from './types';
@@ -38,10 +38,10 @@ type State=TripData&{importWishlist:(entries:WishlistEntry[])=>{added:number;pen
 const Context:ReturnType<typeof createContext<State|null>>=import.meta.hot?.data.tripContext??createContext<State|null>(null);
 if(import.meta.hot)import.meta.hot.data.tripContext=Context;
 export function TripProvider({children}:{children:ReactNode}) {
- const [data,setData,error]=useStoredState<TripData>('jh-trip-v2',legacy,isTrip,saved=>parseTrip(reviewItinerary(updateCatalog(mergeConfirmedTravel(saved,initial()),initial()),initial())));
+ const [data,setData,error]=useStoredState<TripData>('jh-trip-v2',()=>updateCatalog(legacy(),initial()),isTrip,saved=>parseTrip(updateCatalog(saved,initial())));
  const [theme,setTheme,themeError]=useStoredState<Theme>('jh-theme-v1','system',isTheme);
  useEffect(()=>{const media=window.matchMedia('(prefers-color-scheme: dark)');const apply=()=>{const dark=theme==='dark'||theme==='system'&&media.matches;document.documentElement.dataset.theme=dark?'dark':'light';document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#111413':'#f6f5f1');};apply();media.addEventListener('change',apply);return()=>media.removeEventListener('change',apply);},[theme]);
- const value:State={...data,importWishlist:entries=>{const result=integrateWishlist(data,mergeWishlist(data.wishlist??[],entries));setData(result.data);return {added:result.added,pending:result.pending};},setItinerary:itinerary=>setData({...data,itinerary}),wishlist:data.wishlist??[],setWishlist:wishlist=>setData({...data,wishlist}),itinerary:connectItinerary(data),setTasks:tasks=>setData({...data,tasks}),setPlaces:places=>setData({...data,places}),setSettings:settings=>setData({...data,settings}),theme,setTheme,importTrip:input=>setData(parseTrip(input)),exportTrip:()=>data};
+ const value:State={...data,importWishlist:entries=>{const result=integrateWishlist(data,mergeWishlist(data.wishlist??[],entries));setData(result.data);return {added:result.added,pending:result.pending};},setItinerary:itinerary=>setData({...data,itinerary}),wishlist:data.wishlist??[],setWishlist:wishlist=>setData({...data,wishlist}),itinerary:connectItinerary(data),setTasks:tasks=>setData({...data,tasks,deletedTaskIds:[...new Set([...(data.deletedTaskIds??[]),...data.tasks.filter(t=>!tasks.some(next=>next.id===t.id)).map(t=>t.id)])].filter(id=>!tasks.some(t=>t.id===id))}),setPlaces:places=>setData({...data,places}),setSettings:settings=>setData({...data,settings}),theme,setTheme,importTrip:input=>setData(parseTrip(input)),exportTrip:()=>data};
  return <Context.Provider value={value}>{(error||themeError)&&<div className="storage-warning" role="alert">{error||themeError}</div>}{children}</Context.Provider>;
 }
 export function useTrip(){const value=useContext(Context);if(!value)throw new Error('TripProvider missing');return value;}

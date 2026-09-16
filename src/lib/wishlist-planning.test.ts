@@ -14,28 +14,31 @@ const real=()=>parseTrip(structuredClone({version:2,settings,places,itinerary,ho
 const before=new Date('2026-09-09T12:00:00Z');
 // Test-only candidates; never added to the real Wishlist.
 const candidate=(id:string,extra:Partial<WishlistEntry>={}):WishlistEntry=>({id,name:`Prueba ${id}`,city:'Tokio',category:'Prueba',note:'',favorite:false,imageUrl:'',latitude:35.69,longitude:139.70,...extra});
-it('keeps all 51 catalog places assigned and provides guidance for every unconfirmed activity',()=>{
+it('validates V2.4 place references without requiring the whole catalog to be scheduled',()=>{
  const data=real(),ids=new Set(data.itinerary.flatMap(d=>d.activities.map(a=>a.placeId)));
- expect(data.places).toHaveLength(51);expect(data.places.filter(p=>!ids.has(p.id))).toEqual([]);
+ expect(data.places).toHaveLength(65);
+ for(const id of ids)if(id)expect(data.places.some(p=>p.id===id),id).toBe(true);
+ expect(data.itinerary.find(d=>d.date==='2026-12-01')?.city).toBe('Nikkō');
  for(const d of connectItinerary(data))for(const a of d.activities)if(!a.start&&!a.end)expect(Boolean(a.suggestedBlock||a.planningNote),a.id).toBe(true);
 });
-it('uses only four existing free slots and preserves hotels, travel and activity order',()=>{
+it('keeps all imported Wishlist entries separate from the V2.4 itinerary',()=>{
  const data=real(),copy=structuredClone(data),wishlist=Array.from({length:8},(_,i)=>candidate(String(i)));
- const result=integrateWishlist(data,wishlist,before);expect(result.added).toBe(4);expect(result.pending).toBe(4);expect(data).toEqual(copy);
+ const result=integrateWishlist(data,wishlist,before);expect(result.added).toBe(0);expect(result.pending).toBe(8);expect(result.data.wishlist).toEqual(wishlist);
+ expect(data.itinerary.flatMap(d=>d.activities).some(a=>a.wishlistSlot)).toBe(false);expect(data).toEqual(copy);
  expect(result.data.hotels).toEqual(data.hotels);expect(result.data.transport).toEqual(data.transport);
  expect(result.data.itinerary.map(d=>[d.city,d.hotelId,d.activities.map(a=>[a.id,a.start,a.end])])).toEqual(data.itinerary.map(d=>[d.city,d.hotelId,d.activities.map(a=>[a.id,a.start,a.end])]));
- const counts=result.data.itinerary.map(d=>[d.date,d.activities.flatMap(a=>a.wishlistIds??[]).length]).filter(x=>x[1]);expect(counts).toEqual([['2026-11-30',1],['2026-12-01',2],['2026-12-02',1]]);
+ const counts=result.data.itinerary.map(d=>[d.date,d.activities.flatMap(a=>a.wishlistIds??[]).length]).filter(x=>x[1]);expect(counts).toEqual([]);
  expect(integrateWishlist(result.data,wishlist,before).added).toBe(0);expect(()=>parseTrip(result.data)).not.toThrow();
 });
-it('rejects missing coordinates, incompatible openings, closures and visits too long for the slot',()=>{
+it('keeps Wishlist separate even when coordinates and opening times are compatible',()=>{
  const data=real();data.itinerary=data.itinerary.filter(d=>d.date==='2026-11-30');
  const wishlist=[candidate('missing',{latitude:undefined}),candidate('closed',{closedDates:['2026-11-30']}),candidate('morning',{openingHours:[{date:'2026-11-30',opens:'09:00',closes:'12:00'}]}),candidate('long',{durationMinutes:150}),candidate('distant',{longitude:139.80})];
  expect(integrateWishlist(data,wishlist,before).added).toBe(0);
- expect(integrateWishlist(data,[candidate('fits',{openingHours:[{date:'2026-11-30',opens:'15:00',closes:'18:00'}]})],before).added).toBe(1);
+ expect(integrateWishlist(data,[candidate('fits',{openingHours:[{date:'2026-11-30',opens:'15:00',closes:'18:00'}]})],before).added).toBe(0);
 });
-it('keeps new same-day stops close and never fills past or reserved days',()=>{
+it('does not add Wishlist stops to the Nikko day, past days or reserved days',()=>{
  const data=real();data.itinerary=data.itinerary.filter(d=>d.date==='2026-12-01');
- expect(integrateWishlist(data,[candidate('a'),candidate('b',{longitude:139.85})],before).added).toBe(1);
+ expect(integrateWishlist(data,[candidate('a'),candidate('b',{longitude:139.85})],before).added).toBe(0);
  expect(integrateWishlist(data,[candidate('a')],new Date('2026-12-03T00:00:00Z')).added).toBe(0);
  data.itinerary[0].activities[0].reservation='Reserva real';expect(integrateWishlist(data,[candidate('a')],before).added).toBe(0);
 });
@@ -54,4 +57,10 @@ it('migrates guidance once without overwriting a real reservation or personal st
 it('accepts optional CSV coordinates and validates date-specific opening information',()=>{
  expect(parseWishlistFile('Title,City,Latitude,Longitude,DurationMinutes\nPrueba,Tokio,35.69,139.7,60',true)[0]).toMatchObject({latitude:35.69,longitude:139.7,durationMinutes:60});
  expect(()=>parseWishlistFile(JSON.stringify([candidate('bad',{openingHours:[{date:'2026-11-31',opens:'09:00',closes:'18:00'}]})]))).toThrow();
+});
+
+it('never populates even a legacy insertion slot',()=>{
+ const data=real();data.itinerary[0].activities[0].wishlistSlot={minutes:120,maxStops:1};
+ const before=structuredClone(data.itinerary);const result=integrateWishlist(data,[candidate('personal')]);
+ expect(result.data.itinerary).toEqual(before);expect(result.added).toBe(0);
 });

@@ -1,6 +1,11 @@
+export interface EstimatedDuration { minMinutes:number; maxMinutes:number }
+export interface Movement { mode?:string; from?:string; to?:string; via?:string[]; estimatedDuration?:EstimatedDuration; recommended?:boolean; optional?:boolean; bookingPending?:boolean; condition?:string; alternatives?:Movement[] }
 export type Status = 'Pendiente' | 'Reservado' | 'Completado';
 export interface Task { priority?:'Alta'|'Media'|'Baja'; recommendedDate?:string|null; note?:string; officialUrl?:string; priorityBasis?:string;  id: string; title: string; category: string; status: Status }
 export interface PartialTravelDetails {
+  estimatedDuration?: EstimatedDuration;
+  via?: string[];
+  movement?: Movement;
   trainNumber?: string | null;
   platform?: string | null;
   seat?: string | null;
@@ -30,6 +35,6 @@ export interface Day { tips?:string[]; summary?:string; featuredPlaceId?:string;
 export interface TripSettings {name:string;startDate:string;endDate:string}
 export interface Hotel extends PartialTravelDetails { howToArrive?:string; tips?:string[]; imageCredit?:string; description?:string; imageUrl?:string; source?:string; id:string;city:string;name:string;area:string;checkIn?:string|null;checkOut?:string|null;status?:Status|'Confirmado'|''|null;location:string;note:string}
 export interface Transport extends PartialTravelDetails { departureAt?:string|null; arrivalAt?:string|null; arrivalDate?:string|null; arrivalTime?:string|null; departureTimeZone?:string; arrivalTimeZone?:string; flightNumber?:string|null; terminal?:string|null; gate?:string|null; id:string;type:string;title:string;from:string;to:string;date?:string|null;time?:string|null;status?:Status|'Confirmado'|'confirmado'|'pendiente de reservar'|'no requiere reserva'|''|null;location:string;note:string}
-export interface TripData { itineraryReviewRevision?:number; wishlist?:WishlistEntry[]; catalogRevision?:number; confirmedTravelRevision?:number; version:2;settings:TripSettings;places:Place[];itinerary:Day[];hotels:Hotel[];transport:Transport[];tasks:Task[]}
+export interface TripData { deletedTaskIds?:string[]; officialTaskIds?:string[]; itineraryReviewRevision?:number; wishlist?:WishlistEntry[]; catalogRevision?:number; confirmedTravelRevision?:number; version:2;settings:TripSettings;places:Place[];itinerary:Day[];hotels:Hotel[];transport:Transport[];tasks:Task[]}
 
 export interface WishlistEntry { durationMinutes?:number; openingHours?:{date:string;opens:string;closes:string}[]; closedDates?:string[];id:string;name:string;city:string;category:string;latitude?:number|null;longitude?:number|null;priority?:Priority;favorite:boolean;note:string;mapsUrl?:string;imageUrl:string;gallery?:PlaceImage[]}

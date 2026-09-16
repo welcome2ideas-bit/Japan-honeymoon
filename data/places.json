@@ -74,16 +74,16 @@
     ],
     "mapsQuery": "Glico Dotonbori",
     "priority": "Nos gustaría",
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg/960px-Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Gilcon_Running_Man.JPG/960px-Gilcon_Running_Man.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "gallery": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg/960px-Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Osaka_Dotonbori_Ebisu_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "source": "https://commons.wikimedia.org/wiki/File:Osaka_Dotonbori_Ebisu_Bridge.jpg",
-        "credit": "Type specimen",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "alt": "Cartel de Glico y puente Ebisu en Dotonbori"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Gilcon_Running_Man.JPG/960px-Gilcon_Running_Man.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/21/Gilcon_Running_Man.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Gilcon_Running_Man.JPG",
+        "credit": "LibDanielleJ",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Cartel luminoso de Glico en Dotonbori, Osaka"
       }
     ],
     "curiosities": [
@@ -182,17 +182,8 @@
     ],
     "mapsQuery": "Hozenji Yokocho",
     "priority": "Nos gustaría",
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hozenji_Yokocho_2023-11.jpg/960px-Hozenji_Yokocho_2023-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hozenji_Yokocho_at_night.jpg/960px-Hozenji_Yokocho_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "gallery": [
-      {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hozenji_Yokocho_2023-11.jpg/960px-Hozenji_Yokocho_2023-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "source": "https://commons.wikimedia.org/wiki/File:Hozenji_Yokocho_2023-11.jpg",
-        "credit": "Mr.ちゅらさん",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hozenji_Yokocho_2023-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "alt": "Hozenji Yokocho"
-      },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hozenji_Yokocho_at_night.jpg/960px-Hozenji_Yokocho_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source": "https://commons.wikimedia.org/wiki/File:Hozenji_Yokocho_at_night.jpg",
@@ -200,6 +191,15 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
         "original": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hozenji_Yokocho_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Hozenji Yokocho"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hozenji_Yokocho_2023-11.jpg/960px-Hozenji_Yokocho_2023-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source": "https://commons.wikimedia.org/wiki/File:Hozenji_Yokocho_2023-11.jpg",
+        "credit": "Mr.ちゅらさん",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hozenji_Yokocho_2023-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "alt": "Hozenji Yokocho"
       }
     ],
@@ -246,16 +246,16 @@
     ],
     "mapsQuery": "Osaka Castle",
     "priority": "Nos gustaría",
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Osaka_Castle_03bs3200.jpg/960px-Osaka_Castle_03bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Osaka_Castle_and_pond.jpg/960px-Osaka_Castle_and_pond.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "gallery": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Osaka_Castle_03bs3200.jpg/960px-Osaka_Castle_03bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Osaka_Castle_03bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "source": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_03bs3200.jpg",
-        "credit": "663highland",
-        "license": "CC BY 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-        "alt": "Castillo de Osaka"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Osaka_Castle_and_pond.jpg/960px-Osaka_Castle_and_pond.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Osaka_Castle_and_pond.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_and_pond.jpg",
+        "credit": "Nacaru",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Castillo de Osaka y estanque del jardín"
       }
     ],
     "curiosities": [
@@ -509,7 +509,7 @@
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Namba_Station.JPG/960px-Namba_Station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Namba_Station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "source": "https://commons.wikimedia.org/wiki/File:Namba_Station.JPG",
-        "credit": "Own work",
+        "credit": "Whity (publicada por Kirakirameister)",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
         "alt": "Estación de Namba, punto de referencia del barrio"
@@ -1325,8 +1325,17 @@
     ],
     "mapsQuery": "Nakabashi Takayama",
     "priority": "Nos gustaría",
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Nakabashi_at_hida_takayama.jpg/960px-Nakabashi_at_hida_takayama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Nakabashi_Bridge_on_Miyagawa_River_20150123-1.JPG/960px-Nakabashi_Bridge_on_Miyagawa_River_20150123-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "gallery": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Nakabashi_Bridge_on_Miyagawa_River_20150123-1.JPG/960px-Nakabashi_Bridge_on_Miyagawa_River_20150123-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Nakabashi_Bridge_on_Miyagawa_River_20150123-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Nakabashi_Bridge_on_Miyagawa_River_20150123-1.JPG",
+        "credit": "そらみみ",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Puente rojo Nakabashi sobre el río Miyagawa, Takayama"
+      },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Nakabashi_at_hida_takayama.jpg/960px-Nakabashi_at_hida_takayama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "source": "https://commons.wikimedia.org/wiki/File:Nakabashi_at_hida_takayama.jpg",
@@ -1334,15 +1343,6 @@
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
         "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Nakabashi_at_hida_takayama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "alt": "Puente Nakabashi"
-      },
-      {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/View_of_Nakabashi_Bridge_from_Takayama_Jinya_House.JPG/960px-View_of_Nakabashi_Bridge_from_Takayama_Jinya_House.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "source": "https://commons.wikimedia.org/wiki/File:View_of_Nakabashi_Bridge_from_Takayama_Jinya_House.JPG",
-        "credit": "そらみみ",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/View_of_Nakabashi_Bridge_from_Takayama_Jinya_House.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "alt": "Puente Nakabashi"
       }
     ],
@@ -1854,16 +1854,16 @@
     ],
     "mapsQuery": "Harajuku",
     "priority": "Nos gustaría",
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/JRE-Harajuku-Station-07.jpg/960px-JRE-Harajuku-Station-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Takeshita_Street_in_December_2018.jpg/960px-Takeshita_Street_in_December_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "gallery": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/JRE-Harajuku-Station-07.jpg/960px-JRE-Harajuku-Station-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/JRE-Harajuku-Station-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "source": "https://commons.wikimedia.org/wiki/File:JRE-Harajuku-Station-07.jpg",
-        "credit": "Rs1421",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "alt": "Estación de Harajuku, punto de acceso al barrio"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Takeshita_Street_in_December_2018.jpg/960px-Takeshita_Street_in_December_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Takeshita_Street_in_December_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Takeshita_Street_in_December_2018.jpg",
+        "credit": "Intforce",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Entrada a Takeshita Street, en el barrio de Harajuku"
       }
     ],
     "curiosities": [
@@ -2089,16 +2089,16 @@
     ],
     "mapsQuery": "Shibuya Sky",
     "priority": "Nos gustaría",
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg/960px-SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Shibuya_Sky_%2849286899971%29.jpg/960px-Shibuya_Sky_%2849286899971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "gallery": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg/960px-SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "source": "https://commons.wikimedia.org/wiki/File:SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg",
-        "credit": "Sakura Torch",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "alt": "Edificio Shibuya Scramble Square, sede del mirador Shibuya Sky"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Shibuya_Sky_%2849286899971%29.jpg/960px-Shibuya_Sky_%2849286899971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Shibuya_Sky_%2849286899971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Sky_(49286899971).jpg",
+        "credit": "Wei-Te Wong from Taipei City, Taiwan, Republic of China",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "Vista del cruce de Shibuya desde Shibuya Sky"
       }
     ],
     "curiosities": [
@@ -2728,5 +2728,201 @@
     "priority": "Imprescindible",
     "durationMinutes": null,
     "imageNote": "No se ha encontrado una fotografía reutilizable verificable del alojamiento en Wikimedia Commons. Se conserva el placeholder."
+  },
+  {
+    "id": "amerikamura",
+    "name": "Amerikamura",
+    "city": "Osaka",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Amerikamura"
+  },
+  {
+    "id": "umeda",
+    "name": "Umeda",
+    "city": "Osaka",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Umeda"
+  },
+  {
+    "id": "kasuga",
+    "name": "Kasuga Taisha",
+    "city": "Nara",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Kasuga Taisha"
+  },
+  {
+    "id": "higashiyama",
+    "name": "Higashiyama",
+    "city": "Kioto",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Higashiyama"
+  },
+  {
+    "id": "togetsukyo",
+    "name": "Puente Togetsukyo",
+    "city": "Kioto",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Puente Togetsukyo"
+  },
+  {
+    "id": "otagi",
+    "name": "Otagi Nenbutsu-ji",
+    "city": "Kioto",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Otagi Nenbutsu-ji"
+  },
+  {
+    "id": "monkey-park",
+    "name": "Monkey Park",
+    "city": "Kioto",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Monkey Park"
+  },
+  {
+    "id": "omotesando",
+    "name": "Omotesando",
+    "city": "Tokio",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Omotesando"
+  },
+  {
+    "id": "metropolitan",
+    "name": "Tokyo Metropolitan Government Building",
+    "city": "Tokio",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Tokyo Metropolitan Government Building"
+  },
+  {
+    "id": "tsukiji",
+    "name": "Tsukiji Outer Market",
+    "city": "Tokio",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Tsukiji Outer Market"
+  },
+  {
+    "id": "ginza",
+    "name": "Ginza",
+    "city": "Tokio",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Ginza"
+  },
+  {
+    "id": "nikko",
+    "name": "Zona de santuarios de Nikkō",
+    "city": "Nikkō",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Zona de santuarios de Nikkō"
+  },
+  {
+    "id": "nakano",
+    "name": "Nakano Broadway",
+    "city": "Tokio",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Nakano Broadway"
+  },
+  {
+    "id": "daikoku",
+    "name": "Daikoku PA",
+    "city": "Pendiente de confirmar",
+    "category": "Lugar",
+    "note": "Incluido en el itinerario maestro V2.4. Detalles pendientes de confirmar.",
+    "favorite": false,
+    "status": "pendiente",
+    "imageUrl": "",
+    "gallery": [],
+    "curiosities": [],
+    "nearbyPlaceIds": [],
+    "mapsQuery": "Daikoku PA"
   }
 ]

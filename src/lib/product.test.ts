@@ -53,7 +53,7 @@ it('sorts nearby places by distance and omits unknown coordinates and visited si
 });
 it('calculates the day without inventing current unscheduled activities or completed plans',()=>{
  const trip=data(),days=connectItinerary(trip);const result=todayPlan(days,trip.places,new Date('2026-11-26T10:00:00+09:00'));
- expect(result.day?.date).toBe('2026-11-26');expect(result.current).toBeUndefined();expect(result.completed).toBe(0);expect(result.featured).toBeDefined();
+ expect(result.day?.date).toBe('2026-11-26');expect(result.current?.title).toContain("Takayama");expect(result.currentTiming).toBe("estimated");expect(result.current?.start).toBeFalsy();expect(result.completed).toBe(0);expect(result.featured).toBeDefined();
  expect(todayPlan(days,trip.places,new Date('2026-09-09T10:00:00+09:00')).day).toBeUndefined();
  expect(countdown(null,new Date())).toBe('Pendiente de confirmar');
 });
@@ -72,7 +72,20 @@ it('keeps completion, favorites and user notes when applying catalog content',()
  const result=parseTrip(updateCatalog(saved,data()));
  expect(result.places[0].favorite).toBe(true);expect(result.places[0].note).toBe('Nota guardada');expect(result.itinerary[0].activities[0].completed).toBe(true);expect(result.tasks[0].status).toBe('Completado');expect(updateCatalog(result,data())).toBe(result);
 });
-it('each real day has a valid featured place and useful summary',()=>{
+it('each real day has a valid featured place and new V2.4 places allow unconfirmed details',()=>{
  const trip=data();for(const day of trip.itinerary){expect(day.summary?.length).toBeGreaterThan(40);expect(trip.places.some(p=>p.id===day.featuredPlaceId)).toBe(true);}
- for(const place of trip.places){expect(place.description).toBeTruthy();expect(place.curiosities.length).toBeGreaterThan(0);expect(place.bestTime).toBeTruthy();}
+ const pending=['amerikamura','umeda','kasuga','higashiyama','togetsukyo','otagi','monkey-park','omotesando','metropolitan','tsukiji','ginza','nikko','nakano','daikoku'];
+ expect(trip.places.filter(p=>!p.description).map(p=>p.id)).toEqual(pending);
+ for(const place of trip.places){
+  if(pending.includes(place.id)){expect(place.note).toContain('pendientes de confirmar');expect(place.imageUrl).toBe('');expect(place.gallery).toEqual([]);expect(place.curiosities).toEqual([]);expect(place.bestTime).toBeUndefined();}
+  else {expect(place.description).toBeTruthy();expect(place.curiosities.length).toBeGreaterThan(0);expect(place.bestTime).toBeTruthy();}
+ }
+});
+it('keeps confirmed flights ahead of approximate plans without changing their timestamps',()=>{
+ const trip=data(),days=connectItinerary(trip),before=JSON.stringify(days);
+ const result=todayPlan(days,trip.places,new Date('2026-11-19T12:00:00+08:00'));
+ expect(result.current?.transportId).toBe('flight-hkg-osaka');expect(result.currentTiming).toBe('confirmed');
+ expect(JSON.stringify(days)).toBe(before);
+ const morning=todayPlan(days,trip.places,new Date('2026-11-26T07:00:00+09:00'));
+ expect(morning.nextTiming).toBe('estimated');expect(morning.nextAt).toBeTruthy();expect(morning.next?.start).toBeFalsy();
 });

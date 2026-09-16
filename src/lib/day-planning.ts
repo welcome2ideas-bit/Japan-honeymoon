@@ -1,11 +1,13 @@
+import { transitionOnly } from './itinerary-presentation';
 import type { Activity, Day, Place, TripSettings } from '../types';
 import { coordinates } from './wishlist';
 import { distanceKm } from './nearby';
 import { localDay } from './today';
 
 export function dayProgress(day:Day,places:Place[]) {
- const completed=day.activities.filter(a=>a.completed||places.some(p=>p.id===a.placeId&&p.status==='visitado')).length;
- return {completed,total:day.activities.length,status:day.activities.length&&completed===day.activities.length?'Completado':completed?'En curso':'Pendiente'};
+ const activities=day.activities.filter(a=>!transitionOnly(a));
+ const completed=activities.filter(a=>a.completed||places.some(p=>p.id===a.placeId&&p.status==='visitado')).length;
+ return {completed,total:activities.length,status:activities.length&&completed===activities.length?'Completado':completed?'En curso':'Pendiente'};
 }
 export function tripPhase(settings:TripSettings,days:Day[],now:Date) {
  if(!settings.startDate||!settings.endDate)return {phase:'unknown' as const,remaining:null};
