@@ -75,13 +75,13 @@
   {
     "id": "transport-3",
     "date": "2026-11-21",
-    "to": "Nara",
+    "to": "Kintetsu-Nara",
     "title": "Osaka → Nara",
     "type": "Tren",
     "time": "Pendiente de confirmar",
     "status": "pendiente de reservar",
     "location": "",
-    "note": "🕐 Orientativo: 08:00. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar. ",
+    "note": "🕐 Orientativo: 08:00. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar.  Estación de Nara elegida: Kintetsu-Nara. Tren concreto y horario real pendientes; no hay reserva de consigna.",
     "from": "Osaka",
     "estimatedDuration": {
       "minMinutes": 45,
@@ -97,8 +97,8 @@
     "time": "Pendiente de confirmar",
     "status": "pendiente de reservar",
     "location": "",
-    "note": "🕐 Orientativo: 14:30. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar. ",
-    "from": "Nara",
+    "note": "🕐 Orientativo: 14:30. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar.  Estación de Nara elegida: Kintetsu-Nara. Tren concreto y horario real pendientes; no hay reserva de consigna.",
+    "from": "Kintetsu-Nara",
     "estimatedDuration": {
       "minMinutes": 45,
       "maxMinutes": 45
@@ -107,21 +107,24 @@
   {
     "id": "transport-5",
     "date": "2026-11-24",
-    "to": "Takayama vía Nagoya",
-    "title": "Kioto → Takayama vía Nagoya",
+    "to": "NAGOYA",
+    "title": "KYOTO → NAGOYA · NOZOMI 128",
     "type": "Tren",
-    "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
-    "location": "",
-    "note": "🕐 Orientativo: 12:00. Duración estimada: ~4 horas. 🟠 Pendiente de comprar / confirmar. ",
-    "from": "Kioto",
-    "estimatedDuration": {
-      "minMinutes": 240,
-      "maxMinutes": 240
-    },
-    "via": [
-      "Nagoya"
-    ]
+    "time": "11:48",
+    "status": "Reservado",
+    "location": "KYOTO Station",
+    "note": "🔒 NOZOMI 128: 11:48 → 12:22. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 4, asientos 10D y 10E. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR.",
+    "from": "KYOTO",
+    "arrivalDate": "2026-11-24",
+    "arrivalTime": "12:22",
+    "departureAt": "2026-11-24T11:48:00+09:00",
+    "arrivalAt": "2026-11-24T12:22:00+09:00",
+    "departureTimeZone": "Asia/Tokyo",
+    "arrivalTimeZone": "Asia/Tokyo",
+    "trainNumber": "NOZOMI 128",
+    "seat": "Vagón 4 · 10D y 10E",
+    "reservation": "JR WEST · reserva [identificador en copia privada] · aceptada; verificar pago y recoger billetes físicos",
+    "durationMinutes": 34
   },
   {
     "id": "transport-6",
@@ -130,13 +133,13 @@
     "title": "Takayama → Shirakawa-go",
     "type": "Autobús",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
+    "status": "no requiere reserva",
     "location": "",
-    "note": "🕐 Orientativo: 08:50 → 09:35. Duración estimada: 45 min. 🟠 Pendiente de comprar / confirmar. Reservar cuando Nohi Bus abra ventas; no comprado.",
+    "note": "🕐 Orientativo: 08:50 → 09:40. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
     "from": "Takayama",
     "estimatedDuration": {
-      "minMinutes": 45,
-      "maxMinutes": 45
+      "minMinutes": 50,
+      "maxMinutes": 50
     }
   },
   {
@@ -146,49 +149,49 @@
     "title": "Shirakawa-go → Takayama",
     "type": "Autobús",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
+    "status": "no requiere reserva",
     "location": "",
-    "note": "🕐 Orientativo: 15:15 → 16:15. Duración estimada: 60 min. 🟠 Pendiente de comprar / confirmar. Reservar cuando Nohi Bus abra ventas; no comprado.",
+    "note": "🕐 Orientativo: 15:15 → 16:05. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
     "from": "Shirakawa-go",
     "estimatedDuration": {
-      "minMinutes": 60,
-      "maxMinutes": 60
+      "minMinutes": 50,
+      "maxMinutes": 50
     }
   },
   {
     "id": "transport-8",
     "date": "2026-11-26",
-    "to": "Odawara vía Nagoya",
-    "title": "Takayama → Odawara vía Nagoya",
+    "to": "NAGOYA",
+    "title": "TAKAYAMA → NAGOYA · HIDA 6",
     "type": "Tren",
-    "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
-    "location": "",
-    "note": "🕐 Orientativo: 08:30. Duración estimada: 5 h 15 min–5 h 45 min. 🟠 Pendiente de comprar / confirmar. Continuar a Ashinoyu. Total puerta a puerta 6–7 horas; llegada objetivo al ryokan 15:30–16:30.",
-    "from": "Takayama",
-    "estimatedDuration": {
-      "minMinutes": 315,
-      "maxMinutes": 345
-    },
-    "via": [
-      "Nagoya"
-    ]
+    "time": "09:36",
+    "status": "Reservado",
+    "location": "TAKAYAMA Station",
+    "note": "🔒 HIDA 6: 09:36 → 12:04. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 8, asientos 10C y 10D. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR.",
+    "from": "TAKAYAMA",
+    "arrivalDate": "2026-11-26",
+    "arrivalTime": "12:04",
+    "departureAt": "2026-11-26T09:36:00+09:00",
+    "arrivalAt": "2026-11-26T12:04:00+09:00",
+    "departureTimeZone": "Asia/Tokyo",
+    "arrivalTimeZone": "Asia/Tokyo",
+    "trainNumber": "HIDA 6",
+    "seat": "Vagón 8 · 10C y 10D",
+    "reservation": "JR WEST · reserva [identificador en copia privada] · aceptada; verificar pago y recoger billetes físicos",
+    "durationMinutes": 148
   },
   {
     "id": "odawara-ashinoyu",
     "date": "2026-11-26",
     "to": "Ashinoyu / Matsuzakaya Honten",
     "title": "Odawara → Ashinoyu / Matsuzakaya Honten",
-    "type": "Autobús",
+    "type": "Traslado por confirmar",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
+    "status": "Pendiente",
     "location": "",
-    "note": "🕐 Orientativo: hora pendiente. Duración estimada: 45–60 min. 🟠 Pendiente de comprar / confirmar. ",
+    "note": "Llegada a Odawara confirmada 14:42. Ryokan contactado; esperando respuesta sobre posibilidad de recogida. NO hay traslado contratado. NO contratar alternativa todavía. Medio, punto de encuentro, salida, duración y coste PENDIENTE DE CONFIRMAR.",
     "from": "Odawara",
-    "estimatedDuration": {
-      "minMinutes": 45,
-      "maxMinutes": 60
-    }
+    "reservation": "Esperando respuesta del ryokan; no contratado"
   },
   {
     "id": "transport-9",
@@ -197,9 +200,9 @@
     "title": "Hakone → Shinjuku",
     "type": "Tren",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
+    "status": "Pendiente",
     "location": "",
-    "note": "🕐 Orientativo: hora pendiente. Duración estimada: ~2 horas. 🟠 Pendiente de comprar / confirmar. Omitir el circuito de Hakone y salir directamente a Tokio si hace mal tiempo.",
+    "note": "Hora pendiente. Mantener flexibilidad según meteorología y visibilidad del Fuji. Unas 2 h son la estimación anterior, no un servicio concreto. No compra urgente. Un Limited Express con asiento elegido requerirá gestión distinta de una alternativa convencional; servicio pendiente de decidir.",
     "from": "Hakone",
     "estimatedDuration": {
       "minMinutes": 120,
@@ -213,9 +216,9 @@
     "title": "Tokio → Nikkō",
     "type": "Tren",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
+    "status": "Pendiente",
     "location": "",
-    "note": "🕐 Orientativo: 07:15. Duración estimada: ~2 horas. 🟠 Pendiente de comprar / confirmar. ",
+    "note": "🕐 Objetivo 07:15; duración anterior ~2 h, sin tren elegido. Valorar Limited Express TOBU para dos adultos. Apertura 1 NOV 09:00 JST (01:00 Madrid). Comparar billetes básicos individuales + suplemento de cada Limited Express, Nikko Pass + suplementos separados y trenes convencionales sin suplemento Limited Express. Nikko Pass World Heritage: tarifa publicada 3.000 yen/adulto (6.000 dos adultos), 2 días; no incluye entradas ni suplemento. All Area: 8.000 yen/adulto, no necesario por el solo hecho de visitar santuarios. Tarifas individuales y suplementos de los trenes concretos PENDIENTE DE CONFIRMAR antes de decidir. Acceso desde Shinjuku a estación TOBU también pendiente. No comprar todavía. https://www.tobu.co.jp/en/express_info/purchase/ · https://www.tobu.co.jp/en/ticket/nikko-pass/",
     "from": "Tokio",
     "estimatedDuration": {
       "minMinutes": 120,
@@ -229,9 +232,9 @@
     "title": "Nikkō → Tokio",
     "type": "Tren",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
+    "status": "Pendiente",
     "location": "",
-    "note": "🕐 Orientativo: 16:00; llegada Tokio 18:30. Duración estimada: Pendiente de confirmar. 🟠 Pendiente de comprar / confirmar. ",
+    "note": "🕐 Objetivo regreso 16:00 y llegada Tokio 18:30; duración pendiente. Valorar Limited Express TOBU para dos adultos. Apertura 1 NOV 09:00 JST (01:00 Madrid). Comparar billetes básicos individuales + suplemento de cada Limited Express, Nikko Pass + suplementos separados y trenes convencionales sin suplemento Limited Express. Nikko Pass World Heritage: tarifa publicada 3.000 yen/adulto (6.000 dos adultos), 2 días; no incluye entradas ni suplemento. All Area: 8.000 yen/adulto, no necesario por el solo hecho de visitar santuarios. Tarifas individuales y suplementos de los trenes concretos PENDIENTE DE CONFIRMAR antes de decidir. Acceso desde Shinjuku a estación TOBU también pendiente. No comprar todavía. https://www.tobu.co.jp/en/express_info/purchase/ · https://www.tobu.co.jp/en/ticket/nikko-pass/",
     "from": "Nikkō"
   },
   {
@@ -257,17 +260,18 @@
     "id": "narita-express",
     "date": "2026-12-03",
     "to": "Narita",
-    "title": "Tokio → Narita",
+    "title": "Shinjuku → Narita · candidato Narita Express 29",
     "type": "Tren",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
+    "status": "Pendiente",
     "location": "",
-    "note": "🕐 Orientativo: 13:30. Duración estimada: ~1 h 20 min. 🟠 Pendiente de comprar / confirmar. Narita Express. Vuelo confirmado 18:30.",
-    "from": "Tokio",
+    "note": "🕐 Candidato aprobado, NO reservado: Shinjuku 13:08 → estación T2/T3 14:27 → T1 14:31 según horario publicado. Verificar operación del 3 DIC al abrir venta el 3 NOV 10:00 JST (02:00 Madrid). Vuelo confirmado 18:30: margen desde el tren 4 h 03 min en estación T2/T3 o 3 h 59 min en T1, antes de caminar a facturación. Terminal aérea, andén y asientos PENDIENTE DE CONFIRMAR. No es salida confirmada. https://timetables.jreast.co.jp/en/2611/train/075/076671.html · https://www.jreast.co.jp/en/multi/faq/",
+    "from": "Shinjuku",
     "estimatedDuration": {
-      "minMinutes": 80,
-      "maxMinutes": 80
-    }
+      "minMinutes": 79,
+      "maxMinutes": 83
+    },
+    "trainNumber": "Narita Express 29 · candidato, no reservado"
   },
   {
     "id": "flight-hkg-madrid",
@@ -306,5 +310,49 @@
     "location": "",
     "note": "Horarios locales de salida y llegada.",
     "from": "Madrid"
+  },
+  {
+    "id": "jr-hida-11",
+    "type": "Tren",
+    "title": "NAGOYA → TAKAYAMA · HIDA 11",
+    "from": "NAGOYA",
+    "to": "TAKAYAMA",
+    "date": "2026-11-24",
+    "time": "12:48",
+    "arrivalDate": "2026-11-24",
+    "arrivalTime": "15:12",
+    "departureAt": "2026-11-24T12:48:00+09:00",
+    "arrivalAt": "2026-11-24T15:12:00+09:00",
+    "departureTimeZone": "Asia/Tokyo",
+    "arrivalTimeZone": "Asia/Tokyo",
+    "status": "Reservado",
+    "location": "NAGOYA Station",
+    "trainNumber": "HIDA 11",
+    "seat": "Vagón 3 · 3A y 3B",
+    "reservation": "JR WEST · reserva [identificador en copia privada] · aceptada; verificar pago y recoger billetes físicos",
+    "durationMinutes": 144,
+    "note": "🔒 HIDA 11: 12:48 → 15:12. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 3, asientos 3A y 3B. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR."
+  },
+  {
+    "id": "jr-kodama-822",
+    "type": "Tren",
+    "title": "NAGOYA → ODAWARA · KODAMA 822",
+    "from": "NAGOYA",
+    "to": "ODAWARA",
+    "date": "2026-11-26",
+    "time": "12:38",
+    "arrivalDate": "2026-11-26",
+    "arrivalTime": "14:42",
+    "departureAt": "2026-11-26T12:38:00+09:00",
+    "arrivalAt": "2026-11-26T14:42:00+09:00",
+    "departureTimeZone": "Asia/Tokyo",
+    "arrivalTimeZone": "Asia/Tokyo",
+    "status": "Reservado",
+    "location": "NAGOYA Station",
+    "trainNumber": "KODAMA 822",
+    "seat": "Vagón 12 · 10D y 10E",
+    "reservation": "JR WEST · reserva [identificador en copia privada] · aceptada; verificar pago y recoger billetes físicos",
+    "durationMinutes": 124,
+    "note": "🔒 KODAMA 822: 12:38 → 14:42. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 12, asientos 10D y 10E. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR."
   }
 ]

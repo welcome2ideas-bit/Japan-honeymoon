@@ -10,5 +10,5 @@ it('shows structured estimates separately from confirmed flights and booking sta
  expect(html).toContain('🕐 Orientativa');expect(html).toContain('16:30');
  expect(html).toContain('Aprox. 45 min');expect(html).toContain('pendiente de reservar');
  expect(html).toContain('🔒 Confirmada · 17:45');expect(html).not.toContain('🔒 Confirmada · Pendiente');
- expect(html).toContain('Recorrido: Takayama → Nagoya → Odawara');
+ expect(html).toContain('TAKAYAMA → NAGOYA · HIDA 6');expect(html).toContain('NAGOYA → ODAWARA · KODAMA 822');expect(html).toContain('Llegada confirmada: 26 nov · 14:42');expect(html).toContain('🔒 Confirmada · 09:36');
 });

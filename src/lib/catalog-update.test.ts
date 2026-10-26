@@ -32,7 +32,7 @@ it('does not restore removed activities or Wishlist slots from storage',()=>{
 });
 it('keeps the bus arrival unchanged and separates the suggested viewpoint visit',()=>{
  const day=fresh().itinerary.find(d=>d.date==='2026-11-25')!;
- expect(day.activities.find(a=>a.transportId==='transport-6')?.planningNote).toContain('09:35');
+ expect(day.activities.find(a=>a.transportId==='transport-6')?.planningNote).toContain('09:40');
  const visit=day.activities.find(a=>a.placeId==='shiroyama')!;
  expect(visit.planningNote).toContain('10:00');expect(visit.start).toBeNull();
 });
@@ -46,4 +46,16 @@ it('preserves personal tasks, deletion markers and notes across successive JSON 
  expect(again.tasks.some(t=>t.id===removed.id)).toBe(false);
  expect(again.tasks.find(t=>t.id==='personal-task')?.title).toBe('Personal');
  expect(again.places[0].note).toBe('Mi nota');
+});
+
+it('retires only the two obsolete purchase tasks even in legacy storage',()=>{
+ const saved=fresh();saved.officialTaskIds=undefined;
+ saved.tasks.push({id:'v24-task-3',title:'Comprar tren antiguo',category:'Transporte',status:'Pendiente'},
+  {id:'v24-task-6',title:'Comprar otro tren antiguo',category:'Transporte',status:'Pendiente'},
+  {id:'my-personal-train-task',title:'Mi gestión de trenes',category:'Personal',status:'Pendiente'});
+ const result=updateCatalog(saved,fresh());
+ expect(result.tasks.some(t=>['v24-task-3','v24-task-6'].includes(t.id))).toBe(false);
+ expect(result.tasks.some(t=>t.id==='my-personal-train-task')).toBe(true);
+ expect(result.tasks.some(t=>t.id==='jr-payments-2026')).toBe(true);
+ expect(result.tasks.some(t=>t.id==='jr-pickup-2026')).toBe(true);
 });

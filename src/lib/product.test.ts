@@ -53,7 +53,7 @@ it('sorts nearby places by distance and omits unknown coordinates and visited si
 });
 it('calculates the day without inventing current unscheduled activities or completed plans',()=>{
  const trip=data(),days=connectItinerary(trip);const result=todayPlan(days,trip.places,new Date('2026-11-26T10:00:00+09:00'));
- expect(result.day?.date).toBe('2026-11-26');expect(result.current?.title).toContain("Takayama");expect(result.currentTiming).toBe("estimated");expect(result.current?.start).toBeFalsy();expect(result.completed).toBe(0);expect(result.featured).toBeDefined();
+ expect(result.day?.date).toBe('2026-11-26');expect(result.current?.title).toContain("HIDA 6");expect(result.currentTiming).toBe("confirmed");expect(result.current?.start).toBe("2026-11-26T09:36:00+09:00");expect(result.completed).toBe(0);expect(result.featured).toBeDefined();
  expect(todayPlan(days,trip.places,new Date('2026-09-09T10:00:00+09:00')).day).toBeUndefined();
  expect(countdown(null,new Date())).toBe('Pendiente de confirmar');
 });

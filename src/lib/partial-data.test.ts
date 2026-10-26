@@ -24,7 +24,7 @@ describe('Partial real trip data',()=>{
   expect(activityRange(data.itinerary[0].activities[0],'Europe/Madrid')).toBe('09:00 – Pendiente de confirmar');
  });
  it('ignores unscheduled activities and avoids epoch or invalid date displays',()=>{
-  const data=parseTrip(real());expect(getActivities(data.itinerary,new Date('2026-11-19T10:00:00+09:00'))).toEqual({current:undefined,next:undefined});
+  const data=parseTrip(real());const pending=getActivities(data.itinerary,new Date('2026-11-19T10:00:00+09:00'));expect(pending.current).toBeUndefined();expect(pending.next?.id).toBe('2026-11-20-seiko');expect(pending.next?.start).toBe('2026-11-20T13:30:00+09:00');
   expect(activityRange(data.itinerary[0].activities[0])).toBe('Pendiente de confirmar');
   for(const value of [null,undefined,'','invalid']){expect(dateLabel(value)).toBe('Pendiente de confirmar');expect(timeLabel(value)).toBe('Pendiente de confirmar');}
   expect(pendingLabel(null)).toBe('Pendiente de confirmar');expect(durationLabel(null)).toBe('Pendiente de confirmar');expect(durationLabel(45)).toBe('45 min');

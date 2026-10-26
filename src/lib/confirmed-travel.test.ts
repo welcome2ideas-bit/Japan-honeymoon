@@ -10,6 +10,25 @@ import transport from '../../data/transport.json';
 import tasks from '../../data/checklist.json';
 const real=()=>parseTrip(structuredClone({version:2,settings,places,itinerary,hotels,transport,tasks}));
 
+it('connects all four booked trains while keeping payment and future services pending',()=>{
+ const data=real(),days=connectItinerary(data);
+ const expected=[['transport-5','11:48','12:22','Vagón 4 · 10D y 10E'],['jr-hida-11','12:48','15:12','Vagón 3 · 3A y 3B'],['transport-8','09:36','12:04','Vagón 8 · 10C y 10D'],['jr-kodama-822','12:38','14:42','Vagón 12 · 10D y 10E']];
+ for(const [id,departure,arrival,seat] of expected){
+  const t=data.transport.find(t=>t.id===id)!;
+  expect(t).toMatchObject({time:departure,arrivalTime:arrival,seat,status:'Reservado'});
+  expect(t.reservation).toContain('verificar pago');
+  const a=days.flatMap(d=>d.activities).find(a=>a.transportId===id)!;
+  expect(a.start).toBe(t.departureAt);expect(a.end).toBe(t.arrivalAt);
+  expect(a.movement?.bookingPending).toBeUndefined();
+ }
+ const nex=days.flatMap(d=>d.activities).find(a=>a.transportId==='narita-express')!;
+ expect(nex.start).toBeFalsy();expect(nex.planningNote).toContain('13:08');
+ const transfer=days.flatMap(d=>d.activities).find(a=>a.transportId==='odawara-ashinoyu')!;
+ expect(transfer.movement?.bookingPending).toBeUndefined();
+ expect(transfer.note).toContain('NO contratar alternativa');
+ expect(JSON.stringify(data)).not.toMatch(/AEQ[0-9A-Z]+/);
+});
+
 it('connects six confirmed flights and six stays without fabricated endpoints',()=>{
  const data=real();const flights=data.transport.filter(t=>t.type==='Vuelo');
  expect(flights).toHaveLength(6);expect(data.hotels).toHaveLength(6);
@@ -17,8 +36,8 @@ it('connects six confirmed flights and six stays without fabricated endpoints',(
  expect(flights.filter(f=>!f.arrivalAt).map(f=>f.id)).toEqual(['transport-1','transport-11']);
  expect(connectItinerary(data).flatMap(d=>d.activities).filter(a=>flights.some(f=>f.id===a.transportId))).toHaveLength(6);
  const ground=connectItinerary(data).flatMap(d=>d.activities).filter(a=>a.transportId&&!flights.some(f=>f.id===a.transportId));
- expect(ground).toHaveLength(12);expect(ground.every(a=>!a.start&&!a.end&&!a.title.startsWith('Vuelo'))).toBe(true);
- expect(new Set(ground.map(a=>a.transportId)).size).toBe(12);
+ expect(ground).toHaveLength(14);expect(ground.filter(a=>a.start&&a.end)).toHaveLength(4);expect(ground.filter(a=>!a.start).every(a=>!a.end&&!a.title.startsWith('Vuelo'))).toBe(true);
+ expect(new Set(ground.map(a=>a.transportId)).size).toBe(14);
  expect(data.hotels.map(h=>[h.checkIn,h.checkOut])).toEqual([['2026-11-17','2026-11-18'],['2026-11-19','2026-11-21'],['2026-11-21','2026-11-24'],['2026-11-24','2026-11-26'],['2026-11-26','2026-11-27'],['2026-11-27','2026-12-03']]);
 });
 

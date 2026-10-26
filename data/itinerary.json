@@ -102,7 +102,7 @@
       "Osaka"
     ],
     "title": "Osaka",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -223,7 +223,7 @@
       }
     ],
     "hotelId": "iam",
-    "luggage": "Maleta grande y mochila con vosotros en Osaka.",
+    "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida.",
     "summary": "Hong Kong → Osaka · Inmigración y recogida de maletas · KIX → Namba · Caminar hasta IAM HOTEL · Check-in IAM HOTEL · Dotonbori · Cena · Dotonbori iluminado · Regreso al hotel",
     "featuredPlaceId": "dotonbori",
     "tips": [
@@ -238,7 +238,7 @@
       "Osaka"
     ],
     "title": "Osaka",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -299,6 +299,35 @@
         "placeId": "kuromon"
       },
       {
+        "id": "2026-11-20-seiko-depart",
+        "title": "Salir hacia BIC CAMERA NAMBA",
+        "location": "",
+        "category": "Gestión",
+        "note": "Desde Kuromon Market. Medio previsto: a pie; duración real PENDIENTE DE CONFIRMAR. Los 30 minutos hasta el objetivo de llegada son margen de planificación, no duración calculada. Llevar correo de confirmación, reserva [identificador en copia privada], pasaporte y medio de pago.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "13:00 · Orientativo, no confirmado.",
+        "movement": {
+          "mode": "A pie",
+          "from": "Kuromon Market",
+          "to": "BIC CAMERA NAMBA"
+        }
+      },
+      {
+        "id": "2026-11-20-seiko",
+        "title": "Recoger y pagar SEIKO 5 SPORTS SBSA225",
+        "location": "BIC CAMERA NAMBA, 2-10-1 Sennichimae, Chuo-ku, Osaka, 542-0074, Japón",
+        "category": "Recogida acordada",
+        "note": "Ventana de LLEGADA acordada con la tienda: 13:30–14:30; objetivo presentarse a las 13:30. No significa que la gestión termine a las 14:30. SEIKO 5 SPORTS SBSA225, 38 mm, negro; reservado, pago pendiente en tienda. Reserva [identificador en copia privada]. Relojería, planta 3. Llevar correo, número de reserva, pasaporte y medio de pago. Duración y hora final PENDIENTE DE CONFIRMAR. Shinsekai 15:00 sigue orientativo, sin suprimir visitas.",
+        "start": "2026-11-20T13:30:00+09:00",
+        "end": null,
+        "completed": false,
+        "planningNote": "Llegada acordada entre 13:30 y 14:30; final de la gestión pendiente de confirmar.",
+        "reservation": "[identificador en copia privada] · reloj reservado; pago pendiente en tienda",
+        "locked": true
+      },
+      {
         "id": "2026-11-20-v24-6",
         "title": "Shinsekai",
         "location": "Shinsekai Osaka",
@@ -336,6 +365,17 @@
         "placeId": "hotel-iam"
       },
       {
+        "id": "2026-11-20-jr-pickup",
+        "title": "Recoger todos los billetes JR WEST en JR-Namba",
+        "location": "JR-Namba Station, 1-4-1 Minatomachi, Naniwa-ku, Osaka",
+        "category": "Recogidas importantes",
+        "note": "Recoger las DOS reservas de JR WEST, ambos identificadores, guardados en la copia privada, para dos adultos y cuatro trenes. Puede adelantarse si resulta cómodo. JR-Namba admite 5489: taquilla 08:00–20:00; máquinas verdes 05:30–23:00; asistencia 08:00–20:00. Presentar tarjeta FÍSICA usada al pagar, números de reserva y correos; usar el identificador de cuatro dígitos únicamente en la máquina, nunca guardarlo aquí. Llevar pasaportes como identificación; el requisito específico publicado de pasaporte corresponde a productos especiales, no a estos Regular Tickets. Verificar antes ambos pagos. Tramitar cada reserva por separado en la misma visita y comprobar tarifa básica y suplementos de los cuatro trenes. Cola y duración PENDIENTE DE CONFIRMAR. Fuente: https://www.westjr.co.jp/global/en/howto/train-reservation/receive/ · https://eki.jr-odekake.net/top?id=0620833",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "18:30 · Orientativo, no confirmado."
+      },
+      {
         "id": "2026-11-20-v24-9",
         "title": "Dotonbori y cena",
         "location": "Dotonbori",
@@ -362,8 +402,8 @@
       }
     ],
     "hotelId": "iam",
-    "luggage": "Maleta grande y mochila con vosotros en Osaka.",
-    "summary": "Desayuno · Metro hacia el Castillo de Osaka · Castillo de Osaka · Salida del castillo · Kuromon Market y comida · Shinsekai · Hotel y descanso · Dotonbori y cena",
+    "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida.",
+    "summary": "Desayuno · Metro hacia el Castillo de Osaka · Castillo de Osaka · Salida del castillo · Kuromon Market y comida · Salir hacia BIC CAMERA NAMBA · Recoger y pagar SEIKO 5 SPORTS SBSA225 · Shinsekai · Hotel y descanso · Recoger todos los billetes JR WEST en JR-Namba · Dotonbori y cena",
     "featuredPlaceId": "osaka-castle",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."
@@ -379,7 +419,7 @@
       "Kioto"
     ],
     "title": "Osaka → Nara → Kioto",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -387,7 +427,7 @@
         "title": "Check-out IAM HOTEL",
         "location": "IAM Hotel Osaka, Osaka, Japan",
         "category": "Plan",
-        "note": "Gestión de maletas pendiente de decidir.",
+        "note": "Llevar las cuatro maletas a Nara y guardarlas allí; no se envían a Kioto.",
         "start": null,
         "end": null,
         "completed": false,
@@ -407,6 +447,39 @@
         "transportId": "transport-3"
       },
       {
+        "id": "2026-11-21-arrival",
+        "title": "Llegada a Kintetsu-Nara",
+        "location": "Kintetsu-Nara Station",
+        "category": "Gestión",
+        "note": "08:45 orientativas; estación elegida Kintetsu-Nara. Servicio y horario real pendientes de confirmar; objetivo salir de Osaka a las 08:00.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "08:45 · Orientativo, no confirmado."
+      },
+      {
+        "id": "2026-11-21-find-lockers",
+        "title": "Localizar consigna para cuatro maletas",
+        "location": "Kintetsu-Nara Station",
+        "category": "Gestión",
+        "note": "Kintetsu-Nara dispone de consignas grandes y extragrandes. Para cada maleta de 70 × 50 × 30 cm, comprobar un hueco útil de al menos 70 cm de alto, 30 cm de ancho y 50 cm de fondo, girándola; no todos los modelos publicados cumplen. Medidas exteriores con ruedas/asas y medidas de las dos maletas de cabina pendientes de comprobar. No hay reserva ni disponibilidad garantizada. Alternativa atendida junto a JR Nara: Nara City Tourist Information Center, 1082 Sanjohonmachi, 09:00–18:00; admite piezas de hasta 200 cm sumando tres dimensiones. Las grandes indicadas suman 150 cm, si incluyen ruedas/asas. Traslado desde Kintetsu-Nara, capacidad y tiempo necesario pendientes; no asumir que el plan 08:45–09:15 se cumple si hay que cambiar de consigna. Fuentes: https://www.kintetsu.co.jp/gyoumu/coinlocker/ · https://narashikanko.or.jp/en/guide/",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "Hora pendiente de confirmar."
+      },
+      {
+        "id": "2026-11-21-store-luggage",
+        "title": "Depositar dos maletas grandes y dos de cabina",
+        "location": "",
+        "category": "Gestión",
+        "note": "Antes de las visitas. Guardar justificante, llave/código de consigna fuera del itinerario y ubicación de recogida. Llevar pasaporte, dinero, billetes y objetos de valor con vosotros. Tiempo de gestión PENDIENTE DE CONFIRMAR. Bloque de planificación para localizar y utilizar consignas; no es una reserva ni duración garantizada.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "08:45–09:15 · Orientativo, no confirmado."
+      },
+      {
         "id": "2026-11-21-v24-3",
         "title": "Nara Park",
         "location": "Nara Park",
@@ -415,7 +488,7 @@
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "09:00 · Orientativo, no confirmado.",
+        "planningNote": "09:45 · Orientativo, no confirmado.",
         "placeId": "nara-park"
       },
       {
@@ -427,7 +500,7 @@
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "10:15 · Orientativo, no confirmado.",
+        "planningNote": "10:45 · Orientativo, no confirmado.",
         "placeId": "todaiji"
       },
       {
@@ -453,6 +526,17 @@
         "planningNote": "Hora pendiente de confirmar.",
         "placeId": "kasuga",
         "optional": true
+      },
+      {
+        "id": "2026-11-21-retrieve-luggage",
+        "title": "Recoger las cuatro maletas en Nara",
+        "location": "",
+        "category": "Gestión",
+        "note": "Objetivo estar en la consigna a las 14:00, no comenzar entonces un paseo de duración desconocida. Salida desde la última visita y duración de acceso PENDIENTE DE CONFIRMAR. Margen de planificación hasta el tren objetivo 14:30: 30 min; servicio todavía no reservado. Comprobar que se recuperan las cuatro piezas.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "14:00 · Orientativo, no confirmado."
       },
       {
         "id": "2026-11-21-v24-7",
@@ -503,8 +587,8 @@
       }
     ],
     "hotelId": "yasen",
-    "luggage": "Pendiente decidir Osaka → Kioto. Recomendación: dejar la maleta en una taquilla de Osaka o Kioto si resulta cómodo y visitar Nara solo con mochila. Alternativa: llevar la maleta y continuar a Kioto después de Nara. Consigna y recuperación pendientes de decidir.",
-    "summary": "Check-out IAM HOTEL · Osaka → Nara · Nara Park · Tōdai-ji · Comida · Nara → Kioto · Check-in Yasen Kyoto · Gion · Cena",
+    "luggage": "Llevar cuatro maletas Osaka → Kintetsu-Nara → Kioto: dos grandes de 70 × 50 × 30 cm y dos de cabina. Consignas sin reserva, visita solo con mochilas y recuperación de las cuatro a las 14:00 orientativas. Sin envío Osaka → Kioto.",
+    "summary": "Check-out IAM HOTEL · Osaka → Nara · Llegada a Nara · Localizar consigna para cuatro maletas · Depositar dos maletas grandes y dos de cabina · Nara Park · Tōdai-ji · Comida · Recoger las cuatro maletas en Nara · Nara → Kioto · Check-in Yasen Kyoto · Gion · Cena",
     "featuredPlaceId": "nara-park",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
@@ -519,7 +603,7 @@
       "Kioto"
     ],
     "title": "Kioto",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -657,7 +741,7 @@
       }
     ],
     "hotelId": "yasen",
-    "luggage": "Maleta grande y mochila en Kioto.",
+    "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida.",
     "summary": "Salida hacia Fushimi Inari · Fushimi Inari · Desayuno · Kiyomizu-dera · Comida · Ninenzaka · Sannenzaka · Higashiyama · Gion · Cena tradicional",
     "featuredPlaceId": "fushimi",
     "tips": [
@@ -673,7 +757,7 @@
       "Kioto"
     ],
     "title": "Kioto",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -884,7 +968,7 @@
       }
     ],
     "hotelId": "yasen",
-    "luggage": "Maleta grande y mochila en Kioto.",
+    "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida.",
     "summary": "Desayuno · Kioto → Arashiyama · Bosque de bambú · Tenryū-ji · Jardines de Tenryū-ji · Puente Togetsukyo · Paseo junto al río · Comida · Matcha o café · Regreso a Kioto · Cena",
     "featuredPlaceId": "bamboo",
     "tips": [
@@ -901,7 +985,7 @@
       "Takayama"
     ],
     "title": "Kioto → Takayama",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -916,11 +1000,33 @@
         "planningNote": "07:00 · Orientativo, no confirmado."
       },
       {
+        "id": "2026-11-24-checkout",
+        "title": "Check-out Yasen y preparación de cuatro maletas",
+        "location": "",
+        "category": "Gestión",
+        "note": "Objetivo organizativo tras el desayuno; hora contractual del check-out PENDIENTE DE CONFIRMAR. Llevar billetes físicos, tarjeta y documentos.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "07:30 · Orientativo, no confirmado."
+      },
+      {
+        "id": "2026-11-24-station-luggage",
+        "title": "Gestionar custodia temporal de maletas antes de Kinkaku-ji",
+        "location": "",
+        "category": "Gestión",
+        "note": "Objetivo organizativo en Kyoto Station para evitar volver a Gion después del templo. Consigna/custodia apta para cuatro maletas, disponibilidad, traslado desde Yasen y capacidad de taxi PENDIENTE DE CONFIRMAR. Si no se resuelve, pedir ayuda al alojamiento para una solución compatible con el tren; no dar por garantizada la visita a las 09:00. No hay envío de equipaje en este tramo.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "08:00 · Orientativo, no confirmado."
+      },
+      {
         "id": "2026-11-24-v24-2",
         "title": "Taxi hasta Kinkaku-ji",
         "location": "",
         "category": "Plan",
-        "note": "Recomendado en el maestro.",
+        "note": "Taxi recomendado hasta Kinkaku-ji después de resolver custodia de las maletas; capacidad, hora de salida y duración PENDIENTE DE CONFIRMAR. Objetivo estar en la entrada a las 09:00. Fuente de apertura: https://www.shokoku-ji.jp/en/kinkakuji/access/",
         "start": null,
         "end": null,
         "completed": false,
@@ -936,7 +1042,7 @@
         "title": "Kinkaku-ji",
         "location": "Kinkaku-ji",
         "category": "Plan",
-        "note": "",
+        "note": "Abre a las 09:00 según el templo. Presupuesto de visita orientativo 09:00–09:45 (45 min), no duración garantizada ni entrada reservada. Fuente: https://www.shokoku-ji.jp/en/kinkakuji/access/",
         "start": null,
         "end": null,
         "completed": false,
@@ -944,11 +1050,28 @@
         "placeId": "kinkakuji"
       },
       {
+        "id": "2026-11-24-return-station",
+        "title": "Salir de Kinkaku-ji hacia Kyoto Station",
+        "location": "",
+        "category": "Gestión",
+        "note": "Objetivo de llegada a estación 10:30: 45 min disponibles de planificación, NO tiempo real de taxi verificado. Taxi recomendado; alternativa bus hacia Kitaoji + metro Karasuma, a confirmar en dirección de regreso. La oficina de turismo desaconseja depender del bus directo por congestión. Confirmar ruta y tráfico; no volver a Gion. Fuente: https://kyoto.travel/en/getting-around/comfortable-access-to-kinkaku-ji-temple-kinugasa/",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "09:45 · Orientativo, no confirmado.",
+        "movement": {
+          "mode": "Taxi",
+          "from": "Kinkaku-ji",
+          "to": "Kyoto Station",
+          "recommended": true
+        }
+      },
+      {
         "id": "2026-11-24-v24-4",
         "title": "Kyoto Station",
         "location": "",
         "category": "Plan",
-        "note": "",
+        "note": "Objetivo 10:30: recuperar las cuatro maletas y localizar acceso Shinkansen. Margen hasta salida 11:48: 78 min si se cumple el objetivo. Llevar los billetes recogidos previamente; la recogida sigue pendiente hasta realizarla; andén PENDIENTE DE CONFIRMAR.",
         "start": null,
         "end": null,
         "completed": false,
@@ -959,23 +1082,80 @@
         "title": "Bento",
         "location": "",
         "category": "Plan",
+        "note": "Bento adelantado para evitar prisas. Puede llevarse para el tren; no retrasar acceso al andén.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "11:00 · Orientativo, no confirmado."
+      },
+      {
+        "id": "2026-11-24-platform",
+        "title": "Estar en el andén del NOZOMI 128",
+        "location": "Kyoto Station",
+        "category": "Gestión",
+        "note": "Objetivo con margen de seguridad de 28 min antes de salida 11:48. Comprobar andén en paneles y posición del vagón 4. Llevar billetes físicos, equipaje y documentos.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "11:20 · Orientativo, no confirmado."
+      },
+      {
+        "id": "2026-11-24-v24-6",
+        "title": "KYOTO → NAGOYA · NOZOMI 128",
+        "location": "",
+        "category": "Transporte",
+        "note": "🔒 NOZOMI 128: 11:48 → 12:22. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 4, asientos 10D y 10E. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "Horario confirmado según la reserva facilitada; pago pendiente de verificar.",
+        "transportId": "transport-5",
+        "locked": true
+      },
+      {
+        "id": "2026-11-24-transfer-nagoya",
+        "title": "Transbordo en Nagoya: NOZOMI → HIDA",
+        "location": "Nagoya Station",
+        "category": "Transbordo",
+        "note": "26 minutos disponibles entre llegada 12:22 y salida 12:48. Seguir señalización de transbordo Shinkansen → líneas convencionales/JR; consultar HIDA 11 en paneles y pedir ayuda si hay dudas. Tener todos los billetes preparados; recoger los que devuelva el torno. No salir a la calle ni planificar compras. Andén y tiempo de caminata PENDIENTE DE CONFIRMAR.",
+        "start": "2026-11-24T12:22:00+09:00",
+        "end": "2026-11-24T12:48:00+09:00",
+        "completed": false,
+        "planningNote": "Hora pendiente de confirmar.",
+        "locked": true
+      },
+      {
+        "id": "2026-11-24-hida11",
+        "title": "NAGOYA → TAKAYAMA · HIDA 11",
+        "location": "",
+        "category": "Transporte",
         "note": "",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "11:30 · Orientativo, no confirmado."
+        "planningNote": "Hora pendiente de confirmar.",
+        "transportId": "jr-hida-11",
+        "locked": true
       },
       {
-        "id": "2026-11-24-v24-6",
-        "title": "Kioto → Nagoya → Takayama",
-        "location": "",
-        "category": "Transporte",
-        "note": "Unas 4 horas estimadas. Pendiente de comprar.",
+        "id": "2026-11-24-walk-mercure",
+        "title": "Estación de Takayama → Mercure Hida Takayama",
+        "location": "Mercure Hida Takayama",
+        "category": "Gestión",
+        "note": "Después de la llegada confirmada a las 15:12. El hotel indica unos 4 min a pie desde la estación; añadir desembarque, salida y manejo de cuatro maletas. No confundir 15:16 con llegada garantizada. Objetivo de planificación: llegar alrededor de 15:30; check-in original 17:00 conservado, posible entrada anterior PENDIENTE DE CONFIRMAR. Fuente: https://mercure-hida-takayama.com/access/",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "12:00 · Orientativo, no confirmado.",
-        "transportId": "transport-5"
+        "planningNote": "Hora pendiente de confirmar.",
+        "movement": {
+          "mode": "A pie",
+          "from": "Takayama Station",
+          "to": "Mercure Hida Takayama",
+          "estimatedDuration": {
+            "minMinutes": 4,
+            "maxMinutes": 4
+          }
+        }
       },
       {
         "id": "2026-11-24-v24-7",
@@ -1014,8 +1194,8 @@
       }
     ],
     "hotelId": "mercure",
-    "luggage": "Plan recomendado: llevar maleta grande y mochila de Kioto a Takayama. Organización pendiente de decidir.",
-    "summary": "Desayuno · Taxi hasta Kinkaku-ji · Kinkaku-ji · Kyoto Station · Bento · Kioto → Nagoya → Takayama · Check-in Mercure Hida Takayama · Casco antiguo · Cena: carne de Hida",
+    "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida. Resolver custodia temporal en Kyoto Station antes de Kinkaku-ji y recuperar las cuatro antes del NOZOMI 128. Medir equipaje y comprobar condiciones de bultos grandes; no asumir que los asientos incluyen espacio especial.",
+    "summary": "Desayuno · Check-out Yasen y preparación de cuatro maletas · Gestionar custodia temporal de maletas antes de Kinkaku-ji · Taxi hasta Kinkaku-ji · Kinkaku-ji · Salir de Kinkaku-ji hacia Kyoto Station · Kyoto Station · Bento · Estar en el andén del NOZOMI 128 · KYOTO → NAGOYA · NOZOMI 128 · Transbordo en Nagoya: NOZOMI → HIDA · NAGOYA → TAKAYAMA · HIDA 11 · Estación de Takayama → Mercure Hida Takayama · Check-in Mercure Hida Takayama · Casco antiguo · Cena: carne de Hida",
     "featuredPlaceId": "sanmachi",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
@@ -1030,7 +1210,7 @@
       "Takayama"
     ],
     "title": "Shirakawa-go",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1049,7 +1229,7 @@
         "title": "Centro de autobuses Nohi",
         "location": "Takayama Nohi Bus Center",
         "category": "Plan",
-        "note": "",
+        "note": "Objetivo 30 min antes del bus 08:50. Servicio sin reserva obligatoria según horario consultado; esperar instrucciones de Nohi. Sin garantía de plaza.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1061,11 +1241,11 @@
         "title": "Bus Takayama → Shirakawa-go",
         "location": "",
         "category": "Transporte",
-        "note": "Horario objetivo; pendiente de reservar cuando Nohi abra ventas.",
+        "note": "🕐 Orientativo: 08:50 → 09:40. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "08:50–09:35 · Orientativo, no confirmado.",
+        "planningNote": "08:50–09:40 · Orientativo, no confirmado.",
         "transportId": "transport-6"
       },
       {
@@ -1085,11 +1265,11 @@
         "title": "Pueblo histórico",
         "location": "Shirakawa-go Ogimachi",
         "category": "Plan",
-        "note": "",
+        "note": "Después del mirador. Secuencia: llegada → mirador → pueblo. Tiempo de acceso, visita y bajada PENDIENTE DE CONFIRMAR; no fijar llegada garantizada a las 10:15.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "10:15 · Orientativo, no confirmado.",
+        "planningNote": "Hora pendiente de confirmar.",
         "placeId": "shirakawa"
       },
       {
@@ -1116,15 +1296,26 @@
         "placeId": "shirakawa"
       },
       {
+        "id": "2026-11-25-return-bus-stop",
+        "title": "Presentarse para el bus de regreso",
+        "location": "Shirakawago Bus Terminal",
+        "category": "Gestión",
+        "note": "Objetivo organizativo: 30 min antes de las 15:15. Hora de salir del paseo y duración hasta la parada PENDIENTE DE CONFIRMAR. Consultar orden de embarque y disponibilidad con Nohi.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "14:45 · Orientativo, no confirmado."
+      },
+      {
         "id": "2026-11-25-v24-8",
         "title": "Bus Shirakawa-go → Takayama",
         "location": "",
         "category": "Transporte",
-        "note": "Horario objetivo; pendiente de reservar.",
+        "note": "🕐 Orientativo: 15:15 → 16:05. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "15:15–16:15 · Orientativo, no confirmado.",
+        "planningNote": "15:15–16:05 · Orientativo, no confirmado.",
         "transportId": "transport-7"
       },
       {
@@ -1152,8 +1343,8 @@
       }
     ],
     "hotelId": "mercure",
-    "luggage": "Maleta grande y mochila en la estancia en Takayama. Confirmar con Mercure el envío a THE KNOT TOKYO y la recepción en destino.",
-    "summary": "Desayuno · Centro de autobuses Nohi · Bus Takayama → Shirakawa-go · Mirador Shiroyama · Pueblo histórico · Comida · Paseo tranquilo · Bus Shirakawa-go → Takayama · Onsen del hotel · Cena",
+    "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida. Cuatro maletas: dos grandes y dos de cabina. Mercure Hida Takayama → THE KNOT TOKYO Shinjuku; llegada deseada a Tokio 27 NOV. Ambos hoteles contactados, esperando respuestas. Confirmar gestión, recepción, coste, fecha de entrega al transportista, fecha de llegada y forma de pago. NO contratado; NO fijar entrega de maletas hasta recibir confirmación. Hakone solo con mochilas si el envío queda resuelto.",
+    "summary": "Desayuno · Centro de autobuses Nohi · Bus Takayama → Shirakawa-go · Mirador Shiroyama · Pueblo histórico · Comida · Paseo tranquilo · Presentarse para el bus de regreso · Bus Shirakawa-go → Takayama · Onsen del hotel · Cena",
     "featuredPlaceId": "shiroyama",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
@@ -1169,7 +1360,7 @@
       "Hakone"
     ],
     "title": "Takayama → Hakone",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1196,33 +1387,90 @@
       },
       {
         "id": "2026-11-26-v24-3",
-        "title": "Enviar maleta grande a THE KNOT TOKYO",
+        "title": "Revisar confirmación del envío de cuatro maletas a THE KNOT",
         "location": "",
         "category": "Plan",
-        "note": "Plan recomendado vía Yamato o recepción; servicio, plazo y recepción pendientes de confirmar. Llevar mochila para una noche.",
+        "note": "Cuatro maletas: dos grandes y dos de cabina. Mercure Hida Takayama → THE KNOT TOKYO Shinjuku; llegada deseada a Tokio 27 NOV. Ambos hoteles contactados, esperando respuestas. Confirmar gestión, recepción, coste, fecha de entrega al transportista, fecha de llegada y forma de pago. NO contratado; NO fijar entrega de maletas hasta recibir confirmación. Hakone solo con mochilas si el envío queda resuelto.",
         "start": null,
         "end": null,
         "completed": false,
         "planningNote": "Hora pendiente de confirmar."
       },
       {
-        "id": "2026-11-26-v24-4",
-        "title": "Takayama → Nagoya → Odawara",
+        "id": "2026-11-26-leave-hotel",
+        "title": "Check-out y salida del Mercure hacia la estación",
         "location": "",
-        "category": "Transporte",
-        "note": "5 h 15 min–5 h 45 min estimadas. Pendiente de comprar.",
+        "category": "Gestión",
+        "note": "Objetivo de salida; check-out contractual PENDIENTE DE CONFIRMAR. Recorrido a pie aproximadamente 4 min según el hotel; añadir salida, orientación y equipaje. Llevar mochilas solo si envío confirmado; si no, resolver las cuatro maletas antes de partir. https://mercure-hida-takayama.com/access/",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "08:30 · Orientativo, no confirmado.",
-        "transportId": "transport-8"
+        "planningNote": "09:00 · Orientativo, no confirmado.",
+        "movement": {
+          "mode": "A pie",
+          "from": "Mercure Hida Takayama",
+          "to": "Takayama Station",
+          "estimatedDuration": {
+            "minMinutes": 4,
+            "maxMinutes": 4
+          }
+        }
+      },
+      {
+        "id": "2026-11-26-platform",
+        "title": "Prepararse para embarcar en HIDA 6",
+        "location": "Takayama Station",
+        "category": "Gestión",
+        "note": "Objetivo con 21 min de margen antes de salida 09:36; vagón 8, asientos 10C y 10D. Andén PENDIENTE DE CONFIRMAR. Llevar billetes físicos.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "09:15 · Orientativo, no confirmado."
+      },
+      {
+        "id": "2026-11-26-v24-4",
+        "title": "TAKAYAMA → NAGOYA · HIDA 6",
+        "location": "",
+        "category": "Transporte",
+        "note": "🔒 HIDA 6: 09:36 → 12:04. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 8, asientos 10C y 10D. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "Horario confirmado según la reserva facilitada; pago pendiente de verificar.",
+        "transportId": "transport-8",
+        "locked": true
+      },
+      {
+        "id": "2026-11-26-transfer-nagoya",
+        "title": "Transbordo en Nagoya: HIDA → KODAMA",
+        "location": "Nagoya Station",
+        "category": "Transbordo",
+        "note": "34 minutos disponibles entre llegada 12:04 y salida 12:38. Seguir señalización de transbordo hacia Tokaido Shinkansen y comprobar KODAMA 822 en paneles. Llevar todos los billetes, recoger los que devuelva el torno y localizar vagón 12. No salir a la calle. Andén y tiempo de caminata PENDIENTE DE CONFIRMAR.",
+        "start": "2026-11-26T12:04:00+09:00",
+        "end": "2026-11-26T12:38:00+09:00",
+        "completed": false,
+        "planningNote": "Hora pendiente de confirmar.",
+        "locked": true
+      },
+      {
+        "id": "2026-11-26-kodama822",
+        "title": "NAGOYA → ODAWARA · KODAMA 822",
+        "location": "",
+        "category": "Transporte",
+        "note": "",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "Hora pendiente de confirmar.",
+        "transportId": "jr-kodama-822",
+        "locked": true
       },
       {
         "id": "2026-11-26-v24-5",
         "title": "Odawara → Ashinoyu / Matsuzakaya Honten",
         "location": "",
         "category": "Transporte",
-        "note": "Autobús: 45–60 min estimados. Total puerta a puerta: 6–7 horas.",
+        "note": "Llegada a Odawara confirmada 14:42. Ryokan contactado; esperando respuesta sobre posibilidad de recogida. NO hay traslado contratado. NO contratar alternativa todavía. Medio, punto de encuentro, salida, duración y coste PENDIENTE DE CONFIRMAR.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1234,7 +1482,7 @@
         "title": "Llegada objetivo a Matsuzakaya Honten",
         "location": "Matsuzakaya Honten, Hakone, Japan",
         "category": "Plan",
-        "note": "Ventana objetivo, no hora de entrada confirmada.",
+        "note": "Ventana objetivo 15:30–16:30, no llegada ni check-in garantizados. Depende de respuesta del ryokan y traslado desde Odawara; no usar el antiguo total estimado de 6–7 h como duración confirmada.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1279,8 +1527,8 @@
       }
     ],
     "hotelId": "matsuzakaya",
-    "luggage": "Plan recomendado, no reservado: enviar la maleta grande desde Takayama a THE KNOT TOKYO vía Yamato / recepción. Servicio, plazo y recepción pendientes de confirmar con ambos hoteles. Hakone solo con mochila para una noche. Recuperar la maleta en Tokio el 27 si llega según lo acordado; no se garantiza la entrega.",
-    "summary": "Mercado matutino · Desayuno · Enviar maleta grande a THE KNOT TOKYO · Takayama → Nagoya → Odawara · Odawara → Ashinoyu / Matsuzakaya Honten · Llegada objetivo a Matsuzakaya Honten · Onsen · Cena kaiseki · Noche en el ryokan",
+    "luggage": "Cuatro maletas: dos grandes y dos de cabina. Mercure Hida Takayama → THE KNOT TOKYO Shinjuku; llegada deseada a Tokio 27 NOV. Ambos hoteles contactados, esperando respuestas. Confirmar gestión, recepción, coste, fecha de entrega al transportista, fecha de llegada y forma de pago. NO contratado; NO fijar entrega de maletas hasta recibir confirmación. Hakone solo con mochilas si el envío queda resuelto.",
+    "summary": "Mercado matutino · Desayuno · Revisar confirmación del envío de cuatro maletas a THE KNOT · Check-out y salida del Mercure hacia la estación · Prepararse para embarcar en HIDA 6 · TAKAYAMA → NAGOYA · HIDA 6 · Transbordo en Nagoya: HIDA → KODAMA · NAGOYA → ODAWARA · KODAMA 822 · Odawara → Ashinoyu / Matsuzakaya Honten · Llegada objetivo a Matsuzakaya Honten · Onsen · Cena kaiseki · Noche en el ryokan",
     "featuredPlaceId": "nakabashi",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
@@ -1296,7 +1544,7 @@
       "Tokio"
     ],
     "title": "Hakone → Tokio",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1403,7 +1651,7 @@
         "title": "Check-in THE KNOT TOKYO",
         "location": "The Knot Tokyo Shinjuku, Tokio, Japan",
         "category": "Plan",
-        "note": "Ventana orientativa. Recuperar la maleta si el envío y la recepción se han confirmado.",
+        "note": "Ventana orientativa. Recuperar las cuatro maletas únicamente si el envío y la recepción se han confirmado.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1435,7 +1683,7 @@
       }
     ],
     "hotelId": "knot",
-    "luggage": "Plan recomendado, no reservado: enviar la maleta grande desde Takayama a THE KNOT TOKYO vía Yamato / recepción. Servicio, plazo y recepción pendientes de confirmar con ambos hoteles. Hakone solo con mochila para una noche. Recuperar la maleta en Tokio el 27 si llega según lo acordado; no se garantiza la entrega.",
+    "luggage": "Hakone con mochilas; en Tokio recuperar las cuatro maletas únicamente cuando THE KNOT confirme recepción. En excursiones, incluida Nikkō, las maletas quedan en el hotel y llevamos mochilas.",
     "summary": "Desayuno japonés · Último onsen · Check-out Matsuzakaya Honten · Hakone → Shinjuku · Check-in THE KNOT TOKYO · Paseo por Shinjuku · Cena",
     "featuredPlaceId": "ashi",
     "tips": [
@@ -1451,7 +1699,7 @@
       "Tokio"
     ],
     "title": "Tokio",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1576,7 +1824,7 @@
       }
     ],
     "hotelId": "knot",
-    "luggage": "Maleta grande y mochila en Tokio; recuperar en THE KNOT el envío desde Takayama cuando se confirme la recepción.",
+    "luggage": "Dos maletas grandes y dos de cabina en THE KNOT, una vez confirmada su recepción. Para las visitas y la excursión a Nikkō, llevar solo mochilas; las cuatro maletas quedan en el hotel.",
     "summary": "Meiji Jingu · Harajuku · Comida · Omotesando · Shibuya · Cruce de Shibuya · Hachiko · Cena",
     "featuredPlaceId": "crossing",
     "tips": [
@@ -1591,7 +1839,7 @@
       "Tokio"
     ],
     "title": "Tokio",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1686,7 +1934,7 @@
       }
     ],
     "hotelId": "knot",
-    "luggage": "Maleta grande y mochila en Tokio; recuperar en THE KNOT el envío desde Takayama cuando se confirme la recepción.",
+    "luggage": "Dos maletas grandes y dos de cabina en THE KNOT, una vez confirmada su recepción. Para las visitas y la excursión a Nikkō, llevar solo mochilas; las cuatro maletas quedan en el hotel.",
     "summary": "Asakusa · Sensō-ji · Nakamise · Comida · Tren hacia Akihabara · Akihabara · Cena",
     "featuredPlaceId": "sensoji",
     "tips": [
@@ -1701,7 +1949,7 @@
       "Tokio"
     ],
     "title": "Tsukiji · Ginza · Shinjuku",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1798,7 +2046,7 @@
       }
     ],
     "hotelId": "knot",
-    "luggage": "Maleta grande y mochila en Tokio; recuperar en THE KNOT el envío desde Takayama cuando se confirme la recepción.",
+    "luggage": "Dos maletas grandes y dos de cabina en THE KNOT, una vez confirmada su recepción. Para las visitas y la excursión a Nikkō, llevar solo mochilas; las cuatro maletas quedan en el hotel.",
     "summary": "Tsukiji Outer Market: desayuno / brunch · Caminar hacia Ginza · Ginza · Comida ligera o café · Shinjuku · Kabukichō: paseo y cena",
     "featuredPlaceId": "tsukiji",
     "tips": [
@@ -1814,7 +2062,7 @@
       "Nikkō"
     ],
     "title": "Nikkō",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1888,7 +2136,7 @@
       }
     ],
     "hotelId": "knot",
-    "luggage": "Maleta grande y mochila en Tokio; recuperar en THE KNOT el envío desde Takayama cuando se confirme la recepción.",
+    "luggage": "Dos maletas grandes y dos de cabina en THE KNOT, una vez confirmada su recepción. Para las visitas y la excursión a Nikkō, llevar solo mochilas; las cuatro maletas quedan en el hotel.",
     "summary": "Tren Tokio → Nikkō · Zona de santuarios de Nikkō · Comida · Fin de las visitas · Regreso Nikkō → Tokio · Llegada orientativa a Tokio",
     "featuredPlaceId": "nikko",
     "tips": [
@@ -1903,7 +2151,7 @@
       "Tokio"
     ],
     "title": "Nakano y últimas compras",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1977,7 +2225,7 @@
       }
     ],
     "hotelId": "knot",
-    "luggage": "Preparar maleta grande y mochila a las 18:00, horario orientativo.",
+    "luggage": "Preparar las cuatro maletas y mochilas a las 18:00 orientativas.",
     "summary": "Nakano Broadway · Comida · Tarde libre · Preparar maletas · Última cena",
     "featuredPlaceId": "nakano",
     "tips": [
@@ -1992,7 +2240,7 @@
       "Tokio"
     ],
     "title": "Tokio Narita → Hong Kong",
-    "subtitle": "Maestro V2.4 · vuelos confirmados; demás horas orientativas o pendientes.",
+    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -2029,15 +2277,42 @@
         "planningNote": "12:00 · Orientativo, no confirmado."
       },
       {
+        "id": "2026-12-03-leave-hotel",
+        "title": "Salir de THE KNOT hacia Shinjuku",
+        "location": "",
+        "category": "Gestión",
+        "note": "Objetivo orientativo tras la comida; duración real, salida de estación y ruta accesible con cuatro maletas PENDIENTE DE CONFIRMAR. Planificar llegada al andén a las 12:45, sin tratar estos 30 min como duración de paseo medida.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "12:15 · Orientativo, no confirmado.",
+        "movement": {
+          "mode": "A pie / alternativa por confirmar",
+          "from": "THE KNOT TOKYO Shinjuku",
+          "to": "Shinjuku Station"
+        }
+      },
+      {
+        "id": "2026-12-03-platform",
+        "title": "Estar preparados en Shinjuku para N’EX",
+        "location": "Shinjuku Station",
+        "category": "Gestión",
+        "note": "Objetivo organizativo: 23 min antes del candidato 13:08. Confirmar billetes, tren, andén, terminal aérea y cuatro maletas; no hay reserva realizada.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "12:45 · Orientativo, no confirmado."
+      },
+      {
         "id": "2026-12-03-v24-4",
         "title": "Narita Express",
         "location": "",
         "category": "Transporte",
-        "note": "Unas 1 h 20 min estimadas. Pendiente de comprar.",
+        "note": "🕐 Candidato aprobado, NO reservado: Shinjuku 13:08 → estación T2/T3 14:27 → T1 14:31 según horario publicado. Verificar operación del 3 DIC al abrir venta el 3 NOV 10:00 JST (02:00 Madrid). Vuelo confirmado 18:30: margen desde el tren 4 h 03 min en estación T2/T3 o 3 h 59 min en T1, antes de caminar a facturación. Terminal aérea, andén y asientos PENDIENTE DE CONFIRMAR. No es salida confirmada. https://timetables.jreast.co.jp/en/2611/train/075/076671.html · https://www.jreast.co.jp/en/multi/faq/",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "13:30 · Orientativo, no confirmado.",
+        "planningNote": "13:08 · Orientativo, no confirmado.",
         "transportId": "narita-express"
       },
       {
@@ -2054,8 +2329,8 @@
         "transportId": "transport-10"
       }
     ],
-    "luggage": "11:00: gestión del equipaje, orientativa. Llevar maleta grande y mochila al aeropuerto de Narita.",
-    "summary": "Desayuno · Gestión de equipaje · Comida · Narita Express · Vuelo de regreso",
+    "luggage": "Gestión de cuatro maletas a las 11:00 orientativas; llevar dos grandes, dos de cabina y mochilas a Narita.",
+    "summary": "Desayuno · Gestión de equipaje · Comida · Salir de THE KNOT hacia Shinjuku · Estar preparados en Shinjuku para N’EX · Narita Express · Vuelo de regreso",
     "featuredPlaceId": "shinjuku",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."

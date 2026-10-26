@@ -2,111 +2,109 @@
   {
     "id": "v24-task-1",
     "title": "KIX → Namba",
-    "category": "Preparación",
+    "category": "Compras pendientes",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "note": "KIX → Namba pendiente de compra y elección de servicio. No todo tren de esta ruta exige reserva; verificar el servicio antes de clasificarlo como obligatorio."
   },
   {
     "id": "v24-task-2",
-    "title": "Gestión de maletas Osaka → Kioto",
-    "category": "Equipaje",
+    "title": "Consignas en Nara para cuatro maletas y recuperación",
+    "category": "Gestiones de equipaje",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
-  },
-  {
-    "id": "v24-task-3",
-    "title": "Kioto → Takayama",
-    "category": "Preparación",
-    "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "recommendedDate": "2026-11-21",
+    "note": "Llevar cuatro maletas Osaka → Kintetsu-Nara → Kioto: dos grandes de 70 × 50 × 30 cm y dos de cabina. Consignas sin reserva, visita solo con mochilas y recuperación de las cuatro a las 14:00 orientativas. Sin envío Osaka → Kioto. Kintetsu-Nara dispone de consignas grandes y extragrandes. Para cada maleta de 70 × 50 × 30 cm, comprobar un hueco útil de al menos 70 cm de alto, 30 cm de ancho y 50 cm de fondo, girándola; no todos los modelos publicados cumplen. Medidas exteriores con ruedas/asas y medidas de las dos maletas de cabina pendientes de comprobar. No hay reserva ni disponibilidad garantizada. Alternativa atendida junto a JR Nara: Nara City Tourist Information Center, 1082 Sanjohonmachi, 09:00–18:00; admite piezas de hasta 200 cm sumando tres dimensiones. Las grandes indicadas suman 150 cm, si incluyen ruedas/asas. Traslado desde Kintetsu-Nara, capacidad y tiempo necesario pendientes; no asumir que el plan 08:45–09:15 se cumple si hay que cambiar de consigna. Fuentes: https://www.kintetsu.co.jp/gyoumu/coinlocker/ · https://narashikanko.or.jp/en/guide/",
+    "priority": "Alta",
+    "officialUrl": "https://narashikanko.or.jp/en/guide/"
   },
   {
     "id": "v24-task-4",
-    "title": "Gestión de maletas Kioto → Takayama",
-    "category": "Equipaje",
+    "title": "Custodia en Kioto y equipaje a bordo hacia Takayama",
+    "category": "Gestiones de equipaje",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "recommendedDate": "2026-11-23",
+    "note": "Las dos maletas grandes facilitadas miden 70 × 50 × 30 cm (150 cm sumados): comprobar que incluyen ruedas y asas. El umbral de equipaje de gran tamaño de JR Central es superior a 160 cm y hasta 250 cm; no afirmar que estas piezas lo superan. Resolver custodia de las cuatro maletas antes de Kinkaku-ji y recuperarlas en Kyoto Station. No cambiar los asientos reservados. https://global.jr-central.co.jp/en/info/oversized-baggage/",
+    "priority": "Alta",
+    "officialUrl": "https://global.jr-central.co.jp/en/info/oversized-baggage/"
   },
   {
     "id": "v24-task-5",
-    "title": "Bus Shirakawa-go (08:50 / 15:15)",
-    "category": "Preparación",
+    "title": "Confirmar Nohi: buses Shirakawa-go 08:50 / 15:15",
+    "category": "Compras pendientes",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Objetivos del 25 NOV: ida 08:50–09:35 y vuelta 15:15–16:15. Reservar cuando Nohi Bus abra ventas."
-  },
-  {
-    "id": "v24-task-6",
-    "title": "Takayama → Odawara",
-    "category": "Preparación",
-    "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "note": "🕐 Orientativo: 08:50 → 09:40. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/ Regreso publicado 15:15–16:05, también sin marca R. Ambos pendientes de respuesta/compra.",
+    "priority": "Alta",
+    "officialUrl": "https://www.nouhibus.co.jp/route_bus/shirakawago_en/"
   },
   {
     "id": "v24-task-7",
-    "title": "Odawara → Ashinoyu",
-    "category": "Preparación",
+    "title": "Esperar respuesta del ryokan: recogida en Odawara",
+    "category": "Respuestas pendientes de hoteles",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "note": "Llegada a Odawara confirmada 14:42. Ryokan contactado; esperando respuesta sobre posibilidad de recogida. NO hay traslado contratado. NO contratar alternativa todavía. Medio, punto de encuentro, salida, duración y coste PENDIENTE DE CONFIRMAR.",
+    "priority": "Alta"
   },
   {
     "id": "v24-task-8",
-    "title": "Envío de maletas Takayama → Tokio",
-    "category": "Equipaje",
+    "title": "Confirmar envío de cuatro maletas con Mercure",
+    "category": "Respuestas pendientes de hoteles",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "Plan recomendado vía Yamato / recepción del Mercure. Confirmar servicio y plazo con ambos hoteles; Hakone solo con mochila para una noche."
+    "note": "Cuatro maletas: dos grandes y dos de cabina. Mercure Hida Takayama → THE KNOT TOKYO Shinjuku; llegada deseada a Tokio 27 NOV. Ambos hoteles contactados, esperando respuestas. Confirmar gestión, recepción, coste, fecha de entrega al transportista, fecha de llegada y forma de pago. NO contratado; NO fijar entrega de maletas hasta recibir confirmación. Hakone solo con mochilas si el envío queda resuelto.",
+    "priority": "Alta"
   },
   {
     "id": "v24-task-9",
-    "title": "Confirmar recepción en THE KNOT",
-    "category": "Equipaje",
+    "title": "Confirmar recepción de cuatro maletas en THE KNOT",
+    "category": "Respuestas pendientes de hoteles",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "note": "Hotel contactado. Confirmar aceptación de las cuatro piezas y fecha de llegada, prevista para el 27 NOV pero no garantizada. No marcar recibido sin respuesta.",
+    "priority": "Alta"
   },
   {
     "id": "v24-task-10",
     "title": "Hakone → Tokio",
-    "category": "Preparación",
+    "category": "Reservas recomendables",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "note": "Hora pendiente. Mantener flexibilidad según meteorología y visibilidad del Fuji. Unas 2 h son la estimación anterior, no un servicio concreto. No compra urgente. Un Limited Express con asiento elegido requerirá gestión distinta de una alternativa convencional; servicio pendiente de decidir.",
+    "priority": "Baja"
   },
   {
     "id": "v24-task-11",
     "title": "Tokio ↔ Nikkō",
-    "category": "Preparación",
+    "category": "Reservas recomendables",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "recommendedDate": "2026-11-01",
+    "note": "🕐 Objetivo 07:15; duración anterior ~2 h, sin tren elegido. Valorar Limited Express TOBU para dos adultos. Apertura 1 NOV 09:00 JST (01:00 Madrid). Comparar billetes básicos individuales + suplemento de cada Limited Express, Nikko Pass + suplementos separados y trenes convencionales sin suplemento Limited Express. Nikko Pass World Heritage: tarifa publicada 3.000 yen/adulto (6.000 dos adultos), 2 días; no incluye entradas ni suplemento. All Area: 8.000 yen/adulto, no necesario por el solo hecho de visitar santuarios. Tarifas individuales y suplementos de los trenes concretos PENDIENTE DE CONFIRMAR antes de decidir. Acceso desde Shinjuku a estación TOBU también pendiente. No comprar todavía. https://www.tobu.co.jp/en/express_info/purchase/ · https://www.tobu.co.jp/en/ticket/nikko-pass/",
+    "priority": "Alta",
+    "officialUrl": "https://www.tobu.co.jp/en/express_info/purchase/"
   },
   {
     "id": "v24-task-12",
     "title": "Narita Express",
-    "category": "Preparación",
+    "category": "Reservas recomendables",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "recommendedDate": "2026-11-03",
+    "note": "🕐 Candidato aprobado, NO reservado: Shinjuku 13:08 → estación T2/T3 14:27 → T1 14:31 según horario publicado. Verificar operación del 3 DIC al abrir venta el 3 NOV 10:00 JST (02:00 Madrid). Vuelo confirmado 18:30: margen desde el tren 4 h 03 min en estación T2/T3 o 3 h 59 min en T1, antes de caminar a facturación. Terminal aérea, andén y asientos PENDIENTE DE CONFIRMAR. No es salida confirmada. https://timetables.jreast.co.jp/en/2611/train/075/076671.html · https://www.jreast.co.jp/en/multi/faq/",
+    "priority": "Alta",
+    "officialUrl": "https://www.jreast.co.jp/en/multi/faq/"
   },
   {
     "id": "v24-task-13",
     "title": "Decidir Shibuya Sky",
-    "category": "Preparación",
+    "category": "Actividades opcionales",
     "status": "Pendiente",
     "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "note": "Decidir Shibuya Sky O Metropolitan; no hay entrada comprada ni horario reservado."
   },
   {
     "id": "v24-task-14",
     "title": "Revisar meteorología Hakone",
-    "category": "Preparación",
+    "category": "Actividades opcionales",
     "status": "Pendiente",
     "recommendedDate": null,
     "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
@@ -114,7 +112,7 @@
   {
     "id": "v24-task-15",
     "title": "Revisar meteorología Nikkō",
-    "category": "Preparación",
+    "category": "Actividades opcionales",
     "status": "Pendiente",
     "recommendedDate": null,
     "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
@@ -122,7 +120,7 @@
   {
     "id": "v24-task-16",
     "title": "eSIM",
-    "category": "Preparación",
+    "category": "Tareas personales",
     "status": "Pendiente",
     "recommendedDate": null,
     "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
@@ -130,7 +128,7 @@
   {
     "id": "v24-task-17",
     "title": "Seguro",
-    "category": "Preparación",
+    "category": "Tareas personales",
     "status": "Pendiente",
     "recommendedDate": null,
     "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
@@ -138,7 +136,7 @@
   {
     "id": "v24-task-18",
     "title": "Mapas offline",
-    "category": "Preparación",
+    "category": "Tareas personales",
     "status": "Pendiente",
     "recommendedDate": null,
     "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
@@ -146,7 +144,7 @@
   {
     "id": "v24-task-19",
     "title": "Revolut / efectivo",
-    "category": "Preparación",
+    "category": "Tareas personales",
     "status": "Pendiente",
     "recommendedDate": null,
     "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
@@ -154,9 +152,89 @@
   {
     "id": "v24-task-20",
     "title": "Copias de documentación",
-    "category": "Preparación",
+    "category": "Tareas personales",
     "status": "Pendiente",
     "recommendedDate": null,
     "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+  },
+  {
+    "id": "jr-payments-2026",
+    "title": "Verificar los dos pagos JR WEST",
+    "category": "Compras pendientes",
+    "status": "Pendiente",
+    "note": "Reservas aceptadas ambos identificadores, guardados en la copia privada; el correo indicaba tarjeta en procesamiento. Verificar confirmación definitiva de ambos cargos/reservas antes de recoger; no comprar otra vez ni marcar pagado sin comprobación.",
+    "recommendedDate": null,
+    "priority": "Alta",
+    "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva.",
+    "officialUrl": "https://www.westjr.co.jp/global/en/howto/train-reservation/receive/"
+  },
+  {
+    "id": "jr-pickup-2026",
+    "title": "Recoger las dos reservas JR WEST",
+    "category": "Recogidas importantes",
+    "status": "Pendiente",
+    "note": "Recoger las DOS reservas de JR WEST, ambos identificadores, guardados en la copia privada, para dos adultos y cuatro trenes. Puede adelantarse si resulta cómodo. JR-Namba admite 5489: taquilla 08:00–20:00; máquinas verdes 05:30–23:00; asistencia 08:00–20:00. Presentar tarjeta FÍSICA usada al pagar, números de reserva y correos; usar el identificador de cuatro dígitos únicamente en la máquina, nunca guardarlo aquí. Llevar pasaportes como identificación; el requisito específico publicado de pasaporte corresponde a productos especiales, no a estos Regular Tickets. Verificar antes ambos pagos. Tramitar cada reserva por separado en la misma visita y comprobar tarifa básica y suplementos de los cuatro trenes. Cola y duración PENDIENTE DE CONFIRMAR. Fuente: https://www.westjr.co.jp/global/en/howto/train-reservation/receive/ · https://eki.jr-odekake.net/top?id=0620833",
+    "recommendedDate": "2026-11-20",
+    "priority": "Alta",
+    "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva.",
+    "officialUrl": "https://eki.jr-odekake.net/top?id=0620833"
+  },
+  {
+    "id": "seiko-pickup-2026",
+    "title": "Recoger y pagar Seiko en BIC CAMERA NAMBA",
+    "category": "Recogidas importantes",
+    "status": "Pendiente",
+    "note": "Ventana de LLEGADA acordada con la tienda: 13:30–14:30; objetivo presentarse a las 13:30. No significa que la gestión termine a las 14:30. SEIKO 5 SPORTS SBSA225, 38 mm, negro; reservado, pago pendiente en tienda. Reserva [identificador en copia privada]. Relojería, planta 3. Llevar correo, número de reserva, pasaporte y medio de pago. Duración y hora final PENDIENTE DE CONFIRMAR. Shinsekai 15:00 sigue orientativo, sin suprimir visitas.",
+    "recommendedDate": "2026-11-20",
+    "priority": "Alta",
+    "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva."
+  },
+  {
+    "id": "luggage-shipping-details-2026",
+    "title": "Cerrar coste, pago y fechas del envío de cuatro maletas",
+    "category": "Gestiones de equipaje",
+    "status": "Pendiente",
+    "note": "Pendiente de respuestas de los hoteles: coste total de cuatro piezas, método de pago, fecha/hora de entrega al transportista y fecha de llegada. No añadir entrega efectiva al itinerario ni marcar servicio contratado hasta confirmar.",
+    "recommendedDate": null,
+    "priority": "Alta",
+    "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva."
+  },
+  {
+    "id": "required-seat-review-2026",
+    "title": "Comprobar requisitos de asiento antes de nuevas reservas",
+    "category": "Reservas obligatorias",
+    "status": "Pendiente",
+    "note": "Los cuatro trenes JR ya tienen asientos asignados: no comprarlos otra vez. Si se elige un Limited Express TOBU, requiere su billete/suplemento con asiento; los servicios convencionales son otra opción sin ese suplemento. N’EX candidato: solicitar asiento al comprar. Los buses Nohi elegidos figuran sin reserva obligatoria. Ninguna nueva compra autorizada.",
+    "recommendedDate": null,
+    "priority": "Media",
+    "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva.",
+    "officialUrl": "https://www.tobu.co.jp/en/express_info/purchase/"
+  },
+  {
+    "id": "shipping-backpacks-2026",
+    "title": "Preparar mochilas para una noche en Hakone",
+    "recommendedDate": "2026-11-25",
+    "note": "Después de confirmar cómo se enviarán las cuatro maletas, preparar lo necesario para Hakone. Si el envío no se confirma, resolver el equipaje antes de salir de Takayama.",
+    "category": "Gestiones de equipaje",
+    "status": "Pendiente",
+    "priority": "Alta"
+  },
+  {
+    "id": "shipping-handover-2026",
+    "title": "Entregar las cuatro maletas al servicio de envío",
+    "recommendedDate": null,
+    "note": "Solo cuando Mercure y THE KNOT confirmen el servicio, coste, pago y fechas. Fecha y hora de entrega pendientes; no se añade una entrega contratada a la cronología.",
+    "category": "Gestiones de equipaje",
+    "status": "Pendiente",
+    "priority": "Alta"
+  },
+  {
+    "id": "shipping-receive-2026",
+    "title": "Recuperar las cuatro maletas en THE KNOT",
+    "recommendedDate": "2026-11-27",
+    "note": "Fecha deseada de llegada a Tokio, no garantía de entrega. Recoger únicamente cuando el hotel confirme recepción; comprobar dos maletas grandes y dos de cabina.",
+    "category": "Gestiones de equipaje",
+    "status": "Pendiente",
+    "priority": "Alta"
   }
 ]

@@ -11,9 +11,9 @@ const data=()=>parseTrip(structuredClone({version:2,settings,itinerary,places,ho
 it('connects approximate transport ranges without creating confirmed durations or times',()=>{
  const d=data(),days=connectItinerary(d);
  const bus=days.flatMap(d=>d.activities).find(a=>a.transportId==='transport-6')!;
- expect(bus.movement).toMatchObject({mode:'Autobús',from:'Takayama',to:'Shirakawa-go',estimatedDuration:{minMinutes:45,maxMinutes:45},bookingPending:true});
+ expect(bus.movement).toMatchObject({mode:'Autobús',from:'Takayama',to:'Shirakawa-go',estimatedDuration:{minMinutes:50,maxMinutes:50},bookingPending:undefined});
  expect(bus.start).toBeNull();expect(bus.durationMinutes).toBeUndefined();
- expect(d.transport.find(t=>t.id==='transport-8')).toMatchObject({via:['Nagoya'],estimatedDuration:{minMinutes:315,maxMinutes:345}});
+ expect(d.transport.find(t=>t.id==='transport-8')).toMatchObject({trainNumber:'HIDA 6',durationMinutes:148,departureAt:'2026-11-26T09:36:00+09:00',arrivalAt:'2026-11-26T12:04:00+09:00'});
  expect(days.flatMap(d=>d.activities).find(a=>a.transportId==='nikko-tokyo')?.movement?.estimatedDuration).toBeUndefined();
 });
 it('keeps taxi alternatives and optional transfers separate from train estimates',()=>{

@@ -17,13 +17,13 @@ vi.mock('../context',()=>({useTrip:()=>{
  return {...data,itinerary:connectItinerary(data).filter(d=>d.date===selection.date),setItinerary:vi.fn()};
 }}));
 const render=(date:string)=>{selection.date=date;return renderToStaticMarkup(createElement(MemoryRouter,{children:createElement(Itinerary)}));};
-it('shows the existing bus times as suggestions and marks both journeys pending',()=>{
- const html=render('2026-11-25');for(const time of ['08:50','09:35','15:15','16:15'])expect(html).toContain(time);
- expect(html).toContain('🕐 Orientativa');expect(html.match(/🟠 PENDIENTE/g)).toHaveLength(2);
+it('shows the existing bus times as suggestions and keeps the published non-reserved services unconfirmed',()=>{
+ const html=render('2026-11-25');for(const time of ['08:50','09:40','15:15','16:05'])expect(html).toContain(time);
+ expect(html).toContain('🕐 Orientativa');expect(html).toContain('sin reserva obligatoria');expect(html).not.toContain('🟠 PENDIENTE DE RESERVAR');
  expect(html).not.toContain('🔒 Confirmada');expect(html).toContain('DESPLAZAMIENTO');
 });
 it('shows the luggage recommendation and weather-dependent optional circuit',()=>{
- const luggage=render('2026-11-26');expect(luggage).toContain('EQUIPAJE');expect(luggage).toContain('Recomendado / pendiente de confirmar');expect(luggage).toContain('Hakone: mochila / equipaje de una noche');
+ const luggage=render('2026-11-26');expect(luggage).toContain('EQUIPAJE');expect(luggage).toContain('Recomendado / pendiente de confirmar');expect(luggage).toContain('Hakone: solo mochilas con equipaje de una noche');
  const hakone=render('2026-11-27');expect(hakone).toContain('SI HACE BUEN TIEMPO');expect(hakone).toContain('SI HACE MAL TIEMPO');expect(hakone).toContain('⭐ OPCIONAL');expect(hakone).toContain('Sin hora confirmada');
 });
 it('keeps confirmed flight clocks and existing taxi advice distinct from suggestions',()=>{
@@ -33,11 +33,11 @@ it('renders luggage and movement inside the chronological plan, without separate
  const html=render('2026-11-26');
  expect(html).not.toContain('ALOJAMIENTOS Y TRANSPORTES DEL DÍA');
  expect(html).not.toContain('panel day-luggage');
- expect(html).toContain('⏱️ Aprox. 5 h 15 min');
- expect(html).toContain('5 h 45 min');
+ expect(html).toContain('HIDA 6');expect(html).toContain('09:36');
+ expect(html).toContain('KODAMA 822');expect(html).toContain('14:42');
  const timeline=html.slice(html.indexOf('timeline daily-itinerary'));
- expect(timeline.indexOf('📦 Enviar maleta')).toBeLessThan(timeline.indexOf('🚆 Takayama'));
- expect(timeline.indexOf('🧳 EQUIPAJE')).toBeLessThan(timeline.indexOf('🚆 Takayama'));
+ expect(timeline.indexOf('📦 Confirmar envío de cuatro maletas')).toBeLessThan(timeline.indexOf('🚆 TAKAYAMA'));
+ expect(timeline.indexOf('🧳 EQUIPAJE')).toBeLessThan(timeline.indexOf('🚆 TAKAYAMA'));
  expect(html.indexOf('timeline daily-itinerary')).toBeLessThan(html.indexOf('ESTADO DEL DÍA'));
 });
 it('renders walking and rail estimates from structured data in their own actions',()=>{
@@ -50,7 +50,7 @@ it('renders structured movements as light connectors between unchanged activity 
  const html=render('2026-11-25');
  expect(html.match(/class="movement-connector"/g)).toHaveLength(2);
  expect(html).toContain('🚌 Takayama');
- expect(html).toContain('🟠 PENDIENTE DE RESERVAR');
+ expect(html).toContain('sin reserva obligatoria');
  const timeline=html.slice(html.indexOf('timeline daily-itinerary'));
  expect(timeline.indexOf('Centro de autobuses Nohi')).toBeLessThan(timeline.indexOf('class="movement-connector"'));
  expect(timeline.indexOf('class="movement-connector"')).toBeLessThan(timeline.indexOf('📍 Mirador Shiroyama'));
@@ -80,7 +80,7 @@ it('distinguishes alternatives, luggage and uncertain arrival without rewriting 
  const sky=render('2026-11-28');expect(sky).toContain('O · ALTERNATIVA');
  expect(sky).not.toMatch(/Shibuya Sky → Tokyo Metropolitan/);
  const hakone=render('2026-11-27');expect(hakone).toContain('si la entrega está confirmada');expect(hakone).not.toContain('Enviar maleta grande Takayama');
- expect(render('2026-12-01')).toContain('La maleta grande queda en el hotel');
+ expect(render('2026-12-01')).toContain('Las maletas quedan en el hotel');
  expect(render('2026-11-26')).toContain('OBJETIVO DE LLEGADA');
- expect(render('2026-11-25')).toContain('Las 10:15 no garantizan');
+ expect(render('2026-11-25')).toContain('no fijar llegada garantizada a las 10:15');
 });
