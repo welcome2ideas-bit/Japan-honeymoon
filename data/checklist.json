@@ -9,13 +9,13 @@
   },
   {
     "id": "v24-task-2",
-    "title": "Consignas en Nara para cuatro maletas y recuperación",
+    "title": "Consigna Nara: búsqueda, reserva y pago completados",
     "category": "Gestiones de equipaje",
-    "status": "Pendiente",
+    "status": "Completado",
     "recommendedDate": "2026-11-21",
-    "note": "Llevar cuatro maletas Osaka → Kintetsu-Nara → Kioto: dos grandes de 70 × 50 × 30 cm y dos de cabina. Consignas sin reserva, visita solo con mochilas y recuperación de las cuatro a las 14:00 orientativas. Sin envío Osaka → Kioto. Kintetsu-Nara dispone de consignas grandes y extragrandes. Para cada maleta de 70 × 50 × 30 cm, comprobar un hueco útil de al menos 70 cm de alto, 30 cm de ancho y 50 cm de fondo, girándola; no todos los modelos publicados cumplen. Medidas exteriores con ruedas/asas y medidas de las dos maletas de cabina pendientes de comprobar. No hay reserva ni disponibilidad garantizada. Alternativa atendida junto a JR Nara: Nara City Tourist Information Center, 1082 Sanjohonmachi, 09:00–18:00; admite piezas de hasta 200 cm sumando tres dimensiones. Las grandes indicadas suman 150 cm, si incluyen ruedas/asas. Traslado desde Kintetsu-Nara, capacidad y tiempo necesario pendientes; no asumir que el plan 08:45–09:15 se cumple si hay que cambiar de consigna. Fuentes: https://www.kintetsu.co.jp/gyoumu/coinlocker/ · https://narashikanko.or.jp/en/guide/",
+    "note": "ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Búsqueda, reserva y pago ya resueltos. El depósito y la recogida siguen siendo acciones futuras independientes.",
     "priority": "Alta",
-    "officialUrl": "https://narashikanko.or.jp/en/guide/"
+    "officialUrl": "https://cloak.ecbo.io/space/GnoykxxX"
   },
   {
     "id": "v24-task-4",
@@ -236,5 +236,25 @@
     "category": "Gestiones de equipaje",
     "status": "Pendiente",
     "priority": "Alta"
+  },
+  {
+    "id": "nara-deposit-2026",
+    "title": "Depositar equipaje en 7-Eleven Nara Kencho",
+    "category": "Gestiones de equipaje",
+    "status": "Pendiente",
+    "recommendedDate": "2026-11-21",
+    "priority": "Alta",
+    "officialUrl": "https://cloak.ecbo.io/space/GnoykxxX",
+    "note": "Acción futura a las 09:00 (Asia/Tokyo), no compra pendiente. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso."
+  },
+  {
+    "id": "nara-collect-2026",
+    "title": "Recoger equipaje en 7-Eleven Nara Kencho",
+    "category": "Gestiones de equipaje",
+    "status": "Pendiente",
+    "recommendedDate": "2026-11-21",
+    "priority": "Alta",
+    "officialUrl": "https://cloak.ecbo.io/space/GnoykxxX",
+    "note": "Acción futura a las 15:00 (Asia/Tokyo), no compra pendiente. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso."
   }
 ]

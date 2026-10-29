@@ -419,7 +419,7 @@
       "Kioto"
     ],
     "title": "Osaka → Nara → Kioto",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Consigna ecbo cloak confirmada y pagada: 09:00–15:00. Transportes y visitas mantienen horarios orientativos. Hora de Japón · Asia/Tokyo.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -427,11 +427,11 @@
         "title": "Check-out IAM HOTEL",
         "location": "IAM Hotel Osaka, Osaka, Japan",
         "category": "Plan",
-        "note": "Llevar las cuatro maletas a Nara y guardarlas allí; no se envían a Kioto.",
+        "note": "Adelantar únicamente el objetivo de check-out para buscar un tren hacia Kintetsu-Nara sobre las 07:45 y llegar con margen al depósito confirmado de las 09:00. Acceso desde IAM HOTEL a Osaka-Namba y servicio concreto pendientes de confirmar. Llevar el equipaje a Nara; no se envía a Kioto.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "07:30 · Orientativo, no confirmado.",
+        "planningNote": "07:15 · Orientativo, no confirmado.",
         "placeId": "hotel-iam"
       },
       {
@@ -443,41 +443,64 @@
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "08:00 · Orientativo, no confirmado.",
+        "planningNote": "07:45 · Orientativo, no confirmado.",
         "transportId": "transport-3"
+      },
+      {
+        "id": "2026-11-21-luggage-reminder-0800",
+        "title": "🧳 CONSIGNA RESERVADA EN NARA",
+        "location": "",
+        "category": "Recordatorio",
+        "note": "En una hora tenemos previsto dejar el equipaje en 7-Eleven Nara Kencho. Comprobad la ubicación y tened preparada la reserva de ecbo cloak. https://cloak.ecbo.io/space/GnoykxxX",
+        "start": "2026-11-21T08:00:00+09:00",
+        "end": null,
+        "completed": false,
+        "locked": true,
+        "planningNote": "Hora del aviso fijada por vosotros · Asia/Tokyo; no implica una nueva reserva."
       },
       {
         "id": "2026-11-21-arrival",
         "title": "Llegada a Kintetsu-Nara",
         "location": "Kintetsu-Nara Station",
         "category": "Gestión",
-        "note": "08:45 orientativas; estación elegida Kintetsu-Nara. Servicio y horario real pendientes de confirmar; objetivo salir de Osaka a las 08:00.",
+        "note": "Objetivo llegar a Kintetsu-Nara a las 08:30, unos 30 minutos antes del depósito confirmado a las 09:00. Tren concreto y horario real pendientes. ecbo y 7-Eleven indican unos 6 min a pie desde Kintetsu-Nara (salida 1 según 7-Eleven); sumar salida del andén y manejo del equipaje. Margen de planificación, no duración garantizada. Fuentes: https://cloak.ecbo.io/space/GnoykxxX · https://ptj.sej.co.jp/arbeit/recruitment/jobfind-pc/job/All/1298355/",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "08:45 · Orientativo, no confirmado."
+        "planningNote": "08:30 · Orientativo, no confirmado."
       },
       {
         "id": "2026-11-21-find-lockers",
-        "title": "Localizar consigna para cuatro maletas",
-        "location": "Kintetsu-Nara Station",
+        "title": "Ir a la consigna reservada: 7-Eleven Nara Kencho",
+        "location": "7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1",
         "category": "Gestión",
-        "note": "Kintetsu-Nara dispone de consignas grandes y extragrandes. Para cada maleta de 70 × 50 × 30 cm, comprobar un hueco útil de al menos 70 cm de alto, 30 cm de ancho y 50 cm de fondo, girándola; no todos los modelos publicados cumplen. Medidas exteriores con ruedas/asas y medidas de las dos maletas de cabina pendientes de comprobar. No hay reserva ni disponibilidad garantizada. Alternativa atendida junto a JR Nara: Nara City Tourist Information Center, 1082 Sanjohonmachi, 09:00–18:00; admite piezas de hasta 200 cm sumando tres dimensiones. Las grandes indicadas suman 150 cm, si incluyen ruedas/asas. Traslado desde Kintetsu-Nara, capacidad y tiempo necesario pendientes; no asumir que el plan 08:45–09:15 se cumple si hay que cambiar de consigna. Fuentes: https://www.kintetsu.co.jp/gyoumu/coinlocker/ · https://narashikanko.or.jp/en/guide/",
+        "note": "No buscar taquillas: ecbo cloak ya está confirmado y pagado. Desde la salida 1 de Kintetsu-Nara, referencia publicada de unos 6 min a pie, sin incluir salir del tren ni manipular equipaje. Objetivo orientativo llegar antes de las 09:00. https://cloak.ecbo.io/space/GnoykxxX · https://ptj.sej.co.jp/arbeit/recruitment/jobfind-pc/job/All/1298355/",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "Hora pendiente de confirmar."
+        "planningNote": "08:35 · Orientativo, no confirmado.",
+        "movement": {
+          "mode": "A pie",
+          "from": "Kintetsu-Nara · salida 1",
+          "to": "7-Eleven Nara Kencho",
+          "estimatedDuration": {
+            "minMinutes": 6,
+            "maxMinutes": 6
+          },
+          "condition": "Referencia publicada; puede llevar más tiempo con equipaje."
+        }
       },
       {
         "id": "2026-11-21-store-luggage",
-        "title": "Depositar dos maletas grandes y dos de cabina",
-        "location": "",
-        "category": "Gestión",
-        "note": "Antes de las visitas. Guardar justificante, llave/código de consigna fuera del itinerario y ubicación de recogida. Llevar pasaporte, dinero, billetes y objetos de valor con vosotros. Tiempo de gestión PENDIENTE DE CONFIRMAR. Bloque de planificación para localizar y utilizar consignas; no es una reserva ni duración garantizada.",
-        "start": null,
+        "title": "📍 DEJAR EQUIPAJE",
+        "location": "7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1",
+        "category": "Gestión · recordatorio",
+        "note": "Llegar a 7-Eleven Nara Kencho y entregar los bultos reservados. Servicio confirmado y pagado. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso.",
+        "start": "2026-11-21T09:00:00+09:00",
         "end": null,
         "completed": false,
-        "planningNote": "08:45–09:15 · Orientativo, no confirmado."
+        "planningNote": "Hora de depósito confirmada · Asia/Tokyo. Fin de la gestión pendiente de confirmar.",
+        "locked": true
       },
       {
         "id": "2026-11-21-v24-3",
@@ -519,7 +542,7 @@
         "title": "Kasuga Taisha",
         "location": "Kasuga Taisha",
         "category": "Plan",
-        "note": "Solo si sobra tiempo.",
+        "note": "Solo si sobra tiempo; mantener el regreso hacia la consigna a las 14:00 y la recogida confirmada a las 15:00. Tiempo desde la última visita pendiente de confirmar; no apurar esta visita opcional.",
         "start": null,
         "end": null,
         "completed": false,
@@ -528,26 +551,51 @@
         "optional": true
       },
       {
-        "id": "2026-11-21-retrieve-luggage",
-        "title": "Recoger las cuatro maletas en Nara",
+        "id": "2026-11-21-luggage-reminder-1400",
+        "title": "🚨 REGRESAR HACIA LA CONSIGNA",
         "location": "",
-        "category": "Gestión",
-        "note": "Objetivo estar en la consigna a las 14:00, no comenzar entonces un paseo de duración desconocida. Salida desde la última visita y duración de acceso PENDIENTE DE CONFIRMAR. Margen de planificación hasta el tren objetivo 14:30: 30 min; servicio todavía no reservado. Comprobar que se recuperan las cuatro piezas.",
-        "start": null,
+        "category": "Recordatorio",
+        "note": "Debemos terminar las visitas y dirigirnos al establecimiento donde hemos dejado el equipaje. https://cloak.ecbo.io/space/GnoykxxX",
+        "start": "2026-11-21T14:00:00+09:00",
         "end": null,
         "completed": false,
-        "planningNote": "14:00 · Orientativo, no confirmado."
+        "locked": true,
+        "planningNote": "Hora del aviso fijada por vosotros · Asia/Tokyo; no implica una nueva reserva."
+      },
+      {
+        "id": "2026-11-21-luggage-reminder-1430",
+        "title": "🧳 RECOGER EQUIPAJE",
+        "location": "",
+        "category": "Recordatorio",
+        "note": "Tenemos reservada la recogida a las 15:00. Comprobad todos los bultos antes de continuar hacia Kioto. Este aviso no adelanta la hora de recogida confirmada. https://cloak.ecbo.io/space/GnoykxxX",
+        "start": "2026-11-21T14:30:00+09:00",
+        "end": null,
+        "completed": false,
+        "locked": true,
+        "planningNote": "Hora del aviso fijada por vosotros · Asia/Tokyo; no implica una nueva reserva."
+      },
+      {
+        "id": "2026-11-21-retrieve-luggage",
+        "title": "Recoger el equipaje reservado en 7-Eleven Nara Kencho",
+        "location": "7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1",
+        "category": "Gestión",
+        "note": "Comprobar todos los bultos: Bag Size × 2 y Suitcase Size × 4. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Después, regresar a Kintetsu-Nara. La salida hacia Kioto a las 15:20 es solo un objetivo condicionado a terminar la recogida y llegar al andén; si no da tiempo, tomar un servicio posterior. No salir hacia Kioto sin recuperar el equipaje.",
+        "start": "2026-11-21T15:00:00+09:00",
+        "end": null,
+        "completed": false,
+        "planningNote": "Hora de recogida confirmada · Asia/Tokyo. Fin de la gestión pendiente de confirmar.",
+        "locked": true
       },
       {
         "id": "2026-11-21-v24-7",
         "title": "Nara → Kioto",
         "location": "",
         "category": "Transporte",
-        "note": "Duración estimada: unos 45 min.",
+        "note": "Objetivo posterior a la recogida confirmada de las 15:00; no es un tren reservado. Unos 45 min de trayecto estimados. Si la recogida o el acceso a la estación requieren más tiempo, salir después.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "14:30 · Orientativo, no confirmado.",
+        "planningNote": "15:20 · Orientativo, no confirmado.",
         "transportId": "transport-4"
       },
       {
@@ -555,11 +603,11 @@
         "title": "Check-in Yasen Kyoto",
         "location": "Yasen Kyoto, Benzaitencho 23, Kyoto, Japan",
         "category": "Plan",
-        "note": "",
+        "note": "Objetivo ajustado tras la recogida de equipaje a las 15:00 y la salida orientativa de Nara a las 15:20. Llegada orientativa a Kioto hacia las 16:05 si el trayecto dura los ~45 min estimados; el acceso a Yasen Kyoto sigue pendiente de confirmar. No es una hora de check-in reservada.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "16:00 · Orientativo, no confirmado.",
+        "planningNote": "16:30 · Orientativo, no confirmado.",
         "placeId": "hotel-yasen"
       },
       {
@@ -587,8 +635,8 @@
       }
     ],
     "hotelId": "yasen",
-    "luggage": "Llevar cuatro maletas Osaka → Kintetsu-Nara → Kioto: dos grandes de 70 × 50 × 30 cm y dos de cabina. Consignas sin reserva, visita solo con mochilas y recuperación de las cuatro a las 14:00 orientativas. Sin envío Osaka → Kioto.",
-    "summary": "Check-out IAM HOTEL · Osaka → Nara · Llegada a Nara · Localizar consigna para cuatro maletas · Depositar dos maletas grandes y dos de cabina · Nara Park · Tōdai-ji · Comida · Recoger las cuatro maletas en Nara · Nara → Kioto · Check-in Yasen Kyoto · Gion · Cena",
+    "luggage": "🧳 Equipaje hasta Nara y después hacia Kioto. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Durante las visitas llevar solo lo necesario; recuperar todos los bultos antes de continuar. Sin envío Osaka → Kioto.",
+    "summary": "Osaka → Nara · ecbo cloak confirmado y pagado en 7-Eleven Nara Kencho · depósito 09:00 · Nara Park · Tōdai-ji · comida · Kasuga Taisha si sobra tiempo · regreso hacia consigna 14:00 · aviso 14:30 · recogida 15:00 · Kioto desde 15:20 orientativas · Yasen Kyoto · Gion · cena",
     "featuredPlaceId": "nara-park",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",

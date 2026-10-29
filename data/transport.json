@@ -81,7 +81,7 @@
     "time": "Pendiente de confirmar",
     "status": "pendiente de reservar",
     "location": "",
-    "note": "🕐 Orientativo: 08:00. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar.  Estación de Nara elegida: Kintetsu-Nara. Tren concreto y horario real pendientes; no hay reserva de consigna.",
+    "note": "🕐 Orientativo: 07:45. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar. Osaka-Namba → Kintetsu-Nara; objetivo llegar a las 08:30. Servicio concreto y horario real pendientes. Después, unos 6 min a pie desde salida 1 hasta 7-Eleven Nara Kencho, más salida del andén y equipaje. Depósito ecbo cloak CONFIRMADO Y PAGADO a las 09:00. El margen de 30 min es un objetivo, no una conexión garantizada. Ficha: https://cloak.ecbo.io/space/GnoykxxX",
     "from": "Osaka",
     "estimatedDuration": {
       "minMinutes": 45,
@@ -97,7 +97,7 @@
     "time": "Pendiente de confirmar",
     "status": "pendiente de reservar",
     "location": "",
-    "note": "🕐 Orientativo: 14:30. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar.  Estación de Nara elegida: Kintetsu-Nara. Tren concreto y horario real pendientes; no hay reserva de consigna.",
+    "note": "🕐 Orientativo: 15:20. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar. Salir de Kintetsu-Nara solo DESPUÉS de recuperar todos los bultos en 7-Eleven Nara Kencho a las 15:00 confirmadas. Referencia de acceso a la estación: unos 6 min a pie, más tiempo de gestión y llegada al andén. Los 20 min entre recogida y salida son un margen de planificación condicionado; si no es suficiente, tomar un tren posterior. Llegada objetivo a Kioto hacia 16:05, no garantizada. Servicio y horario real pendientes. Consigna CONFIRMADA Y PAGADA, no pendiente de compra. https://cloak.ecbo.io/space/GnoykxxX",
     "from": "Kintetsu-Nara",
     "estimatedDuration": {
       "minMinutes": 45,

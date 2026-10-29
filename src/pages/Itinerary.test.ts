@@ -84,3 +84,19 @@ it('distinguishes alternatives, luggage and uncertain arrival without rewriting 
  expect(render('2026-11-26')).toContain('OBJETIVO DE LLEGADA');
  expect(render('2026-11-25')).toContain('no fijar llegada garantizada a las 10:15');
 });
+
+it('renders the paid Nara booking and all four Japanese-time reminders without duplicate deposits',()=>{
+ const html=render('2026-11-21');
+ for(const text of ['CONFIRMADO Y PAGADO','7-Eleven Nara Kencho','セブン-イレブン奈良県庁店','4.200 JPY','Bag Size × 2','Suitcase Size × 4','08:00','09:00','14:00','14:30','15:00','15:20'])expect(html).toContain(text);
+ expect(html.match(/<h3>[^<]*DEJAR EQUIPAJE<\/h3>/g)).toHaveLength(1);
+ for(const title of ['CONSIGNA RESERVADA EN NARA','REGRESAR HACIA LA CONSIGNA','RECOGER EQUIPAJE'])expect(html.match(new RegExp('<h3>[^<]*'+title+'<\\/h3>','g'))).toHaveLength(1);
+ expect(html).not.toContain('Consignas sin reserva');expect(html).not.toContain('No hay reserva ni disponibilidad garantizada');
+ for(const visit of ['Nara Park','Tōdai-ji','Kasuga Taisha','Gion','Comida','Cena'])expect(html).toContain(visit);
+ const day=itinerary.find(d=>d.date==='2026-11-21')!;
+ expect(day.timeZone).toBe('Asia/Tokyo');
+ expect(day.activities.find(a=>a.id==='2026-11-21-store-luggage')?.start).toBe('2026-11-21T09:00:00+09:00');
+ expect(day.activities.find(a=>a.id==='2026-11-21-retrieve-luggage')?.start).toBe('2026-11-21T15:00:00+09:00');
+ const departure=day.activities.find(a=>a.id==='2026-11-21-v24-7')!;
+ expect(departure.start).toBeNull();expect(departure.planningNote).toContain('15:20');
+ expect(new Set(day.activities.map(a=>a.id)).size).toBe(day.activities.length);
+});

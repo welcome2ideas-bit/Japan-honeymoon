@@ -59,3 +59,25 @@ it('retires only the two obsolete purchase tasks even in legacy storage',()=>{
  expect(result.tasks.some(t=>t.id==='jr-payments-2026')).toBe(true);
  expect(result.tasks.some(t=>t.id==='jr-pickup-2026')).toBe(true);
 });
+
+it('applies the paid Nara booking once and preserves other tasks and personal data',()=>{
+ const saved=fresh();saved.catalogRevision=5;
+ saved.tasks.find(t=>t.id==='v24-task-2')!.status='Pendiente';
+ saved.tasks.find(t=>t.id==='jr-payments-2026')!.status='Completado';
+ saved.tasks.push({id:'personal-nara',title:'Mi nota de Nara',category:'Personal',status:'Pendiente',note:'Conservar esta gestión'});
+ saved.deletedTaskIds=['v24-task-16'];saved.places[0].note='Nota personal';saved.places[0].favorite=true;
+ saved.wishlist=[{id:'wish',name:'Favorito',city:'Nara',category:'Personal',note:'Mi nota',favorite:true,imageUrl:''}];
+ saved.itinerary[0].activities[0].completed=true;
+ const result=updateCatalog(saved,fresh());
+ expect(result.catalogRevision).toBe(6);
+ expect(result.tasks.find(t=>t.id==='v24-task-2')?.status).toBe('Completado');
+ expect(result.tasks.find(t=>t.id==='jr-payments-2026')?.status).toBe('Completado');
+ expect(result.tasks.find(t=>t.id==='personal-nara')).toEqual(saved.tasks.find(t=>t.id==='personal-nara'));
+ expect(result.tasks.some(t=>t.id==='v24-task-16')).toBe(false);
+ expect(result.places[0]).toMatchObject({note:'Nota personal',favorite:true});
+ expect(result.wishlist).toEqual(saved.wishlist);expect(result.itinerary[0].activities[0].completed).toBe(true);
+ for(const id of ['nara-deposit-2026','nara-collect-2026'])expect(result.tasks.find(t=>t.id===id)?.status).toBe('Pendiente');
+ expect(updateCatalog(result,fresh())).toEqual(result);
+ result.tasks.find(t=>t.id==='nara-deposit-2026')!.status='Completado';
+ expect(updateCatalog(result,fresh()).tasks.find(t=>t.id==='nara-deposit-2026')?.status).toBe('Completado');
+});
