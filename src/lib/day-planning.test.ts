@@ -49,7 +49,7 @@ it('labels suggestions separately and protects all real flight and ground endpoi
   d.activities.forEach((a,index)=>{if(a.transportId||a.start||a.end||a.hotelId||a.locked)expect(optimized.activities[index]).toEqual(a);if(a.transportId&&!a.start&&!a.end)expect(activityRange(a)).toBe('Pendiente de confirmar');});
  }
  expect(activityRange(visit('test'))).toBe('Horario orientativo · Mañana');
- const migrated=updateCatalog({...trip,catalogRevision:3},real());expect(migrated.catalogRevision).toBe(6);expect(migrated.transport).toEqual(trip.transport);
+ const migrated=updateCatalog({...trip,catalogRevision:3},real());expect(migrated.catalogRevision).toBe(7);expect(migrated.transport).toEqual(trip.transport);
 });
 it('allows full progress while a hidden transition remains unchecked',()=>{
  const day=real().itinerary.find(d=>d.date==='2026-11-20')!;

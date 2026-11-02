@@ -32,7 +32,7 @@ it('does not restore removed activities or Wishlist slots from storage',()=>{
 });
 it('keeps the bus arrival unchanged and separates the suggested viewpoint visit',()=>{
  const day=fresh().itinerary.find(d=>d.date==='2026-11-25')!;
- expect(day.activities.find(a=>a.transportId==='transport-6')?.planningNote).toContain('09:40');
+ expect(day.activities.find(a=>a.transportId==='transport-6')?.end).toBe('2026-11-25T09:00:00+09:00');
  const visit=day.activities.find(a=>a.placeId==='shiroyama')!;
  expect(visit.planningNote).toContain('10:00');expect(visit.start).toBeNull();
 });
@@ -69,7 +69,7 @@ it('applies the paid Nara booking once and preserves other tasks and personal da
  saved.wishlist=[{id:'wish',name:'Favorito',city:'Nara',category:'Personal',note:'Mi nota',favorite:true,imageUrl:''}];
  saved.itinerary[0].activities[0].completed=true;
  const result=updateCatalog(saved,fresh());
- expect(result.catalogRevision).toBe(6);
+ expect(result.catalogRevision).toBe(7);
  expect(result.tasks.find(t=>t.id==='v24-task-2')?.status).toBe('Completado');
  expect(result.tasks.find(t=>t.id==='jr-payments-2026')?.status).toBe('Completado');
  expect(result.tasks.find(t=>t.id==='personal-nara')).toEqual(saved.tasks.find(t=>t.id==='personal-nara'));

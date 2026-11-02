@@ -102,25 +102,26 @@
       "Osaka"
     ],
     "title": "Osaka",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
         "id": "activity-flight-hkg-osaka",
-        "title": "Hong Kong → Osaka",
+        "title": "Vuelo Hong Kong → Osaka",
         "category": "Vuelo",
         "transportId": "flight-hkg-osaka",
         "start": null,
         "end": null,
-        "note": "",
-        "location": ""
+        "note": "CONFIRMADO. CX506 Hong Kong → Osaka KIX Terminal 1: llegada 15:10 JST. Salida en hora de Hong Kong y llegada en hora de Japón.",
+        "location": "",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino."
       },
       {
         "id": "2026-11-19-v24-1",
         "title": "Inmigración y recogida de maletas",
         "location": "",
         "category": "Plan",
-        "note": "Llegada KIX 15:10 confirmada; fin de trámites orientativo.",
+        "note": "CX506: llegada KIX Terminal 1 15:10 JST confirmada. Inmigración y recogida de seis bultos; fin de trámites orientativo, sin duración garantizada.",
         "start": null,
         "end": null,
         "completed": false,
@@ -128,14 +129,14 @@
       },
       {
         "id": "2026-11-19-v24-2",
-        "title": "KIX → Namba",
-        "location": "",
+        "title": "Kansai Airport → Nankai Namba · Nankai Airport Express",
+        "location": "Nankai Kansai Airport Station",
         "category": "Transporte",
-        "note": "Duración estimada 45–60 min. Pendiente de comprar.",
+        "note": "Dos adultos y seis bultos. Nankai Airport Express ordinario, sin reserva anticipada. Tren flexible, orientativamente después de las 16:30; duración estimada 45–60 min. Tras inmigración y equipaje en KIX Terminal 1, subir a la planta 2F y seguir Railways / Nankai hacia la estación conectada. Comprar dos billetes hasta Nankai Namba en las máquinas o taquilla de Nankai y comprobar el servicio Airport Express en los paneles. Utilizar ascensores con los seis bultos. Después ir a IAM HOTEL. No hay tren ni asiento reservado. Fuentes: https://www.kansai-airport.or.jp/en/access/from-airport/train · https://www.nankai.co.jp/en_railway/traffic/kix.html",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "16:30–17:20 · Orientativo, no confirmado.",
+        "planningNote": "16:30 · Orientativo: tren flexible a partir de esta hora, sin reserva.",
         "transportId": "kix-namba"
       },
       {
@@ -143,11 +144,11 @@
         "title": "Caminar hasta IAM HOTEL",
         "location": "",
         "category": "Plan",
-        "note": "",
+        "note": "Continuar con los seis bultos hacia IAM HOTEL; la hora depende del tren disponible tras inmigración.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "17:20–17:40 · Orientativo, no confirmado."
+        "planningNote": "Después de llegar a Nankai Namba · Horario pendiente de confirmar."
       },
       {
         "id": "2026-11-19-v24-4",
@@ -223,8 +224,8 @@
       }
     ],
     "hotelId": "iam",
-    "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida.",
-    "summary": "Hong Kong → Osaka · Inmigración y recogida de maletas · KIX → Namba · Caminar hasta IAM HOTEL · Check-in IAM HOTEL · Dotonbori · Cena · Dotonbori iluminado · Regreso al hotel",
+    "luggage": "Seis bultos confirmados: cuatro maletas y dos bolsas/mochilas. Conservarlos juntos durante el traslado Nankai hasta IAM HOTEL.",
+    "summary": "Vuelo Hong Kong → Osaka · Inmigración y recogida de maletas · Kansai Airport → Nankai Namba · Nankai Airport Express · Caminar hasta IAM HOTEL · Check-in IAM HOTEL · Dotonbori · Cena · Dotonbori iluminado · Regreso al hotel",
     "featuredPlaceId": "dotonbori",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."
@@ -238,7 +239,7 @@
       "Osaka"
     ],
     "title": "Osaka",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -357,7 +358,7 @@
         "title": "Hotel y descanso",
         "location": "IAM Hotel Osaka, Osaka, Japan",
         "category": "Plan",
-        "note": "",
+        "note": "Descanso flexible: reservar margen para desplazarse a JR Osaka Station y recoger billetes hacia las 18:30. Ruta y duración pendientes; la recogida puede adelantarse, sin eliminar este descanso.",
         "start": null,
         "end": null,
         "completed": false,
@@ -366,10 +367,10 @@
       },
       {
         "id": "2026-11-20-jr-pickup",
-        "title": "Recoger todos los billetes JR WEST en JR-Namba",
-        "location": "JR-Namba Station, 1-4-1 Minatomachi, Naniwa-ku, Osaka",
+        "title": "Recoger todos los billetes JR WEST en JR Osaka Station",
+        "location": "JR Osaka Station · vestíbulo Central, fuera de los tornos",
         "category": "Recogidas importantes",
-        "note": "Recoger las DOS reservas de JR WEST, ambos identificadores, guardados en la copia privada, para dos adultos y cuatro trenes. Puede adelantarse si resulta cómodo. JR-Namba admite 5489: taquilla 08:00–20:00; máquinas verdes 05:30–23:00; asistencia 08:00–20:00. Presentar tarjeta FÍSICA usada al pagar, números de reserva y correos; usar el identificador de cuatro dígitos únicamente en la máquina, nunca guardarlo aquí. Llevar pasaportes como identificación; el requisito específico publicado de pasaporte corresponde a productos especiales, no a estos Regular Tickets. Verificar antes ambos pagos. Tramitar cada reserva por separado en la misma visita y comprobar tarifa básica y suplementos de los cuatro trenes. Cola y duración PENDIENTE DE CONFIRMAR. Fuente: https://www.westjr.co.jp/global/en/howto/train-reservation/receive/ · https://eki.jr-odekake.net/top?id=0620833",
+        "note": "PENDIENTE DE RETIRAR BILLETES FÍSICOS. Objetivo 20 NOV 18:30 en JR Osaka Station; puede adelantarse. Recoger las dos reservas para dos adultos y cuatro trenes (NOZOMI 128 + HIDA 11 y HIDA 6 + KODAMA 822), tramitando cada reserva en la misma visita. Utilizar taquilla Midori-no-madoguchi Central o máquina verde señalizada 5489 del vestíbulo, FUERA de los tornos; no entrar a los andenes para recoger. Osaka Station confirma recogida e5489; taquilla Central y máquinas Central: 06:00–22:00. Llevar tarjeta FÍSICA original usada al pagar y correos de confirmación; tener disponible el dato de identificación de cuatro cifras fuera de la aplicación. Pago con tarjeta física tramitado. Comprobar todos los billetes, tarifa básica y suplementos. Los correos NO sustituyen los billetes físicos. Cola y duración pendientes. Fuentes: https://www.westjr.co.jp/global/en/howto/train-reservation/receive/ · https://eki.jr-odekake.net/top?id=0610130 · https://eki.jr-odekake.net/premises?id=0610130",
         "start": null,
         "end": null,
         "completed": false,
@@ -403,7 +404,7 @@
     ],
     "hotelId": "iam",
     "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida.",
-    "summary": "Desayuno · Metro hacia el Castillo de Osaka · Castillo de Osaka · Salida del castillo · Kuromon Market y comida · Salir hacia BIC CAMERA NAMBA · Recoger y pagar SEIKO 5 SPORTS SBSA225 · Shinsekai · Hotel y descanso · Recoger todos los billetes JR WEST en JR-Namba · Dotonbori y cena",
+    "summary": "Desayuno · Metro hacia el Castillo de Osaka · Castillo de Osaka · Salida del castillo · Kuromon Market y comida · Salir hacia BIC CAMERA NAMBA · Recoger y pagar SEIKO 5 SPORTS SBSA225 · Shinsekai · Hotel y descanso · Recoger todos los billetes JR WEST en JR Osaka Station · Dotonbori y cena",
     "featuredPlaceId": "osaka-castle",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."
@@ -419,7 +420,7 @@
       "Kioto"
     ],
     "title": "Osaka → Nara → Kioto",
-    "subtitle": "Consigna ecbo cloak confirmada y pagada: 09:00–15:00. Transportes y visitas mantienen horarios orientativos. Hora de Japón · Asia/Tokyo.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -427,7 +428,7 @@
         "title": "Check-out IAM HOTEL",
         "location": "IAM Hotel Osaka, Osaka, Japan",
         "category": "Plan",
-        "note": "Adelantar únicamente el objetivo de check-out para buscar un tren hacia Kintetsu-Nara sobre las 07:45 y llegar con margen al depósito confirmado de las 09:00. Acceso desde IAM HOTEL a Osaka-Namba y servicio concreto pendientes de confirmar. Llevar el equipaje a Nara; no se envía a Kioto.",
+        "note": "Salida objetivo del IAM HOTEL 07:15 con seis bultos hacia Kintetsu-Nipponbashi, próxima al hotel. Tren Rapid Express ordinario objetivo 07:30–07:45; comprobar horario antes de salir. No se envía equipaje a Kioto.",
         "start": null,
         "end": null,
         "completed": false,
@@ -436,14 +437,14 @@
       },
       {
         "id": "2026-11-21-v24-2",
-        "title": "Osaka → Nara",
-        "location": "",
+        "title": "Kintetsu-Nipponbashi → Kintetsu-Nara · Rapid Express",
+        "location": "Kintetsu-Nipponbashi Station, Osaka",
         "category": "Transporte",
-        "note": "Duración estimada: unos 45 min.",
+        "note": "Kintetsu Rapid Express ordinario. Dos adultos, seis bultos. Salida objetivo del IAM HOTEL 07:15; tren orientativo 07:30–07:45 y llegada prevista 08:15–08:30. Confirmar servicio y horario antes de viajar. Después ir a 7-Eleven Nara Kencho: referencia de unos 6 min a pie desde salida 1, más salida del andén y equipaje. Depósito ecbo CONFIRMADO Y PAGADO a las 09:00. No hay tren reservado. https://cloak.ecbo.io/space/GnoykxxX",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "07:45 · Orientativo, no confirmado.",
+        "planningNote": "07:30–07:45 · Orientativo, sin reserva.",
         "transportId": "transport-3"
       },
       {
@@ -463,11 +464,11 @@
         "title": "Llegada a Kintetsu-Nara",
         "location": "Kintetsu-Nara Station",
         "category": "Gestión",
-        "note": "Objetivo llegar a Kintetsu-Nara a las 08:30, unos 30 minutos antes del depósito confirmado a las 09:00. Tren concreto y horario real pendientes. ecbo y 7-Eleven indican unos 6 min a pie desde Kintetsu-Nara (salida 1 según 7-Eleven); sumar salida del andén y manejo del equipaje. Margen de planificación, no duración garantizada. Fuentes: https://cloak.ecbo.io/space/GnoykxxX · https://ptj.sej.co.jp/arbeit/recruitment/jobfind-pc/job/All/1298355/",
+        "note": "Objetivo llegar a Kintetsu-Nara 08:15–08:30. Depósito confirmado 09:00: margen previsto 30–45 min para salir del andén y gestionar seis bultos; referencia de unos 6 min a pie desde salida 1 hasta 7-Eleven Nara Kencho. Confirmar el tren; no es conexión garantizada. https://cloak.ecbo.io/space/GnoykxxX",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "08:30 · Orientativo, no confirmado."
+        "planningNote": "08:15–08:30 · Llegada orientativa, no confirmada."
       },
       {
         "id": "2026-11-21-find-lockers",
@@ -493,9 +494,9 @@
       {
         "id": "2026-11-21-store-luggage",
         "title": "📍 DEJAR EQUIPAJE",
-        "location": "7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1",
+        "location": "7-Eleven Nara Kencho · セブン-イレブン奈良県庁店 · 30 Noborioji-cho, Nara, edificio este del Gobierno prefectural, planta baja",
         "category": "Gestión · recordatorio",
-        "note": "Llegar a 7-Eleven Nara Kencho y entregar los bultos reservados. Servicio confirmado y pagado. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso.",
+        "note": "Llegar a 7-Eleven Nara Kencho y entregar los bultos reservados. Servicio confirmado y pagado. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Presentar la reserva digital; son SEIS bultos reales: 2 Bag Size + 4 Suitcase Size. Comprobar los seis al recoger.",
         "start": "2026-11-21T09:00:00+09:00",
         "end": null,
         "completed": false,
@@ -577,9 +578,9 @@
       {
         "id": "2026-11-21-retrieve-luggage",
         "title": "Recoger el equipaje reservado en 7-Eleven Nara Kencho",
-        "location": "7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1",
+        "location": "7-Eleven Nara Kencho · セブン-イレブン奈良県庁店 · 30 Noborioji-cho, Nara, edificio este del Gobierno prefectural, planta baja",
         "category": "Gestión",
-        "note": "Comprobar todos los bultos: Bag Size × 2 y Suitcase Size × 4. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Después, regresar a Kintetsu-Nara. La salida hacia Kioto a las 15:20 es solo un objetivo condicionado a terminar la recogida y llegar al andén; si no da tiempo, tomar un servicio posterior. No salir hacia Kioto sin recuperar el equipaje.",
+        "note": "Comprobar todos los bultos: Bag Size × 2 y Suitcase Size × 4. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Después, regresar a Kintetsu-Nara. La salida hacia Kioto a las 15:30–15:45 es solo un objetivo condicionado a terminar la recogida y llegar al andén; si no da tiempo, tomar un servicio posterior. No salir hacia Kioto sin recuperar el equipaje. Presentar la reserva digital; son SEIS bultos reales: 2 Bag Size + 4 Suitcase Size. Comprobar los seis al recoger.",
         "start": "2026-11-21T15:00:00+09:00",
         "end": null,
         "completed": false,
@@ -588,14 +589,14 @@
       },
       {
         "id": "2026-11-21-v24-7",
-        "title": "Nara → Kioto",
-        "location": "",
+        "title": "Kintetsu-Nara → Kyoto Station · Express",
+        "location": "Kintetsu-Nara Station",
         "category": "Transporte",
-        "note": "Objetivo posterior a la recogida confirmada de las 15:00; no es un tren reservado. Unos 45 min de trayecto estimados. Si la recogida o el acceso a la estación requieren más tiempo, salir después.",
+        "note": "Kintetsu Express ordinario. Salida orientativa 15:30–15:45, únicamente después de recuperar los SEIS bultos en 7-Eleven Nara Kencho a las 15:00. Unos 6 min a pie hacia la estación, más gestión y acceso al andén; si falta margen, tomar un tren posterior. Duración ferroviaria aproximada 45–60 min, posible transbordo en Yamato-Saidaiji según servicio. Horario real pendiente. Llegada a Yasen Kyoto después del tren y del desplazamiento desde Kyoto Station; no es una hora de check-in garantizada.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "15:20 · Orientativo, no confirmado.",
+        "planningNote": "15:30–15:45 · Orientativo, sin reserva.",
         "transportId": "transport-4"
       },
       {
@@ -603,11 +604,11 @@
         "title": "Check-in Yasen Kyoto",
         "location": "Yasen Kyoto, Benzaitencho 23, Kyoto, Japan",
         "category": "Plan",
-        "note": "Objetivo ajustado tras la recogida de equipaje a las 15:00 y la salida orientativa de Nara a las 15:20. Llegada orientativa a Kioto hacia las 16:05 si el trayecto dura los ~45 min estimados; el acceso a Yasen Kyoto sigue pendiente de confirmar. No es una hora de check-in reservada.",
+        "note": "Salir de Nara sobre 15:30–15:45 tras recoger seis bultos; tren 45–60 min más traslado desde Kyoto Station. Hora de llegada a Yasen Kyoto pendiente, sin check-in horario confirmado.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "16:30 · Orientativo, no confirmado.",
+        "planningNote": "Después del tren desde Nara y del traslado desde Kyoto Station · Hora pendiente.",
         "placeId": "hotel-yasen"
       },
       {
@@ -635,8 +636,8 @@
       }
     ],
     "hotelId": "yasen",
-    "luggage": "🧳 Equipaje hasta Nara y después hacia Kioto. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Durante las visitas llevar solo lo necesario; recuperar todos los bultos antes de continuar. Sin envío Osaka → Kioto.",
-    "summary": "Osaka → Nara · ecbo cloak confirmado y pagado en 7-Eleven Nara Kencho · depósito 09:00 · Nara Park · Tōdai-ji · comida · Kasuga Taisha si sobra tiempo · regreso hacia consigna 14:00 · aviso 14:30 · recogida 15:00 · Kioto desde 15:20 orientativas · Yasen Kyoto · Gion · cena",
+    "luggage": "🧳 Equipaje hasta Nara y después hacia Kioto. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos reales confirmados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Durante las visitas llevar solo lo necesario; recuperar todos los bultos antes de continuar. Sin envío Osaka → Kioto.",
+    "summary": "Check-out IAM HOTEL · Kintetsu-Nipponbashi → Kintetsu-Nara · Rapid Express · 🧳 CONSIGNA RESERVADA EN NARA · Llegada a Kintetsu-Nara · Ir a la consigna reservada: 7-Eleven Nara Kencho · 📍 DEJAR EQUIPAJE · Nara Park · Tōdai-ji · Comida · 🚨 REGRESAR HACIA LA CONSIGNA · 🧳 RECOGER EQUIPAJE · Recoger el equipaje reservado en 7-Eleven Nara Kencho · Kintetsu-Nara → Kyoto Station · Express · Check-in Yasen Kyoto · Gion · Cena",
     "featuredPlaceId": "nara-park",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
@@ -1033,7 +1034,7 @@
       "Takayama"
     ],
     "title": "Kioto → Takayama",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1150,13 +1151,13 @@
       {
         "id": "2026-11-24-v24-6",
         "title": "KYOTO → NAGOYA · NOZOMI 128",
-        "location": "",
+        "location": "KYOTO Station",
         "category": "Transporte",
-        "note": "🔒 NOZOMI 128: 11:48 → 12:22. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 4, asientos 10D y 10E. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR.",
-        "start": null,
-        "end": null,
+        "note": "🔒 NOZOMI 128: 11:48 → 12:22. RESERVADO, PAGO TRAMITADO con tarjeta física según confirmación. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 4 · 10D y 10E. RETIRAR BILLETES FÍSICOS preferiblemente el 20 NOV en JR Osaka Station. No volver a comprar. Andén pendiente de confirmar.",
+        "start": "2026-11-24T11:48:00+09:00",
+        "end": "2026-11-24T12:22:00+09:00",
         "completed": false,
-        "planningNote": "Horario confirmado según la reserva facilitada; pago pendiente de verificar.",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino.",
         "transportId": "transport-5",
         "locked": true
       },
@@ -1175,13 +1176,13 @@
       {
         "id": "2026-11-24-hida11",
         "title": "NAGOYA → TAKAYAMA · HIDA 11",
-        "location": "",
+        "location": "NAGOYA Station",
         "category": "Transporte",
-        "note": "",
-        "start": null,
-        "end": null,
+        "note": "🔒 HIDA 11: 12:48 → 15:12. RESERVADO, PAGO TRAMITADO con tarjeta física según confirmación. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 3 · 3A y 3B. RETIRAR BILLETES FÍSICOS preferiblemente el 20 NOV en JR Osaka Station. No volver a comprar. Andén pendiente de confirmar.",
+        "start": "2026-11-24T12:48:00+09:00",
+        "end": "2026-11-24T15:12:00+09:00",
         "completed": false,
-        "planningNote": "Hora pendiente de confirmar.",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino.",
         "transportId": "jr-hida-11",
         "locked": true
       },
@@ -1218,6 +1219,17 @@
         "placeId": "hotel-mercure"
       },
       {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "location": "Mercure Hida Takayama",
+        "category": "Recordatorio",
+        "planningNote": "Hora pendiente de confirmar.",
+        "id": "2026-11-24-yamato-prepare",
+        "title": "📦 Preparar y gestionar Yamato con Mercure",
+        "note": "Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara."
+      },
+      {
         "id": "2026-11-24-v24-8",
         "title": "Casco antiguo",
         "location": "Sanmachi Takayama",
@@ -1243,7 +1255,7 @@
     ],
     "hotelId": "mercure",
     "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida. Resolver custodia temporal en Kyoto Station antes de Kinkaku-ji y recuperar las cuatro antes del NOZOMI 128. Medir equipaje y comprobar condiciones de bultos grandes; no asumir que los asientos incluyen espacio especial.",
-    "summary": "Desayuno · Check-out Yasen y preparación de cuatro maletas · Gestionar custodia temporal de maletas antes de Kinkaku-ji · Taxi hasta Kinkaku-ji · Kinkaku-ji · Salir de Kinkaku-ji hacia Kyoto Station · Kyoto Station · Bento · Estar en el andén del NOZOMI 128 · KYOTO → NAGOYA · NOZOMI 128 · Transbordo en Nagoya: NOZOMI → HIDA · NAGOYA → TAKAYAMA · HIDA 11 · Estación de Takayama → Mercure Hida Takayama · Check-in Mercure Hida Takayama · Casco antiguo · Cena: carne de Hida",
+    "summary": "Desayuno · Check-out Yasen y preparación de cuatro maletas · Gestionar custodia temporal de maletas antes de Kinkaku-ji · Taxi hasta Kinkaku-ji · Kinkaku-ji · Salir de Kinkaku-ji hacia Kyoto Station · Kyoto Station · Bento · Estar en el andén del NOZOMI 128 · KYOTO → NAGOYA · NOZOMI 128 · Transbordo en Nagoya: NOZOMI → HIDA · NAGOYA → TAKAYAMA · HIDA 11 · Estación de Takayama → Mercure Hida Takayama · Check-in Mercure Hida Takayama · 📦 Preparar y gestionar Yamato con Mercure · Casco antiguo · Cena: carne de Hida",
     "featuredPlaceId": "sanmachi",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
@@ -1258,7 +1270,7 @@
       "Takayama"
     ],
     "title": "Shirakawa-go",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1266,34 +1278,45 @@
         "title": "Desayuno",
         "location": "",
         "category": "Plan",
-        "note": "",
+        "note": "Desayunar antes de salir del Mercure a las 07:30; no es un desayuno reservado.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "07:30 · Orientativo, no confirmado."
+        "planningNote": "Antes de las 07:30 · Orientativo, hora pendiente."
+      },
+      {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "location": "Mercure Hida Takayama",
+        "category": "Recordatorio",
+        "planningNote": "07:30 · Objetivo orientativo, no reservado.",
+        "id": "2026-11-25-leave-mercure",
+        "title": "Salir del Mercure hacia Nohi Bus Center",
+        "note": "Objetivo estar en el terminal a las 07:40, 30 min antes del bus comprado de las 08:10. Los 10 min son margen organizativo, no duración de ruta verificada. Llevar los dos E-ticket de ida y el de vuelta."
       },
       {
         "id": "2026-11-25-v24-2",
         "title": "Centro de autobuses Nohi",
         "location": "Takayama Nohi Bus Center",
         "category": "Plan",
-        "note": "Objetivo 30 min antes del bus 08:50. Servicio sin reserva obligatoria según horario consultado; esperar instrucciones de Nohi. Sin garantía de plaza.",
+        "note": "Localizar embarque, comprobar Nohi Bus 08:10, vehículo 01, asientos 1D y 2D. Presentar los dos correos E-ticket individuales; copia impresa de respaldo.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "08:20 · Orientativo, no confirmado.",
+        "planningNote": "07:40 · Objetivo orientativo, 30 min antes del bus.",
         "placeId": "nohi"
       },
       {
         "id": "2026-11-25-v24-3",
-        "title": "Bus Takayama → Shirakawa-go",
-        "location": "",
+        "title": "Takayama → Shirakawa-go · Nohi Bus",
+        "location": "Takayama Nohi Bus Center",
         "category": "Transporte",
-        "note": "🕐 Orientativo: 08:50 → 09:40. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
-        "start": null,
-        "end": null,
+        "note": "🔒 Nohi Bus, 25 NOV 08:10 → 09:00. Dos pasajeros; vehículo 01, asientos 1D y 2D. 5.600 JPY pagados por ambos. Dos correos E-ticket individuales válidos para embarcar desde el móvil; imprimir como respaldo. Objetivo salir del Mercure 07:30 y estar en el terminal 07:40 (30 min antes). COMPLETAMENTE COMPRADO; no volver a comprar.",
+        "start": "2026-11-25T08:10:00+09:00",
+        "end": "2026-11-25T09:00:00+09:00",
         "completed": false,
-        "planningNote": "08:50–09:40 · Orientativo, no confirmado.",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino.",
         "transportId": "transport-6"
       },
       {
@@ -1344,26 +1367,48 @@
         "placeId": "shirakawa"
       },
       {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "location": "Shirakawa-go (Ogimachi)",
+        "category": "Recordatorio",
+        "planningNote": "14:45 · Objetivo orientativo, no reservado.",
+        "id": "2026-11-25-finish-visits",
+        "title": "Terminar visitas y preparar regreso",
+        "note": "Aviso organizativo para conservar margen antes del bus comprado 15:45."
+      },
+      {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "location": "Shirakawa-go Bus Terminal",
+        "category": "Recordatorio",
+        "planningNote": "15:00 · Objetivo orientativo, no reservado.",
+        "id": "2026-11-25-head-terminal",
+        "title": "Regresar hacia el terminal de Shirakawa-go",
+        "note": "Objetivo estar en el terminal a las 15:15; duración desde la última visita pendiente, salir antes si hace falta."
+      },
+      {
         "id": "2026-11-25-return-bus-stop",
         "title": "Presentarse para el bus de regreso",
         "location": "Shirakawago Bus Terminal",
         "category": "Gestión",
-        "note": "Objetivo organizativo: 30 min antes de las 15:15. Hora de salir del paseo y duración hasta la parada PENDIENTE DE CONFIRMAR. Consultar orden de embarque y disponibilidad con Nohi.",
+        "note": "Llegar 30 min antes del bus Dolphin Traffic de las 15:45. Vehículo 01, asientos 5C y 5D; un E-ticket para ambos.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "14:45 · Orientativo, no confirmado."
+        "planningNote": "15:15 · Objetivo de estar en el terminal."
       },
       {
         "id": "2026-11-25-v24-8",
-        "title": "Bus Shirakawa-go → Takayama",
-        "location": "",
+        "title": "Shirakawa-go → Takayama · Dolphin Traffic",
+        "location": "Shirakawa-go Bus Terminal, Ogimachi",
         "category": "Transporte",
-        "note": "🕐 Orientativo: 15:15 → 16:05. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
-        "start": null,
-        "end": null,
+        "note": "🔒 Dolphin Traffic Co., Ltd., 25 NOV 15:45 → 16:35. Dos pasajeros; vehículo 01, asientos 5C y 5D. 5.600 JPY pagados. Un correo E-ticket para los dos pasajeros, localizado y confirmado. Mostrarlo desde el móvil; copia impresa de respaldo. Recordatorios: terminar visitas 14:45, regresar hacia el terminal 15:00 y estar allí 15:15 (30 min antes). COMPLETAMENTE COMPRADO.",
+        "start": "2026-11-25T15:45:00+09:00",
+        "end": "2026-11-25T16:35:00+09:00",
         "completed": false,
-        "planningNote": "15:15–16:05 · Orientativo, no confirmado.",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino.",
         "transportId": "transport-7"
       },
       {
@@ -1388,11 +1433,33 @@
         "end": null,
         "completed": false,
         "planningNote": "19:30 · Orientativo, no confirmado."
+      },
+      {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "location": "Mercure Hida Takayama",
+        "category": "Recordatorio",
+        "planningNote": "Hora pendiente de confirmar.",
+        "id": "2026-11-25-yamato-handover",
+        "title": "📦 Entrega prevista de cuatro maletas a Yamato",
+        "note": "Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara. Acordar con recepción un horario compatible con la excursión 07:30–16:35; no dar la entrega por realizada. Preparar mochilas antes de la entrega. Al realizarla, guardar el resguardo."
+      },
+      {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "location": "",
+        "category": "Recordatorio",
+        "planningNote": "Hora pendiente de confirmar.",
+        "id": "2026-11-25-hakone-weather",
+        "title": "Revisar meteorología y transportes de Hakone",
+        "note": "Revisar previsión, visibilidad del Fuji y funcionamiento del teleférico para el 27 NOV. Buen tiempo: Lago Ashi, Ōwakudani y teleférico si opera, Tokio por la tarde. Mal tiempo: reducir/cancelar exteriores y salir antes hacia Shinjuku. Romancecar preferente sin reservar ni pagar; comprobar disponibilidad, tarifa básica y suplemento."
       }
     ],
     "hotelId": "mercure",
-    "luggage": "Dos maletas grandes y dos de cabina, además de mochilas. En visitas/excursiones, maletas en el hotel o custodia confirmada; mochilas durante la salida. Cuatro maletas: dos grandes y dos de cabina. Mercure Hida Takayama → THE KNOT TOKYO Shinjuku; llegada deseada a Tokio 27 NOV. Ambos hoteles contactados, esperando respuestas. Confirmar gestión, recepción, coste, fecha de entrega al transportista, fecha de llegada y forma de pago. NO contratado; NO fijar entrega de maletas hasta recibir confirmación. Hakone solo con mochilas si el envío queda resuelto.",
-    "summary": "Desayuno · Centro de autobuses Nohi · Bus Takayama → Shirakawa-go · Mirador Shiroyama · Pueblo histórico · Comida · Paseo tranquilo · Presentarse para el bus de regreso · Bus Shirakawa-go → Takayama · Onsen del hotel · Cena",
+    "luggage": "Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara. 🎒 Preparar mochilas para Hakone antes de entregar las cuatro maletas. Durante Shirakawa-go, dejar maletas en el hotel o ya entregadas únicamente si se ha contratado el envío.",
+    "summary": "Desayuno · Salir del Mercure hacia Nohi Bus Center · Centro de autobuses Nohi · Takayama → Shirakawa-go · Nohi Bus · Mirador Shiroyama · Pueblo histórico · Comida · Paseo tranquilo · Terminar visitas y preparar regreso · Regresar hacia el terminal de Shirakawa-go · Presentarse para el bus de regreso · Shirakawa-go → Takayama · Dolphin Traffic · Onsen del hotel · Cena · 📦 Entrega prevista de cuatro maletas a Yamato · Revisar meteorología y transportes de Hakone",
     "featuredPlaceId": "shiroyama",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
@@ -1408,7 +1475,7 @@
       "Hakone"
     ],
     "title": "Takayama → Hakone",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1438,7 +1505,7 @@
         "title": "Revisar confirmación del envío de cuatro maletas a THE KNOT",
         "location": "",
         "category": "Plan",
-        "note": "Cuatro maletas: dos grandes y dos de cabina. Mercure Hida Takayama → THE KNOT TOKYO Shinjuku; llegada deseada a Tokio 27 NOV. Ambos hoteles contactados, esperando respuestas. Confirmar gestión, recepción, coste, fecha de entrega al transportista, fecha de llegada y forma de pago. NO contratado; NO fijar entrega de maletas hasta recibir confirmación. Hakone solo con mochilas si el envío queda resuelto.",
+        "note": "Revisar si se realizó la entrega prevista el 25 NOV y conservar resguardo. Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara. Hakone solo con mochilas si el envío queda resuelto; si no, resolver las cuatro maletas antes de salir.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1478,13 +1545,13 @@
       {
         "id": "2026-11-26-v24-4",
         "title": "TAKAYAMA → NAGOYA · HIDA 6",
-        "location": "",
+        "location": "TAKAYAMA Station",
         "category": "Transporte",
-        "note": "🔒 HIDA 6: 09:36 → 12:04. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 8, asientos 10C y 10D. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR.",
-        "start": null,
-        "end": null,
+        "note": "🔒 HIDA 6: 09:36 → 12:04. RESERVADO, PAGO TRAMITADO con tarjeta física según confirmación. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 8 · 10C y 10D. RETIRAR BILLETES FÍSICOS preferiblemente el 20 NOV en JR Osaka Station. No volver a comprar. Andén pendiente de confirmar.",
+        "start": "2026-11-26T09:36:00+09:00",
+        "end": "2026-11-26T12:04:00+09:00",
         "completed": false,
-        "planningNote": "Horario confirmado según la reserva facilitada; pago pendiente de verificar.",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino.",
         "transportId": "transport-8",
         "locked": true
       },
@@ -1503,22 +1570,22 @@
       {
         "id": "2026-11-26-kodama822",
         "title": "NAGOYA → ODAWARA · KODAMA 822",
-        "location": "",
+        "location": "NAGOYA Station",
         "category": "Transporte",
-        "note": "",
-        "start": null,
-        "end": null,
+        "note": "🔒 KODAMA 822: 12:38 → 14:42. RESERVADO, PAGO TRAMITADO con tarjeta física según confirmación. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 12 · 10D y 10E. RETIRAR BILLETES FÍSICOS preferiblemente el 20 NOV en JR Osaka Station. No volver a comprar. Andén pendiente de confirmar.",
+        "start": "2026-11-26T12:38:00+09:00",
+        "end": "2026-11-26T14:42:00+09:00",
         "completed": false,
-        "planningNote": "Hora pendiente de confirmar.",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino.",
         "transportId": "jr-kodama-822",
         "locked": true
       },
       {
         "id": "2026-11-26-v24-5",
-        "title": "Odawara → Ashinoyu / Matsuzakaya Honten",
-        "location": "",
+        "title": "Odawara → Higashi-Ashinoyu → Matsuzakaya Honten",
+        "location": "Odawara Station East Exit",
         "category": "Transporte",
-        "note": "Llegada a Odawara confirmada 14:42. Ryokan contactado; esperando respuesta sobre posibilidad de recogida. NO hay traslado contratado. NO contratar alternativa todavía. Medio, punto de encuentro, salida, duración y coste PENDIENTE DE CONFIRMAR.",
+        "note": "Llegada ferroviaria confirmada a Odawara 14:42. Transporte decidido: autobús público Hakone Tozan, línea prevista H, dirección Moto-Hakone-ko / Hakone-machi-ko vía Ashinoyu. Referencia: parada 3 de la salida este, PENDIENTE DE COMPROBAR. Bajar en Higashi-Ashinoyu y caminar al ryokan. Horario real, espera y duración pendientes de confirmar. No reservar traslado privado.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1530,7 +1597,7 @@
         "title": "Llegada objetivo a Matsuzakaya Honten",
         "location": "Matsuzakaya Honten, Hakone, Japan",
         "category": "Plan",
-        "note": "Ventana objetivo 15:30–16:30, no llegada ni check-in garantizados. Depende de respuesta del ryokan y traslado desde Odawara; no usar el antiguo total estimado de 6–7 h como duración confirmada.",
+        "note": "🎯 OBJETIVO DE LLEGADA 15:30–16:30, no garantizado. Tras KODAMA 822 a Odawara 14:42, tomar el bus público previsto H y bajar en Higashi-Ashinoyu; horario y espera pendientes. No hay traslado privado reservado.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1572,15 +1639,25 @@
         "completed": false,
         "planningNote": "Hora pendiente de confirmar.",
         "placeId": "hotel-matsuzakaya"
+      },
+      {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "location": "",
+        "category": "Recordatorio",
+        "planningNote": "Hora pendiente de confirmar.",
+        "id": "2026-11-26-hakone-weather",
+        "title": "Revisar meteorología y transportes de Hakone",
+        "note": "Revisar previsión, visibilidad del Fuji y funcionamiento del teleférico para el 27 NOV. Buen tiempo: Lago Ashi, Ōwakudani y teleférico si opera, Tokio por la tarde. Mal tiempo: reducir/cancelar exteriores y salir antes hacia Shinjuku. Romancecar preferente sin reservar ni pagar; comprobar disponibilidad, tarifa básica y suplemento."
       }
     ],
     "hotelId": "matsuzakaya",
-    "luggage": "Cuatro maletas: dos grandes y dos de cabina. Mercure Hida Takayama → THE KNOT TOKYO Shinjuku; llegada deseada a Tokio 27 NOV. Ambos hoteles contactados, esperando respuestas. Confirmar gestión, recepción, coste, fecha de entrega al transportista, fecha de llegada y forma de pago. NO contratado; NO fijar entrega de maletas hasta recibir confirmación. Hakone solo con mochilas si el envío queda resuelto.",
-    "summary": "Mercado matutino · Desayuno · Revisar confirmación del envío de cuatro maletas a THE KNOT · Check-out y salida del Mercure hacia la estación · Prepararse para embarcar en HIDA 6 · TAKAYAMA → NAGOYA · HIDA 6 · Transbordo en Nagoya: HIDA → KODAMA · NAGOYA → ODAWARA · KODAMA 822 · Odawara → Ashinoyu / Matsuzakaya Honten · Llegada objetivo a Matsuzakaya Honten · Onsen · Cena kaiseki · Noche en el ryokan",
+    "luggage": "🎒 Hakone solo con mochilas si se ha realizado el envío previsto el 25 NOV. Comprobar resguardo y entrega de cuatro maletas; no repetir una entrega como si estuviera contratada. Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara.",
+    "summary": "Mercado matutino · Desayuno · Revisar confirmación del envío de cuatro maletas a THE KNOT · Check-out y salida del Mercure hacia la estación · Prepararse para embarcar en HIDA 6 · TAKAYAMA → NAGOYA · HIDA 6 · Transbordo en Nagoya: HIDA → KODAMA · NAGOYA → ODAWARA · KODAMA 822 · Odawara → Higashi-Ashinoyu → Matsuzakaya Honten · Llegada objetivo a Matsuzakaya Honten · Onsen · Cena kaiseki · Noche en el ryokan · Revisar meteorología y transportes de Hakone",
     "featuredPlaceId": "nakabashi",
     "tips": [
-      "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
-      "El maestro indica salida 08:30, duración puerta a puerta 6–7 horas y objetivo 15:30–16:30. Confirmar enlaces y margen: las franjas no coinciden completamente."
+      "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."
     ]
   },
   {
@@ -1592,7 +1669,7 @@
       "Tokio"
     ],
     "title": "Hakone → Tokio",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -1635,7 +1712,7 @@
         "title": "Hakone Ropeway",
         "location": "Hakone Ropeway",
         "category": "Plan",
-        "note": "Circuito completo de 2,5–4 horas, solo con buen tiempo; con mal tiempo ir directamente a Tokio.",
+        "note": "Circuito opcional estimado de 2,5–4 horas, solo con buen tiempo; con mal tiempo reducir o cancelar exteriores y salir antes hacia Shinjuku. Teleférico solo si funciona; comprobar previsión y operación el 25 y 26 NOV.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1684,10 +1761,10 @@
       },
       {
         "id": "2026-11-27-v24-8",
-        "title": "Hakone → Shinjuku",
-        "location": "",
+        "title": "Hakone-Yumoto → Shinjuku · preferencia Romancecar",
+        "location": "Hakone-Yumoto Station",
         "category": "Transporte",
-        "note": "Unas 2 horas estimadas. Directo a Tokio si se omite el circuito.",
+        "note": "Decidir según meteorología y funcionamiento del transporte. Buen tiempo: Lago Ashi, Ōwakudani y teleférico si funciona; Tokio por la tarde. Mal tiempo: reducir o cancelar exteriores y volver antes a Shinjuku. Preferencia Romancecar desde Hakone-Yumoto; comprobar disponibilidad y comprar tarifa básica más suplemento de asiento reservado si se elige. No comprado. Acceso hasta Hakone-Yumoto, salida y duración real pendientes.",
         "start": null,
         "end": null,
         "completed": false,
@@ -1732,7 +1809,7 @@
     ],
     "hotelId": "knot",
     "luggage": "Hakone con mochilas; en Tokio recuperar las cuatro maletas únicamente cuando THE KNOT confirme recepción. En excursiones, incluida Nikkō, las maletas quedan en el hotel y llevamos mochilas.",
-    "summary": "Desayuno japonés · Último onsen · Check-out Matsuzakaya Honten · Hakone → Shinjuku · Check-in THE KNOT TOKYO · Paseo por Shinjuku · Cena",
+    "summary": "Desayuno japonés · Último onsen · Check-out Matsuzakaya Honten · Hakone-Yumoto → Shinjuku · preferencia Romancecar · Check-in THE KNOT TOKYO · Paseo por Shinjuku · Cena",
     "featuredPlaceId": "ashi",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios.",
@@ -2110,19 +2187,41 @@
       "Nikkō"
     ],
     "title": "Nikkō",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
-        "id": "2026-12-01-v24-1",
-        "title": "Tren Tokio → Nikkō",
-        "location": "",
-        "category": "Transporte",
-        "note": "Unas 2 horas estimadas; pendiente de comprar.",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "07:15 · Orientativo, no confirmado.",
+        "location": "THE KNOT TOKYO SHINJUKU",
+        "category": "Recordatorio",
+        "planningNote": "06:40 · Objetivo orientativo, no reservado.",
+        "id": "2026-12-01-leave-knot",
+        "title": "Salir de THE KNOT hacia Tobu Asakusa",
+        "note": "Objetivo orientativo; llegar con antelación al SPACIA X 001 confirmado 07:50. Ruta, duración y margen efectivo de acceso pendientes de comprobar; salir antes si es necesario. Llevar móvil con títulos TOBU disponibles."
+      },
+      {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "location": "Tobu Asakusa Station",
+        "category": "Recordatorio",
+        "planningNote": "Hora pendiente de confirmar.",
+        "id": "2026-12-01-tobu-boarding",
+        "title": "Preparar billetes digitales y embarque SPACIA X",
+        "note": "Antes de las 07:50: abrir My Page → Ticket list. Llevar NIKKO PASS y suplemento SPACIA X 001, dos adultos. Vagón 4, 05A y 05B. Andén pendiente; comprobar paneles. NIKKO PASS WORLD HERITAGE AREA COMPRADO: dos adultos, válido 1–2 DIC, 6.000 JPY pagados. Cubre la tarifa básica ferroviaria correspondiente y los transportes incluidos en su zona; los dos suplementos SPACIA X se han comprado por separado (3.880 JPY cada sentido para ambos). Total excursión: 13.760 JPY. Títulos digitales: TOBU Japan Trip Tickets → My Page → Ticket list. No comprar de nuevo."
+      },
+      {
+        "id": "2026-12-01-v24-1",
+        "title": "Asakusa → Tobu-Nikkō · SPACIA X 001",
+        "location": "Tobu Asakusa Station",
+        "category": "Transporte",
+        "note": "🔒 SPACIA X 001: 07:50 → 09:39. Vagón 4, asientos 05A y 05B, Standard Seat, dos adultos. Suplemento pagado: 3.880 JPY. Objetivo salir de THE KNOT sobre las 06:40 y llegar a Tobu Asakusa con antelación; ruta y duración de acceso pendientes. NIKKO PASS WORLD HERITAGE AREA COMPRADO: dos adultos, válido 1–2 DIC, 6.000 JPY pagados. Cubre la tarifa básica ferroviaria correspondiente y los transportes incluidos en su zona; los dos suplementos SPACIA X se han comprado por separado (3.880 JPY cada sentido para ambos). Total excursión: 13.760 JPY. Títulos digitales: TOBU Japan Trip Tickets → My Page → Ticket list. No comprar de nuevo.",
+        "start": "2026-12-01T07:50:00+09:00",
+        "end": "2026-12-01T09:39:00+09:00",
+        "completed": false,
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino.",
         "transportId": "tokyo-nikko"
       },
       {
@@ -2153,7 +2252,7 @@
         "title": "Fin de las visitas",
         "location": "",
         "category": "Plan",
-        "note": "",
+        "note": "Objetivo orientativo; regresar de la zona de templos hacia Tobu-Nikkō con margen para SPACIA X 012 a las 17:44. Duración de acceso y margen exacto pendientes. Abrir los títulos digitales antes de embarcar: vagón 4, 09C y 09D.",
         "start": null,
         "end": null,
         "completed": false,
@@ -2161,31 +2260,32 @@
       },
       {
         "id": "2026-12-01-v24-5",
-        "title": "Regreso Nikkō → Tokio",
-        "location": "",
+        "title": "Tobu-Nikkō → Asakusa · SPACIA X 012",
+        "location": "Tobu-Nikko Station",
         "category": "Transporte",
-        "note": "Servicio pendiente de confirmar.",
-        "start": null,
-        "end": null,
+        "note": "🔒 SPACIA X 012: 17:44 → 19:35. Vagón 4, asientos 09C y 09D, Standard Seat, dos adultos. Suplemento pagado: 3.880 JPY. Regresar de los templos a la estación con suficiente margen; duración de acceso pendiente. NIKKO PASS WORLD HERITAGE AREA COMPRADO: dos adultos, válido 1–2 DIC, 6.000 JPY pagados. Cubre la tarifa básica ferroviaria correspondiente y los transportes incluidos en su zona; los dos suplementos SPACIA X se han comprado por separado (3.880 JPY cada sentido para ambos). Total excursión: 13.760 JPY. Títulos digitales: TOBU Japan Trip Tickets → My Page → Ticket list. No comprar de nuevo.",
+        "start": "2026-12-01T17:44:00+09:00",
+        "end": "2026-12-01T19:35:00+09:00",
         "completed": false,
-        "planningNote": "16:00 · Orientativo, no confirmado.",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino.",
         "transportId": "nikko-tokyo"
       },
       {
         "id": "2026-12-01-v24-6",
-        "title": "Llegada orientativa a Tokio",
-        "location": "",
+        "title": "Llegada a Asakusa y regreso al alojamiento",
+        "location": "Tobu Asakusa Station",
         "category": "Plan",
-        "note": "",
-        "start": null,
+        "note": "SPACIA X 012 llega a Asakusa a las 19:35. Continuar a THE KNOT; ruta, duración y hora de llegada al hotel pendientes.",
+        "start": "2026-12-01T19:35:00+09:00",
         "end": null,
         "completed": false,
-        "planningNote": "18:30 · Orientativo, no confirmado."
+        "planningNote": "Llegada del tren confirmada 19:35; regreso al hotel sin hora confirmada.",
+        "locked": true
       }
     ],
     "hotelId": "knot",
     "luggage": "Dos maletas grandes y dos de cabina en THE KNOT, una vez confirmada su recepción. Para las visitas y la excursión a Nikkō, llevar solo mochilas; las cuatro maletas quedan en el hotel.",
-    "summary": "Tren Tokio → Nikkō · Zona de santuarios de Nikkō · Comida · Fin de las visitas · Regreso Nikkō → Tokio · Llegada orientativa a Tokio",
+    "summary": "Salir de THE KNOT hacia Tobu Asakusa · Preparar billetes digitales y embarque SPACIA X · Asakusa → Tobu-Nikkō · SPACIA X 001 · Zona de santuarios de Nikkō · Comida · Fin de las visitas · Tobu-Nikkō → Asakusa · SPACIA X 012 · Llegada a Asakusa y regreso al alojamiento",
     "featuredPlaceId": "nikko",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."
@@ -2288,7 +2388,7 @@
       "Tokio"
     ],
     "title": "Tokio Narita → Hong Kong",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -2345,7 +2445,7 @@
         "title": "Estar preparados en Shinjuku para N’EX",
         "location": "Shinjuku Station",
         "category": "Gestión",
-        "note": "Objetivo organizativo: 23 min antes del candidato 13:08. Confirmar billetes, tren, andén, terminal aérea y cuatro maletas; no hay reserva realizada.",
+        "note": "Objetivo organizativo: 23 min antes del candidato 13:08. Confirmar compra, tren y andén. Destino estación Terminal 2·3; vuelo confirmado desde Narita Terminal 2. N’EX aún NO comprado; solicitar dos asientos juntos.",
         "start": null,
         "end": null,
         "completed": false,
@@ -2353,10 +2453,10 @@
       },
       {
         "id": "2026-12-03-v24-4",
-        "title": "Narita Express",
+        "title": "Shinjuku → Narita · candidato Narita Express 29",
         "location": "",
         "category": "Transporte",
-        "note": "🕐 Candidato aprobado, NO reservado: Shinjuku 13:08 → estación T2/T3 14:27 → T1 14:31 según horario publicado. Verificar operación del 3 DIC al abrir venta el 3 NOV 10:00 JST (02:00 Madrid). Vuelo confirmado 18:30: margen desde el tren 4 h 03 min en estación T2/T3 o 3 h 59 min en T1, antes de caminar a facturación. Terminal aérea, andén y asientos PENDIENTE DE CONFIRMAR. No es salida confirmada. https://timetables.jreast.co.jp/en/2611/train/075/076671.html · https://www.jreast.co.jp/en/multi/faq/",
+        "note": "🕐 Candidato NARITA EXPRESS 29, PENDIENTE DE COMPRA: 3 DIC JR Shinjuku 13:08 → Narita Airport Terminal 2·3 14:27. Dos adultos; solicitar asientos juntos al comprar. Venta prevista desde el 3 NOV; confirmar horarios y disponibilidad en JR East. Margen orientativo hasta el vuelo de las 18:30: 4 h 03 min desde llegada a la estación, antes del acceso a facturación en Terminal 2. Andén y asientos pendientes. https://www.jreast.co.jp/en/multi/faq/",
         "start": null,
         "end": null,
         "completed": false,
@@ -2365,20 +2465,21 @@
       },
       {
         "id": "2026-12-03-3",
-        "title": "Vuelo de regreso",
+        "title": "Vuelo Tokio Narita → Hong Kong",
         "start": null,
         "end": null,
-        "location": "",
+        "location": "Aeropuerto de Narita, Japón",
         "category": "Vuelo",
-        "note": "",
+        "note": "CONFIRMADO. CX6323 operado por Japan Airlines: Narita Terminal 2, 3 DIC 18:30 JST → Hong Kong Terminal 1, 22:55 HKT. Japón y Hong Kong utilizan zonas horarias distintas.",
         "timingStatus": "Pendiente de confirmar",
         "period": "",
         "completed": false,
-        "transportId": "transport-10"
+        "transportId": "transport-10",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino."
       }
     ],
     "luggage": "Gestión de cuatro maletas a las 11:00 orientativas; llevar dos grandes, dos de cabina y mochilas a Narita.",
-    "summary": "Desayuno · Gestión de equipaje · Comida · Salir de THE KNOT hacia Shinjuku · Estar preparados en Shinjuku para N’EX · Narita Express · Vuelo de regreso",
+    "summary": "Desayuno · Gestión de equipaje · Comida · Salir de THE KNOT hacia Shinjuku · Estar preparados en Shinjuku para N’EX · Shinjuku → Narita · candidato Narita Express 29 · Vuelo Tokio Narita → Hong Kong",
     "featuredPlaceId": "shinjuku",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."
@@ -2397,13 +2498,14 @@
     "activities": [
       {
         "id": "activity-flight-hkg-madrid",
-        "title": "Hong Kong → Madrid",
+        "title": "Vuelo Hong Kong → Madrid",
         "category": "Vuelo",
         "transportId": "flight-hkg-madrid",
         "start": null,
         "end": null,
-        "note": "",
-        "location": ""
+        "note": "CONFIRMADO. CX315: 4 DIC Hong Kong Terminal 1 00:45 HKT → Madrid 08:35 hora española. Mantener las horas locales de ambos aeropuertos.",
+        "location": "",
+        "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino."
       },
       {
         "id": "2026-12-04-1",

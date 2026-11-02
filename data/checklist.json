@@ -1,11 +1,11 @@
 [
   {
     "id": "v24-task-1",
-    "title": "KIX → Namba",
+    "title": "Comprar Nankai Airport Express al llegar a KIX",
     "category": "Compras pendientes",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "KIX → Namba pendiente de compra y elección de servicio. No todo tren de esta ruta exige reserva; verificar el servicio antes de clasificarlo como obligatorio."
+    "recommendedDate": "2026-11-19",
+    "note": "Dos adultos y seis bultos. Nankai Airport Express ordinario, sin reserva anticipada. Tren flexible, orientativamente después de las 16:30; duración estimada 45–60 min. Tras inmigración y equipaje en KIX Terminal 1, subir a la planta 2F y seguir Railways / Nankai hacia la estación conectada. Comprar dos billetes hasta Nankai Namba en las máquinas o taquilla de Nankai y comprobar el servicio Airport Express en los paneles. Utilizar ascensores con los seis bultos. Después ir a IAM HOTEL. No hay tren ni asiento reservado. Fuentes: https://www.kansai-airport.or.jp/en/access/from-airport/train · https://www.nankai.co.jp/en_railway/traffic/kix.html"
   },
   {
     "id": "v24-task-2",
@@ -13,7 +13,7 @@
     "category": "Gestiones de equipaje",
     "status": "Completado",
     "recommendedDate": "2026-11-21",
-    "note": "ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Búsqueda, reserva y pago ya resueltos. El depósito y la recogida siguen siendo acciones futuras independientes.",
+    "note": "ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos reales confirmados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Búsqueda, reserva y pago ya resueltos. El depósito y la recogida siguen siendo acciones futuras independientes. Presentar reserva digital y comprobar los seis bultos al recoger.",
     "priority": "Alta",
     "officialUrl": "https://cloak.ecbo.io/space/GnoykxxX"
   },
@@ -29,21 +29,21 @@
   },
   {
     "id": "v24-task-5",
-    "title": "Confirmar Nohi: buses Shirakawa-go 08:50 / 15:15",
-    "category": "Compras pendientes",
-    "status": "Pendiente",
+    "title": "Buses Shirakawa-go: ida y vuelta compradas y pagadas",
+    "category": "Reservas confirmadas",
+    "status": "Completado",
     "recommendedDate": null,
-    "note": "🕐 Orientativo: 08:50 → 09:40. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/ Regreso publicado 15:15–16:05, también sin marca R. Ambos pendientes de respuesta/compra.",
+    "note": "🔒 Nohi Bus, 25 NOV 08:10 → 09:00. Dos pasajeros; vehículo 01, asientos 1D y 2D. 5.600 JPY pagados por ambos. Dos correos E-ticket individuales válidos para embarcar desde el móvil; imprimir como respaldo. Objetivo salir del Mercure 07:30 y estar en el terminal 07:40 (30 min antes). COMPLETAMENTE COMPRADO; no volver a comprar. 🔒 Dolphin Traffic Co., Ltd., 25 NOV 15:45 → 16:35. Dos pasajeros; vehículo 01, asientos 5C y 5D. 5.600 JPY pagados. Un correo E-ticket para los dos pasajeros, localizado y confirmado. Mostrarlo desde el móvil; copia impresa de respaldo. Recordatorios: terminar visitas 14:45, regresar hacia el terminal 15:00 y estar allí 15:15 (30 min antes). COMPLETAMENTE COMPRADO.",
     "priority": "Alta",
     "officialUrl": "https://www.nouhibus.co.jp/route_bus/shirakawago_en/"
   },
   {
     "id": "v24-task-7",
-    "title": "Esperar respuesta del ryokan: recogida en Odawara",
-    "category": "Respuestas pendientes de hoteles",
+    "title": "Comprobar bus público Odawara → Higashi-Ashinoyu",
+    "category": "Compras pendientes",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "Llegada a Odawara confirmada 14:42. Ryokan contactado; esperando respuesta sobre posibilidad de recogida. NO hay traslado contratado. NO contratar alternativa todavía. Medio, punto de encuentro, salida, duración y coste PENDIENTE DE CONFIRMAR.",
+    "recommendedDate": "2026-11-26",
+    "note": "Llegada ferroviaria confirmada a Odawara 14:42. Transporte decidido: autobús público Hakone Tozan, línea prevista H, dirección Moto-Hakone-ko / Hakone-machi-ko vía Ashinoyu. Referencia: parada 3 de la salida este, PENDIENTE DE COMPROBAR. Bajar en Higashi-Ashinoyu y caminar al ryokan. Horario real, espera y duración pendientes de confirmar. No reservar traslado privado.",
     "priority": "Alta"
   },
   {
@@ -51,8 +51,8 @@
     "title": "Confirmar envío de cuatro maletas con Mercure",
     "category": "Respuestas pendientes de hoteles",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "Cuatro maletas: dos grandes y dos de cabina. Mercure Hida Takayama → THE KNOT TOKYO Shinjuku; llegada deseada a Tokio 27 NOV. Ambos hoteles contactados, esperando respuestas. Confirmar gestión, recepción, coste, fecha de entrega al transportista, fecha de llegada y forma de pago. NO contratado; NO fijar entrega de maletas hasta recibir confirmación. Hakone solo con mochilas si el envío queda resuelto.",
+    "recommendedDate": "2026-11-24",
+    "note": "Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara.",
     "priority": "Alta"
   },
   {
@@ -60,36 +60,36 @@
     "title": "Confirmar recepción de cuatro maletas en THE KNOT",
     "category": "Respuestas pendientes de hoteles",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "Hotel contactado. Confirmar aceptación de las cuatro piezas y fecha de llegada, prevista para el 27 NOV pero no garantizada. No marcar recibido sin respuesta.",
+    "recommendedDate": "2026-11-24",
+    "note": "Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara.",
     "priority": "Alta"
   },
   {
     "id": "v24-task-10",
-    "title": "Hakone → Tokio",
+    "title": "Decidir Hakone → Shinjuku según el tiempo",
     "category": "Reservas recomendables",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "Hora pendiente. Mantener flexibilidad según meteorología y visibilidad del Fuji. Unas 2 h son la estimación anterior, no un servicio concreto. No compra urgente. Un Limited Express con asiento elegido requerirá gestión distinta de una alternativa convencional; servicio pendiente de decidir.",
+    "recommendedDate": "2026-11-27",
+    "note": "Decidir según meteorología y funcionamiento del transporte. Buen tiempo: Lago Ashi, Ōwakudani y teleférico si funciona; Tokio por la tarde. Mal tiempo: reducir o cancelar exteriores y volver antes a Shinjuku. Preferencia Romancecar desde Hakone-Yumoto; comprobar disponibilidad y comprar tarifa básica más suplemento de asiento reservado si se elige. No comprado. Acceso hasta Hakone-Yumoto, salida y duración real pendientes.",
     "priority": "Baja"
   },
   {
     "id": "v24-task-11",
-    "title": "Tokio ↔ Nikkō",
-    "category": "Reservas recomendables",
-    "status": "Pendiente",
+    "title": "Nikkō: SPACIA X ida/vuelta y NIKKO PASS comprados",
+    "category": "Reservas confirmadas",
+    "status": "Completado",
     "recommendedDate": "2026-11-01",
-    "note": "🕐 Objetivo 07:15; duración anterior ~2 h, sin tren elegido. Valorar Limited Express TOBU para dos adultos. Apertura 1 NOV 09:00 JST (01:00 Madrid). Comparar billetes básicos individuales + suplemento de cada Limited Express, Nikko Pass + suplementos separados y trenes convencionales sin suplemento Limited Express. Nikko Pass World Heritage: tarifa publicada 3.000 yen/adulto (6.000 dos adultos), 2 días; no incluye entradas ni suplemento. All Area: 8.000 yen/adulto, no necesario por el solo hecho de visitar santuarios. Tarifas individuales y suplementos de los trenes concretos PENDIENTE DE CONFIRMAR antes de decidir. Acceso desde Shinjuku a estación TOBU también pendiente. No comprar todavía. https://www.tobu.co.jp/en/express_info/purchase/ · https://www.tobu.co.jp/en/ticket/nikko-pass/",
+    "note": "NIKKO PASS WORLD HERITAGE AREA COMPRADO: dos adultos, válido 1–2 DIC, 6.000 JPY pagados. Cubre la tarifa básica ferroviaria correspondiente y los transportes incluidos en su zona; los dos suplementos SPACIA X se han comprado por separado (3.880 JPY cada sentido para ambos). Total excursión: 13.760 JPY. Títulos digitales: TOBU Japan Trip Tickets → My Page → Ticket list. No comprar de nuevo. Ida 07:50–09:39, vuelta 17:44–19:35, 1 DIC.",
     "priority": "Alta",
     "officialUrl": "https://www.tobu.co.jp/en/express_info/purchase/"
   },
   {
     "id": "v24-task-12",
-    "title": "Narita Express",
-    "category": "Reservas recomendables",
+    "title": "Comprar N’EX 29: dos asientos juntos, horario por confirmar",
+    "category": "Compras pendientes",
     "status": "Pendiente",
     "recommendedDate": "2026-11-03",
-    "note": "🕐 Candidato aprobado, NO reservado: Shinjuku 13:08 → estación T2/T3 14:27 → T1 14:31 según horario publicado. Verificar operación del 3 DIC al abrir venta el 3 NOV 10:00 JST (02:00 Madrid). Vuelo confirmado 18:30: margen desde el tren 4 h 03 min en estación T2/T3 o 3 h 59 min en T1, antes de caminar a facturación. Terminal aérea, andén y asientos PENDIENTE DE CONFIRMAR. No es salida confirmada. https://timetables.jreast.co.jp/en/2611/train/075/076671.html · https://www.jreast.co.jp/en/multi/faq/",
+    "note": "🕐 Candidato NARITA EXPRESS 29, PENDIENTE DE COMPRA: 3 DIC JR Shinjuku 13:08 → Narita Airport Terminal 2·3 14:27. Dos adultos; solicitar asientos juntos al comprar. Venta prevista desde el 3 NOV; confirmar horarios y disponibilidad en JR East. Margen orientativo hasta el vuelo de las 18:30: 4 h 03 min desde llegada a la estación, antes del acceso a facturación en Terminal 2. Andén y asientos pendientes. https://www.jreast.co.jp/en/multi/faq/",
     "priority": "Alta",
     "officialUrl": "https://www.jreast.co.jp/en/multi/faq/"
   },
@@ -106,8 +106,8 @@
     "title": "Revisar meteorología Hakone",
     "category": "Actividades opcionales",
     "status": "Pendiente",
-    "recommendedDate": null,
-    "note": "🟠 Pendiente. Maestro V2.4; no consta reserva realizada."
+    "recommendedDate": "2026-11-25",
+    "note": "Revisar previsión y funcionamiento de teleférico/transportes el 25 y nuevamente el 26 NOV. Decidir recorrido del 27 NOV según meteorología y visibilidad del Fuji. Romancecar no reservado ni pagado."
   },
   {
     "id": "v24-task-15",
@@ -159,10 +159,10 @@
   },
   {
     "id": "jr-payments-2026",
-    "title": "Verificar los dos pagos JR WEST",
-    "category": "Compras pendientes",
-    "status": "Pendiente",
-    "note": "Reservas aceptadas ambos identificadores, guardados en la copia privada; el correo indicaba tarjeta en procesamiento. Verificar confirmación definitiva de ambos cargos/reservas antes de recoger; no comprar otra vez ni marcar pagado sin comprobación.",
+    "title": "JR West: reservas aceptadas y pago tramitado",
+    "category": "Reservas confirmadas",
+    "status": "Completado",
+    "note": "Dos reservas, cuatro trenes: NOZOMI 128 + HIDA 11 (24 NOV), HIDA 6 + KODAMA 822 (26 NOV). Pago con tarjeta física tramitado según confirmación. No volver a comprar. La recogida de billetes físicos sigue pendiente en una tarea independiente.",
     "recommendedDate": null,
     "priority": "Alta",
     "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva.",
@@ -173,11 +173,11 @@
     "title": "Recoger las dos reservas JR WEST",
     "category": "Recogidas importantes",
     "status": "Pendiente",
-    "note": "Recoger las DOS reservas de JR WEST, ambos identificadores, guardados en la copia privada, para dos adultos y cuatro trenes. Puede adelantarse si resulta cómodo. JR-Namba admite 5489: taquilla 08:00–20:00; máquinas verdes 05:30–23:00; asistencia 08:00–20:00. Presentar tarjeta FÍSICA usada al pagar, números de reserva y correos; usar el identificador de cuatro dígitos únicamente en la máquina, nunca guardarlo aquí. Llevar pasaportes como identificación; el requisito específico publicado de pasaporte corresponde a productos especiales, no a estos Regular Tickets. Verificar antes ambos pagos. Tramitar cada reserva por separado en la misma visita y comprobar tarifa básica y suplementos de los cuatro trenes. Cola y duración PENDIENTE DE CONFIRMAR. Fuente: https://www.westjr.co.jp/global/en/howto/train-reservation/receive/ · https://eki.jr-odekake.net/top?id=0620833",
+    "note": "PENDIENTE DE RETIRAR BILLETES FÍSICOS. Objetivo 20 NOV 18:30 en JR Osaka Station; puede adelantarse. Recoger las dos reservas para dos adultos y cuatro trenes (NOZOMI 128 + HIDA 11 y HIDA 6 + KODAMA 822), tramitando cada reserva en la misma visita. Utilizar taquilla Midori-no-madoguchi Central o máquina verde señalizada 5489 del vestíbulo, FUERA de los tornos; no entrar a los andenes para recoger. Osaka Station confirma recogida e5489; taquilla Central y máquinas Central: 06:00–22:00. Llevar tarjeta FÍSICA original usada al pagar y correos de confirmación; tener disponible el dato de identificación de cuatro cifras fuera de la aplicación. Pago con tarjeta física tramitado. Comprobar todos los billetes, tarifa básica y suplementos. Los correos NO sustituyen los billetes físicos. Cola y duración pendientes. Fuentes: https://www.westjr.co.jp/global/en/howto/train-reservation/receive/ · https://eki.jr-odekake.net/top?id=0610130 · https://eki.jr-odekake.net/premises?id=0610130",
     "recommendedDate": "2026-11-20",
     "priority": "Alta",
     "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva.",
-    "officialUrl": "https://eki.jr-odekake.net/top?id=0620833"
+    "officialUrl": "https://eki.jr-odekake.net/top?id=0610130"
   },
   {
     "id": "seiko-pickup-2026",
@@ -194,8 +194,8 @@
     "title": "Cerrar coste, pago y fechas del envío de cuatro maletas",
     "category": "Gestiones de equipaje",
     "status": "Pendiente",
-    "note": "Pendiente de respuestas de los hoteles: coste total de cuatro piezas, método de pago, fecha/hora de entrega al transportista y fecha de llegada. No añadir entrega efectiva al itinerario ni marcar servicio contratado hasta confirmar.",
-    "recommendedDate": null,
+    "note": "Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara.",
+    "recommendedDate": "2026-11-24",
     "priority": "Alta",
     "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva."
   },
@@ -204,7 +204,7 @@
     "title": "Comprobar requisitos de asiento antes de nuevas reservas",
     "category": "Reservas obligatorias",
     "status": "Pendiente",
-    "note": "Los cuatro trenes JR ya tienen asientos asignados: no comprarlos otra vez. Si se elige un Limited Express TOBU, requiere su billete/suplemento con asiento; los servicios convencionales son otra opción sin ese suplemento. N’EX candidato: solicitar asiento al comprar. Los buses Nohi elegidos figuran sin reserva obligatoria. Ninguna nueva compra autorizada.",
+    "note": "Los cuatro trenes JR, los dos buses Shirakawa-go, ambos SPACIA X y NIKKO PASS ya están adquiridos/reservados; no volver a comprarlos. N’EX aún pendiente: solicitar dos asientos juntos. Romancecar si se elige: tarifa básica + suplemento reservado. Kintetsu Rapid Express/Express ordinarios, Nankai Airport Express y bus público de Hakone: pagar allí, sin reserva anticipada.",
     "recommendedDate": null,
     "priority": "Media",
     "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva.",
@@ -214,7 +214,7 @@
     "id": "shipping-backpacks-2026",
     "title": "Preparar mochilas para una noche en Hakone",
     "recommendedDate": "2026-11-25",
-    "note": "Después de confirmar cómo se enviarán las cuatro maletas, preparar lo necesario para Hakone. Si el envío no se confirma, resolver el equipaje antes de salir de Takayama.",
+    "note": "Preparar mochilas antes de la entrega prevista de las cuatro maletas el 25 NOV. Hakone solo con mochilas si el envío se ha resuelto; confirmar entrega, guardar resguardo y conservar lo necesario hasta Tokio. Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara.",
     "category": "Gestiones de equipaje",
     "status": "Pendiente",
     "priority": "Alta"
@@ -222,8 +222,8 @@
   {
     "id": "shipping-handover-2026",
     "title": "Entregar las cuatro maletas al servicio de envío",
-    "recommendedDate": null,
-    "note": "Solo cuando Mercure y THE KNOT confirmen el servicio, coste, pago y fechas. Fecha y hora de entrega pendientes; no se añade una entrega contratada a la cronología.",
+    "recommendedDate": "2026-11-25",
+    "note": "Yamato previsto: cuatro maletas, Mercure Hida Takayama → THE KNOT TOKYO SHINJUKU. Presupuesto comunicado aproximado: 14.000 JPY total. Preparación y gestión 24 NOV; entrega al transportista prevista 25 NOV, hora pendiente; llegada estimada 27 NOV. NO contratado, NO pagado y NO entregado. Confirmar gestión, recepción, coste final, forma de pago y fechas antes de entregar. Guardar resguardo y confirmar recepción en THE KNOT. Estas cuatro maletas son distintas de los seis bultos depositados en Nara. Hora pendiente de acordar con Mercure, compatible con la excursión a Shirakawa-go. Solo entregar tras contratar y confirmar el servicio.",
     "category": "Gestiones de equipaje",
     "status": "Pendiente",
     "priority": "Alta"
@@ -232,7 +232,7 @@
     "id": "shipping-receive-2026",
     "title": "Recuperar las cuatro maletas en THE KNOT",
     "recommendedDate": "2026-11-27",
-    "note": "Fecha deseada de llegada a Tokio, no garantía de entrega. Recoger únicamente cuando el hotel confirme recepción; comprobar dos maletas grandes y dos de cabina.",
+    "note": "Llegada estimada 27 NOV, no garantizada. Confirmar con THE KNOT la recepción y comprobar cuatro maletas, utilizando el resguardo del envío si se ha realizado. Servicio Yamato todavía no contratado ni pagado.",
     "category": "Gestiones de equipaje",
     "status": "Pendiente",
     "priority": "Alta"
@@ -245,7 +245,7 @@
     "recommendedDate": "2026-11-21",
     "priority": "Alta",
     "officialUrl": "https://cloak.ecbo.io/space/GnoykxxX",
-    "note": "Acción futura a las 09:00 (Asia/Tokyo), no compra pendiente. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso."
+    "note": "Acción futura a las 09:00 (Asia/Tokyo), no compra pendiente. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos reales confirmados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Presentar reserva digital y comprobar los seis bultos al recoger."
   },
   {
     "id": "nara-collect-2026",
@@ -255,6 +255,15 @@
     "recommendedDate": "2026-11-21",
     "priority": "Alta",
     "officialUrl": "https://cloak.ecbo.io/space/GnoykxxX",
-    "note": "Acción futura a las 15:00 (Asia/Tokyo), no compra pendiente. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos contratados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso."
+    "note": "Acción futura a las 15:00 (Asia/Tokyo), no compra pendiente. ecbo cloak — CONFIRMADO Y PAGADO. 21 NOV 2026, Asia/Tokyo: depósito 09:00; recogida 15:00. Importe total: 4.200 JPY. Categorías contratadas: Bag Size × 2; Suitcase Size × 4 (seis bultos reales confirmados). 7-Eleven Nara Kencho · セブン-イレブン奈良県庁店, 30 Noboriojicho, Nara · 奈良県奈良市登大路町３０番地 · edificio este de la Prefectura, planta 1. Ficha: https://cloak.ecbo.io/space/GnoykxxX. Llevar la confirmación en ecbo cloak; no guardar aquí números de reserva ni códigos de acceso. Presentar reserva digital y comprobar los seis bultos al recoger."
+  },
+  {
+    "id": "bus-etickets-offline-2026",
+    "title": "Imprimir tres E-ticket de Shirakawa-go y guardarlos offline",
+    "category": "Tareas personales",
+    "status": "Pendiente",
+    "priority": "Alta",
+    "recommendedDate": "2026-11-17",
+    "note": "Antes de salir de viaje: imprimir los TRES correos E-ticket (dos individuales de ida Nohi y uno de vuelta Dolphin para ambos). Guardarlos también como PDF accesibles sin conexión. Son válidos desde el móvil; el papel es respaldo. No subir documentos privados a la app pública."
   }
 ]

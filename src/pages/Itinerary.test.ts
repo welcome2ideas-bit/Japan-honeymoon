@@ -17,13 +17,13 @@ vi.mock('../context',()=>({useTrip:()=>{
  return {...data,itinerary:connectItinerary(data).filter(d=>d.date===selection.date),setItinerary:vi.fn()};
 }}));
 const render=(date:string)=>{selection.date=date;return renderToStaticMarkup(createElement(MemoryRouter,{children:createElement(Itinerary)}));};
-it('shows the existing bus times as suggestions and keeps the published non-reserved services unconfirmed',()=>{
- const html=render('2026-11-25');for(const time of ['08:50','09:40','15:15','16:05'])expect(html).toContain(time);
- expect(html).toContain('🕐 Orientativa');expect(html).toContain('sin reserva obligatoria');expect(html).not.toContain('🟠 PENDIENTE DE RESERVAR');
- expect(html).not.toContain('🔒 Confirmada');expect(html).toContain('DESPLAZAMIENTO');
+it('shows purchased bus clocks and keeps visits orientative',()=>{
+ const html=render('2026-11-25');for(const time of ['08:10','09:00','15:45','16:35'])expect(html).toContain(time);
+ expect(html).toContain('🕐 Orientativa');expect(html).toContain('COMPLETAMENTE COMPRADO');expect(html).not.toContain('🟠 PENDIENTE DE RESERVAR');
+ expect(html).toContain('🔒 Confirmada');expect(html).toContain('DESPLAZAMIENTO');
 });
 it('shows the luggage recommendation and weather-dependent optional circuit',()=>{
- const luggage=render('2026-11-26');expect(luggage).toContain('EQUIPAJE');expect(luggage).toContain('Recomendado / pendiente de confirmar');expect(luggage).toContain('Hakone: solo mochilas con equipaje de una noche');
+ const luggage=render('2026-11-26');expect(luggage).toContain('EQUIPAJE');expect(luggage).toContain('NO contratado, NO pagado y NO entregado');expect(luggage).toContain('Hakone solo con mochilas');
  const hakone=render('2026-11-27');expect(hakone).toContain('SI HACE BUEN TIEMPO');expect(hakone).toContain('SI HACE MAL TIEMPO');expect(hakone).toContain('⭐ OPCIONAL');expect(hakone).toContain('Sin hora confirmada');
 });
 it('keeps confirmed flight clocks and existing taxi advice distinct from suggestions',()=>{
@@ -36,7 +36,7 @@ it('renders luggage and movement inside the chronological plan, without separate
  expect(html).toContain('HIDA 6');expect(html).toContain('09:36');
  expect(html).toContain('KODAMA 822');expect(html).toContain('14:42');
  const timeline=html.slice(html.indexOf('timeline daily-itinerary'));
- expect(timeline.indexOf('📦 Confirmar envío de cuatro maletas')).toBeLessThan(timeline.indexOf('🚆 TAKAYAMA'));
+ expect(timeline.indexOf('Comprobar resguardo y entrega de cuatro maletas')).toBeLessThan(timeline.indexOf('🚆 TAKAYAMA'));
  expect(timeline.indexOf('🧳 EQUIPAJE')).toBeLessThan(timeline.indexOf('🚆 TAKAYAMA'));
  expect(html.indexOf('timeline daily-itinerary')).toBeLessThan(html.indexOf('ESTADO DEL DÍA'));
 });
@@ -50,7 +50,7 @@ it('renders structured movements as light connectors between unchanged activity 
  const html=render('2026-11-25');
  expect(html.match(/class="movement-connector"/g)).toHaveLength(2);
  expect(html).toContain('🚌 Takayama');
- expect(html).toContain('sin reserva obligatoria');
+ expect(html).toContain('COMPLETAMENTE COMPRADO');
  const timeline=html.slice(html.indexOf('timeline daily-itinerary'));
  expect(timeline.indexOf('Centro de autobuses Nohi')).toBeLessThan(timeline.indexOf('class="movement-connector"'));
  expect(timeline.indexOf('class="movement-connector"')).toBeLessThan(timeline.indexOf('📍 Mirador Shiroyama'));
@@ -87,7 +87,7 @@ it('distinguishes alternatives, luggage and uncertain arrival without rewriting 
 
 it('renders the paid Nara booking and all four Japanese-time reminders without duplicate deposits',()=>{
  const html=render('2026-11-21');
- for(const text of ['CONFIRMADO Y PAGADO','7-Eleven Nara Kencho','セブン-イレブン奈良県庁店','4.200 JPY','Bag Size × 2','Suitcase Size × 4','08:00','09:00','14:00','14:30','15:00','15:20'])expect(html).toContain(text);
+ for(const text of ['CONFIRMADO Y PAGADO','7-Eleven Nara Kencho','セブン-イレブン奈良県庁店','4.200 JPY','Bag Size × 2','Suitcase Size × 4','08:00','09:00','14:00','14:30','15:00','15:30–15:45'])expect(html).toContain(text);
  expect(html.match(/<h3>[^<]*DEJAR EQUIPAJE<\/h3>/g)).toHaveLength(1);
  for(const title of ['CONSIGNA RESERVADA EN NARA','REGRESAR HACIA LA CONSIGNA','RECOGER EQUIPAJE'])expect(html.match(new RegExp('<h3>[^<]*'+title+'<\\/h3>','g'))).toHaveLength(1);
  expect(html).not.toContain('Consignas sin reserva');expect(html).not.toContain('No hay reserva ni disponibilidad garantizada');
@@ -97,6 +97,6 @@ it('renders the paid Nara booking and all four Japanese-time reminders without d
  expect(day.activities.find(a=>a.id==='2026-11-21-store-luggage')?.start).toBe('2026-11-21T09:00:00+09:00');
  expect(day.activities.find(a=>a.id==='2026-11-21-retrieve-luggage')?.start).toBe('2026-11-21T15:00:00+09:00');
  const departure=day.activities.find(a=>a.id==='2026-11-21-v24-7')!;
- expect(departure.start).toBeNull();expect(departure.planningNote).toContain('15:20');
+ expect(departure.start).toBeNull();expect(departure.planningNote).toContain('15:30–15:45');
  expect(new Set(day.activities.map(a=>a.id)).size).toBe(day.activities.length);
 });

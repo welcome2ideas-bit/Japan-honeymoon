@@ -53,56 +53,64 @@
     "durationMinutes": 205,
     "status": "Confirmado",
     "location": "",
-    "note": "Horarios locales de salida y llegada.",
-    "from": "Hong Kong"
+    "note": "CONFIRMADO. CX506 Hong Kong → Osaka KIX Terminal 1: llegada 15:10 JST. Salida en hora de Hong Kong y llegada en hora de Japón.",
+    "from": "Hong Kong",
+    "flightNumber": "CX506",
+    "terminal": "Llegada KIX: Terminal 1; salida HKG: pendiente de confirmar"
   },
   {
     "id": "kix-namba",
     "date": "2026-11-19",
-    "to": "Namba",
-    "title": "KIX → Namba",
+    "to": "Nankai Namba",
+    "title": "Kansai Airport → Nankai Namba · Nankai Airport Express",
     "type": "Tren",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
-    "location": "",
-    "note": "🕐 Orientativo: 16:30–17:20. Duración estimada: 45–60 min. 🟠 Pendiente de comprar / confirmar. ",
-    "from": "KIX",
+    "status": "no requiere reserva",
+    "location": "Nankai Kansai Airport Station",
+    "note": "Dos adultos y seis bultos. Nankai Airport Express ordinario, sin reserva anticipada. Tren flexible, orientativamente después de las 16:30; duración estimada 45–60 min. Tras inmigración y equipaje en KIX Terminal 1, subir a la planta 2F y seguir Railways / Nankai hacia la estación conectada. Comprar dos billetes hasta Nankai Namba en las máquinas o taquilla de Nankai y comprobar el servicio Airport Express en los paneles. Utilizar ascensores con los seis bultos. Después ir a IAM HOTEL. No hay tren ni asiento reservado. Fuentes: https://www.kansai-airport.or.jp/en/access/from-airport/train · https://www.nankai.co.jp/en_railway/traffic/kix.html",
+    "from": "Kansai Airport",
     "estimatedDuration": {
       "minMinutes": 45,
       "maxMinutes": 60
-    }
+    },
+    "reservation": "DECIDIDO, SIN COMPRAR · pagar en el aeropuerto"
   },
   {
     "id": "transport-3",
     "date": "2026-11-21",
     "to": "Kintetsu-Nara",
-    "title": "Osaka → Nara",
+    "title": "Kintetsu-Nipponbashi → Kintetsu-Nara · Rapid Express",
     "type": "Tren",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
-    "location": "",
-    "note": "🕐 Orientativo: 07:45. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar. Osaka-Namba → Kintetsu-Nara; objetivo llegar a las 08:30. Servicio concreto y horario real pendientes. Después, unos 6 min a pie desde salida 1 hasta 7-Eleven Nara Kencho, más salida del andén y equipaje. Depósito ecbo cloak CONFIRMADO Y PAGADO a las 09:00. El margen de 30 min es un objetivo, no una conexión garantizada. Ficha: https://cloak.ecbo.io/space/GnoykxxX",
-    "from": "Osaka",
+    "status": "no requiere reserva",
+    "location": "Kintetsu-Nipponbashi Station, Osaka",
+    "note": "Kintetsu Rapid Express ordinario. Dos adultos, seis bultos. Salida objetivo del IAM HOTEL 07:15; tren orientativo 07:30–07:45 y llegada prevista 08:15–08:30. Confirmar servicio y horario antes de viajar. Después ir a 7-Eleven Nara Kencho: referencia de unos 6 min a pie desde salida 1, más salida del andén y equipaje. Depósito ecbo CONFIRMADO Y PAGADO a las 09:00. No hay tren reservado. https://cloak.ecbo.io/space/GnoykxxX",
+    "from": "Kintetsu-Nipponbashi",
     "estimatedDuration": {
       "minMinutes": 45,
       "maxMinutes": 45
-    }
+    },
+    "reservation": "DECIDIDO, SIN RESERVA · pago allí"
   },
   {
     "id": "transport-4",
     "date": "2026-11-21",
-    "to": "Kioto",
-    "title": "Nara → Kioto",
+    "to": "Kyoto Station",
+    "title": "Kintetsu-Nara → Kyoto Station · Express",
     "type": "Tren",
     "time": "Pendiente de confirmar",
-    "status": "pendiente de reservar",
-    "location": "",
-    "note": "🕐 Orientativo: 15:20. Duración estimada: ~45 min. 🟠 Pendiente de comprar / confirmar. Salir de Kintetsu-Nara solo DESPUÉS de recuperar todos los bultos en 7-Eleven Nara Kencho a las 15:00 confirmadas. Referencia de acceso a la estación: unos 6 min a pie, más tiempo de gestión y llegada al andén. Los 20 min entre recogida y salida son un margen de planificación condicionado; si no es suficiente, tomar un tren posterior. Llegada objetivo a Kioto hacia 16:05, no garantizada. Servicio y horario real pendientes. Consigna CONFIRMADA Y PAGADA, no pendiente de compra. https://cloak.ecbo.io/space/GnoykxxX",
+    "status": "no requiere reserva",
+    "location": "Kintetsu-Nara Station",
+    "note": "Kintetsu Express ordinario. Salida orientativa 15:30–15:45, únicamente después de recuperar los SEIS bultos en 7-Eleven Nara Kencho a las 15:00. Unos 6 min a pie hacia la estación, más gestión y acceso al andén; si falta margen, tomar un tren posterior. Duración ferroviaria aproximada 45–60 min, posible transbordo en Yamato-Saidaiji según servicio. Horario real pendiente. Llegada a Yasen Kyoto después del tren y del desplazamiento desde Kyoto Station; no es una hora de check-in garantizada.",
     "from": "Kintetsu-Nara",
     "estimatedDuration": {
       "minMinutes": 45,
-      "maxMinutes": 45
-    }
+      "maxMinutes": 60
+    },
+    "reservation": "DECIDIDO, SIN RESERVA · pagar en Japón",
+    "via": [
+      "Yamato-Saidaiji (posible transbordo según servicio)"
+    ]
   },
   {
     "id": "transport-5",
@@ -113,7 +121,7 @@
     "time": "11:48",
     "status": "Reservado",
     "location": "KYOTO Station",
-    "note": "🔒 NOZOMI 128: 11:48 → 12:22. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 4, asientos 10D y 10E. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR.",
+    "note": "🔒 NOZOMI 128: 11:48 → 12:22. RESERVADO, PAGO TRAMITADO con tarjeta física según confirmación. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 4 · 10D y 10E. RETIRAR BILLETES FÍSICOS preferiblemente el 20 NOV en JR Osaka Station. No volver a comprar. Andén pendiente de confirmar.",
     "from": "KYOTO",
     "arrivalDate": "2026-11-24",
     "arrivalTime": "12:22",
@@ -123,40 +131,50 @@
     "arrivalTimeZone": "Asia/Tokyo",
     "trainNumber": "NOZOMI 128",
     "seat": "Vagón 4 · 10D y 10E",
-    "reservation": "JR WEST · reserva [identificador en copia privada] · aceptada; verificar pago y recoger billetes físicos",
+    "reservation": "JR West · RESERVADO, PAGO TRAMITADO · pendiente retirar billetes físicos",
     "durationMinutes": 34
   },
   {
     "id": "transport-6",
     "date": "2026-11-25",
-    "to": "Shirakawa-go",
-    "title": "Takayama → Shirakawa-go",
+    "to": "Shirakawa-go (Ogimachi)",
+    "title": "Takayama → Shirakawa-go · Nohi Bus",
     "type": "Autobús",
-    "time": "Pendiente de confirmar",
-    "status": "no requiere reserva",
-    "location": "",
-    "note": "🕐 Orientativo: 08:50 → 09:40. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
-    "from": "Takayama",
-    "estimatedDuration": {
-      "minMinutes": 50,
-      "maxMinutes": 50
-    }
+    "time": "08:10",
+    "status": "Confirmado",
+    "location": "Takayama Nohi Bus Center",
+    "note": "🔒 Nohi Bus, 25 NOV 08:10 → 09:00. Dos pasajeros; vehículo 01, asientos 1D y 2D. 5.600 JPY pagados por ambos. Dos correos E-ticket individuales válidos para embarcar desde el móvil; imprimir como respaldo. Objetivo salir del Mercure 07:30 y estar en el terminal 07:40 (30 min antes). COMPLETAMENTE COMPRADO; no volver a comprar.",
+    "from": "Takayama Nohi Bus Center",
+    "arrivalTime": "09:00",
+    "arrivalDate": "2026-11-25",
+    "departureAt": "2026-11-25T08:10:00+09:00",
+    "arrivalAt": "2026-11-25T09:00:00+09:00",
+    "departureTimeZone": "Asia/Tokyo",
+    "arrivalTimeZone": "Asia/Tokyo",
+    "durationMinutes": 50,
+    "seat": "Vehículo 01 · 1D y 2D",
+    "reservation": "COMPRADO Y PAGADO · Japan Bus Online · dos pasajeros"
   },
   {
     "id": "transport-7",
     "date": "2026-11-25",
-    "to": "Takayama",
-    "title": "Shirakawa-go → Takayama",
+    "to": "Takayama Nohi Bus Center",
+    "title": "Shirakawa-go → Takayama · Dolphin Traffic",
     "type": "Autobús",
-    "time": "Pendiente de confirmar",
-    "status": "no requiere reserva",
-    "location": "",
-    "note": "🕐 Orientativo: 15:15 → 16:05. Horario publicado por Nohi, pendiente de ratificar para el 25 NOV; NO es billete comprado. Este servicio no lleva marca R (sin reserva obligatoria) en el horario consultado. Esperando respuesta de la empresa sobre operación, compra y embarque; disponibilidad no garantizada. Prioridad alta de gestión, no inventar reserva obligatoria. Fuente: https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
-    "from": "Shirakawa-go",
-    "estimatedDuration": {
-      "minMinutes": 50,
-      "maxMinutes": 50
-    }
+    "time": "15:45",
+    "status": "Confirmado",
+    "location": "Shirakawa-go Bus Terminal, Ogimachi",
+    "note": "🔒 Dolphin Traffic Co., Ltd., 25 NOV 15:45 → 16:35. Dos pasajeros; vehículo 01, asientos 5C y 5D. 5.600 JPY pagados. Un correo E-ticket para los dos pasajeros, localizado y confirmado. Mostrarlo desde el móvil; copia impresa de respaldo. Recordatorios: terminar visitas 14:45, regresar hacia el terminal 15:00 y estar allí 15:15 (30 min antes). COMPLETAMENTE COMPRADO.",
+    "from": "Shirakawa-go (Ogimachi)",
+    "arrivalTime": "16:35",
+    "arrivalDate": "2026-11-25",
+    "departureAt": "2026-11-25T15:45:00+09:00",
+    "arrivalAt": "2026-11-25T16:35:00+09:00",
+    "departureTimeZone": "Asia/Tokyo",
+    "arrivalTimeZone": "Asia/Tokyo",
+    "durationMinutes": 50,
+    "seat": "Vehículo 01 · 5C y 5D",
+    "reservation": "COMPRADO Y PAGADO · dos pasajeros"
   },
   {
     "id": "transport-8",
@@ -167,7 +185,7 @@
     "time": "09:36",
     "status": "Reservado",
     "location": "TAKAYAMA Station",
-    "note": "🔒 HIDA 6: 09:36 → 12:04. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 8, asientos 10C y 10D. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR.",
+    "note": "🔒 HIDA 6: 09:36 → 12:04. RESERVADO, PAGO TRAMITADO con tarjeta física según confirmación. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 8 · 10C y 10D. RETIRAR BILLETES FÍSICOS preferiblemente el 20 NOV en JR Osaka Station. No volver a comprar. Andén pendiente de confirmar.",
     "from": "TAKAYAMA",
     "arrivalDate": "2026-11-26",
     "arrivalTime": "12:04",
@@ -177,65 +195,81 @@
     "arrivalTimeZone": "Asia/Tokyo",
     "trainNumber": "HIDA 6",
     "seat": "Vagón 8 · 10C y 10D",
-    "reservation": "JR WEST · reserva [identificador en copia privada] · aceptada; verificar pago y recoger billetes físicos",
+    "reservation": "JR West · RESERVADO, PAGO TRAMITADO · pendiente retirar billetes físicos",
     "durationMinutes": 148
   },
   {
     "id": "odawara-ashinoyu",
     "date": "2026-11-26",
-    "to": "Ashinoyu / Matsuzakaya Honten",
-    "title": "Odawara → Ashinoyu / Matsuzakaya Honten",
-    "type": "Traslado por confirmar",
+    "to": "Higashi-Ashinoyu / Matsuzakaya Honten",
+    "title": "Odawara → Higashi-Ashinoyu → Matsuzakaya Honten",
+    "type": "Autobús",
     "time": "Pendiente de confirmar",
-    "status": "Pendiente",
-    "location": "",
-    "note": "Llegada a Odawara confirmada 14:42. Ryokan contactado; esperando respuesta sobre posibilidad de recogida. NO hay traslado contratado. NO contratar alternativa todavía. Medio, punto de encuentro, salida, duración y coste PENDIENTE DE CONFIRMAR.",
-    "from": "Odawara",
-    "reservation": "Esperando respuesta del ryokan; no contratado"
+    "status": "no requiere reserva",
+    "location": "Odawara Station East Exit",
+    "note": "Llegada ferroviaria confirmada a Odawara 14:42. Transporte decidido: autobús público Hakone Tozan, línea prevista H, dirección Moto-Hakone-ko / Hakone-machi-ko vía Ashinoyu. Referencia: parada 3 de la salida este, PENDIENTE DE COMPROBAR. Bajar en Higashi-Ashinoyu y caminar al ryokan. Horario real, espera y duración pendientes de confirmar. No reservar traslado privado.",
+    "from": "Odawara · salida este",
+    "reservation": "SIN RESERVA · PAGAR ALLÍ",
+    "via": [
+      "Ashinoyu"
+    ]
   },
   {
     "id": "transport-9",
     "date": "2026-11-27",
     "to": "Shinjuku",
-    "title": "Hakone → Shinjuku",
+    "title": "Hakone-Yumoto → Shinjuku · preferencia Romancecar",
     "type": "Tren",
     "time": "Pendiente de confirmar",
     "status": "Pendiente",
-    "location": "",
-    "note": "Hora pendiente. Mantener flexibilidad según meteorología y visibilidad del Fuji. Unas 2 h son la estimación anterior, no un servicio concreto. No compra urgente. Un Limited Express con asiento elegido requerirá gestión distinta de una alternativa convencional; servicio pendiente de decidir.",
-    "from": "Hakone",
-    "estimatedDuration": {
-      "minMinutes": 120,
-      "maxMinutes": 120
-    }
+    "location": "Hakone-Yumoto Station",
+    "note": "Decidir según meteorología y funcionamiento del transporte. Buen tiempo: Lago Ashi, Ōwakudani y teleférico si funciona; Tokio por la tarde. Mal tiempo: reducir o cancelar exteriores y volver antes a Shinjuku. Preferencia Romancecar desde Hakone-Yumoto; comprobar disponibilidad y comprar tarifa básica más suplemento de asiento reservado si se elige. No comprado. Acceso hasta Hakone-Yumoto, salida y duración real pendientes.",
+    "from": "Hakone-Yumoto",
+    "reservation": "Romancecar preferente · NO RESERVADO, NO PAGADO"
   },
   {
     "id": "tokyo-nikko",
     "date": "2026-12-01",
-    "to": "Nikkō",
-    "title": "Tokio → Nikkō",
+    "to": "Tobu-Nikkō",
+    "title": "Asakusa → Tobu-Nikkō · SPACIA X 001",
     "type": "Tren",
-    "time": "Pendiente de confirmar",
-    "status": "Pendiente",
-    "location": "",
-    "note": "🕐 Objetivo 07:15; duración anterior ~2 h, sin tren elegido. Valorar Limited Express TOBU para dos adultos. Apertura 1 NOV 09:00 JST (01:00 Madrid). Comparar billetes básicos individuales + suplemento de cada Limited Express, Nikko Pass + suplementos separados y trenes convencionales sin suplemento Limited Express. Nikko Pass World Heritage: tarifa publicada 3.000 yen/adulto (6.000 dos adultos), 2 días; no incluye entradas ni suplemento. All Area: 8.000 yen/adulto, no necesario por el solo hecho de visitar santuarios. Tarifas individuales y suplementos de los trenes concretos PENDIENTE DE CONFIRMAR antes de decidir. Acceso desde Shinjuku a estación TOBU también pendiente. No comprar todavía. https://www.tobu.co.jp/en/express_info/purchase/ · https://www.tobu.co.jp/en/ticket/nikko-pass/",
-    "from": "Tokio",
-    "estimatedDuration": {
-      "minMinutes": 120,
-      "maxMinutes": 120
-    }
+    "time": "07:50",
+    "status": "Confirmado",
+    "location": "Tobu Asakusa Station",
+    "note": "🔒 SPACIA X 001: 07:50 → 09:39. Vagón 4, asientos 05A y 05B, Standard Seat, dos adultos. Suplemento pagado: 3.880 JPY. Objetivo salir de THE KNOT sobre las 06:40 y llegar a Tobu Asakusa con antelación; ruta y duración de acceso pendientes. NIKKO PASS WORLD HERITAGE AREA COMPRADO: dos adultos, válido 1–2 DIC, 6.000 JPY pagados. Cubre la tarifa básica ferroviaria correspondiente y los transportes incluidos en su zona; los dos suplementos SPACIA X se han comprado por separado (3.880 JPY cada sentido para ambos). Total excursión: 13.760 JPY. Títulos digitales: TOBU Japan Trip Tickets → My Page → Ticket list. No comprar de nuevo.",
+    "from": "Tobu Asakusa",
+    "arrivalTime": "09:39",
+    "arrivalDate": "2026-12-01",
+    "departureAt": "2026-12-01T07:50:00+09:00",
+    "arrivalAt": "2026-12-01T09:39:00+09:00",
+    "departureTimeZone": "Asia/Tokyo",
+    "arrivalTimeZone": "Asia/Tokyo",
+    "durationMinutes": 109,
+    "trainNumber": "SPACIA X 001",
+    "seat": "Vagón 4 · 05A y 05B · Standard Seat",
+    "reservation": "COMPRADO · dos adultos · suplemento SPACIA X"
   },
   {
     "id": "nikko-tokyo",
     "date": "2026-12-01",
-    "to": "Tokio",
-    "title": "Nikkō → Tokio",
+    "to": "Tobu Asakusa",
+    "title": "Tobu-Nikkō → Asakusa · SPACIA X 012",
     "type": "Tren",
-    "time": "Pendiente de confirmar",
-    "status": "Pendiente",
-    "location": "",
-    "note": "🕐 Objetivo regreso 16:00 y llegada Tokio 18:30; duración pendiente. Valorar Limited Express TOBU para dos adultos. Apertura 1 NOV 09:00 JST (01:00 Madrid). Comparar billetes básicos individuales + suplemento de cada Limited Express, Nikko Pass + suplementos separados y trenes convencionales sin suplemento Limited Express. Nikko Pass World Heritage: tarifa publicada 3.000 yen/adulto (6.000 dos adultos), 2 días; no incluye entradas ni suplemento. All Area: 8.000 yen/adulto, no necesario por el solo hecho de visitar santuarios. Tarifas individuales y suplementos de los trenes concretos PENDIENTE DE CONFIRMAR antes de decidir. Acceso desde Shinjuku a estación TOBU también pendiente. No comprar todavía. https://www.tobu.co.jp/en/express_info/purchase/ · https://www.tobu.co.jp/en/ticket/nikko-pass/",
-    "from": "Nikkō"
+    "time": "17:44",
+    "status": "Confirmado",
+    "location": "Tobu-Nikko Station",
+    "note": "🔒 SPACIA X 012: 17:44 → 19:35. Vagón 4, asientos 09C y 09D, Standard Seat, dos adultos. Suplemento pagado: 3.880 JPY. Regresar de los templos a la estación con suficiente margen; duración de acceso pendiente. NIKKO PASS WORLD HERITAGE AREA COMPRADO: dos adultos, válido 1–2 DIC, 6.000 JPY pagados. Cubre la tarifa básica ferroviaria correspondiente y los transportes incluidos en su zona; los dos suplementos SPACIA X se han comprado por separado (3.880 JPY cada sentido para ambos). Total excursión: 13.760 JPY. Títulos digitales: TOBU Japan Trip Tickets → My Page → Ticket list. No comprar de nuevo.",
+    "from": "Tobu-Nikkō",
+    "arrivalTime": "19:35",
+    "arrivalDate": "2026-12-01",
+    "departureAt": "2026-12-01T17:44:00+09:00",
+    "arrivalAt": "2026-12-01T19:35:00+09:00",
+    "departureTimeZone": "Asia/Tokyo",
+    "arrivalTimeZone": "Asia/Tokyo",
+    "durationMinutes": 111,
+    "trainNumber": "SPACIA X 012",
+    "seat": "Vagón 4 · 09C y 09D · Standard Seat",
+    "reservation": "COMPRADO · dos adultos · suplemento SPACIA X"
   },
   {
     "id": "transport-10",
@@ -253,25 +287,28 @@
     "durationMinutes": 325,
     "status": "Confirmado",
     "location": "Aeropuerto de Narita, Japón",
-    "note": "Horarios locales de salida y llegada.",
-    "from": "Tokio Narita"
+    "note": "CONFIRMADO. CX6323 operado por Japan Airlines: Narita Terminal 2, 3 DIC 18:30 JST → Hong Kong Terminal 1, 22:55 HKT. Japón y Hong Kong utilizan zonas horarias distintas.",
+    "from": "Tokio Narita",
+    "flightNumber": "CX6323 · operado por Japan Airlines",
+    "terminal": "Salida Narita: Terminal 2 · llegada Hong Kong: Terminal 1"
   },
   {
     "id": "narita-express",
     "date": "2026-12-03",
-    "to": "Narita",
+    "to": "Narita Airport Terminal 2·3",
     "title": "Shinjuku → Narita · candidato Narita Express 29",
     "type": "Tren",
     "time": "Pendiente de confirmar",
     "status": "Pendiente",
     "location": "",
-    "note": "🕐 Candidato aprobado, NO reservado: Shinjuku 13:08 → estación T2/T3 14:27 → T1 14:31 según horario publicado. Verificar operación del 3 DIC al abrir venta el 3 NOV 10:00 JST (02:00 Madrid). Vuelo confirmado 18:30: margen desde el tren 4 h 03 min en estación T2/T3 o 3 h 59 min en T1, antes de caminar a facturación. Terminal aérea, andén y asientos PENDIENTE DE CONFIRMAR. No es salida confirmada. https://timetables.jreast.co.jp/en/2611/train/075/076671.html · https://www.jreast.co.jp/en/multi/faq/",
-    "from": "Shinjuku",
+    "note": "🕐 Candidato NARITA EXPRESS 29, PENDIENTE DE COMPRA: 3 DIC JR Shinjuku 13:08 → Narita Airport Terminal 2·3 14:27. Dos adultos; solicitar asientos juntos al comprar. Venta prevista desde el 3 NOV; confirmar horarios y disponibilidad en JR East. Margen orientativo hasta el vuelo de las 18:30: 4 h 03 min desde llegada a la estación, antes del acceso a facturación en Terminal 2. Andén y asientos pendientes. https://www.jreast.co.jp/en/multi/faq/",
+    "from": "JR Shinjuku",
     "estimatedDuration": {
       "minMinutes": 79,
-      "maxMinutes": 83
+      "maxMinutes": 79
     },
-    "trainNumber": "Narita Express 29 · candidato, no reservado"
+    "trainNumber": "Narita Express 29 · candidato, no reservado",
+    "reservation": "PENDIENTE DE COMPRA · dos adultos, solicitar asientos juntos"
   },
   {
     "id": "flight-hkg-madrid",
@@ -289,8 +326,10 @@
     "durationMinutes": 890,
     "status": "Confirmado",
     "location": "",
-    "note": "Horarios locales de salida y llegada.",
-    "from": "Hong Kong"
+    "note": "CONFIRMADO. CX315: 4 DIC Hong Kong Terminal 1 00:45 HKT → Madrid 08:35 hora española. Mantener las horas locales de ambos aeropuertos.",
+    "from": "Hong Kong",
+    "flightNumber": "CX315",
+    "terminal": "Salida Hong Kong: Terminal 1; llegada Madrid: pendiente de confirmar"
   },
   {
     "id": "transport-11",
@@ -329,9 +368,9 @@
     "location": "NAGOYA Station",
     "trainNumber": "HIDA 11",
     "seat": "Vagón 3 · 3A y 3B",
-    "reservation": "JR WEST · reserva [identificador en copia privada] · aceptada; verificar pago y recoger billetes físicos",
+    "reservation": "JR West · RESERVADO, PAGO TRAMITADO · pendiente retirar billetes físicos",
     "durationMinutes": 144,
-    "note": "🔒 HIDA 11: 12:48 → 15:12. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 3, asientos 3A y 3B. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR."
+    "note": "🔒 HIDA 11: 12:48 → 15:12. RESERVADO, PAGO TRAMITADO con tarjeta física según confirmación. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 3 · 3A y 3B. RETIRAR BILLETES FÍSICOS preferiblemente el 20 NOV en JR Osaka Station. No volver a comprar. Andén pendiente de confirmar."
   },
   {
     "id": "jr-kodama-822",
@@ -351,8 +390,8 @@
     "location": "NAGOYA Station",
     "trainNumber": "KODAMA 822",
     "seat": "Vagón 12 · 10D y 10E",
-    "reservation": "JR WEST · reserva [identificador en copia privada] · aceptada; verificar pago y recoger billetes físicos",
+    "reservation": "JR West · RESERVADO, PAGO TRAMITADO · pendiente retirar billetes físicos",
     "durationMinutes": 124,
-    "note": "🔒 KODAMA 822: 12:38 → 14:42. Reserva aceptada en JR WEST, número [identificador en copia privada]; pago PENDIENTE DE VERIFICAR. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 12, asientos 10D y 10E. Recoger billetes físicos antes de embarcar. Andén PENDIENTE DE CONFIRMAR."
+    "note": "🔒 KODAMA 822: 12:38 → 14:42. RESERVADO, PAGO TRAMITADO con tarjeta física según confirmación. Dos adultos; Regular Ticket con tarifa básica y suplementos. Ordinary Car, asientos reservados, no fumadores. Vagón 12 · 10D y 10E. RETIRAR BILLETES FÍSICOS preferiblemente el 20 NOV en JR Osaka Station. No volver a comprar. Andén pendiente de confirmar."
   }
 ]

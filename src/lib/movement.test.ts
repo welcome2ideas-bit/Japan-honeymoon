@@ -8,11 +8,11 @@ import hotels from '../../data/hotels.json';
 import transport from '../../data/transport.json';
 import tasks from '../../data/checklist.json';
 const data=()=>parseTrip(structuredClone({version:2,settings,itinerary,places,hotels,transport,tasks}));
-it('connects approximate transport ranges without creating confirmed durations or times',()=>{
+it('connects bought bus times while preserving unknown transfer estimates',()=>{
  const d=data(),days=connectItinerary(d);
  const bus=days.flatMap(d=>d.activities).find(a=>a.transportId==='transport-6')!;
- expect(bus.movement).toMatchObject({mode:'Autobús',from:'Takayama',to:'Shirakawa-go',estimatedDuration:{minMinutes:50,maxMinutes:50},bookingPending:undefined});
- expect(bus.start).toBeNull();expect(bus.durationMinutes).toBeUndefined();
+ expect(bus.movement).toMatchObject({mode:'Autobús',from:'Takayama Nohi Bus Center',to:'Shirakawa-go (Ogimachi)',estimatedDuration:undefined,bookingPending:undefined});
+ expect(bus.start).toBe('2026-11-25T08:10:00+09:00');expect(bus.durationMinutes).toBe(50);
  expect(d.transport.find(t=>t.id==='transport-8')).toMatchObject({trainNumber:'HIDA 6',durationMinutes:148,departureAt:'2026-11-26T09:36:00+09:00',arrivalAt:'2026-11-26T12:04:00+09:00'});
  expect(days.flatMap(d=>d.activities).find(a=>a.transportId==='nikko-tokyo')?.movement?.estimatedDuration).toBeUndefined();
 });

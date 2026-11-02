@@ -1,0 +1,42 @@
+{
+  "title": "Cómo utilizar mi billete",
+  "description": "Las instrucciones no sustituyen los billetes. Conserva los documentos privados en tu móvil, fuera de esta aplicación pública.",
+  "documents": "Seis grupos PDF ya preparados: Buses Shirakawa-go; Kioto → Takayama; Takayama → Odawara; Consigna Nara; NIKKO PASS; Trenes a Nikkō. No están alojados ni enlazados aquí.",
+  "groups": [
+    {
+      "name": "JR West",
+      "status": "RESERVADO, PAGO TRAMITADO · recogida pendiente",
+      "instructions": "PENDIENTE DE RETIRAR BILLETES FÍSICOS. Objetivo 20 NOV 18:30 en JR Osaka Station; puede adelantarse. Recoger las dos reservas para dos adultos y cuatro trenes (NOZOMI 128 + HIDA 11 y HIDA 6 + KODAMA 822), tramitando cada reserva en la misma visita. Utilizar taquilla Midori-no-madoguchi Central o máquina verde señalizada 5489 del vestíbulo, FUERA de los tornos; no entrar a los andenes para recoger. Osaka Station confirma recogida e5489; taquilla Central y máquinas Central: 06:00–22:00. Llevar tarjeta FÍSICA original usada al pagar y correos de confirmación; tener disponible el dato de identificación de cuatro cifras fuera de la aplicación. Pago con tarjeta física tramitado. Comprobar todos los billetes, tarifa básica y suplementos. Los correos NO sustituyen los billetes físicos. Cola y duración pendientes. Fuentes: https://www.westjr.co.jp/global/en/howto/train-reservation/receive/ · https://eki.jr-odekake.net/top?id=0610130 · https://eki.jr-odekake.net/premises?id=0610130"
+    },
+    {
+      "name": "Japan Bus Online · Shirakawa-go",
+      "status": "COMPRADO Y PAGADO",
+      "instructions": "Mostrar al conductor los correos E-ticket: dos individuales de ida Nohi 08:10 y uno de vuelta Dolphin 15:45 para los dos pasajeros. Imprimir los TRES correos como respaldo y guardar PDF offline."
+    },
+    {
+      "name": "ecbo cloak · Nara",
+      "status": "CONFIRMADO Y PAGADO",
+      "instructions": "Presentar reserva digital en 7-Eleven Nara Kencho, 21 NOV depósito 09:00 y recogida 15:00. Seis bultos: 2 Bag Size + 4 Suitcase Size; 4.200 JPY pagados. Comprobar los seis al recuperar."
+    },
+    {
+      "name": "Tobu · Nikkō",
+      "status": "TODO COMPRADO",
+      "instructions": "NIKKO PASS WORLD HERITAGE AREA COMPRADO: dos adultos, válido 1–2 DIC, 6.000 JPY pagados. Cubre la tarifa básica ferroviaria correspondiente y los transportes incluidos en su zona; los dos suplementos SPACIA X se han comprado por separado (3.880 JPY cada sentido para ambos). Total excursión: 13.760 JPY. Títulos digitales: TOBU Japan Trip Tickets → My Page → Ticket list. No comprar de nuevo."
+    },
+    {
+      "name": "Kintetsu, Nankai y bus público de Hakone",
+      "status": "DECIDIDO · pago allí, sin reserva anticipada",
+      "instructions": "Comprar/pagar los trayectos ordinarios elegidos en destino. No confundir Kintetsu Express/Rapid Express ni Nankai Airport Express con servicios Limited Express de suplemento reservado. Confirmar el servicio real antes de subir."
+    },
+    {
+      "name": "Romancecar · Hakone → Shinjuku",
+      "status": "NO RESERVADO, NO PAGADO",
+      "instructions": "Elegir según meteorología. Si se usa Romancecar, comprobar plazas y adquirir tarifa básica y suplemento de asiento reservado."
+    },
+    {
+      "name": "Narita Express 29",
+      "status": "PENDIENTE DE COMPRA",
+      "instructions": "🕐 Candidato NARITA EXPRESS 29, PENDIENTE DE COMPRA: 3 DIC JR Shinjuku 13:08 → Narita Airport Terminal 2·3 14:27. Dos adultos; solicitar asientos juntos al comprar. Venta prevista desde el 3 NOV; confirmar horarios y disponibilidad en JR East. Margen orientativo hasta el vuelo de las 18:30: 4 h 03 min desde llegada a la estación, antes del acceso a facturación en Terminal 2. Andén y asientos pendientes. https://www.jreast.co.jp/en/multi/faq/"
+    }
+  ]
+}

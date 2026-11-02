@@ -3,7 +3,7 @@ import type { TripData } from '../types';
 // JSON owns travel content; storage only restores personal progress and Wishlist.
 export function updateCatalog(saved:TripData,fresh:TripData):TripData {
  const retiredPurchaseTasks=['v24-task-3','v24-task-6'];
- const result:TripData={...fresh,catalogRevision:6,
+ const result:TripData={...fresh,catalogRevision:7,
   deletedTaskIds:saved.deletedTaskIds??[],officialTaskIds:fresh.tasks.map(t=>t.id),
   wishlist:saved.wishlist??fresh.wishlist,
   places:fresh.places.map(place=>{
@@ -14,6 +14,8 @@ export function updateCatalog(saved:TripData,fresh:TripData):TripData {
    const previous=saved.tasks.find(t=>t.id===task.id);
    // Apply the confirmed Nara payment once, without resetting other personal states.
    if(task.id==='v24-task-2'&&(saved.catalogRevision??0)<6)return task;
+   // These purchases were confirmed on 2 November; apply once, preserving future user edits.
+   if(['v24-task-5','v24-task-11','jr-payments-2026'].includes(task.id)&&(saved.catalogRevision??0)<7)return task;
    return previous?{...task,status:previous.status}:task;
   }),...saved.tasks.filter(t=>!fresh.tasks.some(f=>f.id===t.id)&&!saved.officialTaskIds?.includes(t.id)&&!saved.deletedTaskIds?.includes(t.id)&&!retiredPurchaseTasks.includes(t.id))],
   itinerary:fresh.itinerary.map(day=>({...day,activities:day.activities.map(activity=>{
