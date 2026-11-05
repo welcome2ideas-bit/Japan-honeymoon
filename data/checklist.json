@@ -85,13 +85,13 @@
   },
   {
     "id": "v24-task-12",
-    "title": "Comprar N’EX 29: dos asientos juntos, horario por confirmar",
-    "category": "Compras pendientes",
+    "title": "Recoger billetes físicos del Narita Express en Shinjuku",
+    "category": "Recogidas importantes",
     "status": "Pendiente",
-    "recommendedDate": "2026-11-03",
-    "note": "🕐 Candidato NARITA EXPRESS 29, PENDIENTE DE COMPRA: 3 DIC JR Shinjuku 13:08 → Narita Airport Terminal 2·3 14:27. Dos adultos; solicitar asientos juntos al comprar. Venta prevista desde el 3 NOV; confirmar horarios y disponibilidad en JR East. Margen orientativo hasta el vuelo de las 18:30: 4 h 03 min desde llegada a la estación, antes del acceso a facturación en Terminal 2. Andén y asientos pendientes. https://www.jreast.co.jp/en/multi/faq/",
+    "recommendedDate": "2026-11-30",
+    "note": "PENDIENTE DE RECOGIDA. 30 NOV 16:30, Asia/Tokyo, hora orientativa. Retirar los billetes físicos JR East de AMBOS pasajeros para N’EX 29 del 3 DIC; guardarlos con los documentos del viaje. Lugar propuesto: JR EAST Travel Service Center de Shinjuku, junto a New South Ticket Gate, fuera de los tornos. Horario publicado: 08:00–19:00, todos los días; comprobarlo antes de acudir. Admite billetes de JR-EAST Train Reservation; también existen máquinas de asiento reservado con lector de pasaporte compatibles. Contrastar el canal de compra y las instrucciones del correo: llevar los documentos y medios de identificación o pago exigidos allí. No se ha facilitado ese correo, por lo que los requisitos específicos de esta reserva quedan pendientes de comprobar; no guardar códigos en la aplicación. No marcar recogido hasta confirmación. Fuentes: https://www.jreast.co.jp/en/multi/customer_support/service_center_shinjuku.html · https://www.jreast.co.jp/en/multi/ticket/guide.html",
     "priority": "Alta",
-    "officialUrl": "https://www.jreast.co.jp/en/multi/faq/"
+    "officialUrl": "https://www.jreast.co.jp/en/multi/customer_support/service_center_shinjuku.html"
   },
   {
     "id": "v24-task-13",
@@ -204,7 +204,7 @@
     "title": "Comprobar requisitos de asiento antes de nuevas reservas",
     "category": "Reservas obligatorias",
     "status": "Pendiente",
-    "note": "Los cuatro trenes JR, los dos buses Shirakawa-go, ambos SPACIA X y NIKKO PASS ya están adquiridos/reservados; no volver a comprarlos. N’EX aún pendiente: solicitar dos asientos juntos. Romancecar si se elige: tarifa básica + suplemento reservado. Kintetsu Rapid Express/Express ordinarios, Nankai Airport Express y bus público de Hakone: pagar allí, sin reserva anticipada.",
+    "note": "Los cuatro trenes JR, los dos buses Shirakawa-go, ambos SPACIA X y NIKKO PASS ya están adquiridos/reservados; no volver a comprarlos. N’EX 29 confirmado: vagón 3, 13A y 13B juntos; solo falta retirar los billetes físicos. Romancecar si se elige: tarifa básica + suplemento reservado. Kintetsu Rapid Express/Express ordinarios, Nankai Airport Express y bus público de Hakone: pagar allí, sin reserva anticipada.",
     "recommendedDate": null,
     "priority": "Media",
     "priorityBasis": "Organización aprobada; fecha recomendada no equivale a reserva.",

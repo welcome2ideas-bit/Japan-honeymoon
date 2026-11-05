@@ -33,9 +33,9 @@ it('connects purchased buses and SPACIA X to the correct Japanese clocks and sea
 
 it('keeps unbought services and Yamato separate from confirmed reservations',()=>{
  const data=fresh();
- for(const id of ['kix-namba','transport-3','transport-4','odawara-ashinoyu','transport-9','narita-express'])expect(data.transport.find(t=>t.id===id)?.departureAt).toBeFalsy();
+ for(const id of ['kix-namba','transport-3','transport-4','odawara-ashinoyu','transport-9'])expect(data.transport.find(t=>t.id===id)?.departureAt).toBeFalsy();
  for(const id of ['kix-namba','transport-3','transport-4','odawara-ashinoyu'])expect(data.transport.find(t=>t.id===id)?.status).toBe('no requiere reserva');
- expect(data.tasks.find(t=>t.id==='v24-task-12')).toMatchObject({status:'Pendiente',recommendedDate:'2026-11-03'});
+ expect(data.tasks.find(t=>t.id==='v24-task-12')).toMatchObject({status:'Pendiente',recommendedDate:'2026-11-30'});
  expect(data.tasks.find(t=>t.id==='jr-pickup-2026')?.note).toContain('FUERA de los tornos');
  expect(data.tasks.find(t=>t.id==='jr-pickup-2026')?.note).toContain('JR Osaka Station');
  expect(data.tasks.find(t=>t.id==='jr-pickup-2026')?.status).toBe('Pendiente');

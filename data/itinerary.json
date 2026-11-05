@@ -2074,7 +2074,7 @@
       "Tokio"
     ],
     "title": "Tsukiji · Ginza · Shinjuku",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "N’EX 29 confirmado; billetes físicos pendientes de retirar. Actualización 5 NOV 2026. Horas de organización orientativas.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -2145,6 +2145,18 @@
         "placeId": "shinjuku"
       },
       {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "category": "Recordatorio",
+        "location": "JR EAST Travel Service Center, Shinjuku · New South Ticket Gate",
+        "note": "PENDIENTE DE RECOGIDA. 30 NOV 16:30, Asia/Tokyo, hora orientativa. Retirar los billetes físicos JR East de AMBOS pasajeros para N’EX 29 del 3 DIC; guardarlos con los documentos del viaje. Lugar propuesto: JR EAST Travel Service Center de Shinjuku, junto a New South Ticket Gate, fuera de los tornos. Horario publicado: 08:00–19:00, todos los días; comprobarlo antes de acudir. Admite billetes de JR-EAST Train Reservation; también existen máquinas de asiento reservado con lector de pasaporte compatibles. Contrastar el canal de compra y las instrucciones del correo: llevar los documentos y medios de identificación o pago exigidos allí. No se ha facilitado ese correo, por lo que los requisitos específicos de esta reserva quedan pendientes de comprobar; no guardar códigos en la aplicación. No marcar recogido hasta confirmación. Fuentes: https://www.jreast.co.jp/en/multi/customer_support/service_center_shinjuku.html · https://www.jreast.co.jp/en/multi/ticket/guide.html",
+        "id": "2026-11-30-nex-pickup",
+        "title": "Recoger billetes físicos del Narita Express",
+        "planningNote": "16:30 · Orientativo, no confirmado.",
+        "locked": true
+      },
+      {
         "id": "2026-11-30-v24-6",
         "title": "Tokyo Metropolitan Government Building",
         "location": "Tokyo Metropolitan Government Building",
@@ -2172,7 +2184,7 @@
     ],
     "hotelId": "knot",
     "luggage": "Dos maletas grandes y dos de cabina en THE KNOT, una vez confirmada su recepción. Para las visitas y la excursión a Nikkō, llevar solo mochilas; las cuatro maletas quedan en el hotel.",
-    "summary": "Tsukiji Outer Market: desayuno / brunch · Caminar hacia Ginza · Ginza · Comida ligera o café · Shinjuku · Kabukichō: paseo y cena",
+    "summary": "Tsukiji Outer Market: desayuno / brunch · Caminar hacia Ginza · Ginza · Comida ligera o café · Shinjuku · Recoger billetes físicos del Narita Express · Kabukichō: paseo y cena",
     "featuredPlaceId": "tsukiji",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."
@@ -2299,7 +2311,7 @@
       "Tokio"
     ],
     "title": "Nakano y últimas compras",
-    "subtitle": "Maestro V2.4 actualizado con reservas y gestiones aprobadas el 26 OCT 2026. Horas confirmadas separadas de objetivos orientativos.",
+    "subtitle": "N’EX 29 confirmado; billetes físicos pendientes de retirar. Actualización 5 NOV 2026. Horas de organización orientativas.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
@@ -2352,9 +2364,9 @@
       {
         "id": "2026-12-02-v24-5",
         "title": "Preparar maletas",
-        "location": "",
+        "location": "THE KNOT TOKYO SHINJUKU",
         "category": "Plan",
-        "note": "",
+        "note": "Revisar los seis bultos previstos y el inventario final. Preparar documentación y los billetes físicos JR East para los dos pasajeros: N’EX 29, 3 DIC 13:08, vagón 3, asientos 13A y 13B. Comprobar que se retiraron el 30 NOV; si falta, resolver la recogida antes de viajar. Recordar BAJARSE EN TERMINAL 2·3 sobre las 14:27, aunque el billete indique Terminal 1. Mantener documentos privados fuera de la app.",
         "start": null,
         "end": null,
         "completed": false,
@@ -2388,15 +2400,15 @@
       "Tokio"
     ],
     "title": "Tokio Narita → Hong Kong",
-    "subtitle": "Itinerario actualizado con reservas y decisiones confirmadas el 2 NOV 2026. Horas reales separadas de objetivos orientativos.",
+    "subtitle": "N’EX 29 confirmado; billetes físicos pendientes de retirar. Actualización 5 NOV 2026. Horas de organización orientativas.",
     "timeZone": "Asia/Tokyo",
     "activities": [
       {
         "id": "2026-12-03-v24-1",
-        "title": "Desayuno",
-        "location": "",
+        "title": "Desayuno y preparativos",
+        "location": "THE KNOT TOKYO SHINJUKU",
         "category": "Plan",
-        "note": "",
+        "note": "Revisar documentación, equipaje y billetes físicos de ambos pasajeros. Hora orientativa.",
         "start": null,
         "end": null,
         "completed": false,
@@ -2404,36 +2416,25 @@
       },
       {
         "id": "2026-12-03-v24-2",
-        "title": "Gestión de equipaje",
-        "location": "",
+        "title": "Recoger todo el equipaje en THE KNOT",
+        "location": "THE KNOT TOKYO SHINJUKU",
         "category": "Plan",
-        "note": "",
+        "note": "Revisar los SEIS bultos previstos, comprobando el inventario final. Tener preparados documentación y billetes físicos. Hora orientativa; no es una hora contractual de check-out.",
         "start": null,
         "end": null,
         "completed": false,
         "planningNote": "11:00 · Orientativo, no confirmado."
       },
       {
-        "id": "2026-12-03-v24-3",
-        "title": "Comida",
-        "location": "",
-        "category": "Plan",
-        "note": "",
-        "start": null,
-        "end": null,
-        "completed": false,
-        "planningNote": "12:00 · Orientativo, no confirmado."
-      },
-      {
         "id": "2026-12-03-leave-hotel",
         "title": "Salir de THE KNOT hacia Shinjuku",
-        "location": "",
+        "location": "JR Shinjuku Station",
         "category": "Gestión",
-        "note": "Objetivo orientativo tras la comida; duración real, salida de estación y ruta accesible con cuatro maletas PENDIENTE DE CONFIRMAR. Planificar llegada al andén a las 12:45, sin tratar estos 30 min como duración de paseo medida.",
+        "note": "Salir hacia JR Shinjuku con los seis bultos. Consultar el mapa oficial de la estación y seguir las indicaciones JR / Narita Express; no confundir el acceso de otras compañías. Utilizar ascensores y comprobar el andén en los paneles, sin dar ninguno por confirmado. Ruta accesible y tiempo real pendientes: los 30–45 min hasta el objetivo de llegada son margen organizativo, no una duración verificada. https://www.jreast.co.jp/e/stations/e866.html",
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "12:15 · Orientativo, no confirmado.",
+        "planningNote": "11:45 · Salida objetivo orientativa.",
         "movement": {
           "mode": "A pie / alternativa por confirmar",
           "from": "THE KNOT TOKYO Shinjuku",
@@ -2441,11 +2442,22 @@
         }
       },
       {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "category": "Recordatorio",
+        "location": "JR Shinjuku Station",
+        "note": "Localizar acceso y andén de Narita Express. Tener preparados los billetes físicos y los seis bultos. Objetivo: 38–53 min antes de la salida confirmada 13:08; la estación es grande y debemos movernos con margen.",
+        "id": "2026-12-03-arrive-shinjuku",
+        "title": "Llegar a JR Shinjuku y localizar N’EX",
+        "planningNote": "12:15–12:30 · Objetivo orientativo."
+      },
+      {
         "id": "2026-12-03-platform",
-        "title": "Estar preparados en Shinjuku para N’EX",
-        "location": "Shinjuku Station",
+        "title": "Preparar embarque en N’EX 29",
+        "location": "JR Shinjuku Station",
         "category": "Gestión",
-        "note": "Objetivo organizativo: 23 min antes del candidato 13:08. Confirmar compra, tren y andén. Destino estación Terminal 2·3; vuelo confirmado desde Narita Terminal 2. N’EX aún NO comprado; solicitar dos asientos juntos.",
+        "note": "Objetivo organizativo 12:45, 23 min antes de la salida confirmada 13:08. Comprobar panel de salidas, Narita Express 29, vagón 3 y asientos 13A–13B juntos. Tener billetes físicos y revisar los seis bultos. Andén pendiente de confirmar. BAJARSE EN TERMINAL 2·3.",
         "start": null,
         "end": null,
         "completed": false,
@@ -2453,15 +2465,50 @@
       },
       {
         "id": "2026-12-03-v24-4",
-        "title": "Shinjuku → Narita · candidato Narita Express 29",
-        "location": "",
+        "title": "N’EX 29 · BAJARSE EN TERMINAL 2·3",
+        "location": "JR Shinjuku Station",
         "category": "Transporte",
-        "note": "🕐 Candidato NARITA EXPRESS 29, PENDIENTE DE COMPRA: 3 DIC JR Shinjuku 13:08 → Narita Airport Terminal 2·3 14:27. Dos adultos; solicitar asientos juntos al comprar. Venta prevista desde el 3 NOV; confirmar horarios y disponibilidad en JR East. Margen orientativo hasta el vuelo de las 18:30: 4 h 03 min desde llegada a la estación, antes del acceso a facturación en Terminal 2. Andén y asientos pendientes. https://www.jreast.co.jp/en/multi/faq/",
+        "note": "⚠️ BAJARSE EN TERMINAL 2·3, aproximadamente a las 14:27. NO continuar hasta Terminal 1: nuestro vuelo sale de Terminal 2. JR East N’EX 29, jueves 3 DIC, salida CONFIRMADA de Shinjuku 13:08 (Asia/Tokyo). Destino registrado en la reserva: Narita Airport Terminal 1, llegada 14:31 confirmada; no es nuestra parada de bajada. Dos adultos, Ordinary, vagón 3, fila 13, asientos 13A y 13B juntos. Importe total de los billetes: 6.660 JPY. RESERVA CONFIRMADA; billetes físicos pendientes de retirar el 30 NOV hacia las 16:30 en Shinjuku. No volver a comprar. Hasta Terminal 2·3: unos 79 min, llegada aproximada 14:27; margen orientativo de 4 h 03 min hasta el vuelo de las 18:30, antes del desplazamiento a facturación.",
+        "start": "2026-12-03T13:08:00+09:00",
+        "end": null,
+        "completed": false,
+        "planningNote": "Salida confirmada 13:08; bajada en Terminal 2·3 aproximadamente 14:27.",
+        "transportId": "narita-express",
+        "locked": true
+      },
+      {
         "start": null,
         "end": null,
         "completed": false,
-        "planningNote": "13:08 · Orientativo, no confirmado.",
-        "transportId": "narita-express"
+        "category": "Recordatorio",
+        "location": "Narita Airport Terminal 2·3 Station",
+        "note": "NO continuar hasta Terminal 1. El destino del billete es Terminal 1 a las 14:31, pero debemos bajar en Narita Airport Terminal 2·3 sobre las 14:27. Comprobar los seis bultos antes de salir del tren. Vuelo CX6323 desde Terminal 2.",
+        "id": "2026-12-03-alight-t23",
+        "title": "⚠️ BAJARSE EN TERMINAL 2·3",
+        "planningNote": "14:27 · Llegada aproximada, no confirmada como hora exacta.",
+        "locked": true
+      },
+      {
+        "start": null,
+        "end": null,
+        "completed": false,
+        "category": "Recordatorio",
+        "location": "Narita Airport Terminal 2",
+        "note": "Seguir las indicaciones hacia Terminal 2 y consultar el mostrador de Japan Airlines para CX6323. Ventana orientativa sujeta al desplazamiento real dentro del aeropuerto, no horario garantizado de apertura de facturación. Vuelo confirmado 18:30 JST; objetivo llegar a la zona con 3 h 30–4 h de margen. Revisar documentación y seis bultos; condiciones de equipaje y mostrador según la aerolínea.",
+        "id": "2026-12-03-checkin-terminal2",
+        "title": "Llegar a facturación en Terminal 2",
+        "planningNote": "14:30–15:00 · Objetivo orientativo."
+      },
+      {
+        "id": "2026-12-03-v24-3",
+        "title": "Comida",
+        "location": "",
+        "category": "Plan",
+        "note": "Comida conservada, sin restaurante ni reserva asignados. Elegir el momento según traslado, facturación y controles; no mantener las 12:00 como cita fija porque salimos del hotel a las 11:45.",
+        "start": null,
+        "end": null,
+        "completed": false,
+        "planningNote": "Hora pendiente de confirmar · adaptable al traslado."
       },
       {
         "id": "2026-12-03-3",
@@ -2478,8 +2525,8 @@
         "planningNote": "🔒 Horario confirmado del billete · horas locales de origen y destino."
       }
     ],
-    "luggage": "Gestión de cuatro maletas a las 11:00 orientativas; llevar dos grandes, dos de cabina y mochilas a Narita.",
-    "summary": "Desayuno · Gestión de equipaje · Comida · Salir de THE KNOT hacia Shinjuku · Estar preparados en Shinjuku para N’EX · Shinjuku → Narita · candidato Narita Express 29 · Vuelo Tokio Narita → Hong Kong",
+    "luggage": "11:00 orientativo: recoger y revisar los seis bultos en THE KNOT. Llevar todo a JR Shinjuku y comprobar el inventario al bajar en Terminal 2·3.",
+    "summary": "Desayuno y preparativos · Recoger todo el equipaje en THE KNOT · Salir de THE KNOT hacia Shinjuku · Llegar a JR Shinjuku y localizar N’EX · Preparar embarque en N’EX 29 · N’EX 29 · BAJARSE EN TERMINAL 2·3 · ⚠️ BAJARSE EN TERMINAL 2·3 · Llegar a facturación en Terminal 2 · Comida · Vuelo Tokio Narita → Hong Kong",
     "featuredPlaceId": "shinjuku",
     "tips": [
       "La Wishlist permanece separada: sin asignación automática de visitas ni horarios."

@@ -69,7 +69,7 @@ it('applies the paid Nara booking once and preserves other tasks and personal da
  saved.wishlist=[{id:'wish',name:'Favorito',city:'Nara',category:'Personal',note:'Mi nota',favorite:true,imageUrl:''}];
  saved.itinerary[0].activities[0].completed=true;
  const result=updateCatalog(saved,fresh());
- expect(result.catalogRevision).toBe(7);
+ expect(result.catalogRevision).toBe(8);
  expect(result.tasks.find(t=>t.id==='v24-task-2')?.status).toBe('Completado');
  expect(result.tasks.find(t=>t.id==='jr-payments-2026')?.status).toBe('Completado');
  expect(result.tasks.find(t=>t.id==='personal-nara')).toEqual(saved.tasks.find(t=>t.id==='personal-nara'));

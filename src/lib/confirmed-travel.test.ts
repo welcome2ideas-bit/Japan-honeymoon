@@ -22,7 +22,7 @@ it('connects all four booked trains while keeping physical pickup and future ser
   expect(a.movement?.bookingPending).toBeUndefined();
  }
  const nex=days.flatMap(d=>d.activities).find(a=>a.transportId==='narita-express')!;
- expect(nex.start).toBeFalsy();expect(nex.planningNote).toContain('13:08');
+ expect(nex.start).toBe('2026-12-03T13:08:00+09:00');expect(nex.end).toBeNull();expect(nex.note).toContain('aproximadamente a las 14:27');
  const transfer=days.flatMap(d=>d.activities).find(a=>a.transportId==='odawara-ashinoyu')!;
  expect(transfer.movement?.bookingPending).toBeUndefined();
  expect(transfer.note).toContain('No reservar traslado privado');
